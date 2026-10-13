@@ -63,11 +63,11 @@ jobs:
         working-directory: FinalBackend/backend
         env:
           SPRING_PROFILES_ACTIVE: dev
-        run: mvn -B -ntp test
+        run: mvn -B -ntp test -Djacoco.skip=true
 
       - name: Package Production Spring Boot JAR
         working-directory: FinalBackend/backend
-        run: mvn -B -ntp package -DskipTests
+        run: mvn -B -ntp package -DskipTests -Djacoco.skip=true
 
   # ---------------------------------------------------------------------------
   # 3. Frontend (Next.js 14) Lint, Typecheck & Production Build

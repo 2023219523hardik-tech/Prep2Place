@@ -9,7 +9,7 @@ COPY FinalBackend/backend/pom.xml ./pom.xml
 RUN mvn -B -ntp dependency:go-offline
 
 COPY FinalBackend/backend/src ./src
-RUN mvn -B -ntp clean package -DskipTests
+RUN mvn -B -ntp clean package -DskipTests -Djacoco.skip=true
 
 # ============================================================
 # Stage 2: Production Runtime Image
