@@ -1,0 +1,1127 @@
+[
+  {
+    "sourceQuestionId": "longest-absolute-file-path",
+    "title": "Longest Absolute File Path",
+    "sourceUrl": "https://leetcode.com/problems/longest-absolute-file-path/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 5.9131,
+    "companyRank": 1
+  },
+  {
+    "sourceQuestionId": "k-empty-slots",
+    "title": "K Empty Slots",
+    "sourceUrl": "https://leetcode.com/problems/k-empty-slots/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 5.7808,
+    "companyRank": 2
+  },
+  {
+    "sourceQuestionId": "next-closest-time",
+    "title": "Next Closest Time",
+    "sourceUrl": "https://leetcode.com/problems/next-closest-time/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 5.6484,
+    "companyRank": 3
+  },
+  {
+    "sourceQuestionId": "two-sum",
+    "title": "Two Sum",
+    "sourceUrl": "https://leetcode.com/problems/two-sum/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 5.645,
+    "companyRank": 4
+  },
+  {
+    "sourceQuestionId": "unique-email-addresses",
+    "title": "Unique Email Addresses",
+    "sourceUrl": "https://leetcode.com/problems/unique-email-addresses/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 5.6413,
+    "companyRank": 5
+  },
+  {
+    "sourceQuestionId": "fruit-into-baskets",
+    "title": "Fruit Into Baskets",
+    "sourceUrl": "https://leetcode.com/problems/fruit-into-baskets/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 5.622,
+    "companyRank": 6
+  },
+  {
+    "sourceQuestionId": "license-key-formatting",
+    "title": "License Key Formatting",
+    "sourceUrl": "https://leetcode.com/problems/license-key-formatting/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 5.4897,
+    "companyRank": 7
+  },
+  {
+    "sourceQuestionId": "range-sum-query-2d-mutable",
+    "title": "Range Sum Query 2D - Mutable",
+    "sourceUrl": "https://leetcode.com/problems/range-sum-query-2d-mutable/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 5.4799,
+    "companyRank": 8
+  },
+  {
+    "sourceQuestionId": "minimum-domino-rotations-for-equal-row",
+    "title": "Minimum Domino Rotations For Equal Row",
+    "sourceUrl": "https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 5.3476,
+    "companyRank": 9
+  },
+  {
+    "sourceQuestionId": "guess-the-word",
+    "title": "Guess the Word",
+    "sourceUrl": "https://leetcode.com/problems/guess-the-word/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 5.2153,
+    "companyRank": 10
+  },
+  {
+    "sourceQuestionId": "unique-word-abbreviation",
+    "title": "Unique Word Abbreviation",
+    "sourceUrl": "https://leetcode.com/problems/unique-word-abbreviation/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 5.0829,
+    "companyRank": 11
+  },
+  {
+    "sourceQuestionId": "robot-room-cleaner",
+    "title": "Robot Room Cleaner",
+    "sourceUrl": "https://leetcode.com/problems/robot-room-cleaner/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 4.9506,
+    "companyRank": 12
+  },
+  {
+    "sourceQuestionId": "evaluate-division",
+    "title": "Evaluate Division",
+    "sourceUrl": "https://leetcode.com/problems/evaluate-division/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 4.9331,
+    "companyRank": 13
+  },
+  {
+    "sourceQuestionId": "odd-even-jump",
+    "title": "Odd Even Jump",
+    "sourceUrl": "https://leetcode.com/problems/odd-even-jump/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 4.8933,
+    "companyRank": 14
+  },
+  {
+    "sourceQuestionId": "repeated-string-match",
+    "title": "Repeated String Match",
+    "sourceUrl": "https://leetcode.com/problems/repeated-string-match/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 4.8363,
+    "companyRank": 15
+  },
+  {
+    "sourceQuestionId": "sentence-screen-fitting",
+    "title": "Sentence Screen Fitting",
+    "sourceUrl": "https://leetcode.com/problems/sentence-screen-fitting/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 4.7819,
+    "companyRank": 16
+  },
+  {
+    "sourceQuestionId": "cracking-the-safe",
+    "title": "Cracking the Safe",
+    "sourceUrl": "https://leetcode.com/problems/cracking-the-safe/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 4.6998,
+    "companyRank": 17
+  },
+  {
+    "sourceQuestionId": "encode-and-decode-strings",
+    "title": "Encode and Decode Strings",
+    "sourceUrl": "https://leetcode.com/problems/encode-and-decode-strings/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 4.678,
+    "companyRank": 18
+  },
+  {
+    "sourceQuestionId": "bomb-enemy",
+    "title": "Bomb Enemy",
+    "sourceUrl": "https://leetcode.com/problems/bomb-enemy/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 4.6737,
+    "companyRank": 19
+  },
+  {
+    "sourceQuestionId": "binary-tree-longest-consecutive-sequence",
+    "title": "Binary Tree Longest Consecutive Sequence",
+    "sourceUrl": "https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 4.6018,
+    "companyRank": 20
+  },
+  {
+    "sourceQuestionId": "zigzag-iterator",
+    "title": "Zigzag Iterator",
+    "sourceUrl": "https://leetcode.com/problems/zigzag-iterator/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 4.4979,
+    "companyRank": 21
+  },
+  {
+    "sourceQuestionId": "campus-bikes",
+    "title": "Campus Bikes",
+    "sourceUrl": "https://leetcode.com/problems/campus-bikes/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 4.4479,
+    "companyRank": 22
+  },
+  {
+    "sourceQuestionId": "utf-8-validation",
+    "title": "UTF-8 Validation",
+    "sourceUrl": "https://leetcode.com/problems/utf-8-validation/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 4.4441,
+    "companyRank": 23
+  },
+  {
+    "sourceQuestionId": "missing-ranges",
+    "title": "Missing Ranges",
+    "sourceUrl": "https://leetcode.com/problems/missing-ranges/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 4.3118,
+    "companyRank": 24
+  },
+  {
+    "sourceQuestionId": "longest-substring-with-at-most-two-distinct-characters",
+    "title": "Longest Substring with At Most Two Distinct Characters",
+    "sourceUrl": "https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 4.2625,
+    "companyRank": 25
+  },
+  {
+    "sourceQuestionId": "backspace-string-compare",
+    "title": "Backspace String Compare",
+    "sourceUrl": "https://leetcode.com/problems/backspace-string-compare/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 4.1301,
+    "companyRank": 26
+  },
+  {
+    "sourceQuestionId": "design-search-autocomplete-system",
+    "title": "Design Search Autocomplete System",
+    "sourceUrl": "https://leetcode.com/problems/design-search-autocomplete-system/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 4.1213,
+    "companyRank": 27
+  },
+  {
+    "sourceQuestionId": "longest-substring-with-at-most-k-distinct-characters",
+    "title": "Longest Substring with At Most K Distinct Characters",
+    "sourceUrl": "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 4.1187,
+    "companyRank": 28
+  },
+  {
+    "sourceQuestionId": "count-complete-tree-nodes",
+    "title": "Count Complete Tree Nodes",
+    "sourceUrl": "https://leetcode.com/problems/count-complete-tree-nodes/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 4.1048,
+    "companyRank": 29
+  },
+  {
+    "sourceQuestionId": "maximum-vacation-days",
+    "title": "Maximum Vacation Days",
+    "sourceUrl": "https://leetcode.com/problems/maximum-vacation-days/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 4.0531,
+    "companyRank": 30
+  },
+  {
+    "sourceQuestionId": "most-stones-removed-with-same-row-or-column",
+    "title": "Most Stones Removed with Same Row or Column",
+    "sourceUrl": "https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 4.023,
+    "companyRank": 31
+  },
+  {
+    "sourceQuestionId": "split-array-largest-sum",
+    "title": "Split Array Largest Sum",
+    "sourceUrl": "https://leetcode.com/problems/split-array-largest-sum/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 4.0096,
+    "companyRank": 32
+  },
+  {
+    "sourceQuestionId": "minimum-cost-to-hire-k-workers",
+    "title": "Minimum Cost to Hire K Workers",
+    "sourceUrl": "https://leetcode.com/problems/minimum-cost-to-hire-k-workers/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.9718,
+    "companyRank": 33
+  },
+  {
+    "sourceQuestionId": "minimum-area-rectangle",
+    "title": "Minimum Area Rectangle",
+    "sourceUrl": "https://leetcode.com/problems/minimum-area-rectangle/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.9364,
+    "companyRank": 34
+  },
+  {
+    "sourceQuestionId": "trapping-rain-water",
+    "title": "Trapping Rain Water",
+    "sourceUrl": "https://leetcode.com/problems/trapping-rain-water/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.9211,
+    "companyRank": 35
+  },
+  {
+    "sourceQuestionId": "the-skyline-problem",
+    "title": "The Skyline Problem",
+    "sourceUrl": "https://leetcode.com/problems/the-skyline-problem/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.886,
+    "companyRank": 36
+  },
+  {
+    "sourceQuestionId": "strobogrammatic-number-iii",
+    "title": "Strobogrammatic Number III",
+    "sourceUrl": "https://leetcode.com/problems/strobogrammatic-number-iii/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.8637,
+    "companyRank": 37
+  },
+  {
+    "sourceQuestionId": "merge-intervals",
+    "title": "Merge Intervals",
+    "sourceUrl": "https://leetcode.com/problems/merge-intervals/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.8503,
+    "companyRank": 38
+  },
+  {
+    "sourceQuestionId": "decode-string",
+    "title": "Decode String",
+    "sourceUrl": "https://leetcode.com/problems/decode-string/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.8265,
+    "companyRank": 39
+  },
+  {
+    "sourceQuestionId": "number-of-islands",
+    "title": "Number of Islands",
+    "sourceUrl": "https://leetcode.com/problems/number-of-islands/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.8018,
+    "companyRank": 40
+  },
+  {
+    "sourceQuestionId": "best-meeting-point",
+    "title": "Best Meeting Point",
+    "sourceUrl": "https://leetcode.com/problems/best-meeting-point/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.7807,
+    "companyRank": 41
+  },
+  {
+    "sourceQuestionId": "moving-average-from-data-stream",
+    "title": "Moving Average from Data Stream",
+    "sourceUrl": "https://leetcode.com/problems/moving-average-from-data-stream/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.7596,
+    "companyRank": 42
+  },
+  {
+    "sourceQuestionId": "minimize-max-distance-to-gas-station",
+    "title": "Minimize Max Distance to Gas Station",
+    "sourceUrl": "https://leetcode.com/problems/minimize-max-distance-to-gas-station/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.7081,
+    "companyRank": 43
+  },
+  {
+    "sourceQuestionId": "android-unlock-patterns",
+    "title": "Android Unlock Patterns",
+    "sourceUrl": "https://leetcode.com/problems/android-unlock-patterns/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.7007,
+    "companyRank": 44
+  },
+  {
+    "sourceQuestionId": "plus-one",
+    "title": "Plus One",
+    "sourceUrl": "https://leetcode.com/problems/plus-one/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.6933,
+    "companyRank": 45
+  },
+  {
+    "sourceQuestionId": "lru-cache",
+    "title": "LRU Cache",
+    "sourceUrl": "https://leetcode.com/problems/lru-cache/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.6896,
+    "companyRank": 46
+  },
+  {
+    "sourceQuestionId": "sentence-similarity",
+    "title": "Sentence Similarity",
+    "sourceUrl": "https://leetcode.com/problems/sentence-similarity/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.6779,
+    "companyRank": 47
+  },
+  {
+    "sourceQuestionId": "logger-rate-limiter",
+    "title": "Logger Rate Limiter",
+    "sourceUrl": "https://leetcode.com/problems/logger-rate-limiter/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.6745,
+    "companyRank": 48
+  },
+  {
+    "sourceQuestionId": "word-squares",
+    "title": "Word Squares",
+    "sourceUrl": "https://leetcode.com/problems/word-squares/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.6497,
+    "companyRank": 49
+  },
+  {
+    "sourceQuestionId": "expressive-words",
+    "title": "Expressive Words",
+    "sourceUrl": "https://leetcode.com/problems/expressive-words/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.6401,
+    "companyRank": 50
+  },
+  {
+    "sourceQuestionId": "encode-string-with-shortest-length",
+    "title": "Encode String with Shortest Length",
+    "sourceUrl": "https://leetcode.com/problems/encode-string-with-shortest-length/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.6265,
+    "companyRank": 51
+  },
+  {
+    "sourceQuestionId": "24-game",
+    "title": "24 Game",
+    "sourceUrl": "https://leetcode.com/problems/24-game/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.5637,
+    "companyRank": 52
+  },
+  {
+    "sourceQuestionId": "sentence-similarity-ii",
+    "title": "Sentence Similarity II",
+    "sourceUrl": "https://leetcode.com/problems/sentence-similarity-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.5566,
+    "companyRank": 53
+  },
+  {
+    "sourceQuestionId": "summary-ranges",
+    "title": "Summary Ranges",
+    "sourceUrl": "https://leetcode.com/problems/summary-ranges/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.552,
+    "companyRank": 54
+  },
+  {
+    "sourceQuestionId": "bulls-and-cows",
+    "title": "Bulls and Cows",
+    "sourceUrl": "https://leetcode.com/problems/bulls-and-cows/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.5516,
+    "companyRank": 55
+  },
+  {
+    "sourceQuestionId": "max-points-on-a-line",
+    "title": "Max Points on a Line",
+    "sourceUrl": "https://leetcode.com/problems/max-points-on-a-line/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.5414,
+    "companyRank": 56
+  },
+  {
+    "sourceQuestionId": "number-of-islands-ii",
+    "title": "Number of Islands II",
+    "sourceUrl": "https://leetcode.com/problems/number-of-islands-ii/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.5191,
+    "companyRank": 57
+  },
+  {
+    "sourceQuestionId": "add-two-numbers",
+    "title": "Add Two Numbers",
+    "sourceUrl": "https://leetcode.com/problems/add-two-numbers/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.5161,
+    "companyRank": 58
+  },
+  {
+    "sourceQuestionId": "brace-expansion-ii",
+    "title": "Brace Expansion II",
+    "sourceUrl": "https://leetcode.com/problems/brace-expansion-ii/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.5046,
+    "companyRank": 59
+  },
+  {
+    "sourceQuestionId": "meeting-rooms-ii",
+    "title": "Meeting Rooms II",
+    "sourceUrl": "https://leetcode.com/problems/meeting-rooms-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.5024,
+    "companyRank": 60
+  },
+  {
+    "sourceQuestionId": "shortest-way-to-form-string",
+    "title": "Shortest Way to Form String",
+    "sourceUrl": "https://leetcode.com/problems/shortest-way-to-form-string/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.4946,
+    "companyRank": 61
+  },
+  {
+    "sourceQuestionId": "read-n-characters-given-read4-ii-call-multiple-times",
+    "title": "Read N Characters Given Read4 II - Call multiple times",
+    "sourceUrl": "https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.4841,
+    "companyRank": 62
+  },
+  {
+    "sourceQuestionId": "optimal-account-balancing",
+    "title": "Optimal Account Balancing",
+    "sourceUrl": "https://leetcode.com/problems/optimal-account-balancing/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.4627,
+    "companyRank": 63
+  },
+  {
+    "sourceQuestionId": "median-of-two-sorted-arrays",
+    "title": "Median of Two Sorted Arrays",
+    "sourceUrl": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.4534,
+    "companyRank": 64
+  },
+  {
+    "sourceQuestionId": "text-justification",
+    "title": "Text Justification",
+    "sourceUrl": "https://leetcode.com/problems/text-justification/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.4508,
+    "companyRank": 65
+  },
+  {
+    "sourceQuestionId": "bricks-falling-when-hit",
+    "title": "Bricks Falling When Hit",
+    "sourceUrl": "https://leetcode.com/problems/bricks-falling-when-hit/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.4269,
+    "companyRank": 66
+  },
+  {
+    "sourceQuestionId": "delete-nodes-and-return-forest",
+    "title": "Delete Nodes And Return Forest",
+    "sourceUrl": "https://leetcode.com/problems/delete-nodes-and-return-forest/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.4189,
+    "companyRank": 67
+  },
+  {
+    "sourceQuestionId": "game-of-life",
+    "title": "Game of Life",
+    "sourceUrl": "https://leetcode.com/problems/game-of-life/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.4136,
+    "companyRank": 68
+  },
+  {
+    "sourceQuestionId": "shortest-distance-from-all-buildings",
+    "title": "Shortest Distance from All Buildings",
+    "sourceUrl": "https://leetcode.com/problems/shortest-distance-from-all-buildings/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.4097,
+    "companyRank": 69
+  },
+  {
+    "sourceQuestionId": "string-transforms-into-another-string",
+    "title": "String Transforms Into Another String",
+    "sourceUrl": "https://leetcode.com/problems/string-transforms-into-another-string/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.3909,
+    "companyRank": 70
+  },
+  {
+    "sourceQuestionId": "find-and-replace-in-string",
+    "title": "Find And Replace in String",
+    "sourceUrl": "https://leetcode.com/problems/find-and-replace-in-string/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.386,
+    "companyRank": 71
+  },
+  {
+    "sourceQuestionId": "confusing-number-ii",
+    "title": "Confusing Number II",
+    "sourceUrl": "https://leetcode.com/problems/confusing-number-ii/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.3499,
+    "companyRank": 72
+  },
+  {
+    "sourceQuestionId": "number-of-corner-rectangles",
+    "title": "Number Of Corner Rectangles",
+    "sourceUrl": "https://leetcode.com/problems/number-of-corner-rectangles/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.2462,
+    "companyRank": 73
+  },
+  {
+    "sourceQuestionId": "strobogrammatic-number-ii",
+    "title": "Strobogrammatic Number II",
+    "sourceUrl": "https://leetcode.com/problems/strobogrammatic-number-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.2451,
+    "companyRank": 74
+  },
+  {
+    "sourceQuestionId": "count-of-smaller-numbers-after-self",
+    "title": "Count of Smaller Numbers After Self",
+    "sourceUrl": "https://leetcode.com/problems/count-of-smaller-numbers-after-self/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "google"
+    ],
+    "frequencyScore": 3.2308,
+    "companyRank": 75
+  }
+]

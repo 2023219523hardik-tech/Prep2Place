@@ -1,0 +1,2 @@
+ALTER TABLE public.aptitude_question
+    ADD COLUMN IF NOT EXISTS active BOOLEAN NOT NULL DEFAULT TRUE;

@@ -1,0 +1,887 @@
+[
+  {
+    "sourceQuestionId": "zigzag-conversion",
+    "title": "ZigZag Conversion",
+    "sourceUrl": "https://leetcode.com/problems/zigzag-conversion/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.8494,
+    "companyRank": 1
+  },
+  {
+    "sourceQuestionId": "paint-house-iii",
+    "title": "Paint House III",
+    "sourceUrl": "https://leetcode.com/problems/paint-house-iii/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.6775,
+    "companyRank": 2
+  },
+  {
+    "sourceQuestionId": "robot-bounded-in-circle",
+    "title": "Robot Bounded In Circle",
+    "sourceUrl": "https://leetcode.com/problems/robot-bounded-in-circle/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.5839,
+    "companyRank": 3
+  },
+  {
+    "sourceQuestionId": "shortest-word-distance",
+    "title": "Shortest Word Distance",
+    "sourceUrl": "https://leetcode.com/problems/shortest-word-distance/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.412,
+    "companyRank": 4
+  },
+  {
+    "sourceQuestionId": "two-sum",
+    "title": "Two Sum",
+    "sourceUrl": "https://leetcode.com/problems/two-sum/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.3476,
+    "companyRank": 5
+  },
+  {
+    "sourceQuestionId": "check-if-array-pairs-are-divisible-by-k",
+    "title": "Check If Array Pairs Are Divisible by k",
+    "sourceUrl": "https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.3089,
+    "companyRank": 6
+  },
+  {
+    "sourceQuestionId": "maximum-number-of-occurrences-of-a-substring",
+    "title": "Maximum Number of Occurrences of a Substring",
+    "sourceUrl": "https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.2801,
+    "companyRank": 7
+  },
+  {
+    "sourceQuestionId": "integer-to-english-words",
+    "title": "Integer to English Words",
+    "sourceUrl": "https://leetcode.com/problems/integer-to-english-words/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.2653,
+    "companyRank": 8
+  },
+  {
+    "sourceQuestionId": "lru-cache",
+    "title": "LRU Cache",
+    "sourceUrl": "https://leetcode.com/problems/lru-cache/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.2586,
+    "companyRank": 9
+  },
+  {
+    "sourceQuestionId": "spiral-matrix",
+    "title": "Spiral Matrix",
+    "sourceUrl": "https://leetcode.com/problems/spiral-matrix/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.1824,
+    "companyRank": 10
+  },
+  {
+    "sourceQuestionId": "merge-intervals",
+    "title": "Merge Intervals",
+    "sourceUrl": "https://leetcode.com/problems/merge-intervals/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.1371,
+    "companyRank": 11
+  },
+  {
+    "sourceQuestionId": "basic-calculator",
+    "title": "Basic Calculator",
+    "sourceUrl": "https://leetcode.com/problems/basic-calculator/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.1244,
+    "companyRank": 12
+  },
+  {
+    "sourceQuestionId": "valid-anagram",
+    "title": "Valid Anagram",
+    "sourceUrl": "https://leetcode.com/problems/valid-anagram/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.1186,
+    "companyRank": 13
+  },
+  {
+    "sourceQuestionId": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "sourceUrl": "https://leetcode.com/problems/valid-parentheses/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.1069,
+    "companyRank": 14
+  },
+  {
+    "sourceQuestionId": "text-justification",
+    "title": "Text Justification",
+    "sourceUrl": "https://leetcode.com/problems/text-justification/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.1063,
+    "companyRank": 15
+  },
+  {
+    "sourceQuestionId": "squares-of-a-sorted-array",
+    "title": "Squares of a Sorted Array",
+    "sourceUrl": "https://leetcode.com/problems/squares-of-a-sorted-array/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.076,
+    "companyRank": 16
+  },
+  {
+    "sourceQuestionId": "k-diff-pairs-in-an-array",
+    "title": "K-diff Pairs in an Array",
+    "sourceUrl": "https://leetcode.com/problems/k-diff-pairs-in-an-array/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.0729,
+    "companyRank": 17
+  },
+  {
+    "sourceQuestionId": "move-zeroes",
+    "title": "Move Zeroes",
+    "sourceUrl": "https://leetcode.com/problems/move-zeroes/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.0697,
+    "companyRank": 18
+  },
+  {
+    "sourceQuestionId": "reverse-linked-list",
+    "title": "Reverse Linked List",
+    "sourceUrl": "https://leetcode.com/problems/reverse-linked-list/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.0685,
+    "companyRank": 19
+  },
+  {
+    "sourceQuestionId": "binary-tree-right-side-view",
+    "title": "Binary Tree Right Side View",
+    "sourceUrl": "https://leetcode.com/problems/binary-tree-right-side-view/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.0675,
+    "companyRank": 20
+  },
+  {
+    "sourceQuestionId": "maximum-subarray",
+    "title": "Maximum Subarray",
+    "sourceUrl": "https://leetcode.com/problems/maximum-subarray/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.0636,
+    "companyRank": 21
+  },
+  {
+    "sourceQuestionId": "reverse-nodes-in-k-group",
+    "title": "Reverse Nodes in k-Group",
+    "sourceUrl": "https://leetcode.com/problems/reverse-nodes-in-k-group/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.0622,
+    "companyRank": 22
+  },
+  {
+    "sourceQuestionId": "partition-equal-subset-sum",
+    "title": "Partition Equal Subset Sum",
+    "sourceUrl": "https://leetcode.com/problems/partition-equal-subset-sum/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.0531,
+    "companyRank": 23
+  },
+  {
+    "sourceQuestionId": "integer-to-roman",
+    "title": "Integer to Roman",
+    "sourceUrl": "https://leetcode.com/problems/integer-to-roman/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.0522,
+    "companyRank": 24
+  },
+  {
+    "sourceQuestionId": "remove-duplicates-from-sorted-list-ii",
+    "title": "Remove Duplicates from Sorted List II",
+    "sourceUrl": "https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.0509,
+    "companyRank": 25
+  },
+  {
+    "sourceQuestionId": "add-two-numbers",
+    "title": "Add Two Numbers",
+    "sourceUrl": "https://leetcode.com/problems/add-two-numbers/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.0499,
+    "companyRank": 26
+  },
+  {
+    "sourceQuestionId": "search-a-2d-matrix-ii",
+    "title": "Search a 2D Matrix II",
+    "sourceUrl": "https://leetcode.com/problems/search-a-2d-matrix-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.0465,
+    "companyRank": 27
+  },
+  {
+    "sourceQuestionId": "lowest-common-ancestor-of-a-binary-tree",
+    "title": "Lowest Common Ancestor of a Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.0416,
+    "companyRank": 28
+  },
+  {
+    "sourceQuestionId": "permutations",
+    "title": "Permutations",
+    "sourceUrl": "https://leetcode.com/problems/permutations/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.0373,
+    "companyRank": 29
+  },
+  {
+    "sourceQuestionId": "longest-consecutive-sequence",
+    "title": "Longest Consecutive Sequence",
+    "sourceUrl": "https://leetcode.com/problems/longest-consecutive-sequence/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.0357,
+    "companyRank": 30
+  },
+  {
+    "sourceQuestionId": "product-of-array-except-self",
+    "title": "Product of Array Except Self",
+    "sourceUrl": "https://leetcode.com/problems/product-of-array-except-self/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.0348,
+    "companyRank": 31
+  },
+  {
+    "sourceQuestionId": "sort-colors",
+    "title": "Sort Colors",
+    "sourceUrl": "https://leetcode.com/problems/sort-colors/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.0308,
+    "companyRank": 32
+  },
+  {
+    "sourceQuestionId": "gas-station",
+    "title": "Gas Station",
+    "sourceUrl": "https://leetcode.com/problems/gas-station/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.0302,
+    "companyRank": 33
+  },
+  {
+    "sourceQuestionId": "wiggle-sort-ii",
+    "title": "Wiggle Sort II",
+    "sourceUrl": "https://leetcode.com/problems/wiggle-sort-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.029,
+    "companyRank": 34
+  },
+  {
+    "sourceQuestionId": "reverse-string",
+    "title": "Reverse String",
+    "sourceUrl": "https://leetcode.com/problems/reverse-string/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.029,
+    "companyRank": 35
+  },
+  {
+    "sourceQuestionId": "search-in-rotated-sorted-array",
+    "title": "Search in Rotated Sorted Array",
+    "sourceUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.0287,
+    "companyRank": 36
+  },
+  {
+    "sourceQuestionId": "set-matrix-zeroes",
+    "title": "Set Matrix Zeroes",
+    "sourceUrl": "https://leetcode.com/problems/set-matrix-zeroes/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.0278,
+    "companyRank": 37
+  },
+  {
+    "sourceQuestionId": "longest-palindromic-substring",
+    "title": "Longest Palindromic Substring",
+    "sourceUrl": "https://leetcode.com/problems/longest-palindromic-substring/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.0276,
+    "companyRank": 38
+  },
+  {
+    "sourceQuestionId": "asteroid-collision",
+    "title": "Asteroid Collision",
+    "sourceUrl": "https://leetcode.com/problems/asteroid-collision/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.0247,
+    "companyRank": 39
+  },
+  {
+    "sourceQuestionId": "longest-substring-without-repeating-characters",
+    "title": "Longest Substring Without Repeating Characters",
+    "sourceUrl": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.0246,
+    "companyRank": 40
+  },
+  {
+    "sourceQuestionId": "implement-strstr",
+    "title": "Implement strStr()",
+    "sourceUrl": "https://leetcode.com/problems/implement-strstr/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.0244,
+    "companyRank": 41
+  },
+  {
+    "sourceQuestionId": "edit-distance",
+    "title": "Edit Distance",
+    "sourceUrl": "https://leetcode.com/problems/edit-distance/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.0224,
+    "companyRank": 42
+  },
+  {
+    "sourceQuestionId": "merge-two-sorted-lists",
+    "title": "Merge Two Sorted Lists",
+    "sourceUrl": "https://leetcode.com/problems/merge-two-sorted-lists/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.0201,
+    "companyRank": 43
+  },
+  {
+    "sourceQuestionId": "3sum",
+    "title": "3Sum",
+    "sourceUrl": "https://leetcode.com/problems/3sum/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.0196,
+    "companyRank": 44
+  },
+  {
+    "sourceQuestionId": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "sourceUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.019,
+    "companyRank": 45
+  },
+  {
+    "sourceQuestionId": "meeting-rooms-ii",
+    "title": "Meeting Rooms II",
+    "sourceUrl": "https://leetcode.com/problems/meeting-rooms-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.0181,
+    "companyRank": 46
+  },
+  {
+    "sourceQuestionId": "rotate-array",
+    "title": "Rotate Array",
+    "sourceUrl": "https://leetcode.com/problems/rotate-array/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.016,
+    "companyRank": 47
+  },
+  {
+    "sourceQuestionId": "coin-change",
+    "title": "Coin Change",
+    "sourceUrl": "https://leetcode.com/problems/coin-change/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.016,
+    "companyRank": 48
+  },
+  {
+    "sourceQuestionId": "reverse-words-in-a-string-iii",
+    "title": "Reverse Words in a String III",
+    "sourceUrl": "https://leetcode.com/problems/reverse-words-in-a-string-iii/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.0137,
+    "companyRank": 49
+  },
+  {
+    "sourceQuestionId": "remove-all-adjacent-duplicates-in-string",
+    "title": "Remove All Adjacent Duplicates In String",
+    "sourceUrl": "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.0131,
+    "companyRank": 50
+  },
+  {
+    "sourceQuestionId": "basic-calculator-ii",
+    "title": "Basic Calculator II",
+    "sourceUrl": "https://leetcode.com/problems/basic-calculator-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.0124,
+    "companyRank": 51
+  },
+  {
+    "sourceQuestionId": "middle-of-the-linked-list",
+    "title": "Middle of the Linked List",
+    "sourceUrl": "https://leetcode.com/problems/middle-of-the-linked-list/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.0076,
+    "companyRank": 52
+  },
+  {
+    "sourceQuestionId": "number-of-islands",
+    "title": "Number of Islands",
+    "sourceUrl": "https://leetcode.com/problems/number-of-islands/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.0065,
+    "companyRank": 53
+  },
+  {
+    "sourceQuestionId": "k-closest-points-to-origin",
+    "title": "K Closest Points to Origin",
+    "sourceUrl": "https://leetcode.com/problems/k-closest-points-to-origin/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.0058,
+    "companyRank": 54
+  },
+  {
+    "sourceQuestionId": "two-sum-ii-input-array-is-sorted",
+    "title": "Two Sum II - Input array is sorted",
+    "sourceUrl": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.0055,
+    "companyRank": 55
+  },
+  {
+    "sourceQuestionId": "course-schedule",
+    "title": "Course Schedule",
+    "sourceUrl": "https://leetcode.com/problems/course-schedule/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.005,
+    "companyRank": 56
+  },
+  {
+    "sourceQuestionId": "maximum-depth-of-binary-tree",
+    "title": "Maximum Depth of Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.0028,
+    "companyRank": 57
+  },
+  {
+    "sourceQuestionId": "remove-linked-list-elements",
+    "title": "Remove Linked List Elements",
+    "sourceUrl": "https://leetcode.com/problems/remove-linked-list-elements/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.0016,
+    "companyRank": 58
+  },
+  {
+    "sourceQuestionId": "meeting-scheduler",
+    "title": "Meeting Scheduler",
+    "sourceUrl": "https://leetcode.com/problems/meeting-scheduler/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "paypal"
+    ],
+    "frequencyScore": 0.0,
+    "companyRank": 59
+  }
+]

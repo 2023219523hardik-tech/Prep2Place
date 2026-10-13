@@ -1,0 +1,1127 @@
+[
+  {
+    "sourceQuestionId": "copy-list-with-random-pointer",
+    "title": "Copy List with Random Pointer",
+    "sourceUrl": "https://leetcode.com/problems/copy-list-with-random-pointer/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 3.699,
+    "companyRank": 1
+  },
+  {
+    "sourceQuestionId": "two-sum",
+    "title": "Two Sum",
+    "sourceUrl": "https://leetcode.com/problems/two-sum/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 3.5959,
+    "companyRank": 2
+  },
+  {
+    "sourceQuestionId": "lru-cache",
+    "title": "LRU Cache",
+    "sourceUrl": "https://leetcode.com/problems/lru-cache/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 3.4928,
+    "companyRank": 3
+  },
+  {
+    "sourceQuestionId": "spiral-matrix",
+    "title": "Spiral Matrix",
+    "sourceUrl": "https://leetcode.com/problems/spiral-matrix/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 3.3897,
+    "companyRank": 4
+  },
+  {
+    "sourceQuestionId": "integer-to-english-words",
+    "title": "Integer to English Words",
+    "sourceUrl": "https://leetcode.com/problems/integer-to-english-words/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 3.3683,
+    "companyRank": 5
+  },
+  {
+    "sourceQuestionId": "find-the-celebrity",
+    "title": "Find the Celebrity",
+    "sourceUrl": "https://leetcode.com/problems/find-the-celebrity/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 3.2653,
+    "companyRank": 6
+  },
+  {
+    "sourceQuestionId": "design-tic-tac-toe",
+    "title": "Design Tic-Tac-Toe",
+    "sourceUrl": "https://leetcode.com/problems/design-tic-tac-toe/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 3.1946,
+    "companyRank": 7
+  },
+  {
+    "sourceQuestionId": "add-two-numbers",
+    "title": "Add Two Numbers",
+    "sourceUrl": "https://leetcode.com/problems/add-two-numbers/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 3.1692,
+    "companyRank": 8
+  },
+  {
+    "sourceQuestionId": "trapping-rain-water",
+    "title": "Trapping Rain Water",
+    "sourceUrl": "https://leetcode.com/problems/trapping-rain-water/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 3.0661,
+    "companyRank": 9
+  },
+  {
+    "sourceQuestionId": "reverse-linked-list",
+    "title": "Reverse Linked List",
+    "sourceUrl": "https://leetcode.com/problems/reverse-linked-list/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 3.0259,
+    "companyRank": 10
+  },
+  {
+    "sourceQuestionId": "longest-palindromic-substring",
+    "title": "Longest Palindromic Substring",
+    "sourceUrl": "https://leetcode.com/problems/longest-palindromic-substring/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 3.0113,
+    "companyRank": 11
+  },
+  {
+    "sourceQuestionId": "string-to-integer-atoi",
+    "title": "String to Integer (atoi)",
+    "sourceUrl": "https://leetcode.com/problems/string-to-integer-atoi/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.9765,
+    "companyRank": 12
+  },
+  {
+    "sourceQuestionId": "number-of-islands",
+    "title": "Number of Islands",
+    "sourceUrl": "https://leetcode.com/problems/number-of-islands/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.9715,
+    "companyRank": 13
+  },
+  {
+    "sourceQuestionId": "median-of-two-sorted-arrays",
+    "title": "Median of Two Sorted Arrays",
+    "sourceUrl": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.8916,
+    "companyRank": 14
+  },
+  {
+    "sourceQuestionId": "reverse-words-in-a-string-ii",
+    "title": "Reverse Words in a String II",
+    "sourceUrl": "https://leetcode.com/problems/reverse-words-in-a-string-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.8809,
+    "companyRank": 15
+  },
+  {
+    "sourceQuestionId": "merge-sorted-array",
+    "title": "Merge Sorted Array",
+    "sourceUrl": "https://leetcode.com/problems/merge-sorted-array/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.8627,
+    "companyRank": 16
+  },
+  {
+    "sourceQuestionId": "merge-two-sorted-lists",
+    "title": "Merge Two Sorted Lists",
+    "sourceUrl": "https://leetcode.com/problems/merge-two-sorted-lists/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.8625,
+    "companyRank": 17
+  },
+  {
+    "sourceQuestionId": "letter-combinations-of-a-phone-number",
+    "title": "Letter Combinations of a Phone Number",
+    "sourceUrl": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.8574,
+    "companyRank": 18
+  },
+  {
+    "sourceQuestionId": "the-skyline-problem",
+    "title": "The Skyline Problem",
+    "sourceUrl": "https://leetcode.com/problems/the-skyline-problem/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.8028,
+    "companyRank": 19
+  },
+  {
+    "sourceQuestionId": "compare-version-numbers",
+    "title": "Compare Version Numbers",
+    "sourceUrl": "https://leetcode.com/problems/compare-version-numbers/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.7909,
+    "companyRank": 20
+  },
+  {
+    "sourceQuestionId": "reverse-nodes-in-k-group",
+    "title": "Reverse Nodes in k-Group",
+    "sourceUrl": "https://leetcode.com/problems/reverse-nodes-in-k-group/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.7614,
+    "companyRank": 21
+  },
+  {
+    "sourceQuestionId": "search-a-2d-matrix-ii",
+    "title": "Search a 2D Matrix II",
+    "sourceUrl": "https://leetcode.com/problems/search-a-2d-matrix-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.7346,
+    "companyRank": 22
+  },
+  {
+    "sourceQuestionId": "meeting-rooms-ii",
+    "title": "Meeting Rooms II",
+    "sourceUrl": "https://leetcode.com/problems/meeting-rooms-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.7285,
+    "companyRank": 23
+  },
+  {
+    "sourceQuestionId": "regular-expression-matching",
+    "title": "Regular Expression Matching",
+    "sourceUrl": "https://leetcode.com/problems/regular-expression-matching/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.7267,
+    "companyRank": 24
+  },
+  {
+    "sourceQuestionId": "maximum-subarray",
+    "title": "Maximum Subarray",
+    "sourceUrl": "https://leetcode.com/problems/maximum-subarray/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.7119,
+    "companyRank": 25
+  },
+  {
+    "sourceQuestionId": "search-in-rotated-sorted-array",
+    "title": "Search in Rotated Sorted Array",
+    "sourceUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.6857,
+    "companyRank": 26
+  },
+  {
+    "sourceQuestionId": "serialize-and-deserialize-binary-tree",
+    "title": "Serialize and Deserialize Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.5826,
+    "companyRank": 27
+  },
+  {
+    "sourceQuestionId": "lowest-common-ancestor-of-a-binary-tree",
+    "title": "Lowest Common Ancestor of a Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.5688,
+    "companyRank": 28
+  },
+  {
+    "sourceQuestionId": "add-two-numbers-ii",
+    "title": "Add Two Numbers II",
+    "sourceUrl": "https://leetcode.com/problems/add-two-numbers-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.529,
+    "companyRank": 29
+  },
+  {
+    "sourceQuestionId": "populating-next-right-pointers-in-each-node",
+    "title": "Populating Next Right Pointers in Each Node",
+    "sourceUrl": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.5249,
+    "companyRank": 30
+  },
+  {
+    "sourceQuestionId": "merge-k-sorted-lists",
+    "title": "Merge k Sorted Lists",
+    "sourceUrl": "https://leetcode.com/problems/merge-k-sorted-lists/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.5006,
+    "companyRank": 31
+  },
+  {
+    "sourceQuestionId": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "sourceUrl": "https://leetcode.com/problems/valid-parentheses/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.4687,
+    "companyRank": 32
+  },
+  {
+    "sourceQuestionId": "remove-k-digits",
+    "title": "Remove K Digits",
+    "sourceUrl": "https://leetcode.com/problems/remove-k-digits/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.4167,
+    "companyRank": 33
+  },
+  {
+    "sourceQuestionId": "reverse-words-in-a-string-iii",
+    "title": "Reverse Words in a String III",
+    "sourceUrl": "https://leetcode.com/problems/reverse-words-in-a-string-iii/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.3367,
+    "companyRank": 34
+  },
+  {
+    "sourceQuestionId": "remove-comments",
+    "title": "Remove Comments",
+    "sourceUrl": "https://leetcode.com/problems/remove-comments/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.3319,
+    "companyRank": 35
+  },
+  {
+    "sourceQuestionId": "sort-colors",
+    "title": "Sort Colors",
+    "sourceUrl": "https://leetcode.com/problems/sort-colors/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.3277,
+    "companyRank": 36
+  },
+  {
+    "sourceQuestionId": "swap-nodes-in-pairs",
+    "title": "Swap Nodes in Pairs",
+    "sourceUrl": "https://leetcode.com/problems/swap-nodes-in-pairs/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.3274,
+    "companyRank": 37
+  },
+  {
+    "sourceQuestionId": "reverse-words-in-a-string",
+    "title": "Reverse Words in a String",
+    "sourceUrl": "https://leetcode.com/problems/reverse-words-in-a-string/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.3265,
+    "companyRank": 38
+  },
+  {
+    "sourceQuestionId": "encode-and-decode-tinyurl",
+    "title": "Encode and Decode TinyURL",
+    "sourceUrl": "https://leetcode.com/problems/encode-and-decode-tinyurl/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.304,
+    "companyRank": 39
+  },
+  {
+    "sourceQuestionId": "rotate-image",
+    "title": "Rotate Image",
+    "sourceUrl": "https://leetcode.com/problems/rotate-image/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.3037,
+    "companyRank": 40
+  },
+  {
+    "sourceQuestionId": "validate-binary-search-tree",
+    "title": "Validate Binary Search Tree",
+    "sourceUrl": "https://leetcode.com/problems/validate-binary-search-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.2944,
+    "companyRank": 41
+  },
+  {
+    "sourceQuestionId": "excel-sheet-column-title",
+    "title": "Excel Sheet Column Title",
+    "sourceUrl": "https://leetcode.com/problems/excel-sheet-column-title/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.2883,
+    "companyRank": 42
+  },
+  {
+    "sourceQuestionId": "construct-binary-tree-from-preorder-and-inorder-traversal",
+    "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+    "sourceUrl": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.283,
+    "companyRank": 43
+  },
+  {
+    "sourceQuestionId": "battleships-in-a-board",
+    "title": "Battleships in a Board",
+    "sourceUrl": "https://leetcode.com/problems/battleships-in-a-board/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.2726,
+    "companyRank": 44
+  },
+  {
+    "sourceQuestionId": "rectangle-area",
+    "title": "Rectangle Area",
+    "sourceUrl": "https://leetcode.com/problems/rectangle-area/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.2593,
+    "companyRank": 45
+  },
+  {
+    "sourceQuestionId": "excel-sheet-column-number",
+    "title": "Excel Sheet Column Number",
+    "sourceUrl": "https://leetcode.com/problems/excel-sheet-column-number/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.2528,
+    "companyRank": 46
+  },
+  {
+    "sourceQuestionId": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "sourceUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.2448,
+    "companyRank": 47
+  },
+  {
+    "sourceQuestionId": "basic-calculator",
+    "title": "Basic Calculator",
+    "sourceUrl": "https://leetcode.com/problems/basic-calculator/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.2034,
+    "companyRank": 48
+  },
+  {
+    "sourceQuestionId": "maximum-length-of-a-concatenated-string-with-unique-characters",
+    "title": "Maximum Length of a Concatenated String with Unique Characters",
+    "sourceUrl": "https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.1941,
+    "companyRank": 49
+  },
+  {
+    "sourceQuestionId": "wildcard-matching",
+    "title": "Wildcard Matching",
+    "sourceUrl": "https://leetcode.com/problems/wildcard-matching/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.1914,
+    "companyRank": 50
+  },
+  {
+    "sourceQuestionId": "valid-tic-tac-toe-state",
+    "title": "Valid Tic-Tac-Toe State",
+    "sourceUrl": "https://leetcode.com/problems/valid-tic-tac-toe-state/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.1777,
+    "companyRank": 51
+  },
+  {
+    "sourceQuestionId": "boundary-of-binary-tree",
+    "title": "Boundary of Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/boundary-of-binary-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.1678,
+    "companyRank": 52
+  },
+  {
+    "sourceQuestionId": "gas-station",
+    "title": "Gas Station",
+    "sourceUrl": "https://leetcode.com/problems/gas-station/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.1426,
+    "companyRank": 53
+  },
+  {
+    "sourceQuestionId": "generate-parentheses",
+    "title": "Generate Parentheses",
+    "sourceUrl": "https://leetcode.com/problems/generate-parentheses/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.0786,
+    "companyRank": 54
+  },
+  {
+    "sourceQuestionId": "set-matrix-zeroes",
+    "title": "Set Matrix Zeroes",
+    "sourceUrl": "https://leetcode.com/problems/set-matrix-zeroes/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.0776,
+    "companyRank": 55
+  },
+  {
+    "sourceQuestionId": "serialize-and-deserialize-n-ary-tree",
+    "title": "Serialize and Deserialize N-ary Tree",
+    "sourceUrl": "https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.0767,
+    "companyRank": 56
+  },
+  {
+    "sourceQuestionId": "string-compression",
+    "title": "String Compression",
+    "sourceUrl": "https://leetcode.com/problems/string-compression/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.0514,
+    "companyRank": 57
+  },
+  {
+    "sourceQuestionId": "delete-node-in-a-bst",
+    "title": "Delete Node in a BST",
+    "sourceUrl": "https://leetcode.com/problems/delete-node-in-a-bst/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.0482,
+    "companyRank": 58
+  },
+  {
+    "sourceQuestionId": "roman-to-integer",
+    "title": "Roman to Integer",
+    "sourceUrl": "https://leetcode.com/problems/roman-to-integer/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.0148,
+    "companyRank": 59
+  },
+  {
+    "sourceQuestionId": "lowest-common-ancestor-of-a-binary-search-tree",
+    "title": "Lowest Common Ancestor of a Binary Search Tree",
+    "sourceUrl": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.0107,
+    "companyRank": 60
+  },
+  {
+    "sourceQuestionId": "binary-tree-zigzag-level-order-traversal",
+    "title": "Binary Tree Zigzag Level Order Traversal",
+    "sourceUrl": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 2.0105,
+    "companyRank": 61
+  },
+  {
+    "sourceQuestionId": "word-search-ii",
+    "title": "Word Search II",
+    "sourceUrl": "https://leetcode.com/problems/word-search-ii/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 1.9371,
+    "companyRank": 62
+  },
+  {
+    "sourceQuestionId": "populating-next-right-pointers-in-each-node-ii",
+    "title": "Populating Next Right Pointers in Each Node II",
+    "sourceUrl": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 1.9168,
+    "companyRank": 63
+  },
+  {
+    "sourceQuestionId": "reverse-string",
+    "title": "Reverse String",
+    "sourceUrl": "https://leetcode.com/problems/reverse-string/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 1.8931,
+    "companyRank": 64
+  },
+  {
+    "sourceQuestionId": "implement-trie-prefix-tree",
+    "title": "Implement Trie (Prefix Tree)",
+    "sourceUrl": "https://leetcode.com/problems/implement-trie-prefix-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 1.8703,
+    "companyRank": 65
+  },
+  {
+    "sourceQuestionId": "multiply-strings",
+    "title": "Multiply Strings",
+    "sourceUrl": "https://leetcode.com/problems/multiply-strings/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 1.8392,
+    "companyRank": 66
+  },
+  {
+    "sourceQuestionId": "inorder-successor-in-bst",
+    "title": "Inorder Successor in BST",
+    "sourceUrl": "https://leetcode.com/problems/inorder-successor-in-bst/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 1.8053,
+    "companyRank": 67
+  },
+  {
+    "sourceQuestionId": "group-anagrams",
+    "title": "Group Anagrams",
+    "sourceUrl": "https://leetcode.com/problems/group-anagrams/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 1.8046,
+    "companyRank": 68
+  },
+  {
+    "sourceQuestionId": "simplify-path",
+    "title": "Simplify Path",
+    "sourceUrl": "https://leetcode.com/problems/simplify-path/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 1.7952,
+    "companyRank": 69
+  },
+  {
+    "sourceQuestionId": "recover-binary-search-tree",
+    "title": "Recover Binary Search Tree",
+    "sourceUrl": "https://leetcode.com/problems/recover-binary-search-tree/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 1.7775,
+    "companyRank": 70
+  },
+  {
+    "sourceQuestionId": "3sum",
+    "title": "3Sum",
+    "sourceUrl": "https://leetcode.com/problems/3sum/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 1.7687,
+    "companyRank": 71
+  },
+  {
+    "sourceQuestionId": "linked-list-cycle",
+    "title": "Linked List Cycle",
+    "sourceUrl": "https://leetcode.com/problems/linked-list-cycle/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 1.7564,
+    "companyRank": 72
+  },
+  {
+    "sourceQuestionId": "implement-queue-using-stacks",
+    "title": "Implement Queue using Stacks",
+    "sourceUrl": "https://leetcode.com/problems/implement-queue-using-stacks/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 1.7494,
+    "companyRank": 73
+  },
+  {
+    "sourceQuestionId": "integer-to-roman",
+    "title": "Integer to Roman",
+    "sourceUrl": "https://leetcode.com/problems/integer-to-roman/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 1.7461,
+    "companyRank": 74
+  },
+  {
+    "sourceQuestionId": "sudoku-solver",
+    "title": "Sudoku Solver",
+    "sourceUrl": "https://leetcode.com/problems/sudoku-solver/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "microsoft"
+    ],
+    "frequencyScore": 1.7415,
+    "companyRank": 75
+  }
+]

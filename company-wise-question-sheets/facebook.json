@@ -1,0 +1,1127 @@
+[
+  {
+    "sourceQuestionId": "remove-invalid-parentheses",
+    "title": "Remove Invalid Parentheses",
+    "sourceUrl": "https://leetcode.com/problems/remove-invalid-parentheses/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 5.5756,
+    "companyRank": 1
+  },
+  {
+    "sourceQuestionId": "integer-to-english-words",
+    "title": "Integer to English Words",
+    "sourceUrl": "https://leetcode.com/problems/integer-to-english-words/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 5.4448,
+    "companyRank": 2
+  },
+  {
+    "sourceQuestionId": "verifying-an-alien-dictionary",
+    "title": "Verifying an Alien Dictionary",
+    "sourceUrl": "https://leetcode.com/problems/verifying-an-alien-dictionary/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 5.3139,
+    "companyRank": 3
+  },
+  {
+    "sourceQuestionId": "read-n-characters-given-read4-ii-call-multiple-times",
+    "title": "Read N Characters Given Read4 II - Call multiple times",
+    "sourceUrl": "https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 5.183,
+    "companyRank": 4
+  },
+  {
+    "sourceQuestionId": "serialize-and-deserialize-binary-tree",
+    "title": "Serialize and Deserialize Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 5.0909,
+    "companyRank": 5
+  },
+  {
+    "sourceQuestionId": "regular-expression-matching",
+    "title": "Regular Expression Matching",
+    "sourceUrl": "https://leetcode.com/problems/regular-expression-matching/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 4.96,
+    "companyRank": 6
+  },
+  {
+    "sourceQuestionId": "decode-ways",
+    "title": "Decode Ways",
+    "sourceUrl": "https://leetcode.com/problems/decode-ways/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 4.9261,
+    "companyRank": 7
+  },
+  {
+    "sourceQuestionId": "meeting-rooms-ii",
+    "title": "Meeting Rooms II",
+    "sourceUrl": "https://leetcode.com/problems/meeting-rooms-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 4.8909,
+    "companyRank": 8
+  },
+  {
+    "sourceQuestionId": "product-of-array-except-self",
+    "title": "Product of Array Except Self",
+    "sourceUrl": "https://leetcode.com/problems/product-of-array-except-self/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 4.7873,
+    "companyRank": 9
+  },
+  {
+    "sourceQuestionId": "valid-palindrome-ii",
+    "title": "Valid Palindrome II",
+    "sourceUrl": "https://leetcode.com/problems/valid-palindrome-ii/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 4.7274,
+    "companyRank": 10
+  },
+  {
+    "sourceQuestionId": "3sum",
+    "title": "3Sum",
+    "sourceUrl": "https://leetcode.com/problems/3sum/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 4.7169,
+    "companyRank": 11
+  },
+  {
+    "sourceQuestionId": "subarray-sum-equals-k",
+    "title": "Subarray Sum Equals K",
+    "sourceUrl": "https://leetcode.com/problems/subarray-sum-equals-k/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 4.6817,
+    "companyRank": 12
+  },
+  {
+    "sourceQuestionId": "first-bad-version",
+    "title": "First Bad Version",
+    "sourceUrl": "https://leetcode.com/problems/first-bad-version/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 4.6671,
+    "companyRank": 13
+  },
+  {
+    "sourceQuestionId": "minimum-window-substring",
+    "title": "Minimum Window Substring",
+    "sourceUrl": "https://leetcode.com/problems/minimum-window-substring/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 4.6248,
+    "companyRank": 14
+  },
+  {
+    "sourceQuestionId": "k-closest-points-to-origin",
+    "title": "K Closest Points to Origin",
+    "sourceUrl": "https://leetcode.com/problems/k-closest-points-to-origin/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 4.6227,
+    "companyRank": 15
+  },
+  {
+    "sourceQuestionId": "add-binary",
+    "title": "Add Binary",
+    "sourceUrl": "https://leetcode.com/problems/add-binary/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 4.5906,
+    "companyRank": 16
+  },
+  {
+    "sourceQuestionId": "merge-k-sorted-lists",
+    "title": "Merge k Sorted Lists",
+    "sourceUrl": "https://leetcode.com/problems/merge-k-sorted-lists/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 4.5409,
+    "companyRank": 17
+  },
+  {
+    "sourceQuestionId": "move-zeroes",
+    "title": "Move Zeroes",
+    "sourceUrl": "https://leetcode.com/problems/move-zeroes/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 4.5399,
+    "companyRank": 18
+  },
+  {
+    "sourceQuestionId": "minimum-remove-to-make-valid-parentheses",
+    "title": "Minimum Remove to Make Valid Parentheses",
+    "sourceUrl": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 4.5107,
+    "companyRank": 19
+  },
+  {
+    "sourceQuestionId": "valid-palindrome",
+    "title": "Valid Palindrome",
+    "sourceUrl": "https://leetcode.com/problems/valid-palindrome/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 4.4723,
+    "companyRank": 20
+  },
+  {
+    "sourceQuestionId": "divide-two-integers",
+    "title": "Divide Two Integers",
+    "sourceUrl": "https://leetcode.com/problems/divide-two-integers/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 4.4517,
+    "companyRank": 21
+  },
+  {
+    "sourceQuestionId": "next-permutation",
+    "title": "Next Permutation",
+    "sourceUrl": "https://leetcode.com/problems/next-permutation/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 4.4133,
+    "companyRank": 22
+  },
+  {
+    "sourceQuestionId": "binary-search-tree-iterator",
+    "title": "Binary Search Tree Iterator",
+    "sourceUrl": "https://leetcode.com/problems/binary-search-tree-iterator/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 4.4021,
+    "companyRank": 23
+  },
+  {
+    "sourceQuestionId": "expression-add-operators",
+    "title": "Expression Add Operators",
+    "sourceUrl": "https://leetcode.com/problems/expression-add-operators/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 4.3928,
+    "companyRank": 24
+  },
+  {
+    "sourceQuestionId": "add-and-search-word-data-structure-design",
+    "title": "Add and Search Word - Data structure design",
+    "sourceUrl": "https://leetcode.com/problems/add-and-search-word-data-structure-design/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 4.3237,
+    "companyRank": 25
+  },
+  {
+    "sourceQuestionId": "valid-number",
+    "title": "Valid Number",
+    "sourceUrl": "https://leetcode.com/problems/valid-number/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 4.2747,
+    "companyRank": 26
+  },
+  {
+    "sourceQuestionId": "read-n-characters-given-read4",
+    "title": "Read N Characters Given Read4",
+    "sourceUrl": "https://leetcode.com/problems/read-n-characters-given-read4/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 4.2118,
+    "companyRank": 27
+  },
+  {
+    "sourceQuestionId": "binary-tree-maximum-path-sum",
+    "title": "Binary Tree Maximum Path Sum",
+    "sourceUrl": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 4.1731,
+    "companyRank": 28
+  },
+  {
+    "sourceQuestionId": "binary-tree-vertical-order-traversal",
+    "title": "Binary Tree Vertical Order Traversal",
+    "sourceUrl": "https://leetcode.com/problems/binary-tree-vertical-order-traversal/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 4.1698,
+    "companyRank": 29
+  },
+  {
+    "sourceQuestionId": "letter-combinations-of-a-phone-number",
+    "title": "Letter Combinations of a Phone Number",
+    "sourceUrl": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 4.1647,
+    "companyRank": 30
+  },
+  {
+    "sourceQuestionId": "merge-intervals",
+    "title": "Merge Intervals",
+    "sourceUrl": "https://leetcode.com/problems/merge-intervals/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 4.1048,
+    "companyRank": 31
+  },
+  {
+    "sourceQuestionId": "convert-binary-search-tree-to-sorted-doubly-linked-list",
+    "title": "Convert Binary Search Tree to Sorted Doubly Linked List",
+    "sourceUrl": "https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 4.0957,
+    "companyRank": 32
+  },
+  {
+    "sourceQuestionId": "alien-dictionary",
+    "title": "Alien Dictionary",
+    "sourceUrl": "https://leetcode.com/problems/alien-dictionary/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 4.0806,
+    "companyRank": 33
+  },
+  {
+    "sourceQuestionId": "two-sum",
+    "title": "Two Sum",
+    "sourceUrl": "https://leetcode.com/problems/two-sum/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 4.0115,
+    "companyRank": 34
+  },
+  {
+    "sourceQuestionId": "clone-graph",
+    "title": "Clone Graph",
+    "sourceUrl": "https://leetcode.com/problems/clone-graph/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 3.9967,
+    "companyRank": 35
+  },
+  {
+    "sourceQuestionId": "maximum-size-subarray-sum-equals-k",
+    "title": "Maximum Size Subarray Sum Equals k",
+    "sourceUrl": "https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 3.9738,
+    "companyRank": 36
+  },
+  {
+    "sourceQuestionId": "find-all-anagrams-in-a-string",
+    "title": "Find All Anagrams in a String",
+    "sourceUrl": "https://leetcode.com/problems/find-all-anagrams-in-a-string/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 3.96,
+    "companyRank": 37
+  },
+  {
+    "sourceQuestionId": "sparse-matrix-multiplication",
+    "title": "Sparse Matrix Multiplication",
+    "sourceUrl": "https://leetcode.com/problems/sparse-matrix-multiplication/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 3.8292,
+    "companyRank": 38
+  },
+  {
+    "sourceQuestionId": "add-strings",
+    "title": "Add Strings",
+    "sourceUrl": "https://leetcode.com/problems/add-strings/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 3.8232,
+    "companyRank": 39
+  },
+  {
+    "sourceQuestionId": "number-of-islands",
+    "title": "Number of Islands",
+    "sourceUrl": "https://leetcode.com/problems/number-of-islands/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 3.8179,
+    "companyRank": 40
+  },
+  {
+    "sourceQuestionId": "palindrome-pairs",
+    "title": "Palindrome Pairs",
+    "sourceUrl": "https://leetcode.com/problems/palindrome-pairs/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 3.7749,
+    "companyRank": 41
+  },
+  {
+    "sourceQuestionId": "kth-largest-element-in-an-array",
+    "title": "Kth Largest Element in an Array",
+    "sourceUrl": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 3.7586,
+    "companyRank": 42
+  },
+  {
+    "sourceQuestionId": "diameter-of-binary-tree",
+    "title": "Diameter of Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/diameter-of-binary-tree/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 3.7178,
+    "companyRank": 43
+  },
+  {
+    "sourceQuestionId": "binary-tree-paths",
+    "title": "Binary Tree Paths",
+    "sourceUrl": "https://leetcode.com/problems/binary-tree-paths/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 3.6926,
+    "companyRank": 44
+  },
+  {
+    "sourceQuestionId": "continuous-subarray-sum",
+    "title": "Continuous Subarray Sum",
+    "sourceUrl": "https://leetcode.com/problems/continuous-subarray-sum/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 3.6835,
+    "companyRank": 45
+  },
+  {
+    "sourceQuestionId": "find-the-celebrity",
+    "title": "Find the Celebrity",
+    "sourceUrl": "https://leetcode.com/problems/find-the-celebrity/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 3.6167,
+    "companyRank": 46
+  },
+  {
+    "sourceQuestionId": "task-scheduler",
+    "title": "Task Scheduler",
+    "sourceUrl": "https://leetcode.com/problems/task-scheduler/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 3.6045,
+    "companyRank": 47
+  },
+  {
+    "sourceQuestionId": "multiply-strings",
+    "title": "Multiply Strings",
+    "sourceUrl": "https://leetcode.com/problems/multiply-strings/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 3.5922,
+    "companyRank": 48
+  },
+  {
+    "sourceQuestionId": "validate-binary-search-tree",
+    "title": "Validate Binary Search Tree",
+    "sourceUrl": "https://leetcode.com/problems/validate-binary-search-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 3.5818,
+    "companyRank": 49
+  },
+  {
+    "sourceQuestionId": "trapping-rain-water",
+    "title": "Trapping Rain Water",
+    "sourceUrl": "https://leetcode.com/problems/trapping-rain-water/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 3.5779,
+    "companyRank": 50
+  },
+  {
+    "sourceQuestionId": "maximum-sum-of-3-non-overlapping-subarrays",
+    "title": "Maximum Sum of 3 Non-Overlapping Subarrays",
+    "sourceUrl": "https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 3.5589,
+    "companyRank": 51
+  },
+  {
+    "sourceQuestionId": "intersection-of-two-arrays",
+    "title": "Intersection of Two Arrays",
+    "sourceUrl": "https://leetcode.com/problems/intersection-of-two-arrays/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 3.4987,
+    "companyRank": 52
+  },
+  {
+    "sourceQuestionId": "longest-substring-with-at-most-k-distinct-characters",
+    "title": "Longest Substring with At Most K Distinct Characters",
+    "sourceUrl": "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 3.4556,
+    "companyRank": 53
+  },
+  {
+    "sourceQuestionId": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "sourceUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 3.4232,
+    "companyRank": 54
+  },
+  {
+    "sourceQuestionId": "merge-sorted-array",
+    "title": "Merge Sorted Array",
+    "sourceUrl": "https://leetcode.com/problems/merge-sorted-array/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 3.421,
+    "companyRank": 55
+  },
+  {
+    "sourceQuestionId": "flatten-binary-tree-to-linked-list",
+    "title": "Flatten Binary Tree to Linked List",
+    "sourceUrl": "https://leetcode.com/problems/flatten-binary-tree-to-linked-list/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 3.3921,
+    "companyRank": 56
+  },
+  {
+    "sourceQuestionId": "copy-list-with-random-pointer",
+    "title": "Copy List with Random Pointer",
+    "sourceUrl": "https://leetcode.com/problems/copy-list-with-random-pointer/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 3.3873,
+    "companyRank": 57
+  },
+  {
+    "sourceQuestionId": "exclusive-time-of-functions",
+    "title": "Exclusive Time of Functions",
+    "sourceUrl": "https://leetcode.com/problems/exclusive-time-of-functions/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 3.3833,
+    "companyRank": 58
+  },
+  {
+    "sourceQuestionId": "accounts-merge",
+    "title": "Accounts Merge",
+    "sourceUrl": "https://leetcode.com/problems/accounts-merge/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 3.3546,
+    "companyRank": 59
+  },
+  {
+    "sourceQuestionId": "one-edit-distance",
+    "title": "One Edit Distance",
+    "sourceUrl": "https://leetcode.com/problems/one-edit-distance/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 3.3532,
+    "companyRank": 60
+  },
+  {
+    "sourceQuestionId": "lru-cache",
+    "title": "LRU Cache",
+    "sourceUrl": "https://leetcode.com/problems/lru-cache/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 3.3472,
+    "companyRank": 61
+  },
+  {
+    "sourceQuestionId": "range-sum-query-2d-immutable",
+    "title": "Range Sum Query 2D - Immutable",
+    "sourceUrl": "https://leetcode.com/problems/range-sum-query-2d-immutable/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 3.3334,
+    "companyRank": 62
+  },
+  {
+    "sourceQuestionId": "binary-tree-right-side-view",
+    "title": "Binary Tree Right Side View",
+    "sourceUrl": "https://leetcode.com/problems/binary-tree-right-side-view/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 3.3043,
+    "companyRank": 63
+  },
+  {
+    "sourceQuestionId": "word-break",
+    "title": "Word Break",
+    "sourceUrl": "https://leetcode.com/problems/word-break/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 3.293,
+    "companyRank": 64
+  },
+  {
+    "sourceQuestionId": "is-graph-bipartite",
+    "title": "Is Graph Bipartite?",
+    "sourceUrl": "https://leetcode.com/problems/is-graph-bipartite/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 3.2903,
+    "companyRank": 65
+  },
+  {
+    "sourceQuestionId": "search-in-rotated-sorted-array",
+    "title": "Search in Rotated Sorted Array",
+    "sourceUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 3.1594,
+    "companyRank": 66
+  },
+  {
+    "sourceQuestionId": "shortest-distance-from-all-buildings",
+    "title": "Shortest Distance from All Buildings",
+    "sourceUrl": "https://leetcode.com/problems/shortest-distance-from-all-buildings/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 3.1477,
+    "companyRank": 67
+  },
+  {
+    "sourceQuestionId": "reorder-list",
+    "title": "Reorder List",
+    "sourceUrl": "https://leetcode.com/problems/reorder-list/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 3.0703,
+    "companyRank": 68
+  },
+  {
+    "sourceQuestionId": "simplify-path",
+    "title": "Simplify Path",
+    "sourceUrl": "https://leetcode.com/problems/simplify-path/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 3.0484,
+    "companyRank": 69
+  },
+  {
+    "sourceQuestionId": "lowest-common-ancestor-of-a-binary-tree",
+    "title": "Lowest Common Ancestor of a Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 3.0428,
+    "companyRank": 70
+  },
+  {
+    "sourceQuestionId": "walls-and-gates",
+    "title": "Walls and Gates",
+    "sourceUrl": "https://leetcode.com/problems/walls-and-gates/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 3.0338,
+    "companyRank": 71
+  },
+  {
+    "sourceQuestionId": "interval-list-intersections",
+    "title": "Interval List Intersections",
+    "sourceUrl": "https://leetcode.com/problems/interval-list-intersections/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 3.0089,
+    "companyRank": 72
+  },
+  {
+    "sourceQuestionId": "find-first-and-last-position-of-element-in-sorted-array",
+    "title": "Find First and Last Position of Element in Sorted Array",
+    "sourceUrl": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 2.9869,
+    "companyRank": 73
+  },
+  {
+    "sourceQuestionId": "flatten-nested-list-iterator",
+    "title": "Flatten Nested List Iterator",
+    "sourceUrl": "https://leetcode.com/problems/flatten-nested-list-iterator/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 2.856,
+    "companyRank": 74
+  },
+  {
+    "sourceQuestionId": "monotonic-array",
+    "title": "Monotonic Array",
+    "sourceUrl": "https://leetcode.com/problems/monotonic-array/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "facebook"
+    ],
+    "frequencyScore": 2.8395,
+    "companyRank": 75
+  }
+]

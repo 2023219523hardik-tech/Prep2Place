@@ -1,0 +1,557 @@
+[
+  {
+    "sourceQuestionId": "integer-to-english-words",
+    "title": "Integer to English Words",
+    "sourceUrl": "https://leetcode.com/problems/integer-to-english-words/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "zillow"
+    ],
+    "frequencyScore": 0.3786,
+    "companyRank": 1
+  },
+  {
+    "sourceQuestionId": "lru-cache",
+    "title": "LRU Cache",
+    "sourceUrl": "https://leetcode.com/problems/lru-cache/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "zillow"
+    ],
+    "frequencyScore": 0.3225,
+    "companyRank": 2
+  },
+  {
+    "sourceQuestionId": "first-unique-character-in-a-string",
+    "title": "First Unique Character in a String",
+    "sourceUrl": "https://leetcode.com/problems/first-unique-character-in-a-string/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "zillow"
+    ],
+    "frequencyScore": 0.2939,
+    "companyRank": 3
+  },
+  {
+    "sourceQuestionId": "lowest-common-ancestor-of-a-binary-tree",
+    "title": "Lowest Common Ancestor of a Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "zillow"
+    ],
+    "frequencyScore": 0.2705,
+    "companyRank": 4
+  },
+  {
+    "sourceQuestionId": "design-snake-game",
+    "title": "Design Snake Game",
+    "sourceUrl": "https://leetcode.com/problems/design-snake-game/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "zillow"
+    ],
+    "frequencyScore": 0.2144,
+    "companyRank": 5
+  },
+  {
+    "sourceQuestionId": "serialize-and-deserialize-bst",
+    "title": "Serialize and Deserialize BST",
+    "sourceUrl": "https://leetcode.com/problems/serialize-and-deserialize-bst/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "zillow"
+    ],
+    "frequencyScore": 0.179,
+    "companyRank": 6
+  },
+  {
+    "sourceQuestionId": "time-based-key-value-store",
+    "title": "Time Based Key-Value Store",
+    "sourceUrl": "https://leetcode.com/problems/time-based-key-value-store/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "zillow"
+    ],
+    "frequencyScore": 0.1773,
+    "companyRank": 7
+  },
+  {
+    "sourceQuestionId": "word-ladder",
+    "title": "Word Ladder",
+    "sourceUrl": "https://leetcode.com/problems/word-ladder/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "zillow"
+    ],
+    "frequencyScore": 0.1603,
+    "companyRank": 8
+  },
+  {
+    "sourceQuestionId": "daily-temperatures",
+    "title": "Daily Temperatures",
+    "sourceUrl": "https://leetcode.com/problems/daily-temperatures/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "zillow"
+    ],
+    "frequencyScore": 0.1427,
+    "companyRank": 9
+  },
+  {
+    "sourceQuestionId": "multiply-strings",
+    "title": "Multiply Strings",
+    "sourceUrl": "https://leetcode.com/problems/multiply-strings/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "zillow"
+    ],
+    "frequencyScore": 0.1315,
+    "companyRank": 10
+  },
+  {
+    "sourceQuestionId": "path-sum-ii",
+    "title": "Path Sum II",
+    "sourceUrl": "https://leetcode.com/problems/path-sum-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "zillow"
+    ],
+    "frequencyScore": 0.1092,
+    "companyRank": 11
+  },
+  {
+    "sourceQuestionId": "design-hit-counter",
+    "title": "Design Hit Counter",
+    "sourceUrl": "https://leetcode.com/problems/design-hit-counter/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "zillow"
+    ],
+    "frequencyScore": 0.0939,
+    "companyRank": 12
+  },
+  {
+    "sourceQuestionId": "word-break",
+    "title": "Word Break",
+    "sourceUrl": "https://leetcode.com/problems/word-break/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "zillow"
+    ],
+    "frequencyScore": 0.0734,
+    "companyRank": 13
+  },
+  {
+    "sourceQuestionId": "path-sum-iii",
+    "title": "Path Sum III",
+    "sourceUrl": "https://leetcode.com/problems/path-sum-iii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "zillow"
+    ],
+    "frequencyScore": 0.0702,
+    "companyRank": 14
+  },
+  {
+    "sourceQuestionId": "path-sum",
+    "title": "Path Sum",
+    "sourceUrl": "https://leetcode.com/problems/path-sum/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "zillow"
+    ],
+    "frequencyScore": 0.0623,
+    "companyRank": 15
+  },
+  {
+    "sourceQuestionId": "string-compression",
+    "title": "String Compression",
+    "sourceUrl": "https://leetcode.com/problems/string-compression/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "zillow"
+    ],
+    "frequencyScore": 0.0523,
+    "companyRank": 16
+  },
+  {
+    "sourceQuestionId": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "sourceUrl": "https://leetcode.com/problems/valid-parentheses/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "zillow"
+    ],
+    "frequencyScore": 0.0346,
+    "companyRank": 17
+  },
+  {
+    "sourceQuestionId": "median-of-two-sorted-arrays",
+    "title": "Median of Two Sorted Arrays",
+    "sourceUrl": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "zillow"
+    ],
+    "frequencyScore": 0.033,
+    "companyRank": 18
+  },
+  {
+    "sourceQuestionId": "two-sum",
+    "title": "Two Sum",
+    "sourceUrl": "https://leetcode.com/problems/two-sum/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "zillow"
+    ],
+    "frequencyScore": 0.0327,
+    "companyRank": 19
+  },
+  {
+    "sourceQuestionId": "maximum-subarray",
+    "title": "Maximum Subarray",
+    "sourceUrl": "https://leetcode.com/problems/maximum-subarray/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "zillow"
+    ],
+    "frequencyScore": 0.0251,
+    "companyRank": 20
+  },
+  {
+    "sourceQuestionId": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "sourceUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "zillow"
+    ],
+    "frequencyScore": 0.0247,
+    "companyRank": 21
+  },
+  {
+    "sourceQuestionId": "merge-k-sorted-lists",
+    "title": "Merge k Sorted Lists",
+    "sourceUrl": "https://leetcode.com/problems/merge-k-sorted-lists/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "zillow"
+    ],
+    "frequencyScore": 0.024,
+    "companyRank": 22
+  },
+  {
+    "sourceQuestionId": "inorder-successor-in-bst",
+    "title": "Inorder Successor in BST",
+    "sourceUrl": "https://leetcode.com/problems/inorder-successor-in-bst/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "zillow"
+    ],
+    "frequencyScore": 0.0213,
+    "companyRank": 23
+  },
+  {
+    "sourceQuestionId": "word-search-ii",
+    "title": "Word Search II",
+    "sourceUrl": "https://leetcode.com/problems/word-search-ii/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "zillow"
+    ],
+    "frequencyScore": 0.021,
+    "companyRank": 24
+  },
+  {
+    "sourceQuestionId": "search-in-rotated-sorted-array",
+    "title": "Search in Rotated Sorted Array",
+    "sourceUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "zillow"
+    ],
+    "frequencyScore": 0.0192,
+    "companyRank": 25
+  },
+  {
+    "sourceQuestionId": "missing-number",
+    "title": "Missing Number",
+    "sourceUrl": "https://leetcode.com/problems/missing-number/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "zillow"
+    ],
+    "frequencyScore": 0.0185,
+    "companyRank": 26
+  },
+  {
+    "sourceQuestionId": "reverse-words-in-a-string",
+    "title": "Reverse Words in a String",
+    "sourceUrl": "https://leetcode.com/problems/reverse-words-in-a-string/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "zillow"
+    ],
+    "frequencyScore": 0.0185,
+    "companyRank": 27
+  },
+  {
+    "sourceQuestionId": "game-of-life",
+    "title": "Game of Life",
+    "sourceUrl": "https://leetcode.com/problems/game-of-life/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "zillow"
+    ],
+    "frequencyScore": 0.0166,
+    "companyRank": 28
+  },
+  {
+    "sourceQuestionId": "bulls-and-cows",
+    "title": "Bulls and Cows",
+    "sourceUrl": "https://leetcode.com/problems/bulls-and-cows/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "zillow"
+    ],
+    "frequencyScore": 0.0155,
+    "companyRank": 29
+  },
+  {
+    "sourceQuestionId": "word-search",
+    "title": "Word Search",
+    "sourceUrl": "https://leetcode.com/problems/word-search/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "zillow"
+    ],
+    "frequencyScore": 0.0147,
+    "companyRank": 30
+  },
+  {
+    "sourceQuestionId": "evaluate-reverse-polish-notation",
+    "title": "Evaluate Reverse Polish Notation",
+    "sourceUrl": "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "zillow"
+    ],
+    "frequencyScore": 0.0136,
+    "companyRank": 31
+  },
+  {
+    "sourceQuestionId": "longest-substring-without-repeating-characters",
+    "title": "Longest Substring Without Repeating Characters",
+    "sourceUrl": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "zillow"
+    ],
+    "frequencyScore": 0.0133,
+    "companyRank": 32
+  },
+  {
+    "sourceQuestionId": "roman-to-integer",
+    "title": "Roman to Integer",
+    "sourceUrl": "https://leetcode.com/problems/roman-to-integer/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "zillow"
+    ],
+    "frequencyScore": 0.013,
+    "companyRank": 33
+  },
+  {
+    "sourceQuestionId": "max-area-of-island",
+    "title": "Max Area of Island",
+    "sourceUrl": "https://leetcode.com/problems/max-area-of-island/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "zillow"
+    ],
+    "frequencyScore": 0.0121,
+    "companyRank": 34
+  },
+  {
+    "sourceQuestionId": "word-break-ii",
+    "title": "Word Break II",
+    "sourceUrl": "https://leetcode.com/problems/word-break-ii/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "zillow"
+    ],
+    "frequencyScore": 0.0107,
+    "companyRank": 35
+  },
+  {
+    "sourceQuestionId": "string-to-integer-atoi",
+    "title": "String to Integer (atoi)",
+    "sourceUrl": "https://leetcode.com/problems/string-to-integer-atoi/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "zillow"
+    ],
+    "frequencyScore": 0.0081,
+    "companyRank": 36
+  },
+  {
+    "sourceQuestionId": "move-zeroes",
+    "title": "Move Zeroes",
+    "sourceUrl": "https://leetcode.com/problems/move-zeroes/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "zillow"
+    ],
+    "frequencyScore": 0.0028,
+    "companyRank": 37
+  }
+]

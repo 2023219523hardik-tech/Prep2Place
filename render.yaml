@@ -1,0 +1,62 @@
+# ==============================================================================
+# Render Blueprint — Prep2Place Backend Deployment
+# Docs: https://render.com/docs/blueprint-spec
+# ==============================================================================
+services:
+  - type: web
+    name: prep2place-backend
+    runtime: docker
+    dockerfilePath: ./FinalBackend/backend/Dockerfile
+    dockerContext: .
+    region: oregon
+    plan: free
+    healthCheckPath: /actuator/health
+    envVars:
+      - key: PORT
+        value: 8080
+      - key: JAVA_OPTS
+        value: "-XX:MaxRAMPercentage=70.0 -XX:MaxMetaspaceSize=160m -XX:+UseSerialGC -Xss512k -XX:+ExitOnOutOfMemoryError"
+      - key: DB_URL
+        sync: false
+      - key: DB_USERNAME
+        sync: false
+      - key: DB_PASSWORD
+        sync: false
+      - key: DB_POOL_MAX_SIZE
+        value: "5"
+      - key: DB_POOL_MIN_IDLE
+        value: "1"
+      - key: JWT_SECRET
+        generateValue: true
+      - key: APP_URL
+        sync: false
+      - key: APP_CORS_ALLOWED_ORIGINS
+        sync: false
+      - key: GOOGLE_CLIENT_ID
+        sync: false
+      - key: GOOGLE_CLIENT_SECRET
+        sync: false
+      - key: GITHUB_CLIENT_ID
+        sync: false
+      - key: GITHUB_CLIENT_SECRET
+        sync: false
+      - key: EMAIL_ENABLED
+        value: "false"
+      - key: EMAIL_FROM
+        value: "onboarding@resend.dev"
+      - key: RESEND_API_KEY
+        sync: false
+      - key: ML_SERVICE_ENABLED
+        value: "false"
+      - key: ML_SERVICE_URL
+        value: "http://localhost:8000"
+      - key: CODING_RUNNER_PROVIDER
+        value: "local"
+      - key: CODING_RUNNER_LOCAL_JAVA_HEAP_MB
+        value: "128"
+      - key: REDIS_ENABLED
+        value: "false"
+      - key: REDIS_HEALTH_ENABLED
+        value: "false"
+      - key: KAFKA_ENABLED
+        value: "false"

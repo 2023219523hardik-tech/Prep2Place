@@ -1,0 +1,261 @@
+[
+  {
+    "company": "adobe",
+    "totalDistinctAvailable": 235,
+    "includedInSheet": 75,
+    "capped": true,
+    "file": "adobe.json"
+  },
+  {
+    "company": "airbnb",
+    "totalDistinctAvailable": 59,
+    "includedInSheet": 59,
+    "capped": false,
+    "file": "airbnb.json"
+  },
+  {
+    "company": "alibaba",
+    "totalDistinctAvailable": 35,
+    "includedInSheet": 35,
+    "capped": false,
+    "file": "alibaba.json"
+  },
+  {
+    "company": "amazon",
+    "totalDistinctAvailable": 780,
+    "includedInSheet": 75,
+    "capped": true,
+    "file": "amazon.json"
+  },
+  {
+    "company": "apple",
+    "totalDistinctAvailable": 366,
+    "includedInSheet": 75,
+    "capped": true,
+    "file": "apple.json"
+  },
+  {
+    "company": "atlassian",
+    "totalDistinctAvailable": 53,
+    "includedInSheet": 53,
+    "capped": false,
+    "file": "atlassian.json"
+  },
+  {
+    "company": "bloomberg",
+    "totalDistinctAvailable": 348,
+    "includedInSheet": 75,
+    "capped": true,
+    "file": "bloomberg.json"
+  },
+  {
+    "company": "bytedance",
+    "totalDistinctAvailable": 116,
+    "includedInSheet": 75,
+    "capped": true,
+    "file": "bytedance.json"
+  },
+  {
+    "company": "cisco",
+    "totalDistinctAvailable": 68,
+    "includedInSheet": 68,
+    "capped": false,
+    "file": "cisco.json"
+  },
+  {
+    "company": "citadel",
+    "totalDistinctAvailable": 41,
+    "includedInSheet": 41,
+    "capped": false,
+    "file": "citadel.json"
+  },
+  {
+    "company": "ebay",
+    "totalDistinctAvailable": 123,
+    "includedInSheet": 75,
+    "capped": true,
+    "file": "ebay.json"
+  },
+  {
+    "company": "expedia",
+    "totalDistinctAvailable": 47,
+    "includedInSheet": 47,
+    "capped": false,
+    "file": "expedia.json"
+  },
+  {
+    "company": "facebook",
+    "totalDistinctAvailable": 556,
+    "includedInSheet": 75,
+    "capped": true,
+    "file": "facebook.json"
+  },
+  {
+    "company": "goldman-sachs",
+    "totalDistinctAvailable": 112,
+    "includedInSheet": 75,
+    "capped": true,
+    "file": "goldman-sachs.json"
+  },
+  {
+    "company": "google",
+    "totalDistinctAvailable": 865,
+    "includedInSheet": 75,
+    "capped": true,
+    "file": "google.json"
+  },
+  {
+    "company": "jtg",
+    "file": "jtg-josh-technology-sheet.json",
+    "totalDistinctAvailable": 35,
+    "includedInSheet": 35,
+    "capped": false
+  },
+  {
+    "company": "linkedin",
+    "totalDistinctAvailable": 140,
+    "includedInSheet": 75,
+    "capped": true,
+    "file": "linkedin.json"
+  },
+  {
+    "company": "lyft",
+    "totalDistinctAvailable": 53,
+    "includedInSheet": 53,
+    "capped": false,
+    "file": "lyft.json"
+  },
+  {
+    "company": "mathworks",
+    "totalDistinctAvailable": 40,
+    "includedInSheet": 40,
+    "capped": false,
+    "file": "mathworks.json"
+  },
+  {
+    "company": "microsoft",
+    "totalDistinctAvailable": 514,
+    "includedInSheet": 75,
+    "capped": true,
+    "file": "microsoft.json"
+  },
+  {
+    "company": "nutanix",
+    "totalDistinctAvailable": 38,
+    "includedInSheet": 38,
+    "capped": false,
+    "file": "nutanix.json"
+  },
+  {
+    "company": "oracle",
+    "totalDistinctAvailable": 214,
+    "includedInSheet": 75,
+    "capped": true,
+    "file": "oracle.json"
+  },
+  {
+    "company": "paypal",
+    "totalDistinctAvailable": 59,
+    "includedInSheet": 59,
+    "capped": false,
+    "file": "paypal.json"
+  },
+  {
+    "company": "pinterest",
+    "totalDistinctAvailable": 42,
+    "includedInSheet": 42,
+    "capped": false,
+    "file": "pinterest.json"
+  },
+  {
+    "company": "salesforce",
+    "totalDistinctAvailable": 70,
+    "includedInSheet": 70,
+    "capped": false,
+    "file": "salesforce.json"
+  },
+  {
+    "company": "sap",
+    "totalDistinctAvailable": 38,
+    "includedInSheet": 38,
+    "capped": false,
+    "file": "sap.json"
+  },
+  {
+    "company": "snapchat",
+    "totalDistinctAvailable": 88,
+    "includedInSheet": 75,
+    "capped": true,
+    "file": "snapchat.json"
+  },
+  {
+    "company": "striver-a2z",
+    "file": "_full-striver-a2z.json",
+    "totalDistinctAvailable": 456,
+    "includedInSheet": 456,
+    "capped": false
+  },
+  {
+    "company": "striver-sde",
+    "file": "_full-striver-sde.json",
+    "totalDistinctAvailable": 191,
+    "includedInSheet": 191,
+    "capped": false
+  },
+  {
+    "company": "twitter",
+    "totalDistinctAvailable": 82,
+    "includedInSheet": 75,
+    "capped": true,
+    "file": "twitter.json"
+  },
+  {
+    "company": "uber",
+    "totalDistinctAvailable": 308,
+    "includedInSheet": 75,
+    "capped": true,
+    "file": "uber.json"
+  },
+  {
+    "company": "visa",
+    "totalDistinctAvailable": 39,
+    "includedInSheet": 39,
+    "capped": false,
+    "file": "visa.json"
+  },
+  {
+    "company": "vmware",
+    "totalDistinctAvailable": 102,
+    "includedInSheet": 75,
+    "capped": true,
+    "file": "vmware.json"
+  },
+  {
+    "company": "yahoo",
+    "totalDistinctAvailable": 114,
+    "includedInSheet": 75,
+    "capped": true,
+    "file": "yahoo.json"
+  },
+  {
+    "company": "yandex",
+    "totalDistinctAvailable": 46,
+    "includedInSheet": 46,
+    "capped": false,
+    "file": "yandex.json"
+  },
+  {
+    "company": "yelp",
+    "totalDistinctAvailable": 37,
+    "includedInSheet": 37,
+    "capped": false,
+    "file": "yelp.json"
+  },
+  {
+    "company": "zillow",
+    "totalDistinctAvailable": 37,
+    "includedInSheet": 37,
+    "capped": false,
+    "file": "zillow.json"
+  }
+]

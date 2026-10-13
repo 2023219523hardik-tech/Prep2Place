@@ -1,0 +1,71 @@
+{
+ "title": "Frontend: Paginated List Component",
+ "codingType": "FRONTEND",
+ "difficulty": "EASY",
+ "runtime": "NODE_TEST",
+ "summary": "Build a reusable React pagination component with Prev/Next controls, a page indicator, an empty state and safe behaviour when its data changes.",
+ "problemStatement": "## Scenario\nThe dashboard shows long lists (interview questions, applicants, ...). Instead of rendering hundreds of rows you are building a small reusable **`PaginatedList`** React component.\n\n## Task\nImplement the default export of `src/PaginatedList.jsx`. Props: `items` (array of strings) and `pageSize` (number, default `5`).\n\n## Required markup\nThe tests find elements by the exact markup below - keep it.\n- The current page's items as `<li>` elements inside one `<ul>`, in order. Nothing else is rendered as an `<li>`.\n- A `<button>` with the text **Prev** and a `<button>` with the text **Next**.\n- A `<span data-testid=\"page-info\">` whose text is exactly `Page X of Y`, where `Y = ceil(items.length / pageSize)`.\n- When `items` is empty: render `<p>No items found</p>` **instead of** the `<ul>`; the page info reads `Page 0 of 0`.\n\n## Behaviour\n- Starts on page 1. **Next** / **Prev** move one page; a button is `disabled` when there is nowhere to go (Prev on the first page, Next on the last page, both when empty).\n- The last page may hold fewer than `pageSize` items.\n- If `items` changes while the user is on a page that no longer exists (e.g. the list shrinks), the component must show the last valid page instead of an empty page.",
+ "requirements": [
+  {
+   "id": "R1",
+   "title": "Render the current page",
+   "description": "Only the current page's items appear, as <li> elements inside a <ul>; the first page initially.",
+   "weight": 3
+  },
+  {
+   "id": "R2",
+   "title": "Navigate with Prev / Next",
+   "description": "Clicking the buttons moves between pages.",
+   "weight": 3
+  },
+  {
+   "id": "R3",
+   "title": "Disable buttons at the bounds",
+   "description": "Prev is disabled on the first page, Next on the last.",
+   "weight": 2
+  },
+  {
+   "id": "R4",
+   "title": "Show the page indicator",
+   "description": "data-testid=page-info shows 'Page X of Y'.",
+   "weight": 2
+  },
+  {
+   "id": "R5",
+   "title": "Handle the empty list",
+   "description": "'No items found' replaces the list and both buttons are disabled.",
+   "weight": 2
+  },
+  {
+   "id": "R6",
+   "title": "Stay valid when items change",
+   "description": "A shrinking list never leaves the user on a non-existent page.",
+   "weight": 2
+  }
+ ],
+ "timeLimitMinutes": 30,
+ "technology": "React 18 (JSX)",
+ "skills": [
+  "React",
+  "State management",
+  "Testing Library",
+  "Accessibility"
+ ],
+ "tags": [
+  "react",
+  "components"
+ ],
+ "targetJobRole": "Frontend Developer",
+ "starterFiles": {
+  "src/PaginatedList.jsx": "import { useState } from \"react\";\n\n/**\n * Renders `items` (strings) one page at a time. See the problem statement for the exact markup.\n */\nexport default function PaginatedList({ items, pageSize = 5 }) {\n  // TODO\n  return null;\n}\n"
+ },
+ "referenceFiles": {
+  "src/PaginatedList.jsx": "import { useState } from \"react\";\n\nexport default function PaginatedList({ items, pageSize = 5 }) {\n  const [page, setPage] = useState(1);\n  const totalPages = Math.ceil(items.length / pageSize);\n  const current = totalPages === 0 ? 0 : Math.min(Math.max(page, 1), totalPages);\n  const start = (Math.max(current, 1) - 1) * pageSize;\n  const visible = items.slice(start, start + pageSize);\n\n  return (\n    <div>\n      {items.length === 0 ? (\n        <p>No items found</p>\n      ) : (\n        <ul>\n          {visible.map((item, i) => (\n            <li key={start + i}>{item}</li>\n          ))}\n        </ul>\n      )}\n      <button onClick={() => setPage(current - 1)} disabled={current <= 1}>Prev</button>\n      <span data-testid=\"page-info\">Page {current} of {totalPages}</span>\n      <button onClick={() => setPage(current + 1)} disabled={current >= totalPages}>Next</button>\n    </div>\n  );\n}\n"
+ },
+ "publicTestFiles": {
+  "tests/public/paginated-list.test.jsx": "import { test, afterEach } from \"node:test\";\nimport assert from \"node:assert/strict\";\nimport { render, screen, fireEvent, cleanup } from \"@testing-library/react\";\nimport PaginatedList from \"../../src/PaginatedList.jsx\";\n\nafterEach(cleanup);\n\nconst items = (n) => Array.from({ length: n }, (_, i) => `Item ${i + 1}`);\nconst shown = () => Array.from(document.querySelectorAll(\"li\")).map((li) => li.textContent);\nconst click = (name) => fireEvent.click(screen.getByRole(\"button\", { name }));\n\ntest(\"[R1] shows only the first page of items initially\", () => {\n  render(<PaginatedList items={items(5)} pageSize={2} />);\n  assert.deepEqual(shown(), [\"Item 1\", \"Item 2\"]);\n});\n\ntest(\"[R2] Next shows the following page\", () => {\n  render(<PaginatedList items={items(5)} pageSize={2} />);\n  click(\"Next\");\n  assert.deepEqual(shown(), [\"Item 3\", \"Item 4\"]);\n});\n\ntest(\"[R3] Prev is disabled on the first page\", () => {\n  render(<PaginatedList items={items(5)} pageSize={2} />);\n  assert.equal(screen.getByRole(\"button\", { name: \"Prev\" }).disabled, true);\n  assert.equal(screen.getByRole(\"button\", { name: \"Next\" }).disabled, false);\n});\n\ntest(\"[R4] shows 'Page X of Y'\", () => {\n  render(<PaginatedList items={items(5)} pageSize={2} />);\n  assert.equal(screen.getByTestId(\"page-info\").textContent, \"Page 1 of 3\");\n});\n"
+ },
+ "hiddenTestFiles": {
+  "tests/hidden/paginated-list.test.jsx": "import { test, afterEach } from \"node:test\";\nimport assert from \"node:assert/strict\";\nimport { render, screen, fireEvent, cleanup } from \"@testing-library/react\";\nimport PaginatedList from \"../../src/PaginatedList.jsx\";\n\nafterEach(cleanup);\n\nconst items = (n) => Array.from({ length: n }, (_, i) => `Item ${i + 1}`);\nconst shown = () => Array.from(document.querySelectorAll(\"li\")).map((li) => li.textContent);\nconst click = (name) => fireEvent.click(screen.getByRole(\"button\", { name }));\n\ntest(\"[R1] the last page holds the remainder\", () => {\n  render(<PaginatedList items={items(5)} pageSize={2} />);\n  click(\"Next\");\n  click(\"Next\");\n  assert.deepEqual(shown(), [\"Item 5\"]);\n});\n\ntest(\"[R1] pageSize defaults to 5\", () => {\n  render(<PaginatedList items={items(12)} />);\n  assert.equal(shown().length, 5);\n  assert.equal(screen.getByTestId(\"page-info\").textContent, \"Page 1 of 3\");\n});\n\ntest(\"[R2] Prev returns to the previous page\", () => {\n  render(<PaginatedList items={items(6)} pageSize={2} />);\n  click(\"Next\");\n  click(\"Next\");\n  click(\"Prev\");\n  assert.deepEqual(shown(), [\"Item 3\", \"Item 4\"]);\n});\n\ntest(\"[R3] Next is disabled on the last page, Prev enabled\", () => {\n  render(<PaginatedList items={items(4)} pageSize={2} />);\n  click(\"Next\");\n  assert.equal(screen.getByRole(\"button\", { name: \"Next\" }).disabled, true);\n  assert.equal(screen.getByRole(\"button\", { name: \"Prev\" }).disabled, false);\n});\n\ntest(\"[R4] the indicator follows navigation\", () => {\n  render(<PaginatedList items={items(7)} pageSize={3} />);\n  click(\"Next\");\n  assert.equal(screen.getByTestId(\"page-info\").textContent, \"Page 2 of 3\");\n});\n\ntest(\"[R5] an empty list shows the empty state and disables both buttons\", () => {\n  render(<PaginatedList items={[]} pageSize={3} />);\n  assert.ok(screen.getByText(\"No items found\"));\n  assert.equal(document.querySelectorAll(\"ul\").length, 0);\n  assert.equal(screen.getByTestId(\"page-info\").textContent, \"Page 0 of 0\");\n  assert.equal(screen.getByRole(\"button\", { name: \"Prev\" }).disabled, true);\n  assert.equal(screen.getByRole(\"button\", { name: \"Next\" }).disabled, true);\n});\n\ntest(\"[R6] a shrinking list falls back to the last valid page\", () => {\n  const { rerender } = render(<PaginatedList items={items(9)} pageSize={3} />);\n  click(\"Next\");\n  click(\"Next\"); // page 3 of 3\n  rerender(<PaginatedList items={items(4)} pageSize={3} />);\n  assert.equal(screen.getByTestId(\"page-info\").textContent, \"Page 2 of 2\");\n  assert.deepEqual(shown(), [\"Item 4\"]);\n});\n"
+ }
+}

@@ -1,0 +1,707 @@
+[
+  {
+    "sourceQuestionId": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "sourceUrl": "https://leetcode.com/problems/valid-parentheses/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.5286,
+    "companyRank": 1
+  },
+  {
+    "sourceQuestionId": "subarray-sums-divisible-by-k",
+    "title": "Subarray Sums Divisible by K",
+    "sourceUrl": "https://leetcode.com/problems/subarray-sums-divisible-by-k/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.4503,
+    "companyRank": 2
+  },
+  {
+    "sourceQuestionId": "set-matrix-zeroes",
+    "title": "Set Matrix Zeroes",
+    "sourceUrl": "https://leetcode.com/problems/set-matrix-zeroes/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.3719,
+    "companyRank": 3
+  },
+  {
+    "sourceQuestionId": "find-the-smallest-divisor-given-a-threshold",
+    "title": "Find the Smallest Divisor Given a Threshold",
+    "sourceUrl": "https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.3651,
+    "companyRank": 4
+  },
+  {
+    "sourceQuestionId": "string-compression",
+    "title": "String Compression",
+    "sourceUrl": "https://leetcode.com/problems/string-compression/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.3002,
+    "companyRank": 5
+  },
+  {
+    "sourceQuestionId": "search-in-rotated-sorted-array",
+    "title": "Search in Rotated Sorted Array",
+    "sourceUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.2562,
+    "companyRank": 6
+  },
+  {
+    "sourceQuestionId": "find-median-from-data-stream",
+    "title": "Find Median from Data Stream",
+    "sourceUrl": "https://leetcode.com/problems/find-median-from-data-stream/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.2417,
+    "companyRank": 7
+  },
+  {
+    "sourceQuestionId": "sudoku-solver",
+    "title": "Sudoku Solver",
+    "sourceUrl": "https://leetcode.com/problems/sudoku-solver/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.2031,
+    "companyRank": 8
+  },
+  {
+    "sourceQuestionId": "sort-characters-by-frequency",
+    "title": "Sort Characters By Frequency",
+    "sourceUrl": "https://leetcode.com/problems/sort-characters-by-frequency/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.1921,
+    "companyRank": 9
+  },
+  {
+    "sourceQuestionId": "number-of-islands",
+    "title": "Number of Islands",
+    "sourceUrl": "https://leetcode.com/problems/number-of-islands/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.1899,
+    "companyRank": 10
+  },
+  {
+    "sourceQuestionId": "subarray-product-less-than-k",
+    "title": "Subarray Product Less Than K",
+    "sourceUrl": "https://leetcode.com/problems/subarray-product-less-than-k/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.1454,
+    "companyRank": 11
+  },
+  {
+    "sourceQuestionId": "k-closest-points-to-origin",
+    "title": "K Closest Points to Origin",
+    "sourceUrl": "https://leetcode.com/problems/k-closest-points-to-origin/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.1352,
+    "companyRank": 12
+  },
+  {
+    "sourceQuestionId": "lru-cache",
+    "title": "LRU Cache",
+    "sourceUrl": "https://leetcode.com/problems/lru-cache/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.1306,
+    "companyRank": 13
+  },
+  {
+    "sourceQuestionId": "two-sum",
+    "title": "Two Sum",
+    "sourceUrl": "https://leetcode.com/problems/two-sum/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.1299,
+    "companyRank": 14
+  },
+  {
+    "sourceQuestionId": "merge-sorted-array",
+    "title": "Merge Sorted Array",
+    "sourceUrl": "https://leetcode.com/problems/merge-sorted-array/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.1199,
+    "companyRank": 15
+  },
+  {
+    "sourceQuestionId": "maximum-subarray",
+    "title": "Maximum Subarray",
+    "sourceUrl": "https://leetcode.com/problems/maximum-subarray/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.1151,
+    "companyRank": 16
+  },
+  {
+    "sourceQuestionId": "search-a-2d-matrix-ii",
+    "title": "Search a 2D Matrix II",
+    "sourceUrl": "https://leetcode.com/problems/search-a-2d-matrix-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.1149,
+    "companyRank": 17
+  },
+  {
+    "sourceQuestionId": "serialize-and-deserialize-binary-tree",
+    "title": "Serialize and Deserialize Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.1076,
+    "companyRank": 18
+  },
+  {
+    "sourceQuestionId": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "sourceUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.0991,
+    "companyRank": 19
+  },
+  {
+    "sourceQuestionId": "copy-list-with-random-pointer",
+    "title": "Copy List with Random Pointer",
+    "sourceUrl": "https://leetcode.com/problems/copy-list-with-random-pointer/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.0947,
+    "companyRank": 20
+  },
+  {
+    "sourceQuestionId": "uncommon-words-from-two-sentences",
+    "title": "Uncommon Words from Two Sentences",
+    "sourceUrl": "https://leetcode.com/problems/uncommon-words-from-two-sentences/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.0799,
+    "companyRank": 21
+  },
+  {
+    "sourceQuestionId": "house-robber",
+    "title": "House Robber",
+    "sourceUrl": "https://leetcode.com/problems/house-robber/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.0585,
+    "companyRank": 22
+  },
+  {
+    "sourceQuestionId": "multiply-strings",
+    "title": "Multiply Strings",
+    "sourceUrl": "https://leetcode.com/problems/multiply-strings/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.0558,
+    "companyRank": 23
+  },
+  {
+    "sourceQuestionId": "find-pivot-index",
+    "title": "Find Pivot Index",
+    "sourceUrl": "https://leetcode.com/problems/find-pivot-index/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.0543,
+    "companyRank": 24
+  },
+  {
+    "sourceQuestionId": "meeting-rooms-ii",
+    "title": "Meeting Rooms II",
+    "sourceUrl": "https://leetcode.com/problems/meeting-rooms-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.0495,
+    "companyRank": 25
+  },
+  {
+    "sourceQuestionId": "3sum",
+    "title": "3Sum",
+    "sourceUrl": "https://leetcode.com/problems/3sum/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.0436,
+    "companyRank": 26
+  },
+  {
+    "sourceQuestionId": "sum-of-left-leaves",
+    "title": "Sum of Left Leaves",
+    "sourceUrl": "https://leetcode.com/problems/sum-of-left-leaves/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.0312,
+    "companyRank": 27
+  },
+  {
+    "sourceQuestionId": "gas-station",
+    "title": "Gas Station",
+    "sourceUrl": "https://leetcode.com/problems/gas-station/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.0302,
+    "companyRank": 28
+  },
+  {
+    "sourceQuestionId": "top-k-frequent-words",
+    "title": "Top K Frequent Words",
+    "sourceUrl": "https://leetcode.com/problems/top-k-frequent-words/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.0297,
+    "companyRank": 29
+  },
+  {
+    "sourceQuestionId": "longest-substring-without-repeating-characters",
+    "title": "Longest Substring Without Repeating Characters",
+    "sourceUrl": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.0246,
+    "companyRank": 30
+  },
+  {
+    "sourceQuestionId": "word-ladder",
+    "title": "Word Ladder",
+    "sourceUrl": "https://leetcode.com/problems/word-ladder/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.0237,
+    "companyRank": 31
+  },
+  {
+    "sourceQuestionId": "daily-temperatures",
+    "title": "Daily Temperatures",
+    "sourceUrl": "https://leetcode.com/problems/daily-temperatures/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.0224,
+    "companyRank": 32
+  },
+  {
+    "sourceQuestionId": "unique-binary-search-trees",
+    "title": "Unique Binary Search Trees",
+    "sourceUrl": "https://leetcode.com/problems/unique-binary-search-trees/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.0207,
+    "companyRank": 33
+  },
+  {
+    "sourceQuestionId": "intersection-of-two-linked-lists",
+    "title": "Intersection of Two Linked Lists",
+    "sourceUrl": "https://leetcode.com/problems/intersection-of-two-linked-lists/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.0195,
+    "companyRank": 34
+  },
+  {
+    "sourceQuestionId": "binary-tree-vertical-order-traversal",
+    "title": "Binary Tree Vertical Order Traversal",
+    "sourceUrl": "https://leetcode.com/problems/binary-tree-vertical-order-traversal/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.018,
+    "companyRank": 35
+  },
+  {
+    "sourceQuestionId": "decode-ways",
+    "title": "Decode Ways",
+    "sourceUrl": "https://leetcode.com/problems/decode-ways/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.0134,
+    "companyRank": 36
+  },
+  {
+    "sourceQuestionId": "valid-anagram",
+    "title": "Valid Anagram",
+    "sourceUrl": "https://leetcode.com/problems/valid-anagram/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.0093,
+    "companyRank": 37
+  },
+  {
+    "sourceQuestionId": "kth-largest-element-in-an-array",
+    "title": "Kth Largest Element in an Array",
+    "sourceUrl": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.0088,
+    "companyRank": 38
+  },
+  {
+    "sourceQuestionId": "two-sum-ii-input-array-is-sorted",
+    "title": "Two Sum II - Input array is sorted",
+    "sourceUrl": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.0055,
+    "companyRank": 39
+  },
+  {
+    "sourceQuestionId": "subarray-sum-equals-k",
+    "title": "Subarray Sum Equals K",
+    "sourceUrl": "https://leetcode.com/problems/subarray-sum-equals-k/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.0043,
+    "companyRank": 40
+  },
+  {
+    "sourceQuestionId": "binary-tree-level-order-traversal",
+    "title": "Binary Tree Level Order Traversal",
+    "sourceUrl": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.0036,
+    "companyRank": 41
+  },
+  {
+    "sourceQuestionId": "valid-triangle-number",
+    "title": "Valid Triangle Number",
+    "sourceUrl": "https://leetcode.com/problems/valid-triangle-number/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.0,
+    "companyRank": 42
+  },
+  {
+    "sourceQuestionId": "the-earliest-moment-when-everyone-become-friends",
+    "title": "The Earliest Moment When Everyone Become Friends",
+    "sourceUrl": "https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.0,
+    "companyRank": 43
+  },
+  {
+    "sourceQuestionId": "minimum-swaps-to-group-all-1s-together",
+    "title": "Minimum Swaps to Group All 1's Together",
+    "sourceUrl": "https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.0,
+    "companyRank": 44
+  },
+  {
+    "sourceQuestionId": "break-a-palindrome",
+    "title": "Break a Palindrome",
+    "sourceUrl": "https://leetcode.com/problems/break-a-palindrome/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.0,
+    "companyRank": 45
+  },
+  {
+    "sourceQuestionId": "rearrange-words-in-a-sentence",
+    "title": "Rearrange Words in a Sentence",
+    "sourceUrl": "https://leetcode.com/problems/rearrange-words-in-a-sentence/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.0,
+    "companyRank": 46
+  },
+  {
+    "sourceQuestionId": "the-kth-factor-of-n",
+    "title": "The kth Factor of n",
+    "sourceUrl": "https://leetcode.com/problems/the-kth-factor-of-n/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "expedia"
+    ],
+    "frequencyScore": 0.0,
+    "companyRank": 47
+  }
+]

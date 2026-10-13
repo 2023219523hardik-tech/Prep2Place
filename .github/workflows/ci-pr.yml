@@ -1,0 +1,159 @@
+name: "CI — Pull Request Validation"
+
+on:
+  pull_request:
+    branches:
+      - main
+      - master
+      - develop
+
+permissions:
+  contents: read
+  security-events: write
+
+concurrency:
+  group: ci-pr-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  # ---------------------------------------------------------------------------
+  # 1. Configuration & Secret Leak Validation
+  # ---------------------------------------------------------------------------
+  config-validation:
+    name: Validate Configuration & Secret Safety
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Verify required deployment files exist
+        run: |
+          test -f .env.example
+          test -f frontendUpdated/.env.example
+          test -f render.yaml
+          test -f FinalBackend/backend/Dockerfile
+          test -f ml-service/Dockerfile
+          test -f frontendUpdated/vercel.json
+
+      - name: Scan configuration files for hardcoded live credentials
+        run: |
+          if grep -rnE "GOCSPX-|Ov23cti|re_48hngcUK" FinalBackend/ frontendUpdated/ ml-service/; then
+            echo "ERROR: Hardcoded OAuth or Resend secret detected in repository!"
+            exit 1
+          fi
+
+  # ---------------------------------------------------------------------------
+  # 2. Backend (Spring Boot 3 / Java 21) Build & Test
+  # ---------------------------------------------------------------------------
+  backend-ci:
+    name: Backend Maven Test & Package
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 21 (Temurin)
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+          cache: maven
+
+      - name: Run Backend Unit & Integration Tests (H2 dev profile)
+        working-directory: FinalBackend/backend
+        env:
+          SPRING_PROFILES_ACTIVE: dev
+        run: mvn -B -ntp test
+
+      - name: Package Production Spring Boot JAR
+        working-directory: FinalBackend/backend
+        run: mvn -B -ntp package -DskipTests
+
+  # ---------------------------------------------------------------------------
+  # 3. Frontend (Next.js 14) Lint, Typecheck & Production Build
+  # ---------------------------------------------------------------------------
+  frontend-ci:
+    name: Frontend Lint & Production Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: frontendUpdated/package-lock.json
+
+      - name: Install dependencies
+        working-directory: frontendUpdated
+        run: npm ci
+
+      - name: Run Next.js Lint
+        working-directory: frontendUpdated
+        run: npm run lint
+
+      - name: Build Production Next.js Bundle
+        working-directory: frontendUpdated
+        env:
+          NEXT_PUBLIC_API_BASE_URL: https://api.example.com
+          NEXT_PUBLIC_API_URL: https://api.example.com
+        run: npm run build
+
+      - name: Audit high/critical npm vulnerabilities (non-blocking report)
+        working-directory: frontendUpdated
+        run: npm audit --audit-level=critical || true
+
+  # ---------------------------------------------------------------------------
+  # 4. Python ML Service Validation
+  # ---------------------------------------------------------------------------
+  ml-service-ci:
+    name: Python ML Service Lint & Import Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: ml-service/requirements.txt
+
+      - name: Install system OpenCV dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends libgl1 libglib2.0-0 ffmpeg
+
+      - name: Install Python dependencies & verify syntax/imports
+        working-directory: ml-service
+        run: |
+          pip install -r requirements.txt
+          python -m py_compile app/*.py
+          python -c "from app.main import app; print('FastAPI app loaded:', app.title)"
+
+  # ---------------------------------------------------------------------------
+  # 5. Dockerfile Validation (Buildx Dry-Run Check)
+  # ---------------------------------------------------------------------------
+  docker-validate:
+    name: Validate Dockerfiles
+    runs-on: ubuntu-latest
+    needs: [config-validation]
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Lint & build ML Service Docker image (no push)
+        uses: docker/build-push-action@v6
+        with:
+          context: ./ml-service
+          file: ./ml-service/Dockerfile
+          push: false
+          load: true
+          cache-from: type=gha
+          cache-to: type=gha,mode=max

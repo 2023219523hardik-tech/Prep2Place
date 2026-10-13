@@ -1,0 +1,10 @@
+﻿$env:COMPANY_SHEETS_PATH='file:c:\Users\hardik\Downloads\Prep2Place-dev\Prep2Place-dev\company-wise-question-sheets\'
+$env:LEETCODE_SEED_JSON_PATH='file:c:\Users\hardik\Downloads\Prep2Place-dev\Prep2Place-dev\dsa-questions.json'
+$env:APP_SEED_SQL_PATH='c:\Users\hardik\Downloads\Prep2Place-dev\Prep2Place-dev\FinalBackend\sql-questions.json'
+$env:APP_SEED_DATAFRAME_PATH='c:\Users\hardik\Downloads\Prep2Place-dev\Prep2Place-dev\FinalBackend\dataframe-questions.json'
+$env:CODING_RUNNER_PROVIDER='local'
+$env:CODING_RUNNER_LOCAL_ENABLED='true'
+$env:CODING_LAB_RUNNER_PROVIDER='docker'
+$env:EMAIL_ENABLED='false'
+Set-Location 'c:\Users\hardik\Downloads\Prep2Place-dev\Prep2Place-dev\FinalBackend\backend'
+Start-Process -FilePath java -ArgumentList '-Xmx2g','-jar',"'c:\Users\hardik\Downloads\Prep2Place-dev\Prep2Place-dev\FinalBackend\backend\target\placement-platform-1.0.0.jar'" -WorkingDirectory 'c:\Users\hardik\Downloads\Prep2Place-dev\Prep2Place-dev\FinalBackend\backend' -RedirectStandardOutput 'c:\Users\hardik\Downloads\Prep2Place-dev\Prep2Place-dev\backend-run.log' -RedirectStandardError 'c:\Users\hardik\Downloads\Prep2Place-dev\Prep2Place-dev\backend-run.err.log' -WindowStyle Hidden

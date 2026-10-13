@@ -1,0 +1,215 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: placement-platform
+
+  datasource:
+    # Keep H2's default identifier handling.  DATABASE_TO_LOWER causes Hibernate's
+    # snake_case foreign-key DDL to target a differently-cased table during startup.
+    url: jdbc:h2:mem:placementdb;MODE=PostgreSQL;DB_CLOSE_DELAY=-1
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+        format_sql: true
+        jdbc:
+          time_zone: UTC
+    open-in-view: false
+    defer-datasource-initialization: true
+
+  sql:
+    init:
+      mode: never
+
+  flyway:
+    enabled: false
+
+  servlet:
+    multipart:
+      max-file-size: 25MB
+      max-request-size: 25MB
+
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: ${GOOGLE_CLIENT_ID:disabled-google-client-id}
+            client-secret: ${GOOGLE_CLIENT_SECRET:disabled-google-client-secret}
+            scope: openid,profile,email
+            redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
+          github:
+            client-id: ${GITHUB_CLIENT_ID:disabled-github-client-id}
+            client-secret: ${GITHUB_CLIENT_SECRET:disabled-github-client-secret}
+            scope: read:user,user:email
+            redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
+        provider:
+          github:
+            user-info-uri: https://api.github.com/user
+
+  data:
+    redis:
+      host: ${REDIS_HOST:localhost}
+      port: ${REDIS_PORT:6379}
+      password: ${REDIS_PASSWORD:}
+      timeout: 2s
+      connect-timeout: 3s
+      lettuce:
+        pool:
+          max-active: 8
+          max-idle: 8
+          min-idle: 0
+
+  kafka:
+    bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS:localhost:9092}
+    consumer:
+      group-id: ${KAFKA_CONSUMER_GROUP:placement-auth-group}
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      properties:
+        spring.json.trusted.packages: "*"
+    producer:
+      acks: all
+      retries: 3
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+      properties:
+        enable.idempotence: true
+        spring.json.type.mapping: "authEvent:com.placement.messaging.AuthEvent"
+    listener:
+      missing-topics-fatal: false
+    admin:
+      fail-fast: false
+
+app:
+  jwt:
+    secret: ${JWT_SECRET:local-dev-only-jwt-secret-key-please-override-in-production-32bytes}
+    access-token-expiry-ms: 3600000
+    refresh-token-expiry-ms: 604800000
+
+  cors:
+    allowed-origins: "http://localhost:3000,http://localhost:3001,http://localhost:3002"
+
+  ml-service:
+    enabled: false
+    url: "http://localhost:5001"
+
+  redis:
+    enabled: false
+
+  proctoring:
+    evidence-retention-days: 30
+
+  questionbank:
+    sync-cron: "0 0 3 * * SUN"
+
+  coding:
+    runner:
+      provider: local
+      docker:
+        image: prep2place-code-runner:latest
+        network-disabled: true
+        max-output-bytes: 65536
+      local:
+        enabled: true
+        max-output-bytes: 65536
+        java-heap-mb: 192
+        infrastructure-grace-ms: 10000
+
+  coding-lab:
+    seed:
+      enabled: true
+    runner:
+      provider: docker
+      max-concurrent: 3
+      queue-wait-seconds: 15
+      build-timeout-seconds: 60
+      image:
+        java: prep2place-lab-java:1
+        node: prep2place-lab-node:1
+        python: prep2place-lab-python:1
+      docker:
+        binary: docker
+        network-disabled: true
+        max-output-bytes: 32768
+
+  llm:
+    provider: none
+    base-url: ""
+    api-key: ""
+    model: ""
+    max-tokens: 9000
+    max-tokens-param: max_tokens
+    temperature: ""
+    timeout-seconds: 180
+    max-repairs: 2
+
+  email:
+    enabled: false
+    from: ${EMAIL_FROM:onboarding@resend.dev}
+    resend-api-key: ${RESEND_API_KEY:}
+    verification-expiry-minutes: 30
+
+  kafka:
+    enabled: false
+    auth-topic: auth-events
+    email-topic: email-events
+
+  url: ${APP_URL:http://localhost:3000}
+
+companyvault:
+  enabled: true
+  seed-classpath: "classpath*:companyvault-seed/*.json"
+  sheets-path: ${COMPANY_SHEETS_PATH:file:../../company-wise-question-sheets/}
+  seed-json-path: ${LEETCODE_SEED_JSON_PATH:file:../../dsa-questions.json}
+
+questionbank:
+  tuf:
+    enabled: true
+    integration-mode: METADATA_REFERENCE_ONLY
+    api-base-url: ""
+    api-key: ""
+  leetcode:
+    enabled: true
+    integration-mode: METADATA_REFERENCE_ONLY
+    api-base-url: ""
+    api-key: ""
+  hackerrank:
+    enabled: true
+    integration-mode: METADATA_REFERENCE_ONLY
+    api-base-url: ""
+    api-key: ""
+  gfg:
+    enabled: true
+    integration-mode: METADATA_REFERENCE_ONLY
+    api-base-url: ""
+    api-key: ""
+  dedup:
+    auto-merge-threshold: 0.93
+    review-threshold: 0.78
+  sync:
+    max-retries: 3
+    retry-backoff-ms: 1500
+    timeout-ms: 8000
+
+logging:
+  level:
+    com.placement: INFO
+    org.springframework.kafka: WARN
+    org.springframework.data.redis: WARN
+    org.apache.kafka: ERROR

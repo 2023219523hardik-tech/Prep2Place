@@ -1,0 +1,14 @@
+{
+  "name": "p2p-node-runtime",
+  "private": true,
+  "description": "Libraries baked into the Coding Lab node image (sandbox has no network at run time).",
+  "dependencies": {
+    "esbuild": "^0.24.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "jsdom": "^25.0.1",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/react": "^16.0.1",
+    "@testing-library/user-event": "^14.5.2"
+  }
+}

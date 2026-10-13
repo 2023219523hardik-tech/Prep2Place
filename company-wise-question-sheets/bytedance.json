@@ -1,0 +1,1127 @@
+[
+  {
+    "sourceQuestionId": "k-th-smallest-in-lexicographical-order",
+    "title": "K-th Smallest in Lexicographical Order",
+    "sourceUrl": "https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.6256,
+    "companyRank": 1
+  },
+  {
+    "sourceQuestionId": "optimal-account-balancing",
+    "title": "Optimal Account Balancing",
+    "sourceUrl": "https://leetcode.com/problems/optimal-account-balancing/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.5742,
+    "companyRank": 2
+  },
+  {
+    "sourceQuestionId": "trapping-rain-water",
+    "title": "Trapping Rain Water",
+    "sourceUrl": "https://leetcode.com/problems/trapping-rain-water/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.5642,
+    "companyRank": 3
+  },
+  {
+    "sourceQuestionId": "reverse-pairs",
+    "title": "Reverse Pairs",
+    "sourceUrl": "https://leetcode.com/problems/reverse-pairs/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.5129,
+    "companyRank": 4
+  },
+  {
+    "sourceQuestionId": "android-unlock-patterns",
+    "title": "Android Unlock Patterns",
+    "sourceUrl": "https://leetcode.com/problems/android-unlock-patterns/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.4932,
+    "companyRank": 5
+  },
+  {
+    "sourceQuestionId": "reverse-nodes-in-k-group",
+    "title": "Reverse Nodes in k-Group",
+    "sourceUrl": "https://leetcode.com/problems/reverse-nodes-in-k-group/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.4844,
+    "companyRank": 6
+  },
+  {
+    "sourceQuestionId": "trapping-rain-water-ii",
+    "title": "Trapping Rain Water II",
+    "sourceUrl": "https://leetcode.com/problems/trapping-rain-water-ii/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.4559,
+    "companyRank": 7
+  },
+  {
+    "sourceQuestionId": "lru-cache",
+    "title": "LRU Cache",
+    "sourceUrl": "https://leetcode.com/problems/lru-cache/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.4555,
+    "companyRank": 8
+  },
+  {
+    "sourceQuestionId": "number-of-atoms",
+    "title": "Number of Atoms",
+    "sourceUrl": "https://leetcode.com/problems/number-of-atoms/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.4445,
+    "companyRank": 9
+  },
+  {
+    "sourceQuestionId": "frog-jump",
+    "title": "Frog Jump",
+    "sourceUrl": "https://leetcode.com/problems/frog-jump/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.4111,
+    "companyRank": 10
+  },
+  {
+    "sourceQuestionId": "swap-adjacent-in-lr-string",
+    "title": "Swap Adjacent in LR String",
+    "sourceUrl": "https://leetcode.com/problems/swap-adjacent-in-lr-string/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.3886,
+    "companyRank": 11
+  },
+  {
+    "sourceQuestionId": "implement-rand10-using-rand7",
+    "title": "Implement Rand10() Using Rand7()",
+    "sourceUrl": "https://leetcode.com/problems/implement-rand10-using-rand7/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.3541,
+    "companyRank": 12
+  },
+  {
+    "sourceQuestionId": "smallest-string-with-swaps",
+    "title": "Smallest String With Swaps",
+    "sourceUrl": "https://leetcode.com/problems/smallest-string-with-swaps/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.343,
+    "companyRank": 13
+  },
+  {
+    "sourceQuestionId": "greatest-sum-divisible-by-three",
+    "title": "Greatest Sum Divisible by Three",
+    "sourceUrl": "https://leetcode.com/problems/greatest-sum-divisible-by-three/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.3224,
+    "companyRank": 14
+  },
+  {
+    "sourceQuestionId": "dinner-plate-stacks",
+    "title": "Dinner Plate Stacks",
+    "sourceUrl": "https://leetcode.com/problems/dinner-plate-stacks/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.2711,
+    "companyRank": 15
+  },
+  {
+    "sourceQuestionId": "campus-bikes",
+    "title": "Campus Bikes",
+    "sourceUrl": "https://leetcode.com/problems/campus-bikes/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.2582,
+    "companyRank": 16
+  },
+  {
+    "sourceQuestionId": "next-permutation",
+    "title": "Next Permutation",
+    "sourceUrl": "https://leetcode.com/problems/next-permutation/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.258,
+    "companyRank": 17
+  },
+  {
+    "sourceQuestionId": "maximum-swap",
+    "title": "Maximum Swap",
+    "sourceUrl": "https://leetcode.com/problems/maximum-swap/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.2295,
+    "companyRank": 18
+  },
+  {
+    "sourceQuestionId": "reorder-list",
+    "title": "Reorder List",
+    "sourceUrl": "https://leetcode.com/problems/reorder-list/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.2118,
+    "companyRank": 19
+  },
+  {
+    "sourceQuestionId": "search-in-rotated-sorted-array",
+    "title": "Search in Rotated Sorted Array",
+    "sourceUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.1882,
+    "companyRank": 20
+  },
+  {
+    "sourceQuestionId": "next-closest-time",
+    "title": "Next Closest Time",
+    "sourceUrl": "https://leetcode.com/problems/next-closest-time/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.1881,
+    "companyRank": 21
+  },
+  {
+    "sourceQuestionId": "add-two-numbers-ii",
+    "title": "Add Two Numbers II",
+    "sourceUrl": "https://leetcode.com/problems/add-two-numbers-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.1811,
+    "companyRank": 22
+  },
+  {
+    "sourceQuestionId": "find-the-smallest-divisor-given-a-threshold",
+    "title": "Find the Smallest Divisor Given a Threshold",
+    "sourceUrl": "https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.1788,
+    "companyRank": 23
+  },
+  {
+    "sourceQuestionId": "maximum-profit-in-job-scheduling",
+    "title": "Maximum Profit in Job Scheduling",
+    "sourceUrl": "https://leetcode.com/problems/maximum-profit-in-job-scheduling/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.1533,
+    "companyRank": 24
+  },
+  {
+    "sourceQuestionId": "max-area-of-island",
+    "title": "Max Area of Island",
+    "sourceUrl": "https://leetcode.com/problems/max-area-of-island/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.1453,
+    "companyRank": 25
+  },
+  {
+    "sourceQuestionId": "shortest-distance-from-all-buildings",
+    "title": "Shortest Distance from All Buildings",
+    "sourceUrl": "https://leetcode.com/problems/shortest-distance-from-all-buildings/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.1439,
+    "companyRank": 26
+  },
+  {
+    "sourceQuestionId": "n-queens",
+    "title": "N-Queens",
+    "sourceUrl": "https://leetcode.com/problems/n-queens/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.1387,
+    "companyRank": 27
+  },
+  {
+    "sourceQuestionId": "serialize-and-deserialize-bst",
+    "title": "Serialize and Deserialize BST",
+    "sourceUrl": "https://leetcode.com/problems/serialize-and-deserialize-bst/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.1328,
+    "companyRank": 28
+  },
+  {
+    "sourceQuestionId": "remove-duplicate-letters",
+    "title": "Remove Duplicate Letters",
+    "sourceUrl": "https://leetcode.com/problems/remove-duplicate-letters/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.1166,
+    "companyRank": 29
+  },
+  {
+    "sourceQuestionId": "search-a-2d-matrix-ii",
+    "title": "Search a 2D Matrix II",
+    "sourceUrl": "https://leetcode.com/problems/search-a-2d-matrix-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.1149,
+    "companyRank": 30
+  },
+  {
+    "sourceQuestionId": "longest-increasing-path-in-a-matrix",
+    "title": "Longest Increasing Path in a Matrix",
+    "sourceUrl": "https://leetcode.com/problems/longest-increasing-path-in-a-matrix/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.1146,
+    "companyRank": 31
+  },
+  {
+    "sourceQuestionId": "kth-largest-element-in-an-array",
+    "title": "Kth Largest Element in an Array",
+    "sourceUrl": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.1118,
+    "companyRank": 32
+  },
+  {
+    "sourceQuestionId": "binary-tree-right-side-view",
+    "title": "Binary Tree Right Side View",
+    "sourceUrl": "https://leetcode.com/problems/binary-tree-right-side-view/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.1092,
+    "companyRank": 33
+  },
+  {
+    "sourceQuestionId": "score-of-parentheses",
+    "title": "Score of Parentheses",
+    "sourceUrl": "https://leetcode.com/problems/score-of-parentheses/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.1,
+    "companyRank": 34
+  },
+  {
+    "sourceQuestionId": "course-schedule",
+    "title": "Course Schedule",
+    "sourceUrl": "https://leetcode.com/problems/course-schedule/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.096,
+    "companyRank": 35
+  },
+  {
+    "sourceQuestionId": "longest-substring-without-repeating-characters",
+    "title": "Longest Substring Without Repeating Characters",
+    "sourceUrl": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.095,
+    "companyRank": 36
+  },
+  {
+    "sourceQuestionId": "longest-substring-with-at-least-k-repeating-characters",
+    "title": "Longest Substring with At Least K Repeating Characters",
+    "sourceUrl": "https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.0936,
+    "companyRank": 37
+  },
+  {
+    "sourceQuestionId": "generalized-abbreviation",
+    "title": "Generalized Abbreviation",
+    "sourceUrl": "https://leetcode.com/problems/generalized-abbreviation/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.0935,
+    "companyRank": 38
+  },
+  {
+    "sourceQuestionId": "expression-add-operators",
+    "title": "Expression Add Operators",
+    "sourceUrl": "https://leetcode.com/problems/expression-add-operators/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.0872,
+    "companyRank": 39
+  },
+  {
+    "sourceQuestionId": "reverse-linked-list",
+    "title": "Reverse Linked List",
+    "sourceUrl": "https://leetcode.com/problems/reverse-linked-list/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.081,
+    "companyRank": 40
+  },
+  {
+    "sourceQuestionId": "merge-k-sorted-lists",
+    "title": "Merge k Sorted Lists",
+    "sourceUrl": "https://leetcode.com/problems/merge-k-sorted-lists/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.079,
+    "companyRank": 41
+  },
+  {
+    "sourceQuestionId": "spiral-matrix",
+    "title": "Spiral Matrix",
+    "sourceUrl": "https://leetcode.com/problems/spiral-matrix/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.0779,
+    "companyRank": 42
+  },
+  {
+    "sourceQuestionId": "lowest-common-ancestor-of-a-binary-tree",
+    "title": "Lowest Common Ancestor of a Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.0729,
+    "companyRank": 43
+  },
+  {
+    "sourceQuestionId": "subsets",
+    "title": "Subsets",
+    "sourceUrl": "https://leetcode.com/problems/subsets/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.0721,
+    "companyRank": 44
+  },
+  {
+    "sourceQuestionId": "queue-reconstruction-by-height",
+    "title": "Queue Reconstruction by Height",
+    "sourceUrl": "https://leetcode.com/problems/queue-reconstruction-by-height/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.0692,
+    "companyRank": 45
+  },
+  {
+    "sourceQuestionId": "lexicographical-numbers",
+    "title": "Lexicographical Numbers",
+    "sourceUrl": "https://leetcode.com/problems/lexicographical-numbers/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.0688,
+    "companyRank": 46
+  },
+  {
+    "sourceQuestionId": "merge-intervals",
+    "title": "Merge Intervals",
+    "sourceUrl": "https://leetcode.com/problems/merge-intervals/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.0681,
+    "companyRank": 47
+  },
+  {
+    "sourceQuestionId": "sort-list",
+    "title": "Sort List",
+    "sourceUrl": "https://leetcode.com/problems/sort-list/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.0681,
+    "companyRank": 48
+  },
+  {
+    "sourceQuestionId": "all-nodes-distance-k-in-binary-tree",
+    "title": "All Nodes Distance K in Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.0662,
+    "companyRank": 49
+  },
+  {
+    "sourceQuestionId": "simplify-path",
+    "title": "Simplify Path",
+    "sourceUrl": "https://leetcode.com/problems/simplify-path/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.0635,
+    "companyRank": 50
+  },
+  {
+    "sourceQuestionId": "basic-calculator-iii",
+    "title": "Basic Calculator III",
+    "sourceUrl": "https://leetcode.com/problems/basic-calculator-iii/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.0633,
+    "companyRank": 51
+  },
+  {
+    "sourceQuestionId": "edit-distance",
+    "title": "Edit Distance",
+    "sourceUrl": "https://leetcode.com/problems/edit-distance/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.061,
+    "companyRank": 52
+  },
+  {
+    "sourceQuestionId": "median-of-two-sorted-arrays",
+    "title": "Median of Two Sorted Arrays",
+    "sourceUrl": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.0606,
+    "companyRank": 53
+  },
+  {
+    "sourceQuestionId": "first-missing-positive",
+    "title": "First Missing Positive",
+    "sourceUrl": "https://leetcode.com/problems/first-missing-positive/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.0563,
+    "companyRank": 54
+  },
+  {
+    "sourceQuestionId": "minimum-remove-to-make-valid-parentheses",
+    "title": "Minimum Remove to Make Valid Parentheses",
+    "sourceUrl": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.0561,
+    "companyRank": 55
+  },
+  {
+    "sourceQuestionId": "count-complete-tree-nodes",
+    "title": "Count Complete Tree Nodes",
+    "sourceUrl": "https://leetcode.com/problems/count-complete-tree-nodes/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.0549,
+    "companyRank": 56
+  },
+  {
+    "sourceQuestionId": "asteroid-collision",
+    "title": "Asteroid Collision",
+    "sourceUrl": "https://leetcode.com/problems/asteroid-collision/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.0548,
+    "companyRank": 57
+  },
+  {
+    "sourceQuestionId": "largest-number",
+    "title": "Largest Number",
+    "sourceUrl": "https://leetcode.com/problems/largest-number/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.0543,
+    "companyRank": 58
+  },
+  {
+    "sourceQuestionId": "maximum-product-of-splitted-binary-tree",
+    "title": "Maximum Product of Splitted Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.0506,
+    "companyRank": 59
+  },
+  {
+    "sourceQuestionId": "binary-tree-maximum-path-sum",
+    "title": "Binary Tree Maximum Path Sum",
+    "sourceUrl": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.0487,
+    "companyRank": 60
+  },
+  {
+    "sourceQuestionId": "check-completeness-of-a-binary-tree",
+    "title": "Check Completeness of a Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/check-completeness-of-a-binary-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.0483,
+    "companyRank": 61
+  },
+  {
+    "sourceQuestionId": "container-with-most-water",
+    "title": "Container With Most Water",
+    "sourceUrl": "https://leetcode.com/problems/container-with-most-water/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.048,
+    "companyRank": 62
+  },
+  {
+    "sourceQuestionId": "diameter-of-binary-tree",
+    "title": "Diameter of Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/diameter-of-binary-tree/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.0468,
+    "companyRank": 63
+  },
+  {
+    "sourceQuestionId": "add-strings",
+    "title": "Add Strings",
+    "sourceUrl": "https://leetcode.com/problems/add-strings/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.0465,
+    "companyRank": 64
+  },
+  {
+    "sourceQuestionId": "two-sum",
+    "title": "Two Sum",
+    "sourceUrl": "https://leetcode.com/problems/two-sum/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.0451,
+    "companyRank": 65
+  },
+  {
+    "sourceQuestionId": "top-k-frequent-elements",
+    "title": "Top K Frequent Elements",
+    "sourceUrl": "https://leetcode.com/problems/top-k-frequent-elements/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.044,
+    "companyRank": 66
+  },
+  {
+    "sourceQuestionId": "intersection-of-two-linked-lists",
+    "title": "Intersection of Two Linked Lists",
+    "sourceUrl": "https://leetcode.com/problems/intersection-of-two-linked-lists/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.0433,
+    "companyRank": 67
+  },
+  {
+    "sourceQuestionId": "maximum-subarray",
+    "title": "Maximum Subarray",
+    "sourceUrl": "https://leetcode.com/problems/maximum-subarray/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.043,
+    "companyRank": 68
+  },
+  {
+    "sourceQuestionId": "add-two-numbers",
+    "title": "Add Two Numbers",
+    "sourceUrl": "https://leetcode.com/problems/add-two-numbers/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.0414,
+    "companyRank": 69
+  },
+  {
+    "sourceQuestionId": "word-search",
+    "title": "Word Search",
+    "sourceUrl": "https://leetcode.com/problems/word-search/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.0408,
+    "companyRank": 70
+  },
+  {
+    "sourceQuestionId": "find-peak-element",
+    "title": "Find Peak Element",
+    "sourceUrl": "https://leetcode.com/problems/find-peak-element/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.039,
+    "companyRank": 71
+  },
+  {
+    "sourceQuestionId": "remove-k-digits",
+    "title": "Remove K Digits",
+    "sourceUrl": "https://leetcode.com/problems/remove-k-digits/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.0376,
+    "companyRank": 72
+  },
+  {
+    "sourceQuestionId": "coin-change",
+    "title": "Coin Change",
+    "sourceUrl": "https://leetcode.com/problems/coin-change/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.0357,
+    "companyRank": 73
+  },
+  {
+    "sourceQuestionId": "merge-two-sorted-lists",
+    "title": "Merge Two Sorted Lists",
+    "sourceUrl": "https://leetcode.com/problems/merge-two-sorted-lists/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.0355,
+    "companyRank": 74
+  },
+  {
+    "sourceQuestionId": "subarray-sums-divisible-by-k",
+    "title": "Subarray Sums Divisible by K",
+    "sourceUrl": "https://leetcode.com/problems/subarray-sums-divisible-by-k/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bytedance"
+    ],
+    "frequencyScore": 0.0337,
+    "companyRank": 75
+  }
+]

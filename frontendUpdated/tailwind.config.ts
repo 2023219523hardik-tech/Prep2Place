@@ -1,0 +1,176 @@
+import type { Config } from "tailwindcss";
+
+const config: Config = {
+  content: [
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        premium: {
+          50: "#f5f3ff",
+          100: "#ede9fe",
+          200: "#ddd6fe",
+          300: "#c4b5fd",
+          400: "#a78bfa",
+          500: "#8b5cf6",
+          600: "#7c3aed",
+          700: "#6d28d9",
+          800: "#5b21b6",
+          900: "#4c1d95",
+        },
+        accent: {
+          50: "#ecfeff",
+          100: "#cffafe",
+          200: "#a5f3fc",
+          300: "#67e8f9",
+          400: "#22d3ee",
+          500: "#06b6d4",
+          600: "#0891b2",
+          700: "#0e7490",
+        },
+        gold: {
+          400: "#facc15",
+          500: "#eab308",
+          600: "#ca8a04",
+        },
+        ink: {
+          900: "#0b1020",
+          800: "#111836",
+          700: "#1f2a52",
+          600: "#2a3666",
+          500: "#3b477a",
+        },
+        surface: {
+          DEFAULT: "#ffffff",
+          muted: "#f8fafc",
+          soft: "#f1f5f9",
+          elevated: "#ffffff",
+          panel: "#fbfaff",
+          sidebar: "#fcfaff",
+          workspace: "#f4f6fb",
+        },
+        border: {
+          subtle: "#f1f5f9",
+          DEFAULT: "#e2e8f0",
+          strong: "#cbd5e1",
+          accent: "rgba(124, 58, 237, 0.18)",
+        },
+        slate: {
+          950: "#020617",
+        },
+      },
+      fontFamily: {
+        sans: ["Inter", "ui-sans-serif", "system-ui", "-apple-system", "Segoe UI", "Roboto", "sans-serif"],
+        display: ["'Space Grotesk'", "Inter", "system-ui", "sans-serif"],
+        mono: ["'JetBrains Mono'", "'SFMono-Regular'", "Menlo", "Consolas", "monospace"],
+      },
+      fontSize: {
+        xs: ["11px", { lineHeight: "16px", letterSpacing: "0.01em" }],
+        sm: ["13px", { lineHeight: "18px", letterSpacing: "0.005em" }],
+        base: ["14.5px", { lineHeight: "22px", letterSpacing: "0.002em" }],
+        lg: ["16px", { lineHeight: "24px" }],
+        xl: ["18px", { lineHeight: "26px" }],
+        "2xl": ["21px", { lineHeight: "28px", letterSpacing: "-0.01em" }],
+        "3xl": ["26px", { lineHeight: "34px", letterSpacing: "-0.015em" }],
+        "4xl": ["32px", { lineHeight: "40px", letterSpacing: "-0.02em" }],
+        "5xl": ["40px", { lineHeight: "48px", letterSpacing: "-0.022em" }],
+        caption: ["11.5px", { lineHeight: "16px", letterSpacing: "0.03em" }],
+        eyebrow: ["10.5px", { lineHeight: "14px", letterSpacing: "0.1em" }],
+      },
+      borderRadius: {
+        "2xs": "4px",
+        xs: "6px",
+        sm: "8px",
+        DEFAULT: "10px",
+        md: "12px",
+        lg: "14px",
+        xl: "18px",
+        "2xl": "22px",
+        "3xl": "28px",
+      },
+      spacing: {
+        "4.5": "18px",
+        "5.5": "22px",
+        "6.5": "26px",
+        "10.5": "42px",
+        "11": "44px",
+        "12.5": "50px",
+        "13": "52px",
+        "15": "60px",
+        "17": "68px",
+        "18": "72px",
+        "68": "272px",
+        "72": "288px",
+        "76": "304px",
+        "82": "328px",
+        "88": "352px",
+        "112": "448px",
+        "128": "512px",
+        "144": "576px",
+      },
+      boxShadow: {
+        premium: "0 10px 40px -10px rgba(124, 58, 237, 0.35)",
+        glow: "0 0 40px rgba(139, 92, 246, 0.25)",
+        card: "0 2px 10px rgba(15, 23, 42, 0.06), 0 20px 50px -15px rgba(15, 23, 42, 0.08)",
+        soft: "0 1px 2px rgba(15, 23, 42, 0.04), 0 4px 14px -6px rgba(15, 23, 42, 0.08)",
+        panel: "0 1px 0 rgba(15,23,42,0.04), inset 0 0 0 1px rgba(15,23,42,0.04)",
+        elevated: "0 8px 30px -10px rgba(15, 23, 42, 0.18)",
+        ring: "0 0 0 1px rgba(124, 58, 237, 0.35)",
+        workspace: "inset 0 1px 0 rgba(15,23,42,0.04)",
+        popover: "0 8px 40px -12px rgba(15,23,42,0.25), 0 2px 8px rgba(15,23,42,0.08)",
+      },
+      backgroundImage: {
+        "premium-gradient": "linear-gradient(135deg, #7c3aed 0%, #06b6d4 100%)",
+        "hero-glow":
+          "radial-gradient(60% 60% at 50% 0%, rgba(139, 92, 246, 0.25) 0%, rgba(6, 182, 212, 0.08) 40%, transparent 70%)",
+        "card-gradient":
+          "linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(250,248,255,1) 100%)",
+        "surface-striped":
+          "repeating-linear-gradient(135deg, rgba(124,58,237,0.03) 0px, rgba(124,58,237,0.03) 2px, transparent 2px, transparent 10px)",
+        "skeleton-shimmer":
+          "linear-gradient(90deg, rgba(226,232,240,0.5) 0%, rgba(241,245,249,0.85) 50%, rgba(226,232,240,0.5) 100%)",
+      },
+      animation: {
+        "fade-in": "fadeIn 0.5s ease-out",
+        "fade-in-up": "fadeInUp 0.5s cubic-bezier(0.16, 1, 0.3, 1)",
+        "slide-up": "slideUp 0.55s cubic-bezier(0.16, 1, 0.3, 1)",
+        "slide-in-right": "slideInRight 0.35s cubic-bezier(0.16, 1, 0.3, 1)",
+        "pulse-slow": "pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+        "float": "float 6s ease-in-out infinite",
+        "shimmer": "shimmer 1.6s linear infinite",
+        "scale-in": "scaleIn 0.2s cubic-bezier(0.16, 1, 0.3, 1)",
+      },
+      keyframes: {
+        fadeIn: { "0%": { opacity: "0" }, "100%": { opacity: "1" } },
+        fadeInUp: {
+          "0%": { opacity: "0", transform: "translateY(6px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+        slideUp: {
+          "0%": { opacity: "0", transform: "translateY(18px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+        slideInRight: {
+          "0%": { opacity: "0", transform: "translateX(22px)" },
+          "100%": { opacity: "1", transform: "translateX(0)" },
+        },
+        scaleIn: {
+          "0%": { opacity: "0", transform: "scale(0.96)" },
+          "100%": { opacity: "1", transform: "scale(1)" },
+        },
+        shimmer: {
+          "0%": { backgroundPosition: "-200% 0" },
+          "100%": { backgroundPosition: "200% 0" },
+        },
+        float: {
+          "0%,100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-10px)" },
+        },
+      },
+    },
+  },
+  plugins: [],
+};
+export default config;

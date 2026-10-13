@@ -1,0 +1,58 @@
+{
+ "title": "Machine Learning: Classification Metrics from Scratch",
+ "codingType": "MACHINE_LEARNING",
+ "difficulty": "MEDIUM",
+ "runtime": "PYTHON_PYTEST",
+ "summary": "Implement accuracy, the confusion matrix, precision/recall/F1 and macro-F1 without scikit-learn - the metrics every ML interview probes.",
+ "problemStatement": "## Scenario\nYou are on an ML team that cannot pull heavy libraries into a tiny evaluation service. Implement the core **classification metrics** by hand in `metrics.py`.\n\n## Task\nImplement these functions (labels may be ints or strings; inputs are equal-length lists):\n\n- `accuracy(y_true, y_pred)` - fraction of exact matches.\n- `confusion_matrix(y_true, y_pred, labels=None)` - returns a nested dict `{actual: {predicted: count}}` containing **every** label in `labels` as both a row and a column (zero-filled). Default `labels` is the sorted union of the labels seen in `y_true` and `y_pred`. Pairs involving a label not in `labels` are ignored.\n- `precision_recall_f1(y_true, y_pred, positive_label=1)` - returns `(precision, recall, f1)` treating `positive_label` as the positive class. Any ratio whose denominator is `0` is `0.0`.\n- `macro_f1(y_true, y_pred)` - the unweighted mean of the per-class F1 over every label seen in `y_true` or `y_pred`.\n\n## Errors\nEvery function raises `ValueError` if `y_true` and `y_pred` differ in length or are empty.",
+ "requirements": [
+  {
+   "id": "R1",
+   "title": "Accuracy and input validation",
+   "description": "accuracy() is correct and every function rejects mismatched or empty inputs.",
+   "weight": 2
+  },
+  {
+   "id": "R2",
+   "title": "Confusion matrix",
+   "description": "Zero-filled nested dict over all labels, respecting an explicit labels argument.",
+   "weight": 3
+  },
+  {
+   "id": "R3",
+   "title": "Precision, recall and F1",
+   "description": "Binary metrics with safe handling of zero denominators.",
+   "weight": 3
+  },
+  {
+   "id": "R4",
+   "title": "Macro F1",
+   "description": "Unweighted mean of per-class F1 across all labels seen.",
+   "weight": 2
+  }
+ ],
+ "timeLimitMinutes": 35,
+ "technology": "Python 3.12 + pytest",
+ "skills": [
+  "Machine learning",
+  "Model evaluation",
+  "Python"
+ ],
+ "tags": [
+  "metrics",
+  "evaluation"
+ ],
+ "targetJobRole": "ML Engineer",
+ "starterFiles": {
+  "metrics.py": "\"\"\"Classification metrics implemented from scratch (no scikit-learn).\"\"\"\n\n\ndef accuracy(y_true, y_pred):\n    \"\"\"Fraction of predictions that exactly match the true labels.\"\"\"\n    raise NotImplementedError\n\n\ndef confusion_matrix(y_true, y_pred, labels=None):\n    \"\"\"Return {actual: {predicted: count}} for every label in `labels`.\"\"\"\n    raise NotImplementedError\n\n\ndef precision_recall_f1(y_true, y_pred, positive_label=1):\n    \"\"\"Return (precision, recall, f1) for `positive_label`; 0.0 when a denominator is 0.\"\"\"\n    raise NotImplementedError\n\n\ndef macro_f1(y_true, y_pred):\n    \"\"\"Unweighted mean of per-class F1 over every label seen in y_true or y_pred.\"\"\"\n    raise NotImplementedError\n"
+ },
+ "referenceFiles": {
+  "metrics.py": "\"\"\"Classification metrics implemented from scratch (no scikit-learn).\"\"\"\n\n\ndef _check(y_true, y_pred):\n    if len(y_true) != len(y_pred):\n        raise ValueError(\"y_true and y_pred must have the same length\")\n    if len(y_true) == 0:\n        raise ValueError(\"inputs must not be empty\")\n\n\ndef accuracy(y_true, y_pred):\n    _check(y_true, y_pred)\n    return sum(1 for t, p in zip(y_true, y_pred) if t == p) / len(y_true)\n\n\ndef confusion_matrix(y_true, y_pred, labels=None):\n    _check(y_true, y_pred)\n    if labels is None:\n        labels = sorted(set(y_true) | set(y_pred))\n    matrix = {a: {p: 0 for p in labels} for a in labels}\n    for t, p in zip(y_true, y_pred):\n        if t in matrix and p in matrix[t]:\n            matrix[t][p] += 1\n    return matrix\n\n\ndef precision_recall_f1(y_true, y_pred, positive_label=1):\n    _check(y_true, y_pred)\n    tp = sum(1 for t, p in zip(y_true, y_pred) if t == positive_label and p == positive_label)\n    fp = sum(1 for t, p in zip(y_true, y_pred) if t != positive_label and p == positive_label)\n    fn = sum(1 for t, p in zip(y_true, y_pred) if t == positive_label and p != positive_label)\n    precision = tp / (tp + fp) if tp + fp else 0.0\n    recall = tp / (tp + fn) if tp + fn else 0.0\n    f1 = 2 * precision * recall / (precision + recall) if precision + recall else 0.0\n    return precision, recall, f1\n\n\ndef macro_f1(y_true, y_pred):\n    _check(y_true, y_pred)\n    labels = sorted(set(y_true) | set(y_pred))\n    return sum(precision_recall_f1(y_true, y_pred, label)[2] for label in labels) / len(labels)\n"
+ },
+ "publicTestFiles": {
+  "tests/public/test_metrics.py": "import pytest\nfrom metrics import accuracy, confusion_matrix, precision_recall_f1, macro_f1\n\n\ndef test_r1_accuracy_counts_exact_matches():\n    assert accuracy([1, 0, 1, 1], [1, 0, 0, 1]) == pytest.approx(0.75)\n\n\ndef test_r2_confusion_matrix_for_binary_labels():\n    m = confusion_matrix([1, 0, 1, 0], [1, 1, 0, 0])\n    assert m == {0: {0: 1, 1: 1}, 1: {0: 1, 1: 1}}\n\n\ndef test_r3_precision_recall_f1():\n    p, r, f1 = precision_recall_f1([1, 1, 0, 0], [1, 0, 1, 0])\n    assert (p, r) == (pytest.approx(0.5), pytest.approx(0.5))\n    assert f1 == pytest.approx(0.5)\n\n\ndef test_r4_macro_f1_is_perfect_for_perfect_predictions():\n    assert macro_f1([\"a\", \"b\", \"a\"], [\"a\", \"b\", \"a\"]) == pytest.approx(1.0)\n"
+ },
+ "hiddenTestFiles": {
+  "tests/hidden/test_metrics.py": "import pytest\nfrom metrics import accuracy, confusion_matrix, precision_recall_f1, macro_f1\n\n\n@pytest.mark.parametrize(\"fn\", [accuracy, confusion_matrix, precision_recall_f1, macro_f1])\ndef test_r1_every_function_rejects_bad_inputs(fn):\n    with pytest.raises(ValueError):\n        fn([1, 0], [1])\n    with pytest.raises(ValueError):\n        fn([], [])\n\n\ndef test_r1_accuracy_bounds():\n    assert accuracy([1, 1], [0, 0]) == 0.0\n    assert accuracy([\"x\"], [\"x\"]) == 1.0\n\n\ndef test_r2_confusion_matrix_uses_the_union_of_labels_sorted_and_zero_filled():\n    m = confusion_matrix([0, 1], [2, 1])\n    assert list(m.keys()) == [0, 1, 2]\n    assert m[0] == {0: 0, 1: 0, 2: 1}\n    assert m[2] == {0: 0, 1: 0, 2: 0}\n\n\ndef test_r2_explicit_labels_ignore_other_pairs_and_keep_the_given_order():\n    m = confusion_matrix([\"a\", \"b\", \"c\"], [\"a\", \"c\", \"b\"], labels=[\"b\", \"a\"])\n    assert list(m.keys()) == [\"b\", \"a\"]\n    assert m == {\"b\": {\"b\": 0, \"a\": 0}, \"a\": {\"b\": 0, \"a\": 1}}\n\n\ndef test_r3_no_predicted_positives_gives_zero_precision_without_crashing():\n    assert precision_recall_f1([1, 1, 0], [0, 0, 0]) == (0.0, 0.0, 0.0)\n\n\ndef test_r3_no_actual_positives_gives_zero_recall():\n    p, r, f1 = precision_recall_f1([0, 0], [1, 0])\n    assert (p, r, f1) == (0.0, 0.0, 0.0)\n\n\ndef test_r3_string_positive_label_and_perfect_score():\n    assert precision_recall_f1([\"spam\", \"ham\"], [\"spam\", \"ham\"], positive_label=\"spam\") == (1.0, 1.0, 1.0)\n\n\ndef test_r3_known_values():\n    p, r, f1 = precision_recall_f1([1, 1, 1, 0, 0], [1, 1, 0, 1, 0])\n    assert p == pytest.approx(2 / 3)\n    assert r == pytest.approx(2 / 3)\n    assert f1 == pytest.approx(2 / 3)\n\n\ndef test_r4_macro_f1_three_classes():\n    y_true = [0, 1, 2, 0, 1, 2]\n    y_pred = [0, 2, 1, 0, 0, 2]\n    assert macro_f1(y_true, y_pred) == pytest.approx((0.8 + 0.0 + 0.5) / 3)\n\n\ndef test_r4_macro_f1_counts_labels_that_only_appear_in_predictions():\n    assert macro_f1([1, 1], [1, 0]) == pytest.approx((2 / 3 + 0.0) / 2)\n"
+ }
+}

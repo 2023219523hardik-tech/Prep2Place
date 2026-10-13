@@ -1,0 +1,1127 @@
+[
+  {
+    "sourceQuestionId": "two-sum",
+    "title": "Two Sum",
+    "sourceUrl": "https://leetcode.com/problems/two-sum/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 2.4417,
+    "companyRank": 1
+  },
+  {
+    "sourceQuestionId": "lru-cache",
+    "title": "LRU Cache",
+    "sourceUrl": "https://leetcode.com/problems/lru-cache/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 2.2885,
+    "companyRank": 2
+  },
+  {
+    "sourceQuestionId": "frog-jump",
+    "title": "Frog Jump",
+    "sourceUrl": "https://leetcode.com/problems/frog-jump/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 2.1354,
+    "companyRank": 3
+  },
+  {
+    "sourceQuestionId": "spiral-matrix",
+    "title": "Spiral Matrix",
+    "sourceUrl": "https://leetcode.com/problems/spiral-matrix/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 1.9822,
+    "companyRank": 4
+  },
+  {
+    "sourceQuestionId": "add-two-numbers",
+    "title": "Add Two Numbers",
+    "sourceUrl": "https://leetcode.com/problems/add-two-numbers/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 1.9376,
+    "companyRank": 5
+  },
+  {
+    "sourceQuestionId": "peeking-iterator",
+    "title": "Peeking Iterator",
+    "sourceUrl": "https://leetcode.com/problems/peeking-iterator/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 1.8988,
+    "companyRank": 6
+  },
+  {
+    "sourceQuestionId": "median-of-two-sorted-arrays",
+    "title": "Median of Two Sorted Arrays",
+    "sourceUrl": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 1.7457,
+    "companyRank": 7
+  },
+  {
+    "sourceQuestionId": "maximum-subarray",
+    "title": "Maximum Subarray",
+    "sourceUrl": "https://leetcode.com/problems/maximum-subarray/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 1.604,
+    "companyRank": 8
+  },
+  {
+    "sourceQuestionId": "flatten-nested-list-iterator",
+    "title": "Flatten Nested List Iterator",
+    "sourceUrl": "https://leetcode.com/problems/flatten-nested-list-iterator/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 1.5961,
+    "companyRank": 9
+  },
+  {
+    "sourceQuestionId": "trapping-rain-water",
+    "title": "Trapping Rain Water",
+    "sourceUrl": "https://leetcode.com/problems/trapping-rain-water/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 1.4505,
+    "companyRank": 10
+  },
+  {
+    "sourceQuestionId": "perfect-rectangle",
+    "title": "Perfect Rectangle",
+    "sourceUrl": "https://leetcode.com/problems/perfect-rectangle/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 1.2973,
+    "companyRank": 11
+  },
+  {
+    "sourceQuestionId": "reverse-linked-list",
+    "title": "Reverse Linked List",
+    "sourceUrl": "https://leetcode.com/problems/reverse-linked-list/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 1.289,
+    "companyRank": 12
+  },
+  {
+    "sourceQuestionId": "find-median-from-data-stream",
+    "title": "Find Median from Data Stream",
+    "sourceUrl": "https://leetcode.com/problems/find-median-from-data-stream/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 1.2416,
+    "companyRank": 13
+  },
+  {
+    "sourceQuestionId": "number-of-islands",
+    "title": "Number of Islands",
+    "sourceUrl": "https://leetcode.com/problems/number-of-islands/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 1.2337,
+    "companyRank": 14
+  },
+  {
+    "sourceQuestionId": "longest-palindromic-substring",
+    "title": "Longest Palindromic Substring",
+    "sourceUrl": "https://leetcode.com/problems/longest-palindromic-substring/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 1.205,
+    "companyRank": 15
+  },
+  {
+    "sourceQuestionId": "the-skyline-problem",
+    "title": "The Skyline Problem",
+    "sourceUrl": "https://leetcode.com/problems/the-skyline-problem/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 1.2027,
+    "companyRank": 16
+  },
+  {
+    "sourceQuestionId": "find-in-mountain-array",
+    "title": "Find in Mountain Array",
+    "sourceUrl": "https://leetcode.com/problems/find-in-mountain-array/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 1.2014,
+    "companyRank": 17
+  },
+  {
+    "sourceQuestionId": "interleaving-string",
+    "title": "Interleaving String",
+    "sourceUrl": "https://leetcode.com/problems/interleaving-string/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 1.1879,
+    "companyRank": 18
+  },
+  {
+    "sourceQuestionId": "largest-palindrome-product",
+    "title": "Largest Palindrome Product",
+    "sourceUrl": "https://leetcode.com/problems/largest-palindrome-product/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 1.1701,
+    "companyRank": 19
+  },
+  {
+    "sourceQuestionId": "utf-8-validation",
+    "title": "UTF-8 Validation",
+    "sourceUrl": "https://leetcode.com/problems/utf-8-validation/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 1.1561,
+    "companyRank": 20
+  },
+  {
+    "sourceQuestionId": "product-of-array-except-self",
+    "title": "Product of Array Except Self",
+    "sourceUrl": "https://leetcode.com/problems/product-of-array-except-self/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 1.126,
+    "companyRank": 21
+  },
+  {
+    "sourceQuestionId": "sparse-matrix-multiplication",
+    "title": "Sparse Matrix Multiplication",
+    "sourceUrl": "https://leetcode.com/problems/sparse-matrix-multiplication/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 1.1084,
+    "companyRank": 22
+  },
+  {
+    "sourceQuestionId": "string-to-integer-atoi",
+    "title": "String to Integer (atoi)",
+    "sourceUrl": "https://leetcode.com/problems/string-to-integer-atoi/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 1.0728,
+    "companyRank": 23
+  },
+  {
+    "sourceQuestionId": "serialize-and-deserialize-n-ary-tree",
+    "title": "Serialize and Deserialize N-ary Tree",
+    "sourceUrl": "https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 1.0697,
+    "companyRank": 24
+  },
+  {
+    "sourceQuestionId": "design-tic-tac-toe",
+    "title": "Design Tic-Tac-Toe",
+    "sourceUrl": "https://leetcode.com/problems/design-tic-tac-toe/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 1.0191,
+    "companyRank": 25
+  },
+  {
+    "sourceQuestionId": "merge-intervals",
+    "title": "Merge Intervals",
+    "sourceUrl": "https://leetcode.com/problems/merge-intervals/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 1.0157,
+    "companyRank": 26
+  },
+  {
+    "sourceQuestionId": "3sum",
+    "title": "3Sum",
+    "sourceUrl": "https://leetcode.com/problems/3sum/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 1.0028,
+    "companyRank": 27
+  },
+  {
+    "sourceQuestionId": "happy-number",
+    "title": "Happy Number",
+    "sourceUrl": "https://leetcode.com/problems/happy-number/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.9975,
+    "companyRank": 28
+  },
+  {
+    "sourceQuestionId": "longest-increasing-path-in-a-matrix",
+    "title": "Longest Increasing Path in a Matrix",
+    "sourceUrl": "https://leetcode.com/problems/longest-increasing-path-in-a-matrix/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.9679,
+    "companyRank": 29
+  },
+  {
+    "sourceQuestionId": "group-anagrams",
+    "title": "Group Anagrams",
+    "sourceUrl": "https://leetcode.com/problems/group-anagrams/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.9562,
+    "companyRank": 30
+  },
+  {
+    "sourceQuestionId": "merge-k-sorted-lists",
+    "title": "Merge k Sorted Lists",
+    "sourceUrl": "https://leetcode.com/problems/merge-k-sorted-lists/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.9024,
+    "companyRank": 31
+  },
+  {
+    "sourceQuestionId": "longest-substring-without-repeating-characters",
+    "title": "Longest Substring Without Repeating Characters",
+    "sourceUrl": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.876,
+    "companyRank": 32
+  },
+  {
+    "sourceQuestionId": "merge-two-sorted-lists",
+    "title": "Merge Two Sorted Lists",
+    "sourceUrl": "https://leetcode.com/problems/merge-two-sorted-lists/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.8331,
+    "companyRank": 33
+  },
+  {
+    "sourceQuestionId": "word-break",
+    "title": "Word Break",
+    "sourceUrl": "https://leetcode.com/problems/word-break/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.7862,
+    "companyRank": 34
+  },
+  {
+    "sourceQuestionId": "android-unlock-patterns",
+    "title": "Android Unlock Patterns",
+    "sourceUrl": "https://leetcode.com/problems/android-unlock-patterns/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.7857,
+    "companyRank": 35
+  },
+  {
+    "sourceQuestionId": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "sourceUrl": "https://leetcode.com/problems/valid-parentheses/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.7729,
+    "companyRank": 36
+  },
+  {
+    "sourceQuestionId": "alien-dictionary",
+    "title": "Alien Dictionary",
+    "sourceUrl": "https://leetcode.com/problems/alien-dictionary/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.7684,
+    "companyRank": 37
+  },
+  {
+    "sourceQuestionId": "word-search-ii",
+    "title": "Word Search II",
+    "sourceUrl": "https://leetcode.com/problems/word-search-ii/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.7375,
+    "companyRank": 38
+  },
+  {
+    "sourceQuestionId": "max-points-on-a-line",
+    "title": "Max Points on a Line",
+    "sourceUrl": "https://leetcode.com/problems/max-points-on-a-line/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.7241,
+    "companyRank": 39
+  },
+  {
+    "sourceQuestionId": "search-in-rotated-sorted-array",
+    "title": "Search in Rotated Sorted Array",
+    "sourceUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.717,
+    "companyRank": 40
+  },
+  {
+    "sourceQuestionId": "rotate-image",
+    "title": "Rotate Image",
+    "sourceUrl": "https://leetcode.com/problems/rotate-image/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.6938,
+    "companyRank": 41
+  },
+  {
+    "sourceQuestionId": "valid-anagram",
+    "title": "Valid Anagram",
+    "sourceUrl": "https://leetcode.com/problems/valid-anagram/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.6932,
+    "companyRank": 42
+  },
+  {
+    "sourceQuestionId": "reverse-integer",
+    "title": "Reverse Integer",
+    "sourceUrl": "https://leetcode.com/problems/reverse-integer/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.6643,
+    "companyRank": 43
+  },
+  {
+    "sourceQuestionId": "count-primes",
+    "title": "Count Primes",
+    "sourceUrl": "https://leetcode.com/problems/count-primes/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.662,
+    "companyRank": 44
+  },
+  {
+    "sourceQuestionId": "letter-combinations-of-a-phone-number",
+    "title": "Letter Combinations of a Phone Number",
+    "sourceUrl": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.6562,
+    "companyRank": 45
+  },
+  {
+    "sourceQuestionId": "basic-calculator-ii",
+    "title": "Basic Calculator II",
+    "sourceUrl": "https://leetcode.com/problems/basic-calculator-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.6426,
+    "companyRank": 46
+  },
+  {
+    "sourceQuestionId": "fizz-buzz",
+    "title": "Fizz Buzz",
+    "sourceUrl": "https://leetcode.com/problems/fizz-buzz/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.626,
+    "companyRank": 47
+  },
+  {
+    "sourceQuestionId": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "sourceUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.6154,
+    "companyRank": 48
+  },
+  {
+    "sourceQuestionId": "concatenated-words",
+    "title": "Concatenated Words",
+    "sourceUrl": "https://leetcode.com/problems/concatenated-words/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.6144,
+    "companyRank": 49
+  },
+  {
+    "sourceQuestionId": "first-unique-character-in-a-string",
+    "title": "First Unique Character in a String",
+    "sourceUrl": "https://leetcode.com/problems/first-unique-character-in-a-string/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.6,
+    "companyRank": 50
+  },
+  {
+    "sourceQuestionId": "knight-probability-in-chessboard",
+    "title": "Knight Probability in Chessboard",
+    "sourceUrl": "https://leetcode.com/problems/knight-probability-in-chessboard/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.5811,
+    "companyRank": 51
+  },
+  {
+    "sourceQuestionId": "zigzag-iterator",
+    "title": "Zigzag Iterator",
+    "sourceUrl": "https://leetcode.com/problems/zigzag-iterator/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.5666,
+    "companyRank": 52
+  },
+  {
+    "sourceQuestionId": "reverse-string",
+    "title": "Reverse String",
+    "sourceUrl": "https://leetcode.com/problems/reverse-string/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.5521,
+    "companyRank": 53
+  },
+  {
+    "sourceQuestionId": "insert-delete-getrandom-o1",
+    "title": "Insert Delete GetRandom O(1)",
+    "sourceUrl": "https://leetcode.com/problems/insert-delete-getrandom-o1/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.5383,
+    "companyRank": 54
+  },
+  {
+    "sourceQuestionId": "integer-to-roman",
+    "title": "Integer to Roman",
+    "sourceUrl": "https://leetcode.com/problems/integer-to-roman/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.5271,
+    "companyRank": 55
+  },
+  {
+    "sourceQuestionId": "coin-change",
+    "title": "Coin Change",
+    "sourceUrl": "https://leetcode.com/problems/coin-change/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.5202,
+    "companyRank": 56
+  },
+  {
+    "sourceQuestionId": "boundary-of-binary-tree",
+    "title": "Boundary of Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/boundary-of-binary-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.5184,
+    "companyRank": 57
+  },
+  {
+    "sourceQuestionId": "decode-string",
+    "title": "Decode String",
+    "sourceUrl": "https://leetcode.com/problems/decode-string/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.5093,
+    "companyRank": 58
+  },
+  {
+    "sourceQuestionId": "valid-sudoku",
+    "title": "Valid Sudoku",
+    "sourceUrl": "https://leetcode.com/problems/valid-sudoku/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.5053,
+    "companyRank": 59
+  },
+  {
+    "sourceQuestionId": "serialize-and-deserialize-binary-tree",
+    "title": "Serialize and Deserialize Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.4953,
+    "companyRank": 60
+  },
+  {
+    "sourceQuestionId": "lowest-common-ancestor-of-a-binary-tree",
+    "title": "Lowest Common Ancestor of a Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.4855,
+    "companyRank": 61
+  },
+  {
+    "sourceQuestionId": "valid-palindrome",
+    "title": "Valid Palindrome",
+    "sourceUrl": "https://leetcode.com/problems/valid-palindrome/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.4844,
+    "companyRank": 62
+  },
+  {
+    "sourceQuestionId": "flatten-2d-vector",
+    "title": "Flatten 2D Vector",
+    "sourceUrl": "https://leetcode.com/problems/flatten-2d-vector/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.4809,
+    "companyRank": 63
+  },
+  {
+    "sourceQuestionId": "jump-game-ii",
+    "title": "Jump Game II",
+    "sourceUrl": "https://leetcode.com/problems/jump-game-ii/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.4787,
+    "companyRank": 64
+  },
+  {
+    "sourceQuestionId": "permutations",
+    "title": "Permutations",
+    "sourceUrl": "https://leetcode.com/problems/permutations/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.4753,
+    "companyRank": 65
+  },
+  {
+    "sourceQuestionId": "number-of-1-bits",
+    "title": "Number of 1 Bits",
+    "sourceUrl": "https://leetcode.com/problems/number-of-1-bits/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.4747,
+    "companyRank": 66
+  },
+  {
+    "sourceQuestionId": "longest-common-prefix",
+    "title": "Longest Common Prefix",
+    "sourceUrl": "https://leetcode.com/problems/longest-common-prefix/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.4738,
+    "companyRank": 67
+  },
+  {
+    "sourceQuestionId": "next-permutation",
+    "title": "Next Permutation",
+    "sourceUrl": "https://leetcode.com/problems/next-permutation/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.4705,
+    "companyRank": 68
+  },
+  {
+    "sourceQuestionId": "jewels-and-stones",
+    "title": "Jewels and Stones",
+    "sourceUrl": "https://leetcode.com/problems/jewels-and-stones/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.4651,
+    "companyRank": 69
+  },
+  {
+    "sourceQuestionId": "find-pivot-index",
+    "title": "Find Pivot Index",
+    "sourceUrl": "https://leetcode.com/problems/find-pivot-index/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.4633,
+    "companyRank": 70
+  },
+  {
+    "sourceQuestionId": "palindrome-pairs",
+    "title": "Palindrome Pairs",
+    "sourceUrl": "https://leetcode.com/problems/palindrome-pairs/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.4626,
+    "companyRank": 71
+  },
+  {
+    "sourceQuestionId": "min-stack",
+    "title": "Min Stack",
+    "sourceUrl": "https://leetcode.com/problems/min-stack/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.4219,
+    "companyRank": 72
+  },
+  {
+    "sourceQuestionId": "nth-highest-salary",
+    "title": "Nth Highest Salary",
+    "sourceUrl": "https://leetcode.com/problems/nth-highest-salary/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.4195,
+    "companyRank": 73
+  },
+  {
+    "sourceQuestionId": "meeting-rooms-ii",
+    "title": "Meeting Rooms II",
+    "sourceUrl": "https://leetcode.com/problems/meeting-rooms-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.4182,
+    "companyRank": 74
+  },
+  {
+    "sourceQuestionId": "integer-to-english-words",
+    "title": "Integer to English Words",
+    "sourceUrl": "https://leetcode.com/problems/integer-to-english-words/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "apple"
+    ],
+    "frequencyScore": 0.4144,
+    "companyRank": 75
+  }
+]

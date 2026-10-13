@@ -1,0 +1,23 @@
+package com.placement.jobs.entity;
+
+public enum JobApplicationStatus {
+    APPLIED,
+    UNDER_REVIEW,
+    ELIGIBLE,
+    NOT_ELIGIBLE,
+    SHORTLISTED,
+    ASSESSMENT_PENDING,
+    IN_PROGRESS,
+    QUALIFIED,
+    INTERVIEW,
+    INTERVIEW_SCHEDULED,
+    SELECTED,
+    OFFER,
+    OFFER_RELEASED,
+    OFFER_ACCEPTED,
+    OFFER_DECLINED,
+    REJECTED,
+    DISQUALIFIED,
+    ON_HOLD,
+    WITHDRAWN
+}

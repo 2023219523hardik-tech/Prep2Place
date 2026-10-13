@@ -1,0 +1,26 @@
+[
+  {
+    "sourceQuestionId": "simple-array-sum",
+    "title": "Simple Array Sum",
+    "sourceUrl": "https://www.hackerrank.com/challenges/simple-array-sum/problem",
+    "difficulty": "EASY",
+    "topics": ["Arrays"],
+    "tags": ["array", "warmup"]
+  },
+  {
+    "sourceQuestionId": "two-strings",
+    "title": "Two Strings",
+    "sourceUrl": "https://www.hackerrank.com/challenges/two-strings/problem",
+    "difficulty": "EASY",
+    "topics": ["Strings", "Hashing"],
+    "tags": ["string", "hash-table"]
+  },
+  {
+    "sourceQuestionId": "min-max-riddle",
+    "title": "Min Max Riddle",
+    "sourceUrl": "https://www.hackerrank.com/challenges/min-max-riddle/problem",
+    "difficulty": "HARD",
+    "topics": ["Arrays", "Sliding Window", "Stacks"],
+    "tags": ["array", "sliding-window", "monotonic-stack"]
+  }
+]

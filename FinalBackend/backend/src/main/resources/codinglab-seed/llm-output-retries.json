@@ -1,0 +1,65 @@
+{
+ "title": "Generative AI: Prompt Templates and Reliable JSON Output",
+ "codingType": "GENERATIVE_AI",
+ "difficulty": "MEDIUM",
+ "runtime": "PYTHON_PYTEST",
+ "summary": "Build the plumbing every LLM app needs: prompt templating, extracting JSON from messy model output, and a validate-and-retry loop.",
+ "problemStatement": "## Scenario\nYour team calls an LLM and expects **structured JSON** back. Models often wrap JSON in prose or code fences, or get it wrong. You are writing the small reliability layer around the model in `llm_utils.py`. The LLM is any callable `llm(prompt: str) -> str`.\n\n## Task\nImplement:\n\n- `render_prompt(template, variables)` - replaces every `{{name}}` placeholder (whitespace inside the braces is allowed: `{{ name }}`) with `str(variables[name])`. A placeholder with no matching variable raises `KeyError(name)`. Extra variables are ignored.\n- `extract_json(text)` - returns the parsed JSON value (object or array) found in `text`. It must handle: pure JSON; JSON inside a ```` ```json ```` or plain ```` ``` ```` fence; JSON surrounded by prose. Raise `ValueError` if there is no valid JSON.\n- `LLMOutputError(Exception)` - raised when the model never produces acceptable output.\n- `call_with_retries(llm, prompt, validate=None, max_retries=2)` - call `llm(prompt)` and extract JSON. If extraction fails **or** `validate(obj)` returns falsy, call the model again with the original prompt followed by `\"\\n\\nYour previous answer was invalid: <reason>. Return only valid JSON.\"`. Return the first valid object. Make at most `max_retries + 1` calls in total, then raise `LLMOutputError`. `max_retries < 0` raises `ValueError`. Exceptions raised by `llm` itself propagate unchanged.",
+ "requirements": [
+  {
+   "id": "R1",
+   "title": "Render prompt templates",
+   "description": "{{name}} placeholders are substituted; missing variables raise KeyError.",
+   "weight": 2
+  },
+  {
+   "id": "R2",
+   "title": "Extract JSON from model text",
+   "description": "Handles fences, surrounding prose and arrays; raises ValueError when absent.",
+   "weight": 3
+  },
+  {
+   "id": "R3",
+   "title": "Retry with feedback",
+   "description": "Invalid output triggers another call whose prompt includes the reason.",
+   "weight": 3
+  },
+  {
+   "id": "R4",
+   "title": "Bound the retries",
+   "description": "At most max_retries+1 calls, then LLMOutputError.",
+   "weight": 2
+  },
+  {
+   "id": "R5",
+   "title": "Validate with a callback",
+   "description": "A falsy validate() result counts as invalid output.",
+   "weight": 2
+  }
+ ],
+ "timeLimitMinutes": 40,
+ "technology": "Python 3.12 + pytest",
+ "skills": [
+  "LLM applications",
+  "Prompt engineering",
+  "Error handling",
+  "Python"
+ ],
+ "tags": [
+  "llm",
+  "structured-output"
+ ],
+ "targetJobRole": "AI Engineer",
+ "starterFiles": {
+  "llm_utils.py": "\"\"\"Reliability helpers around an LLM callable: llm(prompt: str) -> str.\"\"\"\n\n\nclass LLMOutputError(Exception):\n    \"\"\"The model never produced acceptable output.\"\"\"\n\n\ndef render_prompt(template, variables):\n    raise NotImplementedError\n\n\ndef extract_json(text):\n    raise NotImplementedError\n\n\ndef call_with_retries(llm, prompt, validate=None, max_retries=2):\n    raise NotImplementedError\n"
+ },
+ "referenceFiles": {
+  "llm_utils.py": "\"\"\"Reliability helpers around an LLM callable: llm(prompt: str) -> str.\"\"\"\nimport json\nimport re\n\n\nclass LLMOutputError(Exception):\n    \"\"\"The model never produced acceptable output.\"\"\"\n\n\n_PLACEHOLDER = re.compile(r\"\\{\\{\\s*(\\w+)\\s*\\}\\}\")\n\n\ndef render_prompt(template, variables):\n    def sub(match):\n        name = match.group(1)\n        if name not in variables:\n            raise KeyError(name)\n        return str(variables[name])\n\n    return _PLACEHOLDER.sub(sub, template)\n\n\n_FENCE = re.compile(r\"```(?:json|JSON)?\\s*(.*?)```\", re.S)\n\n\ndef extract_json(text):\n    candidates = [text.strip()]\n    candidates += [m.group(1).strip() for m in _FENCE.finditer(text)]\n    for cand in candidates:\n        try:\n            return json.loads(cand)\n        except ValueError:\n            pass\n    decoder = json.JSONDecoder()\n    for i, ch in enumerate(text):\n        if ch in \"{[\":\n            try:\n                obj, _ = decoder.raw_decode(text[i:])\n                return obj\n            except ValueError:\n                continue\n    raise ValueError(\"no valid JSON found in model output\")\n\n\ndef call_with_retries(llm, prompt, validate=None, max_retries=2):\n    if max_retries < 0:\n        raise ValueError(\"max_retries must be >= 0\")\n    attempts = max_retries + 1\n    current = prompt\n    last_error = \"unknown\"\n    for _ in range(attempts):\n        text = llm(current)\n        try:\n            obj = extract_json(text)\n            if validate is not None and not validate(obj):\n                raise ValueError(\"validation failed\")\n            return obj\n        except ValueError as exc:\n            last_error = str(exc)\n            current = prompt + f\"\\n\\nYour previous answer was invalid: {last_error}. Return only valid JSON.\"\n    raise LLMOutputError(f\"no valid output after {attempts} attempts: {last_error}\")\n"
+ },
+ "publicTestFiles": {
+  "tests/public/test_llm_utils.py": "import pytest\nfrom llm_utils import render_prompt, extract_json, call_with_retries, LLMOutputError\n\n\nclass FakeLLM:\n    def __init__(self, *replies):\n        self.replies = list(replies)\n        self.prompts = []\n\n    def __call__(self, prompt):\n        self.prompts.append(prompt)\n        return self.replies.pop(0)\n\n\ndef test_r1_render_prompt_fills_placeholders():\n    assert render_prompt(\"Hello {{name}}, you are {{ age }}.\", {\"name\": \"Ada\", \"age\": 36}) == \"Hello Ada, you are 36.\"\n\n\ndef test_r2_extract_json_from_a_code_fence():\n    assert extract_json('Sure!\\n```json\\n{\"a\": 1}\\n```') == {\"a\": 1}\n\n\ndef test_r3_retry_prompt_contains_the_reason():\n    llm = FakeLLM(\"not json\", '{\"ok\": true}')\n    assert call_with_retries(llm, \"Give JSON\") == {\"ok\": True}\n    assert len(llm.prompts) == 2\n    assert llm.prompts[1].startswith(\"Give JSON\")\n    assert \"Your previous answer was invalid\" in llm.prompts[1]\n\n\ndef test_r4_gives_up_with_llm_output_error():\n    llm = FakeLLM(\"x\", \"y\", \"z\")\n    with pytest.raises(LLMOutputError):\n        call_with_retries(llm, \"p\", max_retries=2)\n    assert len(llm.prompts) == 3\n\n\ndef test_r5_validate_callback_rejects_bad_objects():\n    llm = FakeLLM('{\"n\": 1}', '{\"n\": 2}')\n    assert call_with_retries(llm, \"p\", validate=lambda o: o[\"n\"] == 2) == {\"n\": 2}\n"
+ },
+ "hiddenTestFiles": {
+  "tests/hidden/test_llm_utils.py": "import pytest\nfrom llm_utils import render_prompt, extract_json, call_with_retries, LLMOutputError\n\n\nclass FakeLLM:\n    def __init__(self, *replies):\n        self.replies = list(replies)\n        self.prompts = []\n\n    def __call__(self, prompt):\n        self.prompts.append(prompt)\n        return self.replies.pop(0)\n\n\ndef test_r1_missing_variable_raises_key_error_with_the_name():\n    with pytest.raises(KeyError) as e:\n        render_prompt(\"Hi {{who}}\", {\"other\": 1})\n    assert e.value.args[0] == \"who\"\n\n\ndef test_r1_extra_variables_and_repeated_placeholders():\n    assert render_prompt(\"{{a}}-{{a}}-{{ b }}\", {\"a\": 1, \"b\": \"x\", \"unused\": 9}) == \"1-1-x\"\n    assert render_prompt(\"no placeholders\", {}) == \"no placeholders\"\n\n\ndef test_r2_pure_json_arrays_and_objects():\n    assert extract_json(\" [1, 2, 3] \") == [1, 2, 3]\n    assert extract_json('{\"a\": {\"b\": [1]}}') == {\"a\": {\"b\": [1]}}\n\n\ndef test_r2_plain_fence_and_surrounding_prose():\n    assert extract_json('```\\n{\"k\": \"v\"}\\n```') == {\"k\": \"v\"}\n    assert extract_json('Here is the result: {\"score\": 7} - hope that helps!') == {\"score\": 7}\n    assert extract_json('Options: [1, 2] and that is all') == [1, 2]\n\n\ndef test_r2_skips_broken_fragments_before_the_real_json():\n    assert extract_json('a {broken then {\"ok\": 1}') == {\"ok\": 1}\n\n\ndef test_r2_raises_value_error_when_there_is_no_json():\n    for bad in [\"\", \"just words\", \"{unclosed\", \"```\\nnot json\\n```\"]:\n        with pytest.raises(ValueError):\n            extract_json(bad)\n\n\ndef test_r3_first_valid_answer_is_returned_without_extra_calls():\n    llm = FakeLLM('{\"a\": 1}', '{\"a\": 2}')\n    assert call_with_retries(llm, \"p\") == {\"a\": 1}\n    assert len(llm.prompts) == 1\n\n\ndef test_r3_feedback_is_built_from_the_original_prompt_each_time():\n    llm = FakeLLM(\"bad\", \"worse\", '{\"ok\": 1}')\n    call_with_retries(llm, \"ORIGINAL\", max_retries=2)\n    assert llm.prompts[0] == \"ORIGINAL\"\n    assert llm.prompts[1].startswith(\"ORIGINAL\\n\\nYour previous answer was invalid\")\n    assert llm.prompts[2].startswith(\"ORIGINAL\\n\\nYour previous answer was invalid\")\n    assert llm.prompts[2].count(\"Your previous answer was invalid\") == 1\n\n\ndef test_r4_zero_retries_means_exactly_one_call():\n    llm = FakeLLM(\"nope\")\n    with pytest.raises(LLMOutputError):\n        call_with_retries(llm, \"p\", max_retries=0)\n    assert len(llm.prompts) == 1\n\n\ndef test_r4_negative_retries_is_a_value_error():\n    with pytest.raises(ValueError):\n        call_with_retries(FakeLLM(\"x\"), \"p\", max_retries=-1)\n\n\ndef test_r4_exceptions_from_the_llm_propagate():\n    def boom(prompt):\n        raise RuntimeError(\"network down\")\n\n    with pytest.raises(RuntimeError):\n        call_with_retries(boom, \"p\")\n\n\ndef test_r5_falsy_validation_counts_as_a_failure_and_is_reported():\n    llm = FakeLLM('{\"n\": 1}', '{\"n\": 1}', '{\"n\": 1}')\n    with pytest.raises(LLMOutputError) as e:\n        call_with_retries(llm, \"p\", validate=lambda o: False, max_retries=2)\n    assert \"validation failed\" in str(e.value)\n    assert len(llm.prompts) == 3\n"
+ }
+}

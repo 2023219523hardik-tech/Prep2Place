@@ -1,0 +1,572 @@
+[
+  {
+    "sourceQuestionId": "broken-calculator",
+    "title": "Broken Calculator",
+    "sourceUrl": "https://leetcode.com/problems/broken-calculator/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "nutanix"
+    ],
+    "frequencyScore": 0.9287,
+    "companyRank": 1
+  },
+  {
+    "sourceQuestionId": "grumpy-bookstore-owner",
+    "title": "Grumpy Bookstore Owner",
+    "sourceUrl": "https://leetcode.com/problems/grumpy-bookstore-owner/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "nutanix"
+    ],
+    "frequencyScore": 0.8402,
+    "companyRank": 2
+  },
+  {
+    "sourceQuestionId": "jump-game-ii",
+    "title": "Jump Game II",
+    "sourceUrl": "https://leetcode.com/problems/jump-game-ii/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "nutanix"
+    ],
+    "frequencyScore": 0.5749,
+    "companyRank": 3
+  },
+  {
+    "sourceQuestionId": "circular-array-loop",
+    "title": "Circular Array Loop",
+    "sourceUrl": "https://leetcode.com/problems/circular-array-loop/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "nutanix"
+    ],
+    "frequencyScore": 0.4311,
+    "companyRank": 4
+  },
+  {
+    "sourceQuestionId": "frog-jump",
+    "title": "Frog Jump",
+    "sourceUrl": "https://leetcode.com/problems/frog-jump/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "nutanix"
+    ],
+    "frequencyScore": 0.2789,
+    "companyRank": 5
+  },
+  {
+    "sourceQuestionId": "remove-k-digits",
+    "title": "Remove K Digits",
+    "sourceUrl": "https://leetcode.com/problems/remove-k-digits/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "nutanix"
+    ],
+    "frequencyScore": 0.2407,
+    "companyRank": 6
+  },
+  {
+    "sourceQuestionId": "most-profit-assigning-work",
+    "title": "Most Profit Assigning Work",
+    "sourceUrl": "https://leetcode.com/problems/most-profit-assigning-work/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "nutanix"
+    ],
+    "frequencyScore": 0.0929,
+    "companyRank": 7
+  },
+  {
+    "sourceQuestionId": "find-the-closest-palindrome",
+    "title": "Find the Closest Palindrome",
+    "sourceUrl": "https://leetcode.com/problems/find-the-closest-palindrome/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "nutanix"
+    ],
+    "frequencyScore": 0.0841,
+    "companyRank": 8
+  },
+  {
+    "sourceQuestionId": "remove-duplicate-letters",
+    "title": "Remove Duplicate Letters",
+    "sourceUrl": "https://leetcode.com/problems/remove-duplicate-letters/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "nutanix"
+    ],
+    "frequencyScore": 0.0672,
+    "companyRank": 9
+  },
+  {
+    "sourceQuestionId": "happy-number",
+    "title": "Happy Number",
+    "sourceUrl": "https://leetcode.com/problems/happy-number/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "nutanix"
+    ],
+    "frequencyScore": 0.055,
+    "companyRank": 10
+  },
+  {
+    "sourceQuestionId": "search-in-rotated-sorted-array",
+    "title": "Search in Rotated Sorted Array",
+    "sourceUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "nutanix"
+    ],
+    "frequencyScore": 0.0505,
+    "companyRank": 11
+  },
+  {
+    "sourceQuestionId": "integer-to-english-words",
+    "title": "Integer to English Words",
+    "sourceUrl": "https://leetcode.com/problems/integer-to-english-words/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "nutanix"
+    ],
+    "frequencyScore": 0.0475,
+    "companyRank": 12
+  },
+  {
+    "sourceQuestionId": "product-of-array-except-self",
+    "title": "Product of Array Except Self",
+    "sourceUrl": "https://leetcode.com/problems/product-of-array-except-self/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "nutanix"
+    ],
+    "frequencyScore": 0.0471,
+    "companyRank": 13
+  },
+  {
+    "sourceQuestionId": "meeting-rooms-ii",
+    "title": "Meeting Rooms II",
+    "sourceUrl": "https://leetcode.com/problems/meeting-rooms-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "nutanix"
+    ],
+    "frequencyScore": 0.0319,
+    "companyRank": 14
+  },
+  {
+    "sourceQuestionId": "kth-largest-element-in-a-stream",
+    "title": "Kth Largest Element in a Stream",
+    "sourceUrl": "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "nutanix"
+    ],
+    "frequencyScore": 0.031,
+    "companyRank": 15
+  },
+  {
+    "sourceQuestionId": "lru-cache",
+    "title": "LRU Cache",
+    "sourceUrl": "https://leetcode.com/problems/lru-cache/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "nutanix"
+    ],
+    "frequencyScore": 0.0284,
+    "companyRank": 16
+  },
+  {
+    "sourceQuestionId": "combination-sum-ii",
+    "title": "Combination Sum II",
+    "sourceUrl": "https://leetcode.com/problems/combination-sum-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "nutanix"
+    ],
+    "frequencyScore": 0.0214,
+    "companyRank": 17
+  },
+  {
+    "sourceQuestionId": "longest-consecutive-sequence",
+    "title": "Longest Consecutive Sequence",
+    "sourceUrl": "https://leetcode.com/problems/longest-consecutive-sequence/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "nutanix"
+    ],
+    "frequencyScore": 0.0203,
+    "companyRank": 18
+  },
+  {
+    "sourceQuestionId": "jump-game",
+    "title": "Jump Game",
+    "sourceUrl": "https://leetcode.com/problems/jump-game/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "nutanix"
+    ],
+    "frequencyScore": 0.0199,
+    "companyRank": 19
+  },
+  {
+    "sourceQuestionId": "number-of-islands",
+    "title": "Number of Islands",
+    "sourceUrl": "https://leetcode.com/problems/number-of-islands/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "nutanix"
+    ],
+    "frequencyScore": 0.0179,
+    "companyRank": 20
+  },
+  {
+    "sourceQuestionId": "sliding-window-maximum",
+    "title": "Sliding Window Maximum",
+    "sourceUrl": "https://leetcode.com/problems/sliding-window-maximum/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "nutanix"
+    ],
+    "frequencyScore": 0.0177,
+    "companyRank": 21
+  },
+  {
+    "sourceQuestionId": "letter-combinations-of-a-phone-number",
+    "title": "Letter Combinations of a Phone Number",
+    "sourceUrl": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "nutanix"
+    ],
+    "frequencyScore": 0.0175,
+    "companyRank": 22
+  },
+  {
+    "sourceQuestionId": "populating-next-right-pointers-in-each-node",
+    "title": "Populating Next Right Pointers in Each Node",
+    "sourceUrl": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "nutanix"
+    ],
+    "frequencyScore": 0.0164,
+    "companyRank": 23
+  },
+  {
+    "sourceQuestionId": "squares-of-a-sorted-array",
+    "title": "Squares of a Sorted Array",
+    "sourceUrl": "https://leetcode.com/problems/squares-of-a-sorted-array/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "nutanix"
+    ],
+    "frequencyScore": 0.0155,
+    "companyRank": 24
+  },
+  {
+    "sourceQuestionId": "task-scheduler",
+    "title": "Task Scheduler",
+    "sourceUrl": "https://leetcode.com/problems/task-scheduler/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "nutanix"
+    ],
+    "frequencyScore": 0.0145,
+    "companyRank": 25
+  },
+  {
+    "sourceQuestionId": "minimum-window-substring",
+    "title": "Minimum Window Substring",
+    "sourceUrl": "https://leetcode.com/problems/minimum-window-substring/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "nutanix"
+    ],
+    "frequencyScore": 0.014,
+    "companyRank": 26
+  },
+  {
+    "sourceQuestionId": "copy-list-with-random-pointer",
+    "title": "Copy List with Random Pointer",
+    "sourceUrl": "https://leetcode.com/problems/copy-list-with-random-pointer/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "nutanix"
+    ],
+    "frequencyScore": 0.0139,
+    "companyRank": 27
+  },
+  {
+    "sourceQuestionId": "course-schedule-ii",
+    "title": "Course Schedule II",
+    "sourceUrl": "https://leetcode.com/problems/course-schedule-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "nutanix"
+    ],
+    "frequencyScore": 0.0119,
+    "companyRank": 28
+  },
+  {
+    "sourceQuestionId": "move-zeroes",
+    "title": "Move Zeroes",
+    "sourceUrl": "https://leetcode.com/problems/move-zeroes/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "nutanix"
+    ],
+    "frequencyScore": 0.0115,
+    "companyRank": 29
+  },
+  {
+    "sourceQuestionId": "course-schedule",
+    "title": "Course Schedule",
+    "sourceUrl": "https://leetcode.com/problems/course-schedule/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "nutanix"
+    ],
+    "frequencyScore": 0.0111,
+    "companyRank": 30
+  },
+  {
+    "sourceQuestionId": "palindrome-linked-list",
+    "title": "Palindrome Linked List",
+    "sourceUrl": "https://leetcode.com/problems/palindrome-linked-list/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "nutanix"
+    ],
+    "frequencyScore": 0.0102,
+    "companyRank": 31
+  },
+  {
+    "sourceQuestionId": "generate-parentheses",
+    "title": "Generate Parentheses",
+    "sourceUrl": "https://leetcode.com/problems/generate-parentheses/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "nutanix"
+    ],
+    "frequencyScore": 0.0098,
+    "companyRank": 32
+  },
+  {
+    "sourceQuestionId": "implement-trie-prefix-tree",
+    "title": "Implement Trie (Prefix Tree)",
+    "sourceUrl": "https://leetcode.com/problems/implement-trie-prefix-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "nutanix"
+    ],
+    "frequencyScore": 0.0091,
+    "companyRank": 33
+  },
+  {
+    "sourceQuestionId": "longest-palindromic-substring",
+    "title": "Longest Palindromic Substring",
+    "sourceUrl": "https://leetcode.com/problems/longest-palindromic-substring/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "nutanix"
+    ],
+    "frequencyScore": 0.0051,
+    "companyRank": 34
+  },
+  {
+    "sourceQuestionId": "group-anagrams",
+    "title": "Group Anagrams",
+    "sourceUrl": "https://leetcode.com/problems/group-anagrams/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "nutanix"
+    ],
+    "frequencyScore": 0.0038,
+    "companyRank": 35
+  },
+  {
+    "sourceQuestionId": "check-if-word-is-valid-after-substitutions",
+    "title": "Check If Word Is Valid After Substitutions",
+    "sourceUrl": "https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "nutanix"
+    ],
+    "frequencyScore": 0.0,
+    "companyRank": 36
+  },
+  {
+    "sourceQuestionId": "swap-for-longest-repeated-character-substring",
+    "title": "Swap For Longest Repeated Character Substring",
+    "sourceUrl": "https://leetcode.com/problems/swap-for-longest-repeated-character-substring/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "nutanix"
+    ],
+    "frequencyScore": 0.0,
+    "companyRank": 37
+  },
+  {
+    "sourceQuestionId": "online-majority-element-in-subarray",
+    "title": "Online Majority Element In Subarray",
+    "sourceUrl": "https://leetcode.com/problems/online-majority-element-in-subarray/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "nutanix"
+    ],
+    "frequencyScore": 0.0,
+    "companyRank": 38
+  }
+]

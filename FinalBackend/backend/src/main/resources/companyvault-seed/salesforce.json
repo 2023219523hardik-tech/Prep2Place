@@ -1,0 +1,1052 @@
+[
+  {
+    "sourceQuestionId": "lru-cache",
+    "title": "LRU Cache",
+    "sourceUrl": "https://leetcode.com/problems/lru-cache/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.7984,
+    "companyRank": 1
+  },
+  {
+    "sourceQuestionId": "reaching-points",
+    "title": "Reaching Points",
+    "sourceUrl": "https://leetcode.com/problems/reaching-points/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.6127,
+    "companyRank": 2
+  },
+  {
+    "sourceQuestionId": "letter-combinations-of-a-phone-number",
+    "title": "Letter Combinations of a Phone Number",
+    "sourceUrl": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.4918,
+    "companyRank": 3
+  },
+  {
+    "sourceQuestionId": "merge-intervals",
+    "title": "Merge Intervals",
+    "sourceUrl": "https://leetcode.com/problems/merge-intervals/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.4061,
+    "companyRank": 4
+  },
+  {
+    "sourceQuestionId": "k-diff-pairs-in-an-array",
+    "title": "K-diff Pairs in an Array",
+    "sourceUrl": "https://leetcode.com/problems/k-diff-pairs-in-an-array/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.3872,
+    "companyRank": 5
+  },
+  {
+    "sourceQuestionId": "design-hashmap",
+    "title": "Design HashMap",
+    "sourceUrl": "https://leetcode.com/problems/design-hashmap/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.3661,
+    "companyRank": 6
+  },
+  {
+    "sourceQuestionId": "find-the-smallest-divisor-given-a-threshold",
+    "title": "Find the Smallest Divisor Given a Threshold",
+    "sourceUrl": "https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.3651,
+    "companyRank": 7
+  },
+  {
+    "sourceQuestionId": "lfu-cache",
+    "title": "LFU Cache",
+    "sourceUrl": "https://leetcode.com/problems/lfu-cache/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.1794,
+    "companyRank": 8
+  },
+  {
+    "sourceQuestionId": "implement-queue-using-stacks",
+    "title": "Implement Queue using Stacks",
+    "sourceUrl": "https://leetcode.com/problems/implement-queue-using-stacks/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.1663,
+    "companyRank": 9
+  },
+  {
+    "sourceQuestionId": "design-search-autocomplete-system",
+    "title": "Design Search Autocomplete System",
+    "sourceUrl": "https://leetcode.com/problems/design-search-autocomplete-system/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.1631,
+    "companyRank": 10
+  },
+  {
+    "sourceQuestionId": "maximum-frequency-stack",
+    "title": "Maximum Frequency Stack",
+    "sourceUrl": "https://leetcode.com/problems/maximum-frequency-stack/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.163,
+    "companyRank": 11
+  },
+  {
+    "sourceQuestionId": "the-skyline-problem",
+    "title": "The Skyline Problem",
+    "sourceUrl": "https://leetcode.com/problems/the-skyline-problem/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.1495,
+    "companyRank": 12
+  },
+  {
+    "sourceQuestionId": "flatten-2d-vector",
+    "title": "Flatten 2D Vector",
+    "sourceUrl": "https://leetcode.com/problems/flatten-2d-vector/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.1436,
+    "companyRank": 13
+  },
+  {
+    "sourceQuestionId": "two-sum",
+    "title": "Two Sum",
+    "sourceUrl": "https://leetcode.com/problems/two-sum/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.1394,
+    "companyRank": 14
+  },
+  {
+    "sourceQuestionId": "remove-duplicates-from-sorted-list-ii",
+    "title": "Remove Duplicates from Sorted List II",
+    "sourceUrl": "https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.1111,
+    "companyRank": 15
+  },
+  {
+    "sourceQuestionId": "design-tic-tac-toe",
+    "title": "Design Tic-Tac-Toe",
+    "sourceUrl": "https://leetcode.com/problems/design-tic-tac-toe/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0935,
+    "companyRank": 16
+  },
+  {
+    "sourceQuestionId": "shuffle-an-array",
+    "title": "Shuffle an Array",
+    "sourceUrl": "https://leetcode.com/problems/shuffle-an-array/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0917,
+    "companyRank": 17
+  },
+  {
+    "sourceQuestionId": "word-ladder",
+    "title": "Word Ladder",
+    "sourceUrl": "https://leetcode.com/problems/word-ladder/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0916,
+    "companyRank": 18
+  },
+  {
+    "sourceQuestionId": "largest-number",
+    "title": "Largest Number",
+    "sourceUrl": "https://leetcode.com/problems/largest-number/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0837,
+    "companyRank": 19
+  },
+  {
+    "sourceQuestionId": "number-of-islands",
+    "title": "Number of Islands",
+    "sourceUrl": "https://leetcode.com/problems/number-of-islands/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0699,
+    "companyRank": 20
+  },
+  {
+    "sourceQuestionId": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "sourceUrl": "https://leetcode.com/problems/valid-parentheses/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0674,
+    "companyRank": 21
+  },
+  {
+    "sourceQuestionId": "trapping-rain-water",
+    "title": "Trapping Rain Water",
+    "sourceUrl": "https://leetcode.com/problems/trapping-rain-water/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0674,
+    "companyRank": 22
+  },
+  {
+    "sourceQuestionId": "find-the-duplicate-number",
+    "title": "Find the Duplicate Number",
+    "sourceUrl": "https://leetcode.com/problems/find-the-duplicate-number/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0654,
+    "companyRank": 23
+  },
+  {
+    "sourceQuestionId": "merge-k-sorted-lists",
+    "title": "Merge k Sorted Lists",
+    "sourceUrl": "https://leetcode.com/problems/merge-k-sorted-lists/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0629,
+    "companyRank": 24
+  },
+  {
+    "sourceQuestionId": "design-snake-game",
+    "title": "Design Snake Game",
+    "sourceUrl": "https://leetcode.com/problems/design-snake-game/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0605,
+    "companyRank": 25
+  },
+  {
+    "sourceQuestionId": "insert-delete-getrandom-o1",
+    "title": "Insert Delete GetRandom O(1)",
+    "sourceUrl": "https://leetcode.com/problems/insert-delete-getrandom-o1/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0599,
+    "companyRank": 26
+  },
+  {
+    "sourceQuestionId": "lowest-common-ancestor-of-a-binary-tree",
+    "title": "Lowest Common Ancestor of a Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0563,
+    "companyRank": 27
+  },
+  {
+    "sourceQuestionId": "remove-duplicates-from-sorted-list",
+    "title": "Remove Duplicates from Sorted List",
+    "sourceUrl": "https://leetcode.com/problems/remove-duplicates-from-sorted-list/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0558,
+    "companyRank": 28
+  },
+  {
+    "sourceQuestionId": "reverse-words-in-a-string",
+    "title": "Reverse Words in a String",
+    "sourceUrl": "https://leetcode.com/problems/reverse-words-in-a-string/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0539,
+    "companyRank": 29
+  },
+  {
+    "sourceQuestionId": "decode-string",
+    "title": "Decode String",
+    "sourceUrl": "https://leetcode.com/problems/decode-string/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.05,
+    "companyRank": 30
+  },
+  {
+    "sourceQuestionId": "longest-increasing-subsequence",
+    "title": "Longest Increasing Subsequence",
+    "sourceUrl": "https://leetcode.com/problems/longest-increasing-subsequence/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0464,
+    "companyRank": 31
+  },
+  {
+    "sourceQuestionId": "group-anagrams",
+    "title": "Group Anagrams",
+    "sourceUrl": "https://leetcode.com/problems/group-anagrams/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0456,
+    "companyRank": 32
+  },
+  {
+    "sourceQuestionId": "isomorphic-strings",
+    "title": "Isomorphic Strings",
+    "sourceUrl": "https://leetcode.com/problems/isomorphic-strings/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0454,
+    "companyRank": 33
+  },
+  {
+    "sourceQuestionId": "find-minimum-in-rotated-sorted-array",
+    "title": "Find Minimum in Rotated Sorted Array",
+    "sourceUrl": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0451,
+    "companyRank": 34
+  },
+  {
+    "sourceQuestionId": "rotate-image",
+    "title": "Rotate Image",
+    "sourceUrl": "https://leetcode.com/problems/rotate-image/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.045,
+    "companyRank": 35
+  },
+  {
+    "sourceQuestionId": "3sum",
+    "title": "3Sum",
+    "sourceUrl": "https://leetcode.com/problems/3sum/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0436,
+    "companyRank": 36
+  },
+  {
+    "sourceQuestionId": "first-missing-positive",
+    "title": "First Missing Positive",
+    "sourceUrl": "https://leetcode.com/problems/first-missing-positive/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0394,
+    "companyRank": 37
+  },
+  {
+    "sourceQuestionId": "search-in-rotated-sorted-array",
+    "title": "Search in Rotated Sorted Array",
+    "sourceUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0389,
+    "companyRank": 38
+  },
+  {
+    "sourceQuestionId": "word-search-ii",
+    "title": "Word Search II",
+    "sourceUrl": "https://leetcode.com/problems/word-search-ii/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0388,
+    "companyRank": 39
+  },
+  {
+    "sourceQuestionId": "generate-parentheses",
+    "title": "Generate Parentheses",
+    "sourceUrl": "https://leetcode.com/problems/generate-parentheses/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0386,
+    "companyRank": 40
+  },
+  {
+    "sourceQuestionId": "find-pivot-index",
+    "title": "Find Pivot Index",
+    "sourceUrl": "https://leetcode.com/problems/find-pivot-index/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0309,
+    "companyRank": 41
+  },
+  {
+    "sourceQuestionId": "search-a-2d-matrix-ii",
+    "title": "Search a 2D Matrix II",
+    "sourceUrl": "https://leetcode.com/problems/search-a-2d-matrix-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.03,
+    "companyRank": 42
+  },
+  {
+    "sourceQuestionId": "candy",
+    "title": "Candy",
+    "sourceUrl": "https://leetcode.com/problems/candy/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0298,
+    "companyRank": 43
+  },
+  {
+    "sourceQuestionId": "top-k-frequent-words",
+    "title": "Top K Frequent Words",
+    "sourceUrl": "https://leetcode.com/problems/top-k-frequent-words/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0297,
+    "companyRank": 44
+  },
+  {
+    "sourceQuestionId": "serialize-and-deserialize-binary-tree",
+    "title": "Serialize and Deserialize Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.028,
+    "companyRank": 45
+  },
+  {
+    "sourceQuestionId": "validate-binary-search-tree",
+    "title": "Validate Binary Search Tree",
+    "sourceUrl": "https://leetcode.com/problems/validate-binary-search-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0262,
+    "companyRank": 46
+  },
+  {
+    "sourceQuestionId": "permutations",
+    "title": "Permutations",
+    "sourceUrl": "https://leetcode.com/problems/permutations/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0261,
+    "companyRank": 47
+  },
+  {
+    "sourceQuestionId": "minimum-window-substring",
+    "title": "Minimum Window Substring",
+    "sourceUrl": "https://leetcode.com/problems/minimum-window-substring/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0247,
+    "companyRank": 48
+  },
+  {
+    "sourceQuestionId": "kth-largest-element-in-an-array",
+    "title": "Kth Largest Element in an Array",
+    "sourceUrl": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0241,
+    "companyRank": 49
+  },
+  {
+    "sourceQuestionId": "add-and-search-word-data-structure-design",
+    "title": "Add and Search Word - Data structure design",
+    "sourceUrl": "https://leetcode.com/problems/add-and-search-word-data-structure-design/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0233,
+    "companyRank": 50
+  },
+  {
+    "sourceQuestionId": "invert-binary-tree",
+    "title": "Invert Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/invert-binary-tree/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0219,
+    "companyRank": 51
+  },
+  {
+    "sourceQuestionId": "find-median-from-data-stream",
+    "title": "Find Median from Data Stream",
+    "sourceUrl": "https://leetcode.com/problems/find-median-from-data-stream/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0201,
+    "companyRank": 52
+  },
+  {
+    "sourceQuestionId": "course-schedule",
+    "title": "Course Schedule",
+    "sourceUrl": "https://leetcode.com/problems/course-schedule/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0197,
+    "companyRank": 53
+  },
+  {
+    "sourceQuestionId": "maximum-subarray",
+    "title": "Maximum Subarray",
+    "sourceUrl": "https://leetcode.com/problems/maximum-subarray/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0193,
+    "companyRank": 54
+  },
+  {
+    "sourceQuestionId": "binary-tree-vertical-order-traversal",
+    "title": "Binary Tree Vertical Order Traversal",
+    "sourceUrl": "https://leetcode.com/problems/binary-tree-vertical-order-traversal/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.018,
+    "companyRank": 55
+  },
+  {
+    "sourceQuestionId": "simplify-path",
+    "title": "Simplify Path",
+    "sourceUrl": "https://leetcode.com/problems/simplify-path/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0163,
+    "companyRank": 56
+  },
+  {
+    "sourceQuestionId": "fizz-buzz",
+    "title": "Fizz Buzz",
+    "sourceUrl": "https://leetcode.com/problems/fizz-buzz/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0161,
+    "companyRank": 57
+  },
+  {
+    "sourceQuestionId": "product-of-array-except-self",
+    "title": "Product of Array Except Self",
+    "sourceUrl": "https://leetcode.com/problems/product-of-array-except-self/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0156,
+    "companyRank": 58
+  },
+  {
+    "sourceQuestionId": "word-break",
+    "title": "Word Break",
+    "sourceUrl": "https://leetcode.com/problems/word-break/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0155,
+    "companyRank": 59
+  },
+  {
+    "sourceQuestionId": "add-two-numbers",
+    "title": "Add Two Numbers",
+    "sourceUrl": "https://leetcode.com/problems/add-two-numbers/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0151,
+    "companyRank": 60
+  },
+  {
+    "sourceQuestionId": "reverse-words-in-a-string-iii",
+    "title": "Reverse Words in a String III",
+    "sourceUrl": "https://leetcode.com/problems/reverse-words-in-a-string-iii/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0137,
+    "companyRank": 61
+  },
+  {
+    "sourceQuestionId": "symmetric-tree",
+    "title": "Symmetric Tree",
+    "sourceUrl": "https://leetcode.com/problems/symmetric-tree/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0136,
+    "companyRank": 62
+  },
+  {
+    "sourceQuestionId": "friend-circles",
+    "title": "Friend Circles",
+    "sourceUrl": "https://leetcode.com/problems/friend-circles/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0122,
+    "companyRank": 63
+  },
+  {
+    "sourceQuestionId": "integer-to-roman",
+    "title": "Integer to Roman",
+    "sourceUrl": "https://leetcode.com/problems/integer-to-roman/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0085,
+    "companyRank": 64
+  },
+  {
+    "sourceQuestionId": "valid-sudoku",
+    "title": "Valid Sudoku",
+    "sourceUrl": "https://leetcode.com/problems/valid-sudoku/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0073,
+    "companyRank": 65
+  },
+  {
+    "sourceQuestionId": "set-matrix-zeroes",
+    "title": "Set Matrix Zeroes",
+    "sourceUrl": "https://leetcode.com/problems/set-matrix-zeroes/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.007,
+    "companyRank": 66
+  },
+  {
+    "sourceQuestionId": "longest-substring-without-repeating-characters",
+    "title": "Longest Substring Without Repeating Characters",
+    "sourceUrl": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0062,
+    "companyRank": 67
+  },
+  {
+    "sourceQuestionId": "intersection-of-two-arrays-ii",
+    "title": "Intersection of Two Arrays II",
+    "sourceUrl": "https://leetcode.com/problems/intersection-of-two-arrays-ii/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0052,
+    "companyRank": 68
+  },
+  {
+    "sourceQuestionId": "check-if-a-number-is-majority-element-in-a-sorted-array",
+    "title": "Check If a Number Is Majority Element in a Sorted Array",
+    "sourceUrl": "https://leetcode.com/problems/check-if-a-number-is-majority-element-in-a-sorted-array/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0,
+    "companyRank": 69
+  },
+  {
+    "sourceQuestionId": "height-checker",
+    "title": "Height Checker",
+    "sourceUrl": "https://leetcode.com/problems/height-checker/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "salesforce"
+    ],
+    "frequencyScore": 0.0,
+    "companyRank": 70
+  }
+]

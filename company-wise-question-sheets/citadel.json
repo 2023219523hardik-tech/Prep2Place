@@ -1,0 +1,617 @@
+[
+  {
+    "sourceQuestionId": "consecutive-numbers-sum",
+    "title": "Consecutive Numbers Sum",
+    "sourceUrl": "https://leetcode.com/problems/consecutive-numbers-sum/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 1.7291,
+    "companyRank": 1
+  },
+  {
+    "sourceQuestionId": "longest-string-chain",
+    "title": "Longest String Chain",
+    "sourceUrl": "https://leetcode.com/problems/longest-string-chain/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 1.0168,
+    "companyRank": 2
+  },
+  {
+    "sourceQuestionId": "different-ways-to-add-parentheses",
+    "title": "Different Ways to Add Parentheses",
+    "sourceUrl": "https://leetcode.com/problems/different-ways-to-add-parentheses/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.3046,
+    "companyRank": 3
+  },
+  {
+    "sourceQuestionId": "palindromic-substrings",
+    "title": "Palindromic Substrings",
+    "sourceUrl": "https://leetcode.com/problems/palindromic-substrings/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.192,
+    "companyRank": 4
+  },
+  {
+    "sourceQuestionId": "inorder-successor-in-bst",
+    "title": "Inorder Successor in BST",
+    "sourceUrl": "https://leetcode.com/problems/inorder-successor-in-bst/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.185,
+    "companyRank": 5
+  },
+  {
+    "sourceQuestionId": "longest-valid-parentheses",
+    "title": "Longest Valid Parentheses",
+    "sourceUrl": "https://leetcode.com/problems/longest-valid-parentheses/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.1367,
+    "companyRank": 6
+  },
+  {
+    "sourceQuestionId": "knight-dialer",
+    "title": "Knight Dialer",
+    "sourceUrl": "https://leetcode.com/problems/knight-dialer/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.0974,
+    "companyRank": 7
+  },
+  {
+    "sourceQuestionId": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "sourceUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.086,
+    "companyRank": 8
+  },
+  {
+    "sourceQuestionId": "trapping-rain-water",
+    "title": "Trapping Rain Water",
+    "sourceUrl": "https://leetcode.com/problems/trapping-rain-water/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.0846,
+    "companyRank": 9
+  },
+  {
+    "sourceQuestionId": "best-time-to-buy-and-sell-stock-ii",
+    "title": "Best Time to Buy and Sell Stock II",
+    "sourceUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.0658,
+    "companyRank": 10
+  },
+  {
+    "sourceQuestionId": "maximal-square",
+    "title": "Maximal Square",
+    "sourceUrl": "https://leetcode.com/problems/maximal-square/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.0602,
+    "companyRank": 11
+  },
+  {
+    "sourceQuestionId": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "sourceUrl": "https://leetcode.com/problems/valid-parentheses/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.056,
+    "companyRank": 12
+  },
+  {
+    "sourceQuestionId": "find-median-from-data-stream",
+    "title": "Find Median from Data Stream",
+    "sourceUrl": "https://leetcode.com/problems/find-median-from-data-stream/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.055,
+    "companyRank": 13
+  },
+  {
+    "sourceQuestionId": "design-circular-queue",
+    "title": "Design Circular Queue",
+    "sourceUrl": "https://leetcode.com/problems/design-circular-queue/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.0498,
+    "companyRank": 14
+  },
+  {
+    "sourceQuestionId": "sliding-window-maximum",
+    "title": "Sliding Window Maximum",
+    "sourceUrl": "https://leetcode.com/problems/sliding-window-maximum/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.0484,
+    "companyRank": 15
+  },
+  {
+    "sourceQuestionId": "search-a-2d-matrix-ii",
+    "title": "Search a 2D Matrix II",
+    "sourceUrl": "https://leetcode.com/problems/search-a-2d-matrix-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.0465,
+    "companyRank": 16
+  },
+  {
+    "sourceQuestionId": "lru-cache",
+    "title": "LRU Cache",
+    "sourceUrl": "https://leetcode.com/problems/lru-cache/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.0407,
+    "companyRank": 17
+  },
+  {
+    "sourceQuestionId": "find-pivot-index",
+    "title": "Find Pivot Index",
+    "sourceUrl": "https://leetcode.com/problems/find-pivot-index/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.0309,
+    "companyRank": 18
+  },
+  {
+    "sourceQuestionId": "reconstruct-itinerary",
+    "title": "Reconstruct Itinerary",
+    "sourceUrl": "https://leetcode.com/problems/reconstruct-itinerary/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.0307,
+    "companyRank": 19
+  },
+  {
+    "sourceQuestionId": "best-time-to-buy-and-sell-stock-iii",
+    "title": "Best Time to Buy and Sell Stock III",
+    "sourceUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.0252,
+    "companyRank": 20
+  },
+  {
+    "sourceQuestionId": "binary-tree-right-side-view",
+    "title": "Binary Tree Right Side View",
+    "sourceUrl": "https://leetcode.com/problems/binary-tree-right-side-view/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.0225,
+    "companyRank": 21
+  },
+  {
+    "sourceQuestionId": "construct-binary-tree-from-preorder-and-inorder-traversal",
+    "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+    "sourceUrl": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.0223,
+    "companyRank": 22
+  },
+  {
+    "sourceQuestionId": "maximum-product-of-three-numbers",
+    "title": "Maximum Product of Three Numbers",
+    "sourceUrl": "https://leetcode.com/problems/maximum-product-of-three-numbers/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.0165,
+    "companyRank": 23
+  },
+  {
+    "sourceQuestionId": "two-sum",
+    "title": "Two Sum",
+    "sourceUrl": "https://leetcode.com/problems/two-sum/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.0165,
+    "companyRank": 24
+  },
+  {
+    "sourceQuestionId": "implement-stack-using-queues",
+    "title": "Implement Stack using Queues",
+    "sourceUrl": "https://leetcode.com/problems/implement-stack-using-queues/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.0164,
+    "companyRank": 25
+  },
+  {
+    "sourceQuestionId": "longest-substring-with-at-most-k-distinct-characters",
+    "title": "Longest Substring with At Most K Distinct Characters",
+    "sourceUrl": "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.0161,
+    "companyRank": 26
+  },
+  {
+    "sourceQuestionId": "serialize-and-deserialize-binary-tree",
+    "title": "Serialize and Deserialize Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.0159,
+    "companyRank": 27
+  },
+  {
+    "sourceQuestionId": "3sum",
+    "title": "3Sum",
+    "sourceUrl": "https://leetcode.com/problems/3sum/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.0137,
+    "companyRank": 28
+  },
+  {
+    "sourceQuestionId": "maximum-subarray",
+    "title": "Maximum Subarray",
+    "sourceUrl": "https://leetcode.com/problems/maximum-subarray/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.0135,
+    "companyRank": 29
+  },
+  {
+    "sourceQuestionId": "maximal-rectangle",
+    "title": "Maximal Rectangle",
+    "sourceUrl": "https://leetcode.com/problems/maximal-rectangle/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.0133,
+    "companyRank": 30
+  },
+  {
+    "sourceQuestionId": "number-of-islands",
+    "title": "Number of Islands",
+    "sourceUrl": "https://leetcode.com/problems/number-of-islands/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.0115,
+    "companyRank": 31
+  },
+  {
+    "sourceQuestionId": "implement-queue-using-stacks",
+    "title": "Implement Queue using Stacks",
+    "sourceUrl": "https://leetcode.com/problems/implement-queue-using-stacks/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.0112,
+    "companyRank": 32
+  },
+  {
+    "sourceQuestionId": "word-search-ii",
+    "title": "Word Search II",
+    "sourceUrl": "https://leetcode.com/problems/word-search-ii/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.0098,
+    "companyRank": 33
+  },
+  {
+    "sourceQuestionId": "climbing-stairs",
+    "title": "Climbing Stairs",
+    "sourceUrl": "https://leetcode.com/problems/climbing-stairs/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.0094,
+    "companyRank": 34
+  },
+  {
+    "sourceQuestionId": "implement-strstr",
+    "title": "Implement strStr()",
+    "sourceUrl": "https://leetcode.com/problems/implement-strstr/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.0089,
+    "companyRank": 35
+  },
+  {
+    "sourceQuestionId": "meeting-rooms-ii",
+    "title": "Meeting Rooms II",
+    "sourceUrl": "https://leetcode.com/problems/meeting-rooms-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.0081,
+    "companyRank": 36
+  },
+  {
+    "sourceQuestionId": "reverse-words-in-a-string",
+    "title": "Reverse Words in a String",
+    "sourceUrl": "https://leetcode.com/problems/reverse-words-in-a-string/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.0061,
+    "companyRank": 37
+  },
+  {
+    "sourceQuestionId": "string-to-integer-atoi",
+    "title": "String to Integer (atoi)",
+    "sourceUrl": "https://leetcode.com/problems/string-to-integer-atoi/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.0038,
+    "companyRank": 38
+  },
+  {
+    "sourceQuestionId": "binary-tree-level-order-traversal",
+    "title": "Binary Tree Level Order Traversal",
+    "sourceUrl": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.0036,
+    "companyRank": 39
+  },
+  {
+    "sourceQuestionId": "maximum-length-of-repeated-subarray",
+    "title": "Maximum Length of Repeated Subarray",
+    "sourceUrl": "https://leetcode.com/problems/maximum-length-of-repeated-subarray/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.0,
+    "companyRank": 40
+  },
+  {
+    "sourceQuestionId": "best-position-for-a-service-centre",
+    "title": "Best Position for a Service Centre",
+    "sourceUrl": "https://leetcode.com/problems/best-position-for-a-service-centre/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "citadel"
+    ],
+    "frequencyScore": 0.0,
+    "companyRank": 41
+  }
+]

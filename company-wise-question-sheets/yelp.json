@@ -1,0 +1,557 @@
+[
+  {
+    "sourceQuestionId": "minimum-index-sum-of-two-lists",
+    "title": "Minimum Index Sum of Two Lists",
+    "sourceUrl": "https://leetcode.com/problems/minimum-index-sum-of-two-lists/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "yelp"
+    ],
+    "frequencyScore": 2.3082,
+    "companyRank": 1
+  },
+  {
+    "sourceQuestionId": "find-the-closest-palindrome",
+    "title": "Find the Closest Palindrome",
+    "sourceUrl": "https://leetcode.com/problems/find-the-closest-palindrome/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "yelp"
+    ],
+    "frequencyScore": 1.6863,
+    "companyRank": 2
+  },
+  {
+    "sourceQuestionId": "integer-to-english-words",
+    "title": "Integer to English Words",
+    "sourceUrl": "https://leetcode.com/problems/integer-to-english-words/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "yelp"
+    ],
+    "frequencyScore": 1.0644,
+    "companyRank": 3
+  },
+  {
+    "sourceQuestionId": "reconstruct-itinerary",
+    "title": "Reconstruct Itinerary",
+    "sourceUrl": "https://leetcode.com/problems/reconstruct-itinerary/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "yelp"
+    ],
+    "frequencyScore": 1.0409,
+    "companyRank": 4
+  },
+  {
+    "sourceQuestionId": "design-twitter",
+    "title": "Design Twitter",
+    "sourceUrl": "https://leetcode.com/problems/design-twitter/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "yelp"
+    ],
+    "frequencyScore": 1.0346,
+    "companyRank": 5
+  },
+  {
+    "sourceQuestionId": "merge-intervals",
+    "title": "Merge Intervals",
+    "sourceUrl": "https://leetcode.com/problems/merge-intervals/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "yelp"
+    ],
+    "frequencyScore": 0.9872,
+    "companyRank": 6
+  },
+  {
+    "sourceQuestionId": "group-anagrams",
+    "title": "Group Anagrams",
+    "sourceUrl": "https://leetcode.com/problems/group-anagrams/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "yelp"
+    ],
+    "frequencyScore": 0.4375,
+    "companyRank": 7
+  },
+  {
+    "sourceQuestionId": "top-k-frequent-words",
+    "title": "Top K Frequent Words",
+    "sourceUrl": "https://leetcode.com/problems/top-k-frequent-words/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "yelp"
+    ],
+    "frequencyScore": 0.4351,
+    "companyRank": 8
+  },
+  {
+    "sourceQuestionId": "word-break",
+    "title": "Word Break",
+    "sourceUrl": "https://leetcode.com/problems/word-break/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "yelp"
+    ],
+    "frequencyScore": 0.3578,
+    "companyRank": 9
+  },
+  {
+    "sourceQuestionId": "the-skyline-problem",
+    "title": "The Skyline Problem",
+    "sourceUrl": "https://leetcode.com/problems/the-skyline-problem/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "yelp"
+    ],
+    "frequencyScore": 0.3456,
+    "companyRank": 10
+  },
+  {
+    "sourceQuestionId": "top-k-frequent-elements",
+    "title": "Top K Frequent Elements",
+    "sourceUrl": "https://leetcode.com/problems/top-k-frequent-elements/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "yelp"
+    ],
+    "frequencyScore": 0.3399,
+    "companyRank": 11
+  },
+  {
+    "sourceQuestionId": "active-businesses",
+    "title": "Active Businesses",
+    "sourceUrl": "https://leetcode.com/problems/active-businesses/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "yelp"
+    ],
+    "frequencyScore": 0.3208,
+    "companyRank": 12
+  },
+  {
+    "sourceQuestionId": "random-pick-with-weight",
+    "title": "Random Pick with Weight",
+    "sourceUrl": "https://leetcode.com/problems/random-pick-with-weight/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "yelp"
+    ],
+    "frequencyScore": 0.3174,
+    "companyRank": 13
+  },
+  {
+    "sourceQuestionId": "meeting-rooms-ii",
+    "title": "Meeting Rooms II",
+    "sourceUrl": "https://leetcode.com/problems/meeting-rooms-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "yelp"
+    ],
+    "frequencyScore": 0.2947,
+    "companyRank": 14
+  },
+  {
+    "sourceQuestionId": "word-ladder",
+    "title": "Word Ladder",
+    "sourceUrl": "https://leetcode.com/problems/word-ladder/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "yelp"
+    ],
+    "frequencyScore": 0.2907,
+    "companyRank": 15
+  },
+  {
+    "sourceQuestionId": "filter-restaurants-by-vegan-friendly-price-and-distance",
+    "title": "Filter Restaurants by Vegan-Friendly & Price and Distance",
+    "sourceUrl": "https://leetcode.com/problems/filter-restaurants-by-vegan-friendly-price-and-distance/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "yelp"
+    ],
+    "frequencyScore": 0.2639,
+    "companyRank": 16
+  },
+  {
+    "sourceQuestionId": "longest-substring-without-repeating-characters",
+    "title": "Longest Substring Without Repeating Characters",
+    "sourceUrl": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "yelp"
+    ],
+    "frequencyScore": 0.2023,
+    "companyRank": 17
+  },
+  {
+    "sourceQuestionId": "longest-common-prefix",
+    "title": "Longest Common Prefix",
+    "sourceUrl": "https://leetcode.com/problems/longest-common-prefix/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "yelp"
+    ],
+    "frequencyScore": 0.1715,
+    "companyRank": 18
+  },
+  {
+    "sourceQuestionId": "isomorphic-strings",
+    "title": "Isomorphic Strings",
+    "sourceUrl": "https://leetcode.com/problems/isomorphic-strings/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "yelp"
+    ],
+    "frequencyScore": 0.1704,
+    "companyRank": 19
+  },
+  {
+    "sourceQuestionId": "word-ladder-ii",
+    "title": "Word Ladder II",
+    "sourceUrl": "https://leetcode.com/problems/word-ladder-ii/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "yelp"
+    ],
+    "frequencyScore": 0.1514,
+    "companyRank": 20
+  },
+  {
+    "sourceQuestionId": "two-sum",
+    "title": "Two Sum",
+    "sourceUrl": "https://leetcode.com/problems/two-sum/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "yelp"
+    ],
+    "frequencyScore": 0.1394,
+    "companyRank": 21
+  },
+  {
+    "sourceQuestionId": "generate-parentheses",
+    "title": "Generate Parentheses",
+    "sourceUrl": "https://leetcode.com/problems/generate-parentheses/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "yelp"
+    ],
+    "frequencyScore": 0.1242,
+    "companyRank": 22
+  },
+  {
+    "sourceQuestionId": "course-schedule",
+    "title": "Course Schedule",
+    "sourceUrl": "https://leetcode.com/problems/course-schedule/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "yelp"
+    ],
+    "frequencyScore": 0.1173,
+    "companyRank": 23
+  },
+  {
+    "sourceQuestionId": "word-frequency",
+    "title": "Word Frequency",
+    "sourceUrl": "https://leetcode.com/problems/word-frequency/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "yelp"
+    ],
+    "frequencyScore": 0.1019,
+    "companyRank": 24
+  },
+  {
+    "sourceQuestionId": "insert-delete-getrandom-o1",
+    "title": "Insert Delete GetRandom O(1)",
+    "sourceUrl": "https://leetcode.com/problems/insert-delete-getrandom-o1/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "yelp"
+    ],
+    "frequencyScore": 0.0851,
+    "companyRank": 25
+  },
+  {
+    "sourceQuestionId": "letter-case-permutation",
+    "title": "Letter Case Permutation",
+    "sourceUrl": "https://leetcode.com/problems/letter-case-permutation/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "yelp"
+    ],
+    "frequencyScore": 0.0787,
+    "companyRank": 26
+  },
+  {
+    "sourceQuestionId": "combination-sum",
+    "title": "Combination Sum",
+    "sourceUrl": "https://leetcode.com/problems/combination-sum/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "yelp"
+    ],
+    "frequencyScore": 0.0503,
+    "companyRank": 27
+  },
+  {
+    "sourceQuestionId": "sliding-window-maximum",
+    "title": "Sliding Window Maximum",
+    "sourceUrl": "https://leetcode.com/problems/sliding-window-maximum/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "yelp"
+    ],
+    "frequencyScore": 0.0312,
+    "companyRank": 28
+  },
+  {
+    "sourceQuestionId": "reverse-linked-list",
+    "title": "Reverse Linked List",
+    "sourceUrl": "https://leetcode.com/problems/reverse-linked-list/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "yelp"
+    ],
+    "frequencyScore": 0.0209,
+    "companyRank": 29
+  },
+  {
+    "sourceQuestionId": "intersection-of-two-arrays",
+    "title": "Intersection of Two Arrays",
+    "sourceUrl": "https://leetcode.com/problems/intersection-of-two-arrays/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "yelp"
+    ],
+    "frequencyScore": 0.0162,
+    "companyRank": 30
+  },
+  {
+    "sourceQuestionId": "valid-anagram",
+    "title": "Valid Anagram",
+    "sourceUrl": "https://leetcode.com/problems/valid-anagram/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "yelp"
+    ],
+    "frequencyScore": 0.0093,
+    "companyRank": 31
+  },
+  {
+    "sourceQuestionId": "decode-string",
+    "title": "Decode String",
+    "sourceUrl": "https://leetcode.com/problems/decode-string/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "yelp"
+    ],
+    "frequencyScore": 0.0082,
+    "companyRank": 32
+  },
+  {
+    "sourceQuestionId": "reverse-words-in-a-string",
+    "title": "Reverse Words in a String",
+    "sourceUrl": "https://leetcode.com/problems/reverse-words-in-a-string/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "yelp"
+    ],
+    "frequencyScore": 0.0035,
+    "companyRank": 33
+  },
+  {
+    "sourceQuestionId": "insert-delete-getrandom-o1-duplicates-allowed",
+    "title": "Insert Delete GetRandom O(1) - Duplicates allowed",
+    "sourceUrl": "https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "yelp"
+    ],
+    "frequencyScore": 0.0,
+    "companyRank": 34
+  },
+  {
+    "sourceQuestionId": "string-compression",
+    "title": "String Compression",
+    "sourceUrl": "https://leetcode.com/problems/string-compression/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "yelp"
+    ],
+    "frequencyScore": 0.0,
+    "companyRank": 35
+  },
+  {
+    "sourceQuestionId": "destination-city",
+    "title": "Destination City",
+    "sourceUrl": "https://leetcode.com/problems/destination-city/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "yelp"
+    ],
+    "frequencyScore": 0.0,
+    "companyRank": 36
+  },
+  {
+    "sourceQuestionId": "check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence",
+    "title": "Check If a Word Occurs As a Prefix of Any Word in a Sentence",
+    "sourceUrl": "https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "yelp"
+    ],
+    "frequencyScore": 0.0,
+    "companyRank": 37
+  }
+]

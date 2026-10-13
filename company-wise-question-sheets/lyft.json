@@ -1,0 +1,797 @@
+[
+  {
+    "sourceQuestionId": "asteroid-collision",
+    "title": "Asteroid Collision",
+    "sourceUrl": "https://leetcode.com/problems/asteroid-collision/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 3.4954,
+    "companyRank": 1
+  },
+  {
+    "sourceQuestionId": "product-of-array-except-self",
+    "title": "Product of Array Except Self",
+    "sourceUrl": "https://leetcode.com/problems/product-of-array-except-self/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 2.8846,
+    "companyRank": 2
+  },
+  {
+    "sourceQuestionId": "max-stack",
+    "title": "Max Stack",
+    "sourceUrl": "https://leetcode.com/problems/max-stack/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 2.6644,
+    "companyRank": 3
+  },
+  {
+    "sourceQuestionId": "read-n-characters-given-read4-ii-call-multiple-times",
+    "title": "Read N Characters Given Read4 II - Call multiple times",
+    "sourceUrl": "https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 2.0535,
+    "companyRank": 4
+  },
+  {
+    "sourceQuestionId": "design-search-autocomplete-system",
+    "title": "Design Search Autocomplete System",
+    "sourceUrl": "https://leetcode.com/problems/design-search-autocomplete-system/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 1.7722,
+    "companyRank": 5
+  },
+  {
+    "sourceQuestionId": "time-based-key-value-store",
+    "title": "Time Based Key-Value Store",
+    "sourceUrl": "https://leetcode.com/problems/time-based-key-value-store/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 1.4449,
+    "companyRank": 6
+  },
+  {
+    "sourceQuestionId": "water-and-jug-problem",
+    "title": "Water and Jug Problem",
+    "sourceUrl": "https://leetcode.com/problems/water-and-jug-problem/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 1.3723,
+    "companyRank": 7
+  },
+  {
+    "sourceQuestionId": "number-of-islands",
+    "title": "Number of Islands",
+    "sourceUrl": "https://leetcode.com/problems/number-of-islands/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 1.3062,
+    "companyRank": 8
+  },
+  {
+    "sourceQuestionId": "trapping-rain-water",
+    "title": "Trapping Rain Water",
+    "sourceUrl": "https://leetcode.com/problems/trapping-rain-water/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 1.1347,
+    "companyRank": 9
+  },
+  {
+    "sourceQuestionId": "word-ladder",
+    "title": "Word Ladder",
+    "sourceUrl": "https://leetcode.com/problems/word-ladder/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.5839,
+    "companyRank": 10
+  },
+  {
+    "sourceQuestionId": "intersection-of-two-arrays",
+    "title": "Intersection of Two Arrays",
+    "sourceUrl": "https://leetcode.com/problems/intersection-of-two-arrays/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.5468,
+    "companyRank": 11
+  },
+  {
+    "sourceQuestionId": "text-justification",
+    "title": "Text Justification",
+    "sourceUrl": "https://leetcode.com/problems/text-justification/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.4496,
+    "companyRank": 12
+  },
+  {
+    "sourceQuestionId": "word-ladder-ii",
+    "title": "Word Ladder II",
+    "sourceUrl": "https://leetcode.com/problems/word-ladder-ii/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.3743,
+    "companyRank": 13
+  },
+  {
+    "sourceQuestionId": "convert-binary-search-tree-to-sorted-doubly-linked-list",
+    "title": "Convert Binary Search Tree to Sorted Doubly Linked List",
+    "sourceUrl": "https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.3309,
+    "companyRank": 14
+  },
+  {
+    "sourceQuestionId": "decode-ways",
+    "title": "Decode Ways",
+    "sourceUrl": "https://leetcode.com/problems/decode-ways/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.3243,
+    "companyRank": 15
+  },
+  {
+    "sourceQuestionId": "lru-cache",
+    "title": "LRU Cache",
+    "sourceUrl": "https://leetcode.com/problems/lru-cache/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.2586,
+    "companyRank": 16
+  },
+  {
+    "sourceQuestionId": "perfect-squares",
+    "title": "Perfect Squares",
+    "sourceUrl": "https://leetcode.com/problems/perfect-squares/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.2469,
+    "companyRank": 17
+  },
+  {
+    "sourceQuestionId": "flatten-2d-vector",
+    "title": "Flatten 2D Vector",
+    "sourceUrl": "https://leetcode.com/problems/flatten-2d-vector/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.2425,
+    "companyRank": 18
+  },
+  {
+    "sourceQuestionId": "letter-combinations-of-a-phone-number",
+    "title": "Letter Combinations of a Phone Number",
+    "sourceUrl": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.2217,
+    "companyRank": 19
+  },
+  {
+    "sourceQuestionId": "range-sum-query-2d-immutable",
+    "title": "Range Sum Query 2D - Immutable",
+    "sourceUrl": "https://leetcode.com/problems/range-sum-query-2d-immutable/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.2023,
+    "companyRank": 20
+  },
+  {
+    "sourceQuestionId": "min-stack",
+    "title": "Min Stack",
+    "sourceUrl": "https://leetcode.com/problems/min-stack/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.1582,
+    "companyRank": 21
+  },
+  {
+    "sourceQuestionId": "find-duplicate-subtrees",
+    "title": "Find Duplicate Subtrees",
+    "sourceUrl": "https://leetcode.com/problems/find-duplicate-subtrees/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.1533,
+    "companyRank": 22
+  },
+  {
+    "sourceQuestionId": "minimum-window-substring",
+    "title": "Minimum Window Substring",
+    "sourceUrl": "https://leetcode.com/problems/minimum-window-substring/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.1452,
+    "companyRank": 23
+  },
+  {
+    "sourceQuestionId": "largest-bst-subtree",
+    "title": "Largest BST Subtree",
+    "sourceUrl": "https://leetcode.com/problems/largest-bst-subtree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.1314,
+    "companyRank": 24
+  },
+  {
+    "sourceQuestionId": "convert-sorted-list-to-binary-search-tree",
+    "title": "Convert Sorted List to Binary Search Tree",
+    "sourceUrl": "https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.123,
+    "companyRank": 25
+  },
+  {
+    "sourceQuestionId": "flatten-nested-list-iterator",
+    "title": "Flatten Nested List Iterator",
+    "sourceUrl": "https://leetcode.com/problems/flatten-nested-list-iterator/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.1188,
+    "companyRank": 26
+  },
+  {
+    "sourceQuestionId": "regular-expression-matching",
+    "title": "Regular Expression Matching",
+    "sourceUrl": "https://leetcode.com/problems/regular-expression-matching/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.1092,
+    "companyRank": 27
+  },
+  {
+    "sourceQuestionId": "container-with-most-water",
+    "title": "Container With Most Water",
+    "sourceUrl": "https://leetcode.com/problems/container-with-most-water/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.074,
+    "companyRank": 28
+  },
+  {
+    "sourceQuestionId": "smallest-range-covering-elements-from-k-lists",
+    "title": "Smallest Range Covering Elements from K Lists",
+    "sourceUrl": "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.0708,
+    "companyRank": 29
+  },
+  {
+    "sourceQuestionId": "merge-k-sorted-lists",
+    "title": "Merge k Sorted Lists",
+    "sourceUrl": "https://leetcode.com/problems/merge-k-sorted-lists/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.0629,
+    "companyRank": 30
+  },
+  {
+    "sourceQuestionId": "generate-parentheses",
+    "title": "Generate Parentheses",
+    "sourceUrl": "https://leetcode.com/problems/generate-parentheses/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.0522,
+    "companyRank": 31
+  },
+  {
+    "sourceQuestionId": "subsets",
+    "title": "Subsets",
+    "sourceUrl": "https://leetcode.com/problems/subsets/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.0443,
+    "companyRank": 32
+  },
+  {
+    "sourceQuestionId": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "sourceUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.0422,
+    "companyRank": 33
+  },
+  {
+    "sourceQuestionId": "car-pooling",
+    "title": "Car Pooling",
+    "sourceUrl": "https://leetcode.com/problems/car-pooling/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.0402,
+    "companyRank": 34
+  },
+  {
+    "sourceQuestionId": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "sourceUrl": "https://leetcode.com/problems/valid-parentheses/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.0362,
+    "companyRank": 35
+  },
+  {
+    "sourceQuestionId": "word-search",
+    "title": "Word Search",
+    "sourceUrl": "https://leetcode.com/problems/word-search/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.0332,
+    "companyRank": 36
+  },
+  {
+    "sourceQuestionId": "number-of-distinct-islands",
+    "title": "Number of Distinct Islands",
+    "sourceUrl": "https://leetcode.com/problems/number-of-distinct-islands/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.0328,
+    "companyRank": 37
+  },
+  {
+    "sourceQuestionId": "meeting-rooms-ii",
+    "title": "Meeting Rooms II",
+    "sourceUrl": "https://leetcode.com/problems/meeting-rooms-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.0319,
+    "companyRank": 38
+  },
+  {
+    "sourceQuestionId": "sqrtx",
+    "title": "Sqrt(x)",
+    "sourceUrl": "https://leetcode.com/problems/sqrtx/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.0315,
+    "companyRank": 39
+  },
+  {
+    "sourceQuestionId": "rotate-image",
+    "title": "Rotate Image",
+    "sourceUrl": "https://leetcode.com/problems/rotate-image/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.0314,
+    "companyRank": 40
+  },
+  {
+    "sourceQuestionId": "reverse-integer",
+    "title": "Reverse Integer",
+    "sourceUrl": "https://leetcode.com/problems/reverse-integer/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.0294,
+    "companyRank": 41
+  },
+  {
+    "sourceQuestionId": "merge-sorted-array",
+    "title": "Merge Sorted Array",
+    "sourceUrl": "https://leetcode.com/problems/merge-sorted-array/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.0268,
+    "companyRank": 42
+  },
+  {
+    "sourceQuestionId": "find-all-duplicates-in-an-array",
+    "title": "Find All Duplicates in an Array",
+    "sourceUrl": "https://leetcode.com/problems/find-all-duplicates-in-an-array/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.0261,
+    "companyRank": 43
+  },
+  {
+    "sourceQuestionId": "find-peak-element",
+    "title": "Find Peak Element",
+    "sourceUrl": "https://leetcode.com/problems/find-peak-element/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.0252,
+    "companyRank": 44
+  },
+  {
+    "sourceQuestionId": "two-sum",
+    "title": "Two Sum",
+    "sourceUrl": "https://leetcode.com/problems/two-sum/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.0245,
+    "companyRank": 45
+  },
+  {
+    "sourceQuestionId": "move-zeroes",
+    "title": "Move Zeroes",
+    "sourceUrl": "https://leetcode.com/problems/move-zeroes/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.0179,
+    "companyRank": 46
+  },
+  {
+    "sourceQuestionId": "sliding-window-maximum",
+    "title": "Sliding Window Maximum",
+    "sourceUrl": "https://leetcode.com/problems/sliding-window-maximum/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.0177,
+    "companyRank": 47
+  },
+  {
+    "sourceQuestionId": "missing-element-in-sorted-array",
+    "title": "Missing Element in Sorted Array",
+    "sourceUrl": "https://leetcode.com/problems/missing-element-in-sorted-array/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.0174,
+    "companyRank": 48
+  },
+  {
+    "sourceQuestionId": "permutation-in-string",
+    "title": "Permutation in String",
+    "sourceUrl": "https://leetcode.com/problems/permutation-in-string/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.0149,
+    "companyRank": 49
+  },
+  {
+    "sourceQuestionId": "swap-nodes-in-pairs",
+    "title": "Swap Nodes in Pairs",
+    "sourceUrl": "https://leetcode.com/problems/swap-nodes-in-pairs/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.0139,
+    "companyRank": 50
+  },
+  {
+    "sourceQuestionId": "add-two-numbers",
+    "title": "Add Two Numbers",
+    "sourceUrl": "https://leetcode.com/problems/add-two-numbers/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.0105,
+    "companyRank": 51
+  },
+  {
+    "sourceQuestionId": "merge-two-sorted-lists",
+    "title": "Merge Two Sorted Lists",
+    "sourceUrl": "https://leetcode.com/problems/merge-two-sorted-lists/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.0023,
+    "companyRank": 52
+  },
+  {
+    "sourceQuestionId": "string-compression",
+    "title": "String Compression",
+    "sourceUrl": "https://leetcode.com/problems/string-compression/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "lyft"
+    ],
+    "frequencyScore": 0.0,
+    "companyRank": 53
+  }
+]

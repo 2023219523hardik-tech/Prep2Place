@@ -1,0 +1,4153 @@
+{
+  "metadata": {
+    "title": "Frontend Placement Practice Question Bank",
+    "version": "2.0.0",
+    "created_date": "2026-10-12",
+    "question_count": 150,
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "target_companies": [
+      "Accenture",
+      "Cognizant"
+    ],
+    "purpose": "Practice tasks for placement-style frontend implementation, partial implementation, and bug-fixing rounds.",
+    "provenance_note": "Original practice questions modeled on publicly discussed frontend assessment patterns and standard web-development skills. They are not all verified verbatim questions from Accenture or Cognizant examinations. Reference material includes publicly available practice repositories and MDN documentation.",
+    "reference_sources": [
+      {
+        "title": "Accenture frontend machine-coding practice repository",
+        "url": "https://github.com/dexterhere04/accenture-frontend-practice"
+      },
+      {
+        "title": "Accenture placement prep: HTML, CSS and JavaScript coding questions",
+        "url": "https://github.com/vaishnavbhavnak/accenture-placement-prep"
+      },
+      {
+        "title": "MDN Learn Web Development",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development"
+      },
+      {
+        "title": "MDN client-side form validation",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation"
+      }
+    ],
+    "schema_notes": {
+      "task_type": [
+        "full_implementation",
+        "partial_implementation",
+        "bug_fix"
+      ],
+      "difficulty": [
+        "easy",
+        "medium",
+        "hard"
+      ],
+      "starter_code": "null means starter files can be supplied or generated separately.",
+      "test_cases": "Empty arrays are placeholders for executable tests or manual evaluation rubrics."
+    },
+    "updated_date": "2026-10-12"
+  },
+  "questions": [
+    {
+      "id": "FE-001",
+      "title": "Build a semantic registration form",
+      "technologies": [
+        "HTML"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Create a registration form with name, email, password, gender, skills, and submit controls.",
+      "acceptance_criteria": [
+        "Use semantic form markup, associated labels, masked password, grouped radio buttons, and required fields."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "easy",
+        "html"
+      ]
+    },
+    {
+      "id": "FE-002",
+      "title": "Fix labels that do not focus inputs",
+      "technologies": [
+        "HTML"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Repair a form where clicking labels does not focus the intended inputs.",
+      "acceptance_criteria": [
+        "Match label for attributes to unique input IDs and preserve accessible names."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "easy",
+        "html"
+      ]
+    },
+    {
+      "id": "FE-003",
+      "title": "Create a student profile page",
+      "technologies": [
+        "HTML"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Build a profile page with photo, name, degree, skills, and contact links.",
+      "acceptance_criteria": [
+        "Use semantic sections, meaningful alt text, valid links, and a logical heading hierarchy."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "easy",
+        "html"
+      ]
+    },
+    {
+      "id": "FE-004",
+      "title": "Implement a product comparison table",
+      "technologies": [
+        "HTML"
+      ],
+      "task_type": "partial_implementation",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Complete a table comparing three products by name, price, rating, and availability.",
+      "acceptance_criteria": [
+        "Use caption, thead, tbody, and appropriate header cells."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "partial_implementation",
+        "easy",
+        "html"
+      ]
+    },
+    {
+      "id": "FE-005",
+      "title": "Create a job application form",
+      "technologies": [
+        "HTML"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Build a form with name, email, phone, role dropdown, resume upload, and consent checkbox.",
+      "acceptance_criteria": [
+        "Use suitable input types, required fields, file accept filters, and clear labels."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "html"
+      ]
+    },
+    {
+      "id": "FE-006",
+      "title": "Fix invalid nested HTML elements",
+      "technologies": [
+        "HTML"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Repair markup that nests paragraphs inside paragraphs and puts list items outside a list.",
+      "acceptance_criteria": [
+        "Use valid element nesting and preserve intended content."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "easy",
+        "html"
+      ]
+    },
+    {
+      "id": "FE-007",
+      "title": "Add an accessible navigation menu",
+      "technologies": [
+        "HTML"
+      ],
+      "task_type": "partial_implementation",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Complete navigation links for Home, Services, Careers, and Contact.",
+      "acceptance_criteria": [
+        "Use nav/list semantics and meaningful link destinations."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "partial_implementation",
+        "easy",
+        "html"
+      ]
+    },
+    {
+      "id": "FE-008",
+      "title": "Create a feedback form with rating",
+      "technologies": [
+        "HTML"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Build a feedback form with name, 1–5 rating, comments, and submit button.",
+      "acceptance_criteria": [
+        "Use fieldset/legend, labels, and required validation."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "easy",
+        "html"
+      ]
+    },
+    {
+      "id": "FE-009",
+      "title": "Add video fallback content",
+      "technologies": [
+        "HTML"
+      ],
+      "task_type": "partial_implementation",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Complete an HTML video element for a demo clip.",
+      "acceptance_criteria": [
+        "Include controls, source MIME type, and fallback text."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "partial_implementation",
+        "easy",
+        "html"
+      ]
+    },
+    {
+      "id": "FE-010",
+      "title": "Fix form submission refreshing the page",
+      "technologies": [
+        "HTML",
+        "JavaScript"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "A form should show a success message but the page reloads on submit.",
+      "acceptance_criteria": [
+        "Handle submit, prevent default when appropriate, validate input, and show feedback."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "medium",
+        "html",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-011",
+      "title": "Create a responsive navigation bar",
+      "technologies": [
+        "CSS"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Style a horizontal desktop navigation bar that stacks cleanly on narrow screens.",
+      "acceptance_criteria": [
+        "Use Flexbox and media queries",
+        "prevent overflow."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "easy",
+        "css"
+      ]
+    },
+    {
+      "id": "FE-012",
+      "title": "Center a login card",
+      "technologies": [
+        "CSS"
+      ],
+      "task_type": "partial_implementation",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Complete CSS to center a login card horizontally and vertically.",
+      "acceptance_criteria": [
+        "Use a robust layout, constrained width, and mobile padding."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "partial_implementation",
+        "easy",
+        "css"
+      ]
+    },
+    {
+      "id": "FE-013",
+      "title": "Build a three-card responsive layout",
+      "technologies": [
+        "HTML",
+        "CSS"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Create three service cards with title, description, and action button.",
+      "acceptance_criteria": [
+        "Use Grid/Flexbox and switch to one column on small screens."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "easy",
+        "html",
+        "css"
+      ]
+    },
+    {
+      "id": "FE-014",
+      "title": "Fix box model overflow",
+      "technologies": [
+        "CSS"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "A 100%-wide input with padding extends beyond its parent.",
+      "acceptance_criteria": [
+        "Correct box sizing and use responsive widths."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "easy",
+        "css"
+      ]
+    },
+    {
+      "id": "FE-015",
+      "title": "Create a two-column dashboard layout",
+      "technologies": [
+        "CSS"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Build a sidebar and main content area that collapses on mobile.",
+      "acceptance_criteria": [
+        "Use Grid/Flexbox, consistent gaps, and a mobile breakpoint."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "css"
+      ]
+    },
+    {
+      "id": "FE-016",
+      "title": "Style a button with hover and focus states",
+      "technologies": [
+        "CSS"
+      ],
+      "task_type": "partial_implementation",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Complete primary-button hover, active, and keyboard-focus styles.",
+      "acceptance_criteria": [
+        "Maintain contrast and visible :focus-visible indication."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "partial_implementation",
+        "easy",
+        "css"
+      ]
+    },
+    {
+      "id": "FE-017",
+      "title": "Fix CSS selector specificity",
+      "technologies": [
+        "CSS"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "An intended class color is overridden by a more specific selector.",
+      "acceptance_criteria": [
+        "Fix the cascade without unnecessary !important rules."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "medium",
+        "css"
+      ]
+    },
+    {
+      "id": "FE-018",
+      "title": "Create a sticky header",
+      "technologies": [
+        "CSS"
+      ],
+      "task_type": "partial_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Keep a page header visible while scrolling.",
+      "acceptance_criteria": [
+        "Use position: sticky and check ancestor overflow behavior."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "partial_implementation",
+        "medium",
+        "css"
+      ]
+    },
+    {
+      "id": "FE-019",
+      "title": "Build a pricing table",
+      "technologies": [
+        "HTML",
+        "CSS"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Create three pricing cards with plan, price, features, and CTA.",
+      "acceptance_criteria": [
+        "Use consistent spacing, responsive layout, and distinguish the recommended plan."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "html",
+        "css"
+      ]
+    },
+    {
+      "id": "FE-020",
+      "title": "Fix image stretching in cards",
+      "technologies": [
+        "CSS"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Product images have different aspect ratios and appear distorted.",
+      "acceptance_criteria": [
+        "Use object-fit and a consistent image container",
+        "retain useful alt text."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "easy",
+        "css"
+      ]
+    },
+    {
+      "id": "FE-021",
+      "title": "Create a CSS-only tooltip",
+      "technologies": [
+        "HTML",
+        "CSS"
+      ],
+      "task_type": "partial_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Add a tooltip to an information icon without JavaScript.",
+      "acceptance_criteria": [
+        "Support hover and keyboard focus",
+        "keep the explanation accessible."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "partial_implementation",
+        "medium",
+        "html",
+        "css"
+      ]
+    },
+    {
+      "id": "FE-022",
+      "title": "Implement a dark-mode toggle",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Add a button that switches between light and dark themes.",
+      "acceptance_criteria": [
+        "Toggle a class/data attribute, update button state, and maintain contrast."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "html",
+        "css",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-023",
+      "title": "Fix mobile horizontal scrolling",
+      "technologies": [
+        "CSS"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "A page scrolls horizontally on mobile due to an oversized section.",
+      "acceptance_criteria": [
+        "Find the overflowing element and correct its responsive sizing."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "medium",
+        "css"
+      ]
+    },
+    {
+      "id": "FE-024",
+      "title": "Create a loading skeleton",
+      "technologies": [
+        "CSS"
+      ],
+      "task_type": "partial_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Style placeholder blocks while profile data loads.",
+      "acceptance_criteria": [
+        "Use subtle animation, respect reduced-motion preferences, and avoid layout shifts."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "partial_implementation",
+        "medium",
+        "css"
+      ]
+    },
+    {
+      "id": "FE-025",
+      "title": "Build a simple calculator",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Implement addition, subtraction, multiplication, and division from two inputs.",
+      "acceptance_criteria": [
+        "Validate numbers and handle division by zero."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "easy",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-026",
+      "title": "Fix a counter that increments twice",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "A counter click handler runs twice per click.",
+      "acceptance_criteria": [
+        "Remove duplicate listener registration and test repeated interactions."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "easy",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-027",
+      "title": "Implement password visibility toggle",
+      "technologies": [
+        "HTML",
+        "JavaScript"
+      ],
+      "task_type": "partial_implementation",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Add a show/hide control beside a password input.",
+      "acceptance_criteria": [
+        "Switch input type and update the button's accessible label."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "partial_implementation",
+        "easy",
+        "html",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-028",
+      "title": "Validate an email and password form",
+      "technologies": [
+        "HTML",
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Validate required fields, email format, and password minimum length.",
+      "acceptance_criteria": [
+        "Show field-level messages and prevent invalid submission."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "html",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-029",
+      "title": "Fix a broken character counter",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "A textarea character counter does not update while typing or pasting.",
+      "acceptance_criteria": [
+        "Listen to input events and count the current value."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "easy",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-030",
+      "title": "Build a to-do list",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Let users add tasks, mark them complete, and delete them.",
+      "acceptance_criteria": [
+        "Handle empty input, create DOM nodes safely, and support keyboard submission."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "html",
+        "css",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-031",
+      "title": "Implement live search filtering",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "partial_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Complete a search box that filters a predefined list as the user types.",
+      "acceptance_criteria": [
+        "Use input events, case-insensitive matching, and a no-results state."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "partial_implementation",
+        "medium",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-032",
+      "title": "Fix remove buttons deleting the wrong row",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "In a dynamic list, Delete removes a different row than the selected one.",
+      "acceptance_criteria": [
+        "Scope handlers correctly or use event delegation",
+        "avoid fragile indexes."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "medium",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-033",
+      "title": "Create an image carousel",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Implement next/previous controls for a small image carousel.",
+      "acceptance_criteria": [
+        "Handle boundaries consistently and update alt text/current-slide indicator."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "html",
+        "css",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-034",
+      "title": "Implement a modal dialog",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Open a modal and close it using a close button, Escape, or backdrop click.",
+      "acceptance_criteria": [
+        "Manage visibility, focus, keyboard behavior, and dialog semantics."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "html",
+        "css",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-035",
+      "title": "Fix a dropdown that closes before selection",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "A custom dropdown disappears before its option click handler runs.",
+      "acceptance_criteria": [
+        "Inspect event propagation and blur ordering",
+        "preserve keyboard access."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "medium",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-036",
+      "title": "Build a live word counter",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "partial_implementation",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Complete a textarea word counter treating multiple spaces as one separator.",
+      "acceptance_criteria": [
+        "Trim input, handle empty strings, and update on input."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "partial_implementation",
+        "easy",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-037",
+      "title": "Sort a table by column",
+      "technologies": [
+        "HTML",
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Sort a table by name and numeric score when headers are clicked.",
+      "acceptance_criteria": [
+        "Compare numbers numerically and indicate sort direction."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "html",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-038",
+      "title": "Fix NaN in a total-price calculator",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "A cart total becomes NaN when quantity or price fields are empty.",
+      "acceptance_criteria": [
+        "Convert and validate values explicitly",
+        "define empty-value behavior."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "easy",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-039",
+      "title": "Build a shopping cart quantity updater",
+      "technologies": [
+        "HTML",
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Update cart item quantities and recalculate line and grand totals.",
+      "acceptance_criteria": [
+        "Validate minimum quantity and format currency consistently."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "html",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-040",
+      "title": "Implement a countdown timer",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "partial_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Complete a countdown that updates every second and stops at zero.",
+      "acceptance_criteria": [
+        "Clear the interval, prevent negative time, and avoid duplicate timers."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "partial_implementation",
+        "medium",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-041",
+      "title": "Fix a fetch UI stuck on loading",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "A page fetches data but remains on Loading when the request fails.",
+      "acceptance_criteria": [
+        "Handle errors and reset loading state in finally",
+        "display useful feedback."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "medium",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-042",
+      "title": "Build a weather-card UI from supplied data",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Render city, temperature, condition, and icon from a supplied object.",
+      "acceptance_criteria": [
+        "Handle missing fields and avoid injecting untrusted HTML."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "html",
+        "css",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-043",
+      "title": "Implement tabs for a content panel",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Create three tabs that display the matching panel.",
+      "acceptance_criteria": [
+        "Update active styles and aria-selected",
+        "support keyboard focus."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "html",
+        "css",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-044",
+      "title": "Fix event listeners on dynamic items",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Buttons added after page load do not respond to existing listeners.",
+      "acceptance_criteria": [
+        "Use event delegation or attach handlers during element creation."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "medium",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-045",
+      "title": "Create a responsive login page",
+      "technologies": [
+        "HTML",
+        "CSS"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Recreate a login screen from a supplied visual brief and assets.",
+      "acceptance_criteria": [
+        "Match spacing, typography, alignment, and mobile behavior."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "html",
+        "css"
+      ]
+    },
+    {
+      "id": "FE-046",
+      "title": "Implement field-level form errors",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "task_type": "partial_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Show a specific message beside each invalid field after submission.",
+      "acceptance_criteria": [
+        "Associate messages with fields, set aria-invalid, and focus the first invalid control."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "partial_implementation",
+        "medium",
+        "html",
+        "css",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-047",
+      "title": "Fix a mobile menu button",
+      "technologies": [
+        "JavaScript",
+        "CSS"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "A mobile menu button changes no visible state when clicked.",
+      "acceptance_criteria": [
+        "Toggle menu visibility and update aria-expanded."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "easy",
+        "javascript",
+        "css"
+      ]
+    },
+    {
+      "id": "FE-048",
+      "title": "Build a FAQ accordion",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Create expandable FAQ answers and choose whether multiple items can stay open.",
+      "acceptance_criteria": [
+        "Use buttons, aria-expanded, controlled panels, and visible focus styles."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "easy",
+        "html",
+        "css",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-049",
+      "title": "Implement a debounced search box",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "partial_implementation",
+      "difficulty": "hard",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Delay filtering or API calls until typing pauses briefly.",
+      "acceptance_criteria": [
+        "Clear prior timeout, use configurable delay, and avoid stale async results."
+      ],
+      "estimated_time_minutes": 35,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "partial_implementation",
+        "hard",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-050",
+      "title": "Fix a theme preference not persisting",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Dark mode resets after refresh despite using localStorage.",
+      "acceptance_criteria": [
+        "Load the saved preference on startup and persist changes safely."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "medium",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-051",
+      "title": "Build a semantic blog article page",
+      "technologies": [
+        "HTML"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Create an article page with title, author, publication date, sections, and related links.",
+      "acceptance_criteria": [
+        "Use article/header/footer semantics",
+        "preserve heading order and meaningful links."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "easy",
+        "html"
+      ]
+    },
+    {
+      "id": "FE-052",
+      "title": "Create an accessible image gallery",
+      "technologies": [
+        "HTML"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Build a gallery of six images with captions.",
+      "acceptance_criteria": [
+        "Use figure/figcaption and descriptive alt text."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "easy",
+        "html"
+      ]
+    },
+    {
+      "id": "FE-053",
+      "title": "Add metadata to a landing page",
+      "technologies": [
+        "HTML"
+      ],
+      "task_type": "partial_implementation",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Complete the head section for a responsive landing page.",
+      "acceptance_criteria": [
+        "Add charset, viewport, descriptive title, and meta description."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "partial_implementation",
+        "easy",
+        "html"
+      ]
+    },
+    {
+      "id": "FE-054",
+      "title": "Fix duplicate element IDs",
+      "technologies": [
+        "HTML"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "A page has multiple elements sharing the same ID and scripts target the wrong one.",
+      "acceptance_criteria": [
+        "Make IDs unique and update references appropriately."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "easy",
+        "html"
+      ]
+    },
+    {
+      "id": "FE-055",
+      "title": "Build a multi-step checkout form structure",
+      "technologies": [
+        "HTML"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Create contact, delivery, and payment sections with clear grouping.",
+      "acceptance_criteria": [
+        "Use fieldsets/legends where useful, labels, and correct input types."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "html"
+      ]
+    },
+    {
+      "id": "FE-056",
+      "title": "Create an FAQ page with details elements",
+      "technologies": [
+        "HTML"
+      ],
+      "task_type": "partial_implementation",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Complete a FAQ using native expandable disclosure elements.",
+      "acceptance_criteria": [
+        "Use details/summary and meaningful question text."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "partial_implementation",
+        "easy",
+        "html"
+      ]
+    },
+    {
+      "id": "FE-057",
+      "title": "Add accessible skip navigation",
+      "technologies": [
+        "HTML"
+      ],
+      "task_type": "partial_implementation",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Add a skip link that jumps directly to the main content.",
+      "acceptance_criteria": [
+        "Ensure target exists and link is visible on keyboard focus."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "partial_implementation",
+        "easy",
+        "html"
+      ]
+    },
+    {
+      "id": "FE-058",
+      "title": "Fix buttons that accidentally submit forms",
+      "technologies": [
+        "HTML"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Buttons used for toggling a panel submit the form unexpectedly.",
+      "acceptance_criteria": [
+        "Set appropriate button types and retain the intended submit control."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "easy",
+        "html"
+      ]
+    },
+    {
+      "id": "FE-059",
+      "title": "Create a downloadable resume section",
+      "technologies": [
+        "HTML"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Add a resume download link and contact links to a portfolio page.",
+      "acceptance_criteria": [
+        "Use descriptive link text and valid href values."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "easy",
+        "html"
+      ]
+    },
+    {
+      "id": "FE-060",
+      "title": "Build a responsive image using picture",
+      "technologies": [
+        "HTML"
+      ],
+      "task_type": "partial_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Complete markup that serves different image sources at different widths.",
+      "acceptance_criteria": [
+        "Use source media/type correctly and provide an img fallback."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "partial_implementation",
+        "medium",
+        "html"
+      ]
+    },
+    {
+      "id": "FE-061",
+      "title": "Create a CSS grid photo gallery",
+      "technologies": [
+        "CSS"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Arrange images in a responsive grid with consistent gaps.",
+      "acceptance_criteria": [
+        "Use grid-template-columns with responsive sizing and no overflow."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "easy",
+        "css"
+      ]
+    },
+    {
+      "id": "FE-062",
+      "title": "Fix flex items not wrapping",
+      "technologies": [
+        "CSS"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "A row of tags extends beyond the card on narrow screens.",
+      "acceptance_criteria": [
+        "Enable wrapping and manage gaps and min-width constraints."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "easy",
+        "css"
+      ]
+    },
+    {
+      "id": "FE-063",
+      "title": "Create a hero section with CTA",
+      "technologies": [
+        "HTML",
+        "CSS"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Build a landing hero with headline, description, CTA, and illustration.",
+      "acceptance_criteria": [
+        "Use responsive spacing and readable line lengths."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "easy",
+        "html",
+        "css"
+      ]
+    },
+    {
+      "id": "FE-064",
+      "title": "Build a responsive footer",
+      "technologies": [
+        "HTML",
+        "CSS"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Create a footer with company details, navigation, and social links.",
+      "acceptance_criteria": [
+        "Use semantic footer markup and stack columns on mobile."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "easy",
+        "html",
+        "css"
+      ]
+    },
+    {
+      "id": "FE-065",
+      "title": "Fix z-index dropdown overlap",
+      "technologies": [
+        "CSS"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "A dropdown appears behind a neighboring card.",
+      "acceptance_criteria": [
+        "Inspect stacking contexts and position/z-index relationships."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "medium",
+        "css"
+      ]
+    },
+    {
+      "id": "FE-066",
+      "title": "Create a CSS progress bar",
+      "technologies": [
+        "HTML",
+        "CSS"
+      ],
+      "task_type": "partial_implementation",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Style a progress indicator showing 65% completion.",
+      "acceptance_criteria": [
+        "Expose progress semantics and keep visual width synchronized with value."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "partial_implementation",
+        "easy",
+        "html",
+        "css"
+      ]
+    },
+    {
+      "id": "FE-067",
+      "title": "Create a notification toast style",
+      "technologies": [
+        "HTML",
+        "CSS"
+      ],
+      "task_type": "partial_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Style success and error toast variants.",
+      "acceptance_criteria": [
+        "Ensure sufficient contrast and avoid relying on color alone."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "partial_implementation",
+        "medium",
+        "html",
+        "css"
+      ]
+    },
+    {
+      "id": "FE-068",
+      "title": "Build a profile avatar with status badge",
+      "technologies": [
+        "HTML",
+        "CSS"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Place an online/offline status indicator on an avatar.",
+      "acceptance_criteria": [
+        "Use a positioned wrapper and provide text or accessible status context."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "easy",
+        "html",
+        "css"
+      ]
+    },
+    {
+      "id": "FE-069",
+      "title": "Fix text overflowing a card",
+      "technologies": [
+        "CSS"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Long usernames or URLs break a card layout.",
+      "acceptance_criteria": [
+        "Use appropriate wrapping and min-width rules without clipping essential content."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "easy",
+        "css"
+      ]
+    },
+    {
+      "id": "FE-070",
+      "title": "Create a responsive sidebar",
+      "technologies": [
+        "HTML",
+        "CSS"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Build a sidebar that becomes a top navigation on small screens.",
+      "acceptance_criteria": [
+        "Use grid/flex layout and clear active navigation state."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "html",
+        "css"
+      ]
+    },
+    {
+      "id": "FE-071",
+      "title": "Create a CSS-only skeleton shimmer alternative",
+      "technologies": [
+        "CSS"
+      ],
+      "task_type": "partial_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Add a loading placeholder with a restrained shimmer effect.",
+      "acceptance_criteria": [
+        "Respect prefers-reduced-motion and maintain stable layout dimensions."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "partial_implementation",
+        "medium",
+        "css"
+      ]
+    },
+    {
+      "id": "FE-072",
+      "title": "Build a two-column contact section",
+      "technologies": [
+        "HTML",
+        "CSS"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Show contact details beside a contact form on desktop and stack on mobile.",
+      "acceptance_criteria": [
+        "Use responsive Grid and consistent form spacing."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "easy",
+        "html",
+        "css"
+      ]
+    },
+    {
+      "id": "FE-073",
+      "title": "Fix CSS variables not applying",
+      "technologies": [
+        "CSS"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Theme colors are undefined because custom properties are scoped incorrectly.",
+      "acceptance_criteria": [
+        "Define variables in a suitable scope and use valid var() syntax."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "medium",
+        "css"
+      ]
+    },
+    {
+      "id": "FE-074",
+      "title": "Create a badge system",
+      "technologies": [
+        "CSS"
+      ],
+      "task_type": "partial_implementation",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Style badges for pending, approved, and rejected statuses.",
+      "acceptance_criteria": [
+        "Provide consistent sizing and non-color status labels."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "partial_implementation",
+        "easy",
+        "css"
+      ]
+    },
+    {
+      "id": "FE-075",
+      "title": "Build a responsive testimonial card",
+      "technologies": [
+        "HTML",
+        "CSS"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Create a testimonial with quote, person, role, and avatar.",
+      "acceptance_criteria": [
+        "Use semantic quotation markup where appropriate and responsive layout."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "easy",
+        "html",
+        "css"
+      ]
+    },
+    {
+      "id": "FE-076",
+      "title": "Implement a live digital clock",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Display the current local time and update it every second.",
+      "acceptance_criteria": [
+        "Format time consistently and clear intervals if the view is removed."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "easy",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-077",
+      "title": "Fix a clock that drifts or duplicates intervals",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Repeatedly starting a clock creates multiple intervals.",
+      "acceptance_criteria": [
+        "Store and clear the interval handle before starting another."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "medium",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-078",
+      "title": "Build a random quote generator",
+      "technologies": [
+        "HTML",
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Show a random quote from a supplied array when a button is clicked.",
+      "acceptance_criteria": [
+        "Handle empty data and avoid repeating the same quote when practical."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "easy",
+        "html",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-079",
+      "title": "Implement a character limit with remaining count",
+      "technologies": [
+        "HTML",
+        "JavaScript"
+      ],
+      "task_type": "partial_implementation",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Limit a message to 200 characters and display remaining characters.",
+      "acceptance_criteria": [
+        "Keep count accurate for typing, paste, and deletion."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "partial_implementation",
+        "easy",
+        "html",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-080",
+      "title": "Fix array filtering that mutates source data",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Filtering a list unexpectedly changes the original dataset.",
+      "acceptance_criteria": [
+        "Use non-mutating array methods and verify repeated filters."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "medium",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-081",
+      "title": "Implement a quiz with score summary",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Render multiple-choice questions and show score at completion.",
+      "acceptance_criteria": [
+        "Track answers, prevent duplicate scoring, and handle unanswered questions."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "html",
+        "css",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-082",
+      "title": "Build a persistent notes app",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Create, edit, delete, and persist notes across refreshes.",
+      "acceptance_criteria": [
+        "Serialize data safely to localStorage and handle invalid stored JSON."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "html",
+        "css",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-083",
+      "title": "Fix localStorage JSON parsing crash",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "An old or malformed saved value crashes the page during startup.",
+      "acceptance_criteria": [
+        "Wrap parsing defensively and provide a safe fallback."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "medium",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-084",
+      "title": "Implement a shopping product filter",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "partial_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Filter product objects by category and maximum price.",
+      "acceptance_criteria": [
+        "Combine filters correctly and show an empty result message."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "partial_implementation",
+        "medium",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-085",
+      "title": "Build a pagination component",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Display a large list in pages with next, previous, and page numbers.",
+      "acceptance_criteria": [
+        "Clamp page boundaries and render the correct slice."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "html",
+        "css",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-086",
+      "title": "Fix sort order changing the original array",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Calling sort changes the shared source array and breaks another view.",
+      "acceptance_criteria": [
+        "Sort a copy or use a non-mutating approach."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "easy",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-087",
+      "title": "Implement a tab switcher from data attributes",
+      "technologies": [
+        "HTML",
+        "JavaScript"
+      ],
+      "task_type": "partial_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Activate the panel associated with the clicked tab.",
+      "acceptance_criteria": [
+        "Map data attributes reliably and synchronize active/hidden states."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "partial_implementation",
+        "medium",
+        "html",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-088",
+      "title": "Build a searchable employee table",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Render employees and filter by name or department.",
+      "acceptance_criteria": [
+        "Use case-insensitive matching and update results without duplicating rows."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "html",
+        "css",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-089",
+      "title": "Fix a stale value in a click handler",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "A handler keeps using an earlier variable value after the UI changes.",
+      "acceptance_criteria": [
+        "Read current state at the right time and avoid stale captured values."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "medium",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-090",
+      "title": "Implement a debounce utility",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "hard",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Write a reusable debounce function and demonstrate it with search input.",
+      "acceptance_criteria": [
+        "Cancel previous timeout and preserve arguments and calling context."
+      ],
+      "estimated_time_minutes": 35,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "hard",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-091",
+      "title": "Build a throttle utility",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "hard",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Limit how often a resize or scroll callback runs.",
+      "acceptance_criteria": [
+        "Ensure predictable leading/trailing behavior and test rapid events."
+      ],
+      "estimated_time_minutes": 35,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "hard",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-092",
+      "title": "Fix a promise chain swallowing errors",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "An asynchronous operation fails but no error message is shown.",
+      "acceptance_criteria": [
+        "Propagate or catch rejections and render a recoverable error state."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "medium",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-093",
+      "title": "Implement async fetch with retry button",
+      "technologies": [
+        "HTML",
+        "JavaScript"
+      ],
+      "task_type": "partial_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Fetch a list from a supplied endpoint and provide retry after failure.",
+      "acceptance_criteria": [
+        "Handle HTTP errors, loading state, and repeated requests."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "partial_implementation",
+        "medium",
+        "html",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-094",
+      "title": "Build a weather search UI using mock data",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Search cities in a supplied weather dataset and render results.",
+      "acceptance_criteria": [
+        "Handle missing cities, empty input, and safe DOM rendering."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "html",
+        "css",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-095",
+      "title": "Fix duplicate list entries after refresh",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Saved items are appended to existing markup and appear twice.",
+      "acceptance_criteria": [
+        "Clear or reconcile the rendered list before drawing saved items."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "medium",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-096",
+      "title": "Implement a copy-to-clipboard button",
+      "technologies": [
+        "HTML",
+        "JavaScript"
+      ],
+      "task_type": "partial_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Copy a supplied code snippet and show success/failure feedback.",
+      "acceptance_criteria": [
+        "Use Clipboard API where available and handle rejected promises."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "partial_implementation",
+        "medium",
+        "html",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-097",
+      "title": "Build a password strength indicator",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Estimate password strength from length and character variety.",
+      "acceptance_criteria": [
+        "Explain criteria, update live, and avoid claiming server-side security."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "html",
+        "css",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-098",
+      "title": "Fix a modal closing when clicking inside it",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Clicking modal content triggers the backdrop close handler.",
+      "acceptance_criteria": [
+        "Distinguish backdrop clicks from dialog content events."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "medium",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-099",
+      "title": "Implement a sortable list with up/down controls",
+      "technologies": [
+        "HTML",
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Allow users to reorder list items using accessible buttons.",
+      "acceptance_criteria": [
+        "Update data and DOM consistently and disable moves at boundaries."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "html",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-100",
+      "title": "Build a progress tracker for a multi-step form",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Show current step and completion progress through three form steps.",
+      "acceptance_criteria": [
+        "Validate before advancing and allow navigating back."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "html",
+        "css",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-101",
+      "title": "Fix a form accepting whitespace-only values",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "A required name field passes validation when it contains spaces.",
+      "acceptance_criteria": [
+        "Trim values before checking and provide a clear message."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "easy",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-102",
+      "title": "Implement dependent country and city dropdowns",
+      "technologies": [
+        "HTML",
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Populate city options based on selected country using supplied data.",
+      "acceptance_criteria": [
+        "Reset invalid city selections and handle empty option lists."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "html",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-103",
+      "title": "Build a cart discount calculator",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Apply a percentage coupon to subtotal and calculate final total.",
+      "acceptance_criteria": [
+        "Validate coupon rules and avoid floating-point display artifacts."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-104",
+      "title": "Fix floating-point currency display",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Adding decimal prices shows results such as 19.999999.",
+      "acceptance_criteria": [
+        "Use integer minor units or currency formatting for calculations and display."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "easy",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-105",
+      "title": "Implement a stopwatch",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Create start, pause, reset, and elapsed-time display controls.",
+      "acceptance_criteria": [
+        "Prevent duplicate timers and preserve elapsed time across pause/resume."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "html",
+        "css",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-106",
+      "title": "Build a keyboard-accessible dropdown menu",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "hard",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Create a menu that opens with a button and supports Escape and keyboard navigation.",
+      "acceptance_criteria": [
+        "Manage focus, expanded state, and click-outside behavior."
+      ],
+      "estimated_time_minutes": 35,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "hard",
+        "html",
+        "css",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-107",
+      "title": "Fix event bubbling in nested cards",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Clicking a nested action also triggers the parent card action.",
+      "acceptance_criteria": [
+        "Use event delegation carefully and stop propagation only where appropriate."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "medium",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-108",
+      "title": "Implement a character-by-character typing effect",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "partial_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Reveal a heading progressively and provide a reduced-motion fallback.",
+      "acceptance_criteria": [
+        "Clear timers when complete and avoid restarting unnecessarily."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "partial_implementation",
+        "medium",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-109",
+      "title": "Build a reusable DOM element renderer",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Write a function that renders a list of objects into cards.",
+      "acceptance_criteria": [
+        "Separate rendering logic and use textContent for untrusted strings."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-110",
+      "title": "Fix XSS risk from innerHTML",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "User-provided comments are inserted directly using innerHTML.",
+      "acceptance_criteria": [
+        "Render untrusted text safely and explain when sanitization is required."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "medium",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-111",
+      "title": "Implement a click-outside handler",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "partial_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Close a popover when the user clicks outside its container.",
+      "acceptance_criteria": [
+        "Ignore clicks inside and remove listeners when no longer needed."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "partial_implementation",
+        "medium",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-112",
+      "title": "Build a responsive product detail page",
+      "technologies": [
+        "HTML",
+        "CSS"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Show product image, title, price, description, and add-to-cart button.",
+      "acceptance_criteria": [
+        "Use responsive columns, accessible controls, and clear hierarchy."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "html",
+        "css"
+      ]
+    },
+    {
+      "id": "FE-113",
+      "title": "Implement a star rating input",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Let users select a rating from one to five stars.",
+      "acceptance_criteria": [
+        "Support keyboard interaction and expose the selected value accessibly."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "html",
+        "css",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-114",
+      "title": "Fix a checkbox select-all feature",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Select-all does not reflect individual checkbox changes correctly.",
+      "acceptance_criteria": [
+        "Synchronize master and child checkboxes and handle an indeterminate state."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "medium",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-115",
+      "title": "Build a select-all bulk action toolbar",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Select rows and enable a bulk action only when at least one row is selected.",
+      "acceptance_criteria": [
+        "Track selected items accurately and update accessible status."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "html",
+        "css",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-116",
+      "title": "Implement a file upload preview",
+      "technologies": [
+        "HTML",
+        "JavaScript"
+      ],
+      "task_type": "partial_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Preview selected image files before submission.",
+      "acceptance_criteria": [
+        "Validate file type/size and release object URLs when replaced."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "partial_implementation",
+        "medium",
+        "html",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-117",
+      "title": "Fix a file input not resetting",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Selecting the same file twice does not trigger the expected change flow.",
+      "acceptance_criteria": [
+        "Reset the input value at the correct point and preserve selected-file handling."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "medium",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-118",
+      "title": "Build a drag-and-drop-free task reorder interface",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Move tasks up and down with buttons and persist their order.",
+      "acceptance_criteria": [
+        "Keep accessible controls and save updated order."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "html",
+        "css",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-119",
+      "title": "Implement a countdown to a supplied deadline",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Display days, hours, minutes, and seconds until a target date.",
+      "acceptance_criteria": [
+        "Handle invalid/past dates and stop updates at zero."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-120",
+      "title": "Fix timezone assumptions in date display",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "A date-only string displays on the previous day in some time zones.",
+      "acceptance_criteria": [
+        "Parse date-only values deliberately and document local/UTC behavior."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "medium",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-121",
+      "title": "Build a calendar month grid",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "hard",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Render a month with weekday headings and correctly placed date cells.",
+      "acceptance_criteria": [
+        "Handle month lengths, leap years, and first weekday."
+      ],
+      "estimated_time_minutes": 35,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "hard",
+        "html",
+        "css",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-122",
+      "title": "Implement a simple expense tracker",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Add expenses with description, category, and amount; show total by category.",
+      "acceptance_criteria": [
+        "Validate amounts and update totals after deletion."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "html",
+        "css",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-123",
+      "title": "Fix delete action after filtering",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Deleting a filtered item removes a different record because visible indexes are used.",
+      "acceptance_criteria": [
+        "Use stable IDs rather than display indexes."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "medium",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-124",
+      "title": "Build a keyboard shortcut help overlay",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Open a shortcut help panel with ? and close with Escape.",
+      "acceptance_criteria": [
+        "Avoid intercepting typing in inputs and clean up event listeners."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "html",
+        "css",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-125",
+      "title": "Implement a print-friendly invoice",
+      "technologies": [
+        "HTML",
+        "CSS"
+      ],
+      "task_type": "partial_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Style an invoice screen and add print-specific layout rules.",
+      "acceptance_criteria": [
+        "Use @media print and hide interactive controls when printing."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "partial_implementation",
+        "medium",
+        "html",
+        "css"
+      ]
+    },
+    {
+      "id": "FE-126",
+      "title": "Fix CSS animation ignoring reduced-motion setting",
+      "technologies": [
+        "CSS"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "A decorative animation runs even when reduced motion is preferred.",
+      "acceptance_criteria": [
+        "Add prefers-reduced-motion handling and preserve content clarity."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "medium",
+        "css"
+      ]
+    },
+    {
+      "id": "FE-127",
+      "title": "Build a responsive dashboard KPI row",
+      "technologies": [
+        "HTML",
+        "CSS"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Display four KPI cards that wrap or stack on smaller screens.",
+      "acceptance_criteria": [
+        "Use responsive Grid, consistent card dimensions, and readable labels."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "html",
+        "css"
+      ]
+    },
+    {
+      "id": "FE-128",
+      "title": "Implement a notification center",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "List notifications, mark one read, and clear all read items.",
+      "acceptance_criteria": [
+        "Update state consistently and expose unread status as text."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "html",
+        "css",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-129",
+      "title": "Fix a stale search response overwriting newer results",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "hard",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "A slow earlier search response replaces results from a newer query.",
+      "acceptance_criteria": [
+        "Cancel requests or ignore stale responses using request IDs/AbortController."
+      ],
+      "estimated_time_minutes": 35,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "hard",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-130",
+      "title": "Implement an abortable search request",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "partial_implementation",
+      "difficulty": "hard",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Cancel the previous fetch when a new search query starts.",
+      "acceptance_criteria": [
+        "Use AbortController and handle abort separately from genuine failures."
+      ],
+      "estimated_time_minutes": 35,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "partial_implementation",
+        "hard",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-131",
+      "title": "Build a form autosave draft",
+      "technologies": [
+        "HTML",
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Save form progress locally and restore it when the page is reopened.",
+      "acceptance_criteria": [
+        "Avoid saving sensitive fields unnecessarily and handle malformed storage."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "html",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-132",
+      "title": "Fix autosave overwriting newer form state",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "A delayed save writes an older snapshot over a newer draft.",
+      "acceptance_criteria": [
+        "Debounce carefully and serialize the current state at save time."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "medium",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-133",
+      "title": "Implement a custom confirmation dialog",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Ask for confirmation before deleting an item and handle cancel/confirm.",
+      "acceptance_criteria": [
+        "Use accessible dialog behavior and only delete after confirmation."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "html",
+        "css",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-134",
+      "title": "Build a before-and-after image comparison layout",
+      "technologies": [
+        "HTML",
+        "CSS"
+      ],
+      "task_type": "partial_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Display two images with aligned dimensions and labels.",
+      "acceptance_criteria": [
+        "Preserve aspect ratio and provide meaningful text alternatives."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "partial_implementation",
+        "medium",
+        "html",
+        "css"
+      ]
+    },
+    {
+      "id": "FE-135",
+      "title": "Fix a sticky footer overlapping page content",
+      "technologies": [
+        "CSS"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "A fixed footer hides the last items in a long page.",
+      "acceptance_criteria": [
+        "Prefer a flex-column page layout or reserve appropriate content space."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "medium",
+        "css"
+      ]
+    },
+    {
+      "id": "FE-136",
+      "title": "Implement a responsive step indicator",
+      "technologies": [
+        "HTML",
+        "CSS"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Show completed, current, and upcoming steps in a workflow.",
+      "acceptance_criteria": [
+        "Use text/state cues in addition to color and adapt labels on mobile."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "easy",
+        "html",
+        "css"
+      ]
+    },
+    {
+      "id": "FE-137",
+      "title": "Build a filterable FAQ list",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Search FAQ questions and expand matching answers.",
+      "acceptance_criteria": [
+        "Use case-insensitive filtering and announce no-results state."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "html",
+        "css",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-138",
+      "title": "Fix a clear-search button not updating results",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Clearing the search field leaves the previous filtered results visible.",
+      "acceptance_criteria": [
+        "Reset state and trigger the same render/filter path as input changes."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "easy",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-139",
+      "title": "Implement a basic client-side router",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "hard",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Switch between Home, About, and Help views using the URL hash.",
+      "acceptance_criteria": [
+        "Handle initial route, hash changes, and unknown routes."
+      ],
+      "estimated_time_minutes": 35,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "hard",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-140",
+      "title": "Build a breadcrumb trail",
+      "technologies": [
+        "HTML",
+        "CSS"
+      ],
+      "task_type": "partial_implementation",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Show Home, category, and current page navigation.",
+      "acceptance_criteria": [
+        "Use nav with an accessible label and mark the current page."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "partial_implementation",
+        "easy",
+        "html",
+        "css"
+      ]
+    },
+    {
+      "id": "FE-141",
+      "title": "Fix a navigation link targeting the wrong section",
+      "technologies": [
+        "HTML"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "A table-of-contents link points to a nonexistent fragment ID.",
+      "acceptance_criteria": [
+        "Match href fragments to unique target IDs."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "easy",
+        "html"
+      ]
+    },
+    {
+      "id": "FE-142",
+      "title": "Implement an accessible carousel pause control",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "hard",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Create an auto-advancing carousel with pause/resume and manual controls.",
+      "acceptance_criteria": [
+        "Pause on user request, support reduced motion, and expose slide context."
+      ],
+      "estimated_time_minutes": 35,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "hard",
+        "html",
+        "css",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-143",
+      "title": "Build a simple memory matching game",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "hard",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Create a grid of paired cards and track turns and matched pairs.",
+      "acceptance_criteria": [
+        "Prevent rapid repeated flips and detect game completion."
+      ],
+      "estimated_time_minutes": 35,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "hard",
+        "html",
+        "css",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-144",
+      "title": "Fix game state allowing more than two cards open",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Players can reveal several cards before the mismatch timeout completes.",
+      "acceptance_criteria": [
+        "Guard state transitions and clear pending timeout safely."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "medium",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-145",
+      "title": "Implement a theme selector with three themes",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Switch between light, dark, and high-contrast themes.",
+      "acceptance_criteria": [
+        "Use CSS custom properties and persist non-sensitive preference."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "html",
+        "css",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-146",
+      "title": "Build a responsive comparison slider substitute",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "task_type": "partial_implementation",
+      "difficulty": "hard",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Use a range input to adjust the visible portion of two aligned images.",
+      "acceptance_criteria": [
+        "Keep the range keyboard-accessible and update the visual clip accurately."
+      ],
+      "estimated_time_minutes": 35,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "partial_implementation",
+        "hard",
+        "html",
+        "css",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-147",
+      "title": "Fix memory leaks from event listeners",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "hard",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "A component adds listeners each time it opens and never removes them.",
+      "acceptance_criteria": [
+        "Use cleanup functions or AbortController-bound listeners."
+      ],
+      "estimated_time_minutes": 35,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "hard",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-148",
+      "title": "Implement a reusable form validator",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "hard",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Create a validation function that checks required, email, and minimum-length rules.",
+      "acceptance_criteria": [
+        "Return structured errors and keep validation logic separate from UI updates."
+      ],
+      "estimated_time_minutes": 35,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "hard",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-149",
+      "title": "Build a results summary panel",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "task_type": "full_implementation",
+      "difficulty": "medium",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "Summarize selected answers, correct count, and percentage after a quiz.",
+      "acceptance_criteria": [
+        "Handle zero questions and calculate percentage safely."
+      ],
+      "estimated_time_minutes": 25,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "full_implementation",
+        "medium",
+        "html",
+        "css",
+        "javascript"
+      ]
+    },
+    {
+      "id": "FE-150",
+      "title": "Fix percentage calculation when total is zero",
+      "technologies": [
+        "JavaScript"
+      ],
+      "task_type": "bug_fix",
+      "difficulty": "easy",
+      "company_relevance": [
+        "Accenture",
+        "Cognizant"
+      ],
+      "question_status": "practice_question_inspired_by_common_service_company_frontend_assessments",
+      "prompt": "A score summary displays NaN when there are no questions.",
+      "acceptance_criteria": [
+        "Define zero-total behavior and prevent invalid division."
+      ],
+      "estimated_time_minutes": 15,
+      "starter_code": null,
+      "test_cases": [],
+      "tags": [
+        "bug_fix",
+        "easy",
+        "javascript"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+# Dependencies
+**/node_modules/
+**/.pnp
+**/.pnp.js
+
+# Next.js / Frontend build outputs
+**/.next/
+**/out/
+**/build/
+**/dist/
+**/*.tsbuildinfo
+
+# Java / Maven build outputs
+**/target/
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+# Python / ML service
+**/__pycache__/
+*.py[cod]
+*$py.class
+**/.venv/
+**/venv/
+**/env/
+.pytest_cache/
+
+# Environment & Secrets (NEVER commit real .env files)
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+
+# Logs & Runtime data
+*.log
+**/logs/
+storage_data/
+**/storage_data/
+
+# IDEs, OS & Scratch files
+.DS_Store
+**/.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+.trae/
+scratch/

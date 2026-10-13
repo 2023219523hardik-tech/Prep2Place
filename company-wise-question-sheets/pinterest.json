@@ -1,0 +1,632 @@
+[
+  {
+    "sourceQuestionId": "employee-free-time",
+    "title": "Employee Free Time",
+    "sourceUrl": "https://leetcode.com/problems/employee-free-time/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 2.6397,
+    "companyRank": 1
+  },
+  {
+    "sourceQuestionId": "subdomain-visit-count",
+    "title": "Subdomain Visit Count",
+    "sourceUrl": "https://leetcode.com/problems/subdomain-visit-count/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 1.9912,
+    "companyRank": 2
+  },
+  {
+    "sourceQuestionId": "find-the-celebrity",
+    "title": "Find the Celebrity",
+    "sourceUrl": "https://leetcode.com/problems/find-the-celebrity/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 1.6067,
+    "companyRank": 3
+  },
+  {
+    "sourceQuestionId": "basic-calculator-iv",
+    "title": "Basic Calculator IV",
+    "sourceUrl": "https://leetcode.com/problems/basic-calculator-iv/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.9583,
+    "companyRank": 4
+  },
+  {
+    "sourceQuestionId": "alien-dictionary",
+    "title": "Alien Dictionary",
+    "sourceUrl": "https://leetcode.com/problems/alien-dictionary/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.6553,
+    "companyRank": 5
+  },
+  {
+    "sourceQuestionId": "design-hit-counter",
+    "title": "Design Hit Counter",
+    "sourceUrl": "https://leetcode.com/problems/design-hit-counter/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.6552,
+    "companyRank": 6
+  },
+  {
+    "sourceQuestionId": "basic-calculator",
+    "title": "Basic Calculator",
+    "sourceUrl": "https://leetcode.com/problems/basic-calculator/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.5669,
+    "companyRank": 7
+  },
+  {
+    "sourceQuestionId": "smallest-range-covering-elements-from-k-lists",
+    "title": "Smallest Range Covering Elements from K Lists",
+    "sourceUrl": "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.5071,
+    "companyRank": 8
+  },
+  {
+    "sourceQuestionId": "text-justification",
+    "title": "Text Justification",
+    "sourceUrl": "https://leetcode.com/problems/text-justification/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.3705,
+    "companyRank": 9
+  },
+  {
+    "sourceQuestionId": "find-the-closest-palindrome",
+    "title": "Find the Closest Palindrome",
+    "sourceUrl": "https://leetcode.com/problems/find-the-closest-palindrome/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.3008,
+    "companyRank": 10
+  },
+  {
+    "sourceQuestionId": "factor-combinations",
+    "title": "Factor Combinations",
+    "sourceUrl": "https://leetcode.com/problems/factor-combinations/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.2136,
+    "companyRank": 11
+  },
+  {
+    "sourceQuestionId": "word-ladder-ii",
+    "title": "Word Ladder II",
+    "sourceUrl": "https://leetcode.com/problems/word-ladder-ii/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.2008,
+    "companyRank": 12
+  },
+  {
+    "sourceQuestionId": "maximum-length-of-repeated-subarray",
+    "title": "Maximum Length of Repeated Subarray",
+    "sourceUrl": "https://leetcode.com/problems/maximum-length-of-repeated-subarray/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.1653,
+    "companyRank": 13
+  },
+  {
+    "sourceQuestionId": "lru-cache",
+    "title": "LRU Cache",
+    "sourceUrl": "https://leetcode.com/problems/lru-cache/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.1536,
+    "companyRank": 14
+  },
+  {
+    "sourceQuestionId": "read-n-characters-given-read4-ii-call-multiple-times",
+    "title": "Read N Characters Given Read4 II - Call multiple times",
+    "sourceUrl": "https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.1535,
+    "companyRank": 15
+  },
+  {
+    "sourceQuestionId": "basic-calculator-iii",
+    "title": "Basic Calculator III",
+    "sourceUrl": "https://leetcode.com/problems/basic-calculator-iii/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.1372,
+    "companyRank": 16
+  },
+  {
+    "sourceQuestionId": "happy-number",
+    "title": "Happy Number",
+    "sourceUrl": "https://leetcode.com/problems/happy-number/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.1198,
+    "companyRank": 17
+  },
+  {
+    "sourceQuestionId": "is-subsequence",
+    "title": "Is Subsequence",
+    "sourceUrl": "https://leetcode.com/problems/is-subsequence/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.079,
+    "companyRank": 18
+  },
+  {
+    "sourceQuestionId": "flatten-nested-list-iterator",
+    "title": "Flatten Nested List Iterator",
+    "sourceUrl": "https://leetcode.com/problems/flatten-nested-list-iterator/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.0776,
+    "companyRank": 19
+  },
+  {
+    "sourceQuestionId": "number-of-atoms",
+    "title": "Number of Atoms",
+    "sourceUrl": "https://leetcode.com/problems/number-of-atoms/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.0637,
+    "companyRank": 20
+  },
+  {
+    "sourceQuestionId": "serialize-and-deserialize-n-ary-tree",
+    "title": "Serialize and Deserialize N-ary Tree",
+    "sourceUrl": "https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.0614,
+    "companyRank": 21
+  },
+  {
+    "sourceQuestionId": "find-median-from-data-stream",
+    "title": "Find Median from Data Stream",
+    "sourceUrl": "https://leetcode.com/problems/find-median-from-data-stream/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.055,
+    "companyRank": 22
+  },
+  {
+    "sourceQuestionId": "knight-dialer",
+    "title": "Knight Dialer",
+    "sourceUrl": "https://leetcode.com/problems/knight-dialer/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.0445,
+    "companyRank": 23
+  },
+  {
+    "sourceQuestionId": "valid-sudoku",
+    "title": "Valid Sudoku",
+    "sourceUrl": "https://leetcode.com/problems/valid-sudoku/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.0445,
+    "companyRank": 24
+  },
+  {
+    "sourceQuestionId": "merge-intervals",
+    "title": "Merge Intervals",
+    "sourceUrl": "https://leetcode.com/problems/merge-intervals/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.0417,
+    "companyRank": 25
+  },
+  {
+    "sourceQuestionId": "word-search",
+    "title": "Word Search",
+    "sourceUrl": "https://leetcode.com/problems/word-search/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.0408,
+    "companyRank": 26
+  },
+  {
+    "sourceQuestionId": "graph-valid-tree",
+    "title": "Graph Valid Tree",
+    "sourceUrl": "https://leetcode.com/problems/graph-valid-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.0368,
+    "companyRank": 27
+  },
+  {
+    "sourceQuestionId": "word-ladder",
+    "title": "Word Ladder",
+    "sourceUrl": "https://leetcode.com/problems/word-ladder/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.0368,
+    "companyRank": 28
+  },
+  {
+    "sourceQuestionId": "decode-ways",
+    "title": "Decode Ways",
+    "sourceUrl": "https://leetcode.com/problems/decode-ways/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.0237,
+    "companyRank": 29
+  },
+  {
+    "sourceQuestionId": "partition-to-k-equal-sum-subsets",
+    "title": "Partition to K Equal Sum Subsets",
+    "sourceUrl": "https://leetcode.com/problems/partition-to-k-equal-sum-subsets/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.0211,
+    "companyRank": 30
+  },
+  {
+    "sourceQuestionId": "implement-trie-prefix-tree",
+    "title": "Implement Trie (Prefix Tree)",
+    "sourceUrl": "https://leetcode.com/problems/implement-trie-prefix-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.0204,
+    "companyRank": 31
+  },
+  {
+    "sourceQuestionId": "word-break",
+    "title": "Word Break",
+    "sourceUrl": "https://leetcode.com/problems/word-break/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.0155,
+    "companyRank": 32
+  },
+  {
+    "sourceQuestionId": "interval-list-intersections",
+    "title": "Interval List Intersections",
+    "sourceUrl": "https://leetcode.com/problems/interval-list-intersections/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.012,
+    "companyRank": 33
+  },
+  {
+    "sourceQuestionId": "lowest-common-ancestor-of-a-binary-tree",
+    "title": "Lowest Common Ancestor of a Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.0106,
+    "companyRank": 34
+  },
+  {
+    "sourceQuestionId": "insert-delete-getrandom-o1",
+    "title": "Insert Delete GetRandom O(1)",
+    "sourceUrl": "https://leetcode.com/problems/insert-delete-getrandom-o1/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.0098,
+    "companyRank": 35
+  },
+  {
+    "sourceQuestionId": "sliding-window-maximum",
+    "title": "Sliding Window Maximum",
+    "sourceUrl": "https://leetcode.com/problems/sliding-window-maximum/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.0079,
+    "companyRank": 36
+  },
+  {
+    "sourceQuestionId": "longest-common-prefix",
+    "title": "Longest Common Prefix",
+    "sourceUrl": "https://leetcode.com/problems/longest-common-prefix/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.0075,
+    "companyRank": 37
+  },
+  {
+    "sourceQuestionId": "course-schedule-ii",
+    "title": "Course Schedule II",
+    "sourceUrl": "https://leetcode.com/problems/course-schedule-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.0043,
+    "companyRank": 38
+  },
+  {
+    "sourceQuestionId": "word-break-ii",
+    "title": "Word Break II",
+    "sourceUrl": "https://leetcode.com/problems/word-break-ii/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.0027,
+    "companyRank": 39
+  },
+  {
+    "sourceQuestionId": "task-scheduler",
+    "title": "Task Scheduler",
+    "sourceUrl": "https://leetcode.com/problems/task-scheduler/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.0023,
+    "companyRank": 40
+  },
+  {
+    "sourceQuestionId": "find-median-given-frequency-of-numbers",
+    "title": "Find Median Given Frequency of Numbers",
+    "sourceUrl": "https://leetcode.com/problems/find-median-given-frequency-of-numbers/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.0,
+    "companyRank": 41
+  },
+  {
+    "sourceQuestionId": "longest-word-in-dictionary",
+    "title": "Longest Word in Dictionary",
+    "sourceUrl": "https://leetcode.com/problems/longest-word-in-dictionary/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "pinterest"
+    ],
+    "frequencyScore": 0.0,
+    "companyRank": 42
+  }
+]

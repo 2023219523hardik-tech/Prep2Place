@@ -1,0 +1,1127 @@
+[
+  {
+    "sourceQuestionId": "reorder-data-in-log-files",
+    "title": "Reorder Data in Log Files",
+    "sourceUrl": "https://leetcode.com/problems/reorder-data-in-log-files/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 5.6691,
+    "companyRank": 1
+  },
+  {
+    "sourceQuestionId": "number-of-islands",
+    "title": "Number of Islands",
+    "sourceUrl": "https://leetcode.com/problems/number-of-islands/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 5.562,
+    "companyRank": 2
+  },
+  {
+    "sourceQuestionId": "critical-connections-in-a-network",
+    "title": "Critical Connections in a Network",
+    "sourceUrl": "https://leetcode.com/problems/critical-connections-in-a-network/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 5.4512,
+    "companyRank": 3
+  },
+  {
+    "sourceQuestionId": "two-sum",
+    "title": "Two Sum",
+    "sourceUrl": "https://leetcode.com/problems/two-sum/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 5.3403,
+    "companyRank": 4
+  },
+  {
+    "sourceQuestionId": "lru-cache",
+    "title": "LRU Cache",
+    "sourceUrl": "https://leetcode.com/problems/lru-cache/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 5.2665,
+    "companyRank": 5
+  },
+  {
+    "sourceQuestionId": "k-closest-points-to-origin",
+    "title": "K Closest Points to Origin",
+    "sourceUrl": "https://leetcode.com/problems/k-closest-points-to-origin/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 5.1556,
+    "companyRank": 6
+  },
+  {
+    "sourceQuestionId": "most-common-word",
+    "title": "Most Common Word",
+    "sourceUrl": "https://leetcode.com/problems/most-common-word/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 5.0448,
+    "companyRank": 7
+  },
+  {
+    "sourceQuestionId": "copy-list-with-random-pointer",
+    "title": "Copy List with Random Pointer",
+    "sourceUrl": "https://leetcode.com/problems/copy-list-with-random-pointer/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 5.0287,
+    "companyRank": 8
+  },
+  {
+    "sourceQuestionId": "longest-palindromic-substring",
+    "title": "Longest Palindromic Substring",
+    "sourceUrl": "https://leetcode.com/problems/longest-palindromic-substring/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 4.9178,
+    "companyRank": 9
+  },
+  {
+    "sourceQuestionId": "rotting-oranges",
+    "title": "Rotting Oranges",
+    "sourceUrl": "https://leetcode.com/problems/rotting-oranges/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 4.807,
+    "companyRank": 10
+  },
+  {
+    "sourceQuestionId": "trapping-rain-water",
+    "title": "Trapping Rain Water",
+    "sourceUrl": "https://leetcode.com/problems/trapping-rain-water/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 4.6972,
+    "companyRank": 11
+  },
+  {
+    "sourceQuestionId": "merge-k-sorted-lists",
+    "title": "Merge k Sorted Lists",
+    "sourceUrl": "https://leetcode.com/problems/merge-k-sorted-lists/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 4.5993,
+    "companyRank": 12
+  },
+  {
+    "sourceQuestionId": "partition-labels",
+    "title": "Partition Labels",
+    "sourceUrl": "https://leetcode.com/problems/partition-labels/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 4.5483,
+    "companyRank": 13
+  },
+  {
+    "sourceQuestionId": "add-two-numbers",
+    "title": "Add Two Numbers",
+    "sourceUrl": "https://leetcode.com/problems/add-two-numbers/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 4.4375,
+    "companyRank": 14
+  },
+  {
+    "sourceQuestionId": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "sourceUrl": "https://leetcode.com/problems/valid-parentheses/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 4.3626,
+    "companyRank": 15
+  },
+  {
+    "sourceQuestionId": "merge-two-sorted-lists",
+    "title": "Merge Two Sorted Lists",
+    "sourceUrl": "https://leetcode.com/problems/merge-two-sorted-lists/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 4.3223,
+    "companyRank": 16
+  },
+  {
+    "sourceQuestionId": "word-ladder",
+    "title": "Word Ladder",
+    "sourceUrl": "https://leetcode.com/problems/word-ladder/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 4.3106,
+    "companyRank": 17
+  },
+  {
+    "sourceQuestionId": "find-median-from-data-stream",
+    "title": "Find Median from Data Stream",
+    "sourceUrl": "https://leetcode.com/problems/find-median-from-data-stream/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 4.292,
+    "companyRank": 18
+  },
+  {
+    "sourceQuestionId": "serialize-and-deserialize-binary-tree",
+    "title": "Serialize and Deserialize Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 4.2911,
+    "companyRank": 19
+  },
+  {
+    "sourceQuestionId": "top-k-frequent-words",
+    "title": "Top K Frequent Words",
+    "sourceUrl": "https://leetcode.com/problems/top-k-frequent-words/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 4.2553,
+    "companyRank": 20
+  },
+  {
+    "sourceQuestionId": "subtree-of-another-tree",
+    "title": "Subtree of Another Tree",
+    "sourceUrl": "https://leetcode.com/problems/subtree-of-another-tree/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 4.1591,
+    "companyRank": 21
+  },
+  {
+    "sourceQuestionId": "search-a-2d-matrix-ii",
+    "title": "Search a 2D Matrix II",
+    "sourceUrl": "https://leetcode.com/problems/search-a-2d-matrix-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 4.0482,
+    "companyRank": 22
+  },
+  {
+    "sourceQuestionId": "word-ladder-ii",
+    "title": "Word Ladder II",
+    "sourceUrl": "https://leetcode.com/problems/word-ladder-ii/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 4.024,
+    "companyRank": 23
+  },
+  {
+    "sourceQuestionId": "concatenated-words",
+    "title": "Concatenated Words",
+    "sourceUrl": "https://leetcode.com/problems/concatenated-words/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 3.9216,
+    "companyRank": 24
+  },
+  {
+    "sourceQuestionId": "design-search-autocomplete-system",
+    "title": "Design Search Autocomplete System",
+    "sourceUrl": "https://leetcode.com/problems/design-search-autocomplete-system/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 3.8668,
+    "companyRank": 25
+  },
+  {
+    "sourceQuestionId": "prison-cells-after-n-days",
+    "title": "Prison Cells After N Days",
+    "sourceUrl": "https://leetcode.com/problems/prison-cells-after-n-days/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 3.8492,
+    "companyRank": 26
+  },
+  {
+    "sourceQuestionId": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "sourceUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 3.8154,
+    "companyRank": 27
+  },
+  {
+    "sourceQuestionId": "integer-to-english-words",
+    "title": "Integer to English Words",
+    "sourceUrl": "https://leetcode.com/problems/integer-to-english-words/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 3.7517,
+    "companyRank": 28
+  },
+  {
+    "sourceQuestionId": "median-of-two-sorted-arrays",
+    "title": "Median of Two Sorted Arrays",
+    "sourceUrl": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 3.7295,
+    "companyRank": 29
+  },
+  {
+    "sourceQuestionId": "longest-substring-without-repeating-characters",
+    "title": "Longest Substring Without Repeating Characters",
+    "sourceUrl": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 3.6731,
+    "companyRank": 30
+  },
+  {
+    "sourceQuestionId": "meeting-rooms-ii",
+    "title": "Meeting Rooms II",
+    "sourceUrl": "https://leetcode.com/problems/meeting-rooms-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 3.6509,
+    "companyRank": 31
+  },
+  {
+    "sourceQuestionId": "letter-combinations-of-a-phone-number",
+    "title": "Letter Combinations of a Phone Number",
+    "sourceUrl": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 3.6465,
+    "companyRank": 32
+  },
+  {
+    "sourceQuestionId": "design-tic-tac-toe",
+    "title": "Design Tic-Tac-Toe",
+    "sourceUrl": "https://leetcode.com/problems/design-tic-tac-toe/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 3.6449,
+    "companyRank": 33
+  },
+  {
+    "sourceQuestionId": "word-break",
+    "title": "Word Break",
+    "sourceUrl": "https://leetcode.com/problems/word-break/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 3.5689,
+    "companyRank": 34
+  },
+  {
+    "sourceQuestionId": "min-stack",
+    "title": "Min Stack",
+    "sourceUrl": "https://leetcode.com/problems/min-stack/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 3.5435,
+    "companyRank": 35
+  },
+  {
+    "sourceQuestionId": "rotate-image",
+    "title": "Rotate Image",
+    "sourceUrl": "https://leetcode.com/problems/rotate-image/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 3.5415,
+    "companyRank": 36
+  },
+  {
+    "sourceQuestionId": "lowest-common-ancestor-of-a-binary-tree",
+    "title": "Lowest Common Ancestor of a Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 3.5248,
+    "companyRank": 37
+  },
+  {
+    "sourceQuestionId": "product-of-array-except-self",
+    "title": "Product of Array Except Self",
+    "sourceUrl": "https://leetcode.com/problems/product-of-array-except-self/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 3.5149,
+    "companyRank": 38
+  },
+  {
+    "sourceQuestionId": "word-search-ii",
+    "title": "Word Search II",
+    "sourceUrl": "https://leetcode.com/problems/word-search-ii/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 3.4838,
+    "companyRank": 39
+  },
+  {
+    "sourceQuestionId": "integer-to-roman",
+    "title": "Integer to Roman",
+    "sourceUrl": "https://leetcode.com/problems/integer-to-roman/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 3.461,
+    "companyRank": 40
+  },
+  {
+    "sourceQuestionId": "sliding-window-maximum",
+    "title": "Sliding Window Maximum",
+    "sourceUrl": "https://leetcode.com/problems/sliding-window-maximum/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 3.4338,
+    "companyRank": 41
+  },
+  {
+    "sourceQuestionId": "lfu-cache",
+    "title": "LFU Cache",
+    "sourceUrl": "https://leetcode.com/problems/lfu-cache/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 3.3777,
+    "companyRank": 42
+  },
+  {
+    "sourceQuestionId": "alien-dictionary",
+    "title": "Alien Dictionary",
+    "sourceUrl": "https://leetcode.com/problems/alien-dictionary/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 3.3777,
+    "companyRank": 43
+  },
+  {
+    "sourceQuestionId": "3sum",
+    "title": "3Sum",
+    "sourceUrl": "https://leetcode.com/problems/3sum/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 3.3711,
+    "companyRank": 44
+  },
+  {
+    "sourceQuestionId": "search-in-rotated-sorted-array",
+    "title": "Search in Rotated Sorted Array",
+    "sourceUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 3.3666,
+    "companyRank": 45
+  },
+  {
+    "sourceQuestionId": "cut-off-trees-for-golf-event",
+    "title": "Cut Off Trees for Golf Event",
+    "sourceUrl": "https://leetcode.com/problems/cut-off-trees-for-golf-event/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 3.3623,
+    "companyRank": 46
+  },
+  {
+    "sourceQuestionId": "design-in-memory-file-system",
+    "title": "Design In-Memory File System",
+    "sourceUrl": "https://leetcode.com/problems/design-in-memory-file-system/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 3.3605,
+    "companyRank": 47
+  },
+  {
+    "sourceQuestionId": "snakes-and-ladders",
+    "title": "Snakes and Ladders",
+    "sourceUrl": "https://leetcode.com/problems/snakes-and-ladders/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 3.3437,
+    "companyRank": 48
+  },
+  {
+    "sourceQuestionId": "compare-version-numbers",
+    "title": "Compare Version Numbers",
+    "sourceUrl": "https://leetcode.com/problems/compare-version-numbers/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 3.2759,
+    "companyRank": 49
+  },
+  {
+    "sourceQuestionId": "merge-intervals",
+    "title": "Merge Intervals",
+    "sourceUrl": "https://leetcode.com/problems/merge-intervals/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 3.2746,
+    "companyRank": 50
+  },
+  {
+    "sourceQuestionId": "insert-delete-getrandom-o1",
+    "title": "Insert Delete GetRandom O(1)",
+    "sourceUrl": "https://leetcode.com/problems/insert-delete-getrandom-o1/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 3.2646,
+    "companyRank": 51
+  },
+  {
+    "sourceQuestionId": "maximum-subarray",
+    "title": "Maximum Subarray",
+    "sourceUrl": "https://leetcode.com/problems/maximum-subarray/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 3.2518,
+    "companyRank": 52
+  },
+  {
+    "sourceQuestionId": "group-anagrams",
+    "title": "Group Anagrams",
+    "sourceUrl": "https://leetcode.com/problems/group-anagrams/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 3.2464,
+    "companyRank": 53
+  },
+  {
+    "sourceQuestionId": "boundary-of-binary-tree",
+    "title": "Boundary of Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/boundary-of-binary-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 3.2371,
+    "companyRank": 54
+  },
+  {
+    "sourceQuestionId": "container-with-most-water",
+    "title": "Container With Most Water",
+    "sourceUrl": "https://leetcode.com/problems/container-with-most-water/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 3.1776,
+    "companyRank": 55
+  },
+  {
+    "sourceQuestionId": "minimum-window-substring",
+    "title": "Minimum Window Substring",
+    "sourceUrl": "https://leetcode.com/problems/minimum-window-substring/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 3.173,
+    "companyRank": 56
+  },
+  {
+    "sourceQuestionId": "spiral-matrix",
+    "title": "Spiral Matrix",
+    "sourceUrl": "https://leetcode.com/problems/spiral-matrix/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 3.1133,
+    "companyRank": 57
+  },
+  {
+    "sourceQuestionId": "analyze-user-website-visit-pattern",
+    "title": "Analyze User Website Visit Pattern",
+    "sourceUrl": "https://leetcode.com/problems/analyze-user-website-visit-pattern/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 3.0929,
+    "companyRank": 58
+  },
+  {
+    "sourceQuestionId": "jump-game-ii",
+    "title": "Jump Game II",
+    "sourceUrl": "https://leetcode.com/problems/jump-game-ii/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 3.0792,
+    "companyRank": 59
+  },
+  {
+    "sourceQuestionId": "reverse-linked-list",
+    "title": "Reverse Linked List",
+    "sourceUrl": "https://leetcode.com/problems/reverse-linked-list/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 3.0671,
+    "companyRank": 60
+  },
+  {
+    "sourceQuestionId": "minimum-cost-to-connect-sticks",
+    "title": "Minimum Cost to Connect Sticks",
+    "sourceUrl": "https://leetcode.com/problems/minimum-cost-to-connect-sticks/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 3.0602,
+    "companyRank": 61
+  },
+  {
+    "sourceQuestionId": "find-the-celebrity",
+    "title": "Find the Celebrity",
+    "sourceUrl": "https://leetcode.com/problems/find-the-celebrity/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 2.9493,
+    "companyRank": 62
+  },
+  {
+    "sourceQuestionId": "binary-tree-maximum-path-sum",
+    "title": "Binary Tree Maximum Path Sum",
+    "sourceUrl": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 2.9289,
+    "companyRank": 63
+  },
+  {
+    "sourceQuestionId": "coin-change",
+    "title": "Coin Change",
+    "sourceUrl": "https://leetcode.com/problems/coin-change/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 2.9226,
+    "companyRank": 64
+  },
+  {
+    "sourceQuestionId": "all-nodes-distance-k-in-binary-tree",
+    "title": "All Nodes Distance K in Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 2.8584,
+    "companyRank": 65
+  },
+  {
+    "sourceQuestionId": "number-of-distinct-islands",
+    "title": "Number of Distinct Islands",
+    "sourceUrl": "https://leetcode.com/problems/number-of-distinct-islands/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 2.841,
+    "companyRank": 66
+  },
+  {
+    "sourceQuestionId": "binary-tree-zigzag-level-order-traversal",
+    "title": "Binary Tree Zigzag Level Order Traversal",
+    "sourceUrl": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 2.8287,
+    "companyRank": 67
+  },
+  {
+    "sourceQuestionId": "flood-fill",
+    "title": "Flood Fill",
+    "sourceUrl": "https://leetcode.com/problems/flood-fill/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 2.7999,
+    "companyRank": 68
+  },
+  {
+    "sourceQuestionId": "reverse-nodes-in-k-group",
+    "title": "Reverse Nodes in k-Group",
+    "sourceUrl": "https://leetcode.com/problems/reverse-nodes-in-k-group/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 2.7614,
+    "companyRank": 69
+  },
+  {
+    "sourceQuestionId": "flatten-nested-list-iterator",
+    "title": "Flatten Nested List Iterator",
+    "sourceUrl": "https://leetcode.com/problems/flatten-nested-list-iterator/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 2.7545,
+    "companyRank": 70
+  },
+  {
+    "sourceQuestionId": "validate-binary-search-tree",
+    "title": "Validate Binary Search Tree",
+    "sourceUrl": "https://leetcode.com/problems/validate-binary-search-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 2.7373,
+    "companyRank": 71
+  },
+  {
+    "sourceQuestionId": "the-maze",
+    "title": "The Maze",
+    "sourceUrl": "https://leetcode.com/problems/the-maze/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 2.6684,
+    "companyRank": 72
+  },
+  {
+    "sourceQuestionId": "implement-trie-prefix-tree",
+    "title": "Implement Trie (Prefix Tree)",
+    "sourceUrl": "https://leetcode.com/problems/implement-trie-prefix-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 2.6538,
+    "companyRank": 73
+  },
+  {
+    "sourceQuestionId": "encode-and-decode-tinyurl",
+    "title": "Encode and Decode TinyURL",
+    "sourceUrl": "https://leetcode.com/problems/encode-and-decode-tinyurl/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 2.6483,
+    "companyRank": 74
+  },
+  {
+    "sourceQuestionId": "search-suggestions-system",
+    "title": "Search Suggestions System",
+    "sourceUrl": "https://leetcode.com/problems/search-suggestions-system/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "amazon"
+    ],
+    "frequencyScore": 2.6191,
+    "companyRank": 75
+  }
+]

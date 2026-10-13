@@ -1,0 +1,632 @@
+[
+  {
+    "sourceQuestionId": "move-zeroes",
+    "leetcodeId": 283,
+    "title": "Move Zeroes",
+    "difficulty": "EASY",
+    "acceptanceRate": 64.0,
+    "platform": "leetcode",
+    "sourceUrl": "https://leetcode.com/problems/move-zeroes/",
+    "alternatePlatformUrl": null,
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "josh-technology"
+    ],
+    "companyRank": 1
+  },
+  {
+    "sourceQuestionId": "merge-nodes-in-between-zeros",
+    "leetcodeId": 2181,
+    "title": "Merge Nodes in Between Zeros",
+    "difficulty": "MEDIUM",
+    "acceptanceRate": 89.7,
+    "platform": "leetcode",
+    "sourceUrl": "https://leetcode.com/problems/merge-nodes-in-between-zeros/",
+    "alternatePlatformUrl": null,
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "josh-technology"
+    ],
+    "companyRank": 2
+  },
+  {
+    "sourceQuestionId": "find-the-substring-with-maximum-cost",
+    "leetcodeId": 2606,
+    "title": "Find the Substring With Maximum Cost",
+    "difficulty": "MEDIUM",
+    "acceptanceRate": 58.2,
+    "platform": "leetcode",
+    "sourceUrl": "https://leetcode.com/problems/find-the-substring-with-maximum-cost/",
+    "alternatePlatformUrl": null,
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "josh-technology"
+    ],
+    "companyRank": 3
+  },
+  {
+    "sourceQuestionId": "minimum-swaps-to-group-all-1s-together-ii",
+    "leetcodeId": 2134,
+    "title": "Minimum Swaps to Group All 1's Together II",
+    "difficulty": "MEDIUM",
+    "acceptanceRate": 65.7,
+    "platform": "leetcode",
+    "sourceUrl": "https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/",
+    "alternatePlatformUrl": null,
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "josh-technology"
+    ],
+    "companyRank": 4
+  },
+  {
+    "sourceQuestionId": "count-pairs-whose-sum-is-less-than-target",
+    "leetcodeId": 2824,
+    "title": "Count Pairs Whose Sum is Less than Target",
+    "difficulty": "EASY",
+    "acceptanceRate": 87.8,
+    "platform": "leetcode",
+    "sourceUrl": "https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/",
+    "alternatePlatformUrl": null,
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "josh-technology"
+    ],
+    "companyRank": 5
+  },
+  {
+    "sourceQuestionId": "reverse-nodes-in-k-group",
+    "leetcodeId": 25,
+    "title": "Reverse Nodes in k-Group",
+    "difficulty": "HARD",
+    "acceptanceRate": 66.5,
+    "platform": "leetcode",
+    "sourceUrl": "https://leetcode.com/problems/reverse-nodes-in-k-group/",
+    "alternatePlatformUrl": null,
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "josh-technology"
+    ],
+    "companyRank": 6
+  },
+  {
+    "sourceQuestionId": "reverse-odd-levels-of-binary-tree",
+    "leetcodeId": 2415,
+    "title": "Reverse Odd Levels of Binary Tree",
+    "difficulty": "MEDIUM",
+    "acceptanceRate": 86.7,
+    "platform": "leetcode",
+    "sourceUrl": "https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/",
+    "alternatePlatformUrl": null,
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "josh-technology"
+    ],
+    "companyRank": 7
+  },
+  {
+    "sourceQuestionId": "find-bottom-left-tree-value",
+    "leetcodeId": 513,
+    "title": "Find Bottom Left Tree Value",
+    "difficulty": "MEDIUM",
+    "acceptanceRate": 72.4,
+    "platform": "leetcode",
+    "sourceUrl": "https://leetcode.com/problems/find-bottom-left-tree-value/",
+    "alternatePlatformUrl": null,
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "josh-technology"
+    ],
+    "companyRank": 8
+  },
+  {
+    "sourceQuestionId": "maximum-twin-sum-of-a-linked-list",
+    "leetcodeId": 2130,
+    "title": "Maximum Twin Sum of a Linked List",
+    "difficulty": "MEDIUM",
+    "acceptanceRate": 83.3,
+    "platform": "leetcode",
+    "sourceUrl": "https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/",
+    "alternatePlatformUrl": null,
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "josh-technology"
+    ],
+    "companyRank": 9
+  },
+  {
+    "sourceQuestionId": "count-good-nodes-in-binary-tree",
+    "leetcodeId": 1448,
+    "title": "Count Good Nodes in Binary Tree",
+    "difficulty": "MEDIUM",
+    "acceptanceRate": 73.9,
+    "platform": "leetcode",
+    "sourceUrl": "https://leetcode.com/problems/count-good-nodes-in-binary-tree/",
+    "alternatePlatformUrl": null,
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "josh-technology"
+    ],
+    "companyRank": 10
+  },
+  {
+    "sourceQuestionId": "remove-k-digits",
+    "leetcodeId": 402,
+    "title": "Remove K Digits",
+    "difficulty": "MEDIUM",
+    "acceptanceRate": 37.1,
+    "platform": "leetcode",
+    "sourceUrl": "https://leetcode.com/problems/remove-k-digits/",
+    "alternatePlatformUrl": null,
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "josh-technology"
+    ],
+    "companyRank": 11
+  },
+  {
+    "sourceQuestionId": "largest-number",
+    "leetcodeId": 179,
+    "title": "Largest Number",
+    "difficulty": "MEDIUM",
+    "acceptanceRate": 43.3,
+    "platform": "leetcode",
+    "sourceUrl": "https://leetcode.com/problems/largest-number/",
+    "alternatePlatformUrl": null,
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "josh-technology"
+    ],
+    "companyRank": 12
+  },
+  {
+    "sourceQuestionId": "daily-temperatures",
+    "leetcodeId": 739,
+    "title": "Daily Temperatures",
+    "difficulty": "MEDIUM",
+    "acceptanceRate": 68.9,
+    "platform": "leetcode",
+    "sourceUrl": "https://leetcode.com/problems/daily-temperatures/",
+    "alternatePlatformUrl": null,
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "josh-technology"
+    ],
+    "companyRank": 13
+  },
+  {
+    "sourceQuestionId": "maximum-difference-between-node-and-ancestor",
+    "leetcodeId": 1026,
+    "title": "Maximum Difference Between Node and Ancestor",
+    "difficulty": "MEDIUM",
+    "acceptanceRate": 78.2,
+    "platform": "leetcode",
+    "sourceUrl": "https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/",
+    "alternatePlatformUrl": null,
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "josh-technology"
+    ],
+    "companyRank": 14
+  },
+  {
+    "sourceQuestionId": "group-anagrams",
+    "leetcodeId": 49,
+    "title": "Group Anagrams",
+    "difficulty": "MEDIUM",
+    "acceptanceRate": 72.8,
+    "platform": "leetcode",
+    "sourceUrl": "https://leetcode.com/problems/group-anagrams/",
+    "alternatePlatformUrl": null,
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "josh-technology"
+    ],
+    "companyRank": 15
+  },
+  {
+    "sourceQuestionId": "invert-binary-tree",
+    "leetcodeId": 226,
+    "title": "Invert Binary Tree",
+    "difficulty": "EASY",
+    "acceptanceRate": 80.2,
+    "platform": "leetcode",
+    "sourceUrl": "https://leetcode.com/problems/invert-binary-tree/",
+    "alternatePlatformUrl": null,
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "josh-technology"
+    ],
+    "companyRank": 16
+  },
+  {
+    "sourceQuestionId": "spiral-matrix",
+    "leetcodeId": 54,
+    "title": "Spiral Matrix",
+    "difficulty": "MEDIUM",
+    "acceptanceRate": 57.1,
+    "platform": "leetcode",
+    "sourceUrl": "https://leetcode.com/problems/spiral-matrix/",
+    "alternatePlatformUrl": null,
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "josh-technology"
+    ],
+    "companyRank": 17
+  },
+  {
+    "sourceQuestionId": "reverse-nodes-in-even-length-groups",
+    "leetcodeId": 2074,
+    "title": "Reverse Nodes in Even Length Groups",
+    "difficulty": "MEDIUM",
+    "acceptanceRate": 64.6,
+    "platform": "leetcode",
+    "sourceUrl": "https://leetcode.com/problems/reverse-nodes-in-even-length-groups/",
+    "alternatePlatformUrl": null,
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "josh-technology"
+    ],
+    "companyRank": 18
+  },
+  {
+    "sourceQuestionId": "flatten-binary-tree-to-linked-list",
+    "leetcodeId": 114,
+    "title": "Flatten Binary Tree to Linked List",
+    "difficulty": "MEDIUM",
+    "acceptanceRate": 71.0,
+    "platform": "leetcode",
+    "sourceUrl": "https://leetcode.com/problems/flatten-binary-tree-to-linked-list/",
+    "alternatePlatformUrl": null,
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "josh-technology"
+    ],
+    "companyRank": 19
+  },
+  {
+    "sourceQuestionId": "remove-nth-node-from-end-of-list",
+    "leetcodeId": 19,
+    "title": "Remove Nth Node From End of List",
+    "difficulty": "MEDIUM",
+    "acceptanceRate": 51.9,
+    "platform": "leetcode",
+    "sourceUrl": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+    "alternatePlatformUrl": null,
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "josh-technology"
+    ],
+    "companyRank": 20
+  },
+  {
+    "sourceQuestionId": "koko-eating-bananas",
+    "leetcodeId": 875,
+    "title": "Koko Eating Bananas",
+    "difficulty": "MEDIUM",
+    "acceptanceRate": 50.2,
+    "platform": "leetcode",
+    "sourceUrl": "https://leetcode.com/problems/koko-eating-bananas/",
+    "alternatePlatformUrl": null,
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "josh-technology"
+    ],
+    "companyRank": 21
+  },
+  {
+    "sourceQuestionId": "merge-two-binary-trees",
+    "leetcodeId": 617,
+    "title": "Merge Two Binary Trees",
+    "difficulty": "EASY",
+    "acceptanceRate": 79.1,
+    "platform": "leetcode",
+    "sourceUrl": "https://leetcode.com/problems/merge-two-binary-trees/",
+    "alternatePlatformUrl": null,
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "josh-technology"
+    ],
+    "companyRank": 22
+  },
+  {
+    "sourceQuestionId": "palindrome-partitioning-ii",
+    "leetcodeId": 132,
+    "title": "Palindrome Partitioning II",
+    "difficulty": "HARD",
+    "acceptanceRate": 37.3,
+    "platform": "leetcode",
+    "sourceUrl": "https://leetcode.com/problems/palindrome-partitioning-ii/",
+    "alternatePlatformUrl": null,
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "josh-technology"
+    ],
+    "companyRank": 23
+  },
+  {
+    "sourceQuestionId": "sum-of-nodes-with-even-valued-grandparent",
+    "leetcodeId": 1315,
+    "title": "Sum of Nodes with Even-Valued Grandparent",
+    "difficulty": "MEDIUM",
+    "acceptanceRate": 86.0,
+    "platform": "leetcode",
+    "sourceUrl": "https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/",
+    "alternatePlatformUrl": null,
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "josh-technology"
+    ],
+    "companyRank": 24
+  },
+  {
+    "sourceQuestionId": "merge-two-sorted-lists",
+    "leetcodeId": 21,
+    "title": "Merge Two Sorted Lists",
+    "difficulty": "EASY",
+    "acceptanceRate": 68.5,
+    "platform": "leetcode",
+    "sourceUrl": "https://leetcode.com/problems/merge-two-sorted-lists/",
+    "alternatePlatformUrl": null,
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "josh-technology"
+    ],
+    "companyRank": 25
+  },
+  {
+    "sourceQuestionId": "odd-even-linked-list",
+    "leetcodeId": 328,
+    "title": "Odd Even Linked List",
+    "difficulty": "MEDIUM",
+    "acceptanceRate": 62.6,
+    "platform": "leetcode",
+    "sourceUrl": "https://leetcode.com/problems/odd-even-linked-list/",
+    "alternatePlatformUrl": null,
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "josh-technology"
+    ],
+    "companyRank": 26
+  },
+  {
+    "sourceQuestionId": "delete-leaves-with-a-given-value",
+    "leetcodeId": 1325,
+    "title": "Delete Leaves With a Given Value",
+    "difficulty": "MEDIUM",
+    "acceptanceRate": 77.2,
+    "platform": "leetcode",
+    "sourceUrl": "https://leetcode.com/problems/delete-leaves-with-a-given-value/",
+    "alternatePlatformUrl": null,
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "josh-technology"
+    ],
+    "companyRank": 27
+  },
+  {
+    "sourceQuestionId": "search-in-rotated-sorted-array",
+    "leetcodeId": 33,
+    "title": "Search in Rotated Sorted Array",
+    "difficulty": "MEDIUM",
+    "acceptanceRate": 45.1,
+    "platform": "leetcode",
+    "sourceUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+    "alternatePlatformUrl": null,
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "josh-technology"
+    ],
+    "companyRank": 28
+  },
+  {
+    "sourceQuestionId": "rotate-list",
+    "leetcodeId": 61,
+    "title": "Rotate List",
+    "difficulty": "MEDIUM",
+    "acceptanceRate": 42.8,
+    "platform": "leetcode",
+    "sourceUrl": "https://leetcode.com/problems/rotate-list/",
+    "alternatePlatformUrl": null,
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "josh-technology"
+    ],
+    "companyRank": 29
+  },
+  {
+    "sourceQuestionId": "find-largest-value-in-each-tree-row",
+    "leetcodeId": 515,
+    "title": "Find Largest Value in Each Tree Row",
+    "difficulty": "MEDIUM",
+    "acceptanceRate": 66.3,
+    "platform": "leetcode",
+    "sourceUrl": "https://leetcode.com/problems/find-largest-value-in-each-tree-row/",
+    "alternatePlatformUrl": null,
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "josh-technology"
+    ],
+    "companyRank": 30
+  },
+  {
+    "sourceQuestionId": "largest-rectangle-in-histogram",
+    "leetcodeId": 84,
+    "title": "Largest Rectangle in Histogram",
+    "difficulty": "HARD",
+    "acceptanceRate": 50.3,
+    "platform": "leetcode",
+    "sourceUrl": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
+    "alternatePlatformUrl": null,
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "josh-technology"
+    ],
+    "companyRank": 31
+  },
+  {
+    "sourceQuestionId": "island-perimeter",
+    "leetcodeId": 463,
+    "title": "Island Perimeter",
+    "difficulty": "EASY",
+    "acceptanceRate": 74.6,
+    "platform": "leetcode",
+    "sourceUrl": "https://leetcode.com/problems/island-perimeter/",
+    "alternatePlatformUrl": null,
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "josh-technology"
+    ],
+    "companyRank": 32
+  },
+  {
+    "sourceQuestionId": "climbing-stairs",
+    "leetcodeId": 70,
+    "title": "Climbing Stairs",
+    "difficulty": "EASY",
+    "acceptanceRate": 54.2,
+    "platform": "leetcode",
+    "sourceUrl": "https://leetcode.com/problems/climbing-stairs/",
+    "alternatePlatformUrl": null,
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "josh-technology"
+    ],
+    "companyRank": 33
+  },
+  {
+    "sourceQuestionId": "unique-email-addresses",
+    "leetcodeId": 929,
+    "title": "Unique Email Addresses",
+    "difficulty": "EASY",
+    "acceptanceRate": 67.9,
+    "platform": "leetcode",
+    "sourceUrl": "https://leetcode.com/problems/unique-email-addresses/",
+    "alternatePlatformUrl": null,
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "josh-technology"
+    ],
+    "companyRank": 34
+  },
+  {
+    "sourceQuestionId": "binary-tree-level-order-traversal",
+    "leetcodeId": 102,
+    "title": "Binary Tree Level Order Traversal",
+    "difficulty": "MEDIUM",
+    "acceptanceRate": 72.9,
+    "platform": "leetcode",
+    "sourceUrl": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+    "alternatePlatformUrl": null,
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "josh-technology"
+    ],
+    "companyRank": 35
+  }
+]

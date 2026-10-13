@@ -1,0 +1,527 @@
+[
+  {
+    "sourceQuestionId": "two-sum",
+    "title": "Two Sum",
+    "sourceUrl": "https://leetcode.com/problems/two-sum/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "alibaba"
+    ],
+    "frequencyScore": 1.8427,
+    "companyRank": 1
+  },
+  {
+    "sourceQuestionId": "median-of-two-sorted-arrays",
+    "title": "Median of Two Sorted Arrays",
+    "sourceUrl": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "alibaba"
+    ],
+    "frequencyScore": 1.3202,
+    "companyRank": 2
+  },
+  {
+    "sourceQuestionId": "longest-substring-without-repeating-characters",
+    "title": "Longest Substring Without Repeating Characters",
+    "sourceUrl": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "alibaba"
+    ],
+    "frequencyScore": 0.7978,
+    "companyRank": 3
+  },
+  {
+    "sourceQuestionId": "add-two-numbers",
+    "title": "Add Two Numbers",
+    "sourceUrl": "https://leetcode.com/problems/add-two-numbers/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "alibaba"
+    ],
+    "frequencyScore": 0.5366,
+    "companyRank": 4
+  },
+  {
+    "sourceQuestionId": "lru-cache",
+    "title": "LRU Cache",
+    "sourceUrl": "https://leetcode.com/problems/lru-cache/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "alibaba"
+    ],
+    "frequencyScore": 0.4434,
+    "companyRank": 5
+  },
+  {
+    "sourceQuestionId": "reverse-linked-list",
+    "title": "Reverse Linked List",
+    "sourceUrl": "https://leetcode.com/problems/reverse-linked-list/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "alibaba"
+    ],
+    "frequencyScore": 0.4234,
+    "companyRank": 6
+  },
+  {
+    "sourceQuestionId": "longest-palindromic-substring",
+    "title": "Longest Palindromic Substring",
+    "sourceUrl": "https://leetcode.com/problems/longest-palindromic-substring/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "alibaba"
+    ],
+    "frequencyScore": 0.3697,
+    "companyRank": 7
+  },
+  {
+    "sourceQuestionId": "kth-largest-element-in-an-array",
+    "title": "Kth Largest Element in an Array",
+    "sourceUrl": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "alibaba"
+    ],
+    "frequencyScore": 0.3584,
+    "companyRank": 8
+  },
+  {
+    "sourceQuestionId": "maximum-subarray",
+    "title": "Maximum Subarray",
+    "sourceUrl": "https://leetcode.com/problems/maximum-subarray/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "alibaba"
+    ],
+    "frequencyScore": 0.3543,
+    "companyRank": 9
+  },
+  {
+    "sourceQuestionId": "regular-expression-matching",
+    "title": "Regular Expression Matching",
+    "sourceUrl": "https://leetcode.com/problems/regular-expression-matching/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "alibaba"
+    ],
+    "frequencyScore": 0.3026,
+    "companyRank": 10
+  },
+  {
+    "sourceQuestionId": "merge-k-sorted-lists",
+    "title": "Merge k Sorted Lists",
+    "sourceUrl": "https://leetcode.com/problems/merge-k-sorted-lists/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "alibaba"
+    ],
+    "frequencyScore": 0.2572,
+    "companyRank": 11
+  },
+  {
+    "sourceQuestionId": "search-in-rotated-sorted-array",
+    "title": "Search in Rotated Sorted Array",
+    "sourceUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "alibaba"
+    ],
+    "frequencyScore": 0.2327,
+    "companyRank": 12
+  },
+  {
+    "sourceQuestionId": "merge-two-sorted-lists",
+    "title": "Merge Two Sorted Lists",
+    "sourceUrl": "https://leetcode.com/problems/merge-two-sorted-lists/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "alibaba"
+    ],
+    "frequencyScore": 0.2223,
+    "companyRank": 13
+  },
+  {
+    "sourceQuestionId": "climbing-stairs",
+    "title": "Climbing Stairs",
+    "sourceUrl": "https://leetcode.com/problems/climbing-stairs/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "alibaba"
+    ],
+    "frequencyScore": 0.1406,
+    "companyRank": 14
+  },
+  {
+    "sourceQuestionId": "3sum",
+    "title": "3Sum",
+    "sourceUrl": "https://leetcode.com/problems/3sum/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "alibaba"
+    ],
+    "frequencyScore": 0.1318,
+    "companyRank": 15
+  },
+  {
+    "sourceQuestionId": "arithmetic-slices-ii-subsequence",
+    "title": "Arithmetic Slices II - Subsequence",
+    "sourceUrl": "https://leetcode.com/problems/arithmetic-slices-ii-subsequence/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "alibaba"
+    ],
+    "frequencyScore": 0.121,
+    "companyRank": 16
+  },
+  {
+    "sourceQuestionId": "intersection-of-two-linked-lists",
+    "title": "Intersection of Two Linked Lists",
+    "sourceUrl": "https://leetcode.com/problems/intersection-of-two-linked-lists/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "alibaba"
+    ],
+    "frequencyScore": 0.0949,
+    "companyRank": 17
+  },
+  {
+    "sourceQuestionId": "generate-parentheses",
+    "title": "Generate Parentheses",
+    "sourceUrl": "https://leetcode.com/problems/generate-parentheses/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "alibaba"
+    ],
+    "frequencyScore": 0.0848,
+    "companyRank": 18
+  },
+  {
+    "sourceQuestionId": "longest-common-prefix",
+    "title": "Longest Common Prefix",
+    "sourceUrl": "https://leetcode.com/problems/longest-common-prefix/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "alibaba"
+    ],
+    "frequencyScore": 0.0799,
+    "companyRank": 19
+  },
+  {
+    "sourceQuestionId": "lfu-cache",
+    "title": "LFU Cache",
+    "sourceUrl": "https://leetcode.com/problems/lfu-cache/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "alibaba"
+    ],
+    "frequencyScore": 0.0684,
+    "companyRank": 20
+  },
+  {
+    "sourceQuestionId": "unique-paths",
+    "title": "Unique Paths",
+    "sourceUrl": "https://leetcode.com/problems/unique-paths/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "alibaba"
+    ],
+    "frequencyScore": 0.0552,
+    "companyRank": 21
+  },
+  {
+    "sourceQuestionId": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "sourceUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "alibaba"
+    ],
+    "frequencyScore": 0.0518,
+    "companyRank": 22
+  },
+  {
+    "sourceQuestionId": "number-of-islands",
+    "title": "Number of Islands",
+    "sourceUrl": "https://leetcode.com/problems/number-of-islands/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "alibaba"
+    ],
+    "frequencyScore": 0.0453,
+    "companyRank": 23
+  },
+  {
+    "sourceQuestionId": "subarrays-with-k-different-integers",
+    "title": "Subarrays with K Different Integers",
+    "sourceUrl": "https://leetcode.com/problems/subarrays-with-k-different-integers/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "alibaba"
+    ],
+    "frequencyScore": 0.037,
+    "companyRank": 24
+  },
+  {
+    "sourceQuestionId": "maximum-product-subarray",
+    "title": "Maximum Product Subarray",
+    "sourceUrl": "https://leetcode.com/problems/maximum-product-subarray/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "alibaba"
+    ],
+    "frequencyScore": 0.0344,
+    "companyRank": 25
+  },
+  {
+    "sourceQuestionId": "sliding-window-maximum",
+    "title": "Sliding Window Maximum",
+    "sourceUrl": "https://leetcode.com/problems/sliding-window-maximum/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "alibaba"
+    ],
+    "frequencyScore": 0.0312,
+    "companyRank": 26
+  },
+  {
+    "sourceQuestionId": "valid-parenthesis-string",
+    "title": "Valid Parenthesis String",
+    "sourceUrl": "https://leetcode.com/problems/valid-parenthesis-string/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "alibaba"
+    ],
+    "frequencyScore": 0.0227,
+    "companyRank": 27
+  },
+  {
+    "sourceQuestionId": "merge-intervals",
+    "title": "Merge Intervals",
+    "sourceUrl": "https://leetcode.com/problems/merge-intervals/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "alibaba"
+    ],
+    "frequencyScore": 0.0138,
+    "companyRank": 28
+  },
+  {
+    "sourceQuestionId": "symmetric-tree",
+    "title": "Symmetric Tree",
+    "sourceUrl": "https://leetcode.com/problems/symmetric-tree/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "alibaba"
+    ],
+    "frequencyScore": 0.0136,
+    "companyRank": 29
+  },
+  {
+    "sourceQuestionId": "binary-tree-inorder-traversal",
+    "title": "Binary Tree Inorder Traversal",
+    "sourceUrl": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "alibaba"
+    ],
+    "frequencyScore": 0.0134,
+    "companyRank": 30
+  },
+  {
+    "sourceQuestionId": "binary-search-tree-iterator",
+    "title": "Binary Search Tree Iterator",
+    "sourceUrl": "https://leetcode.com/problems/binary-search-tree-iterator/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "alibaba"
+    ],
+    "frequencyScore": 0.0085,
+    "companyRank": 31
+  },
+  {
+    "sourceQuestionId": "decode-string",
+    "title": "Decode String",
+    "sourceUrl": "https://leetcode.com/problems/decode-string/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "alibaba"
+    ],
+    "frequencyScore": 0.0082,
+    "companyRank": 32
+  },
+  {
+    "sourceQuestionId": "path-sum-iv",
+    "title": "Path Sum IV",
+    "sourceUrl": "https://leetcode.com/problems/path-sum-iv/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "alibaba"
+    ],
+    "frequencyScore": 0.0,
+    "companyRank": 33
+  },
+  {
+    "sourceQuestionId": "split-array-with-equal-sum",
+    "title": "Split Array with Equal Sum",
+    "sourceUrl": "https://leetcode.com/problems/split-array-with-equal-sum/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "alibaba"
+    ],
+    "frequencyScore": 0.0,
+    "companyRank": 34
+  },
+  {
+    "sourceQuestionId": "split-concatenated-strings",
+    "title": "Split Concatenated Strings",
+    "sourceUrl": "https://leetcode.com/problems/split-concatenated-strings/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "alibaba"
+    ],
+    "frequencyScore": 0.0,
+    "companyRank": 35
+  }
+]

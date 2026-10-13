@@ -1,0 +1,74 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+        - id: auth-service
+          uri: lb://AUTH-SERVICE
+          predicates:
+            - Path=/api/auth/**
+        - id: user-service
+          uri: lb://USER-SERVICE
+          predicates:
+            - Path=/api/users/**,/api/student/**,/api/profile/**,/api/skills/**,/api/job-roles/**
+        - id: question-service
+          uri: lb://QUESTION-SERVICE
+          predicates:
+            - Path=/api/questions/**,/api/aptitude/**,/api/technical-mcq/**,/api/admin/questions/**,/api/question-bank/**
+        - id: coding-service
+          uri: lb://CODING-SERVICE
+          predicates:
+            - Path=/api/coding/**,/api/admin/coding/**,/api/admin/sql-problems/**,/api/admin/dataframe-problems/**,/api/evaluation/**
+        - id: coding-lab-service
+          uri: lb://CODING-LAB-SERVICE
+          predicates:
+            - Path=/api/coding-lab/**,/api/admin/coding-lab/**
+        - id: assessment-service
+          uri: lb://ASSESSMENT-SERVICE
+          predicates:
+            - Path=/api/assessments/**,/api/mock-tests/**,/api/managed-tests/**,/api/admin/mock-tests/**
+        - id: proctoring-service
+          uri: lb://PROCTORING-SERVICE
+          predicates:
+            - Path=/api/proctoring/**,/api/admin/live-monitoring/**,/api/admin/mock-tests/live/**
+        - id: interview-service
+          uri: lb://INTERVIEW-SERVICE
+          predicates:
+            - Path=/api/interviews/**,/api/speech/**
+        - id: report-service
+          uri: lb://REPORT-SERVICE
+          predicates:
+            - Path=/api/reports/**,/api/admin/results/**,/api/dashboard/**
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_SERVER_URL:http://localhost:8761/eureka/}
+
+management:
+  zipkin:
+    tracing:
+      endpoint: ${ZIPKIN_URL:http://localhost:9411/api/v2/spans}
+  tracing:
+    sampling:
+      probability: 1.0
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus,gateway
+  endpoint:
+    health:
+      probes:
+        enabled: true
+
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%traceId,%spanId] [%thread] %-5level %logger{36} - %msg%n"

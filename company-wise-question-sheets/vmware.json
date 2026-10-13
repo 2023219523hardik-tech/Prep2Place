@@ -1,0 +1,1127 @@
+[
+  {
+    "sourceQuestionId": "lru-cache",
+    "title": "LRU Cache",
+    "sourceUrl": "https://leetcode.com/problems/lru-cache/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.4099,
+    "companyRank": 1
+  },
+  {
+    "sourceQuestionId": "degree-of-an-array",
+    "title": "Degree of an Array",
+    "sourceUrl": "https://leetcode.com/problems/degree-of-an-array/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.3746,
+    "companyRank": 2
+  },
+  {
+    "sourceQuestionId": "lfu-cache",
+    "title": "LFU Cache",
+    "sourceUrl": "https://leetcode.com/problems/lfu-cache/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.3604,
+    "companyRank": 3
+  },
+  {
+    "sourceQuestionId": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "sourceUrl": "https://leetcode.com/problems/valid-parentheses/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.3478,
+    "companyRank": 4
+  },
+  {
+    "sourceQuestionId": "sudoku-solver",
+    "title": "Sudoku Solver",
+    "sourceUrl": "https://leetcode.com/problems/sudoku-solver/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.331,
+    "companyRank": 5
+  },
+  {
+    "sourceQuestionId": "group-anagrams",
+    "title": "Group Anagrams",
+    "sourceUrl": "https://leetcode.com/problems/group-anagrams/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.2956,
+    "companyRank": 6
+  },
+  {
+    "sourceQuestionId": "median-of-two-sorted-arrays",
+    "title": "Median of Two Sorted Arrays",
+    "sourceUrl": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.275,
+    "companyRank": 7
+  },
+  {
+    "sourceQuestionId": "search-in-rotated-sorted-array",
+    "title": "Search in Rotated Sorted Array",
+    "sourceUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.2562,
+    "companyRank": 8
+  },
+  {
+    "sourceQuestionId": "two-sum",
+    "title": "Two Sum",
+    "sourceUrl": "https://leetcode.com/problems/two-sum/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.2476,
+    "companyRank": 9
+  },
+  {
+    "sourceQuestionId": "interleaving-string",
+    "title": "Interleaving String",
+    "sourceUrl": "https://leetcode.com/problems/interleaving-string/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.2258,
+    "companyRank": 10
+  },
+  {
+    "sourceQuestionId": "restore-ip-addresses",
+    "title": "Restore IP Addresses",
+    "sourceUrl": "https://leetcode.com/problems/restore-ip-addresses/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.2187,
+    "companyRank": 11
+  },
+  {
+    "sourceQuestionId": "longest-string-chain",
+    "title": "Longest String Chain",
+    "sourceUrl": "https://leetcode.com/problems/longest-string-chain/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.2147,
+    "companyRank": 12
+  },
+  {
+    "sourceQuestionId": "merge-intervals",
+    "title": "Merge Intervals",
+    "sourceUrl": "https://leetcode.com/problems/merge-intervals/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.201,
+    "companyRank": 13
+  },
+  {
+    "sourceQuestionId": "sort-colors",
+    "title": "Sort Colors",
+    "sourceUrl": "https://leetcode.com/problems/sort-colors/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.1657,
+    "companyRank": 14
+  },
+  {
+    "sourceQuestionId": "maximal-rectangle",
+    "title": "Maximal Rectangle",
+    "sourceUrl": "https://leetcode.com/problems/maximal-rectangle/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.1522,
+    "companyRank": 15
+  },
+  {
+    "sourceQuestionId": "maximal-square",
+    "title": "Maximal Square",
+    "sourceUrl": "https://leetcode.com/problems/maximal-square/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.1475,
+    "companyRank": 16
+  },
+  {
+    "sourceQuestionId": "minimum-window-substring",
+    "title": "Minimum Window Substring",
+    "sourceUrl": "https://leetcode.com/problems/minimum-window-substring/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.1452,
+    "companyRank": 17
+  },
+  {
+    "sourceQuestionId": "merge-k-sorted-lists",
+    "title": "Merge k Sorted Lists",
+    "sourceUrl": "https://leetcode.com/problems/merge-k-sorted-lists/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.1364,
+    "companyRank": 18
+  },
+  {
+    "sourceQuestionId": "coin-change",
+    "title": "Coin Change",
+    "sourceUrl": "https://leetcode.com/problems/coin-change/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.1357,
+    "companyRank": 19
+  },
+  {
+    "sourceQuestionId": "break-a-palindrome",
+    "title": "Break a Palindrome",
+    "sourceUrl": "https://leetcode.com/problems/break-a-palindrome/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.1284,
+    "companyRank": 20
+  },
+  {
+    "sourceQuestionId": "find-median-from-data-stream",
+    "title": "Find Median from Data Stream",
+    "sourceUrl": "https://leetcode.com/problems/find-median-from-data-stream/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.105,
+    "companyRank": 21
+  },
+  {
+    "sourceQuestionId": "design-hashmap",
+    "title": "Design HashMap",
+    "sourceUrl": "https://leetcode.com/problems/design-hashmap/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.1048,
+    "companyRank": 22
+  },
+  {
+    "sourceQuestionId": "add-two-numbers",
+    "title": "Add Two Numbers",
+    "sourceUrl": "https://leetcode.com/problems/add-two-numbers/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.1027,
+    "companyRank": 23
+  },
+  {
+    "sourceQuestionId": "longest-increasing-subsequence",
+    "title": "Longest Increasing Subsequence",
+    "sourceUrl": "https://leetcode.com/problems/longest-increasing-subsequence/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.1016,
+    "companyRank": 24
+  },
+  {
+    "sourceQuestionId": "find-duplicate-file-in-system",
+    "title": "Find Duplicate File in System",
+    "sourceUrl": "https://leetcode.com/problems/find-duplicate-file-in-system/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.099,
+    "companyRank": 25
+  },
+  {
+    "sourceQuestionId": "flood-fill",
+    "title": "Flood Fill",
+    "sourceUrl": "https://leetcode.com/problems/flood-fill/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0967,
+    "companyRank": 26
+  },
+  {
+    "sourceQuestionId": "shortest-word-distance",
+    "title": "Shortest Word Distance",
+    "sourceUrl": "https://leetcode.com/problems/shortest-word-distance/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0895,
+    "companyRank": 27
+  },
+  {
+    "sourceQuestionId": "time-based-key-value-store",
+    "title": "Time Based Key-Value Store",
+    "sourceUrl": "https://leetcode.com/problems/time-based-key-value-store/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0862,
+    "companyRank": 28
+  },
+  {
+    "sourceQuestionId": "permutations-ii",
+    "title": "Permutations II",
+    "sourceUrl": "https://leetcode.com/problems/permutations-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0839,
+    "companyRank": 29
+  },
+  {
+    "sourceQuestionId": "reverse-linked-list",
+    "title": "Reverse Linked List",
+    "sourceUrl": "https://leetcode.com/problems/reverse-linked-list/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.081,
+    "companyRank": 30
+  },
+  {
+    "sourceQuestionId": "merge-sorted-array",
+    "title": "Merge Sorted Array",
+    "sourceUrl": "https://leetcode.com/problems/merge-sorted-array/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0727,
+    "companyRank": 31
+  },
+  {
+    "sourceQuestionId": "letter-combinations-of-a-phone-number",
+    "title": "Letter Combinations of a Phone Number",
+    "sourceUrl": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0682,
+    "companyRank": 32
+  },
+  {
+    "sourceQuestionId": "longest-palindromic-substring",
+    "title": "Longest Palindromic Substring",
+    "sourceUrl": "https://leetcode.com/problems/longest-palindromic-substring/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0668,
+    "companyRank": 33
+  },
+  {
+    "sourceQuestionId": "find-the-celebrity",
+    "title": "Find the Celebrity",
+    "sourceUrl": "https://leetcode.com/problems/find-the-celebrity/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0656,
+    "companyRank": 34
+  },
+  {
+    "sourceQuestionId": "populating-next-right-pointers-in-each-node",
+    "title": "Populating Next Right Pointers in Each Node",
+    "sourceUrl": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0642,
+    "companyRank": 35
+  },
+  {
+    "sourceQuestionId": "longest-substring-without-repeating-characters",
+    "title": "Longest Substring Without Repeating Characters",
+    "sourceUrl": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0637,
+    "companyRank": 36
+  },
+  {
+    "sourceQuestionId": "reverse-nodes-in-k-group",
+    "title": "Reverse Nodes in k-Group",
+    "sourceUrl": "https://leetcode.com/problems/reverse-nodes-in-k-group/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0622,
+    "companyRank": 37
+  },
+  {
+    "sourceQuestionId": "serialize-and-deserialize-binary-tree",
+    "title": "Serialize and Deserialize Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.062,
+    "companyRank": 38
+  },
+  {
+    "sourceQuestionId": "string-to-integer-atoi",
+    "title": "String to Integer (atoi)",
+    "sourceUrl": "https://leetcode.com/problems/string-to-integer-atoi/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.059,
+    "companyRank": 39
+  },
+  {
+    "sourceQuestionId": "first-missing-positive",
+    "title": "First Missing Positive",
+    "sourceUrl": "https://leetcode.com/problems/first-missing-positive/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0563,
+    "companyRank": 40
+  },
+  {
+    "sourceQuestionId": "convert-binary-search-tree-to-sorted-doubly-linked-list",
+    "title": "Convert Binary Search Tree to Sorted Doubly Linked List",
+    "sourceUrl": "https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0537,
+    "companyRank": 41
+  },
+  {
+    "sourceQuestionId": "consecutive-numbers-sum",
+    "title": "Consecutive Numbers Sum",
+    "sourceUrl": "https://leetcode.com/problems/consecutive-numbers-sum/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0534,
+    "companyRank": 42
+  },
+  {
+    "sourceQuestionId": "reverse-words-in-a-string-ii",
+    "title": "Reverse Words in a String II",
+    "sourceUrl": "https://leetcode.com/problems/reverse-words-in-a-string-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0506,
+    "companyRank": 43
+  },
+  {
+    "sourceQuestionId": "permutations",
+    "title": "Permutations",
+    "sourceUrl": "https://leetcode.com/problems/permutations/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0505,
+    "companyRank": 44
+  },
+  {
+    "sourceQuestionId": "combination-sum",
+    "title": "Combination Sum",
+    "sourceUrl": "https://leetcode.com/problems/combination-sum/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0503,
+    "companyRank": 45
+  },
+  {
+    "sourceQuestionId": "alien-dictionary",
+    "title": "Alien Dictionary",
+    "sourceUrl": "https://leetcode.com/problems/alien-dictionary/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.05,
+    "companyRank": 46
+  },
+  {
+    "sourceQuestionId": "clone-graph",
+    "title": "Clone Graph",
+    "sourceUrl": "https://leetcode.com/problems/clone-graph/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0498,
+    "companyRank": 47
+  },
+  {
+    "sourceQuestionId": "product-of-array-except-self",
+    "title": "Product of Array Except Self",
+    "sourceUrl": "https://leetcode.com/problems/product-of-array-except-self/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0471,
+    "companyRank": 48
+  },
+  {
+    "sourceQuestionId": "partition-to-k-equal-sum-subsets",
+    "title": "Partition to K Equal Sum Subsets",
+    "sourceUrl": "https://leetcode.com/problems/partition-to-k-equal-sum-subsets/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0469,
+    "companyRank": 49
+  },
+  {
+    "sourceQuestionId": "next-greater-element-iii",
+    "title": "Next Greater Element III",
+    "sourceUrl": "https://leetcode.com/problems/next-greater-element-iii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0468,
+    "companyRank": 50
+  },
+  {
+    "sourceQuestionId": "kth-largest-element-in-an-array",
+    "title": "Kth Largest Element in an Array",
+    "sourceUrl": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0468,
+    "companyRank": 51
+  },
+  {
+    "sourceQuestionId": "validate-binary-search-tree",
+    "title": "Validate Binary Search Tree",
+    "sourceUrl": "https://leetcode.com/problems/validate-binary-search-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0461,
+    "companyRank": 52
+  },
+  {
+    "sourceQuestionId": "number-of-islands",
+    "title": "Number of Islands",
+    "sourceUrl": "https://leetcode.com/problems/number-of-islands/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0453,
+    "companyRank": 53
+  },
+  {
+    "sourceQuestionId": "flatten-nested-list-iterator",
+    "title": "Flatten Nested List Iterator",
+    "sourceUrl": "https://leetcode.com/problems/flatten-nested-list-iterator/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0444,
+    "companyRank": 54
+  },
+  {
+    "sourceQuestionId": "contiguous-array",
+    "title": "Contiguous Array",
+    "sourceUrl": "https://leetcode.com/problems/contiguous-array/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0439,
+    "companyRank": 55
+  },
+  {
+    "sourceQuestionId": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "sourceUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0422,
+    "companyRank": 56
+  },
+  {
+    "sourceQuestionId": "linked-list-cycle",
+    "title": "Linked List Cycle",
+    "sourceUrl": "https://leetcode.com/problems/linked-list-cycle/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.042,
+    "companyRank": 57
+  },
+  {
+    "sourceQuestionId": "edit-distance",
+    "title": "Edit Distance",
+    "sourceUrl": "https://leetcode.com/problems/edit-distance/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0395,
+    "companyRank": 58
+  },
+  {
+    "sourceQuestionId": "insert-delete-getrandom-o1",
+    "title": "Insert Delete GetRandom O(1)",
+    "sourceUrl": "https://leetcode.com/problems/insert-delete-getrandom-o1/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0387,
+    "companyRank": 59
+  },
+  {
+    "sourceQuestionId": "sort-array-by-parity",
+    "title": "Sort Array By Parity",
+    "sourceUrl": "https://leetcode.com/problems/sort-array-by-parity/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0379,
+    "companyRank": 60
+  },
+  {
+    "sourceQuestionId": "merge-two-sorted-lists",
+    "title": "Merge Two Sorted Lists",
+    "sourceUrl": "https://leetcode.com/problems/merge-two-sorted-lists/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0355,
+    "companyRank": 61
+  },
+  {
+    "sourceQuestionId": "binary-tree-maximum-path-sum",
+    "title": "Binary Tree Maximum Path Sum",
+    "sourceUrl": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0341,
+    "companyRank": 62
+  },
+  {
+    "sourceQuestionId": "evaluate-reverse-polish-notation",
+    "title": "Evaluate Reverse Polish Notation",
+    "sourceUrl": "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0315,
+    "companyRank": 63
+  },
+  {
+    "sourceQuestionId": "sliding-window-maximum",
+    "title": "Sliding Window Maximum",
+    "sourceUrl": "https://leetcode.com/problems/sliding-window-maximum/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0312,
+    "companyRank": 64
+  },
+  {
+    "sourceQuestionId": "jump-game",
+    "title": "Jump Game",
+    "sourceUrl": "https://leetcode.com/problems/jump-game/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.031,
+    "companyRank": 65
+  },
+  {
+    "sourceQuestionId": "remove-duplicates-from-sorted-array",
+    "title": "Remove Duplicates from Sorted Array",
+    "sourceUrl": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0308,
+    "companyRank": 66
+  },
+  {
+    "sourceQuestionId": "missing-number",
+    "title": "Missing Number",
+    "sourceUrl": "https://leetcode.com/problems/missing-number/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0301,
+    "companyRank": 67
+  },
+  {
+    "sourceQuestionId": "unique-paths",
+    "title": "Unique Paths",
+    "sourceUrl": "https://leetcode.com/problems/unique-paths/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0285,
+    "companyRank": 68
+  },
+  {
+    "sourceQuestionId": "container-with-most-water",
+    "title": "Container With Most Water",
+    "sourceUrl": "https://leetcode.com/problems/container-with-most-water/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0273,
+    "companyRank": 69
+  },
+  {
+    "sourceQuestionId": "3sum",
+    "title": "3Sum",
+    "sourceUrl": "https://leetcode.com/problems/3sum/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0266,
+    "companyRank": 70
+  },
+  {
+    "sourceQuestionId": "find-peak-element",
+    "title": "Find Peak Element",
+    "sourceUrl": "https://leetcode.com/problems/find-peak-element/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0252,
+    "companyRank": 71
+  },
+  {
+    "sourceQuestionId": "word-break",
+    "title": "Word Break",
+    "sourceUrl": "https://leetcode.com/problems/word-break/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0241,
+    "companyRank": 72
+  },
+  {
+    "sourceQuestionId": "word-ladder",
+    "title": "Word Ladder",
+    "sourceUrl": "https://leetcode.com/problems/word-ladder/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0237,
+    "companyRank": 73
+  },
+  {
+    "sourceQuestionId": "palindromic-substrings",
+    "title": "Palindromic Substrings",
+    "sourceUrl": "https://leetcode.com/problems/palindromic-substrings/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0233,
+    "companyRank": 74
+  },
+  {
+    "sourceQuestionId": "remove-all-adjacent-duplicates-in-string-ii",
+    "title": "Remove All Adjacent Duplicates in String II",
+    "sourceUrl": "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "vmware"
+    ],
+    "frequencyScore": 0.0232,
+    "companyRank": 75
+  }
+]

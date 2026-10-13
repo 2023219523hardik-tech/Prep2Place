@@ -1,0 +1,1127 @@
+[
+  {
+    "sourceQuestionId": "copy-list-with-random-pointer",
+    "title": "Copy List with Random Pointer",
+    "sourceUrl": "https://leetcode.com/problems/copy-list-with-random-pointer/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 2.9916,
+    "companyRank": 1
+  },
+  {
+    "sourceQuestionId": "lru-cache",
+    "title": "LRU Cache",
+    "sourceUrl": "https://leetcode.com/problems/lru-cache/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 2.8801,
+    "companyRank": 2
+  },
+  {
+    "sourceQuestionId": "design-underground-system",
+    "title": "Design Underground System",
+    "sourceUrl": "https://leetcode.com/problems/design-underground-system/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 2.7686,
+    "companyRank": 3
+  },
+  {
+    "sourceQuestionId": "flatten-a-multilevel-doubly-linked-list",
+    "title": "Flatten a Multilevel Doubly Linked List",
+    "sourceUrl": "https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 2.6993,
+    "companyRank": 4
+  },
+  {
+    "sourceQuestionId": "number-of-islands",
+    "title": "Number of Islands",
+    "sourceUrl": "https://leetcode.com/problems/number-of-islands/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 2.5894,
+    "companyRank": 5
+  },
+  {
+    "sourceQuestionId": "add-two-numbers-ii",
+    "title": "Add Two Numbers II",
+    "sourceUrl": "https://leetcode.com/problems/add-two-numbers-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 2.5005,
+    "companyRank": 6
+  },
+  {
+    "sourceQuestionId": "candy-crush",
+    "title": "Candy Crush",
+    "sourceUrl": "https://leetcode.com/problems/candy-crush/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 2.4434,
+    "companyRank": 7
+  },
+  {
+    "sourceQuestionId": "decode-string",
+    "title": "Decode String",
+    "sourceUrl": "https://leetcode.com/problems/decode-string/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 2.4354,
+    "companyRank": 8
+  },
+  {
+    "sourceQuestionId": "kill-process",
+    "title": "Kill Process",
+    "sourceUrl": "https://leetcode.com/problems/kill-process/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 2.329,
+    "companyRank": 9
+  },
+  {
+    "sourceQuestionId": "two-sum",
+    "title": "Two Sum",
+    "sourceUrl": "https://leetcode.com/problems/two-sum/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 2.2663,
+    "companyRank": 10
+  },
+  {
+    "sourceQuestionId": "sort-characters-by-frequency",
+    "title": "Sort Characters By Frequency",
+    "sourceUrl": "https://leetcode.com/problems/sort-characters-by-frequency/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 2.2148,
+    "companyRank": 11
+  },
+  {
+    "sourceQuestionId": "add-two-numbers",
+    "title": "Add Two Numbers",
+    "sourceUrl": "https://leetcode.com/problems/add-two-numbers/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 2.2105,
+    "companyRank": 12
+  },
+  {
+    "sourceQuestionId": "invalid-transactions",
+    "title": "Invalid Transactions",
+    "sourceUrl": "https://leetcode.com/problems/invalid-transactions/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 2.1277,
+    "companyRank": 13
+  },
+  {
+    "sourceQuestionId": "populating-next-right-pointers-in-each-node-ii",
+    "title": "Populating Next Right Pointers in Each Node II",
+    "sourceUrl": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 2.1182,
+    "companyRank": 14
+  },
+  {
+    "sourceQuestionId": "trapping-rain-water",
+    "title": "Trapping Rain Water",
+    "sourceUrl": "https://leetcode.com/problems/trapping-rain-water/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 2.0661,
+    "companyRank": 15
+  },
+  {
+    "sourceQuestionId": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "sourceUrl": "https://leetcode.com/problems/valid-parentheses/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 2.0209,
+    "companyRank": 16
+  },
+  {
+    "sourceQuestionId": "insert-delete-getrandom-o1",
+    "title": "Insert Delete GetRandom O(1)",
+    "sourceUrl": "https://leetcode.com/problems/insert-delete-getrandom-o1/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 1.9094,
+    "companyRank": 17
+  },
+  {
+    "sourceQuestionId": "min-stack",
+    "title": "Min Stack",
+    "sourceUrl": "https://leetcode.com/problems/min-stack/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 1.8753,
+    "companyRank": 18
+  },
+  {
+    "sourceQuestionId": "validate-binary-search-tree",
+    "title": "Validate Binary Search Tree",
+    "sourceUrl": "https://leetcode.com/problems/validate-binary-search-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 1.828,
+    "companyRank": 19
+  },
+  {
+    "sourceQuestionId": "meeting-rooms-ii",
+    "title": "Meeting Rooms II",
+    "sourceUrl": "https://leetcode.com/problems/meeting-rooms-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 1.7748,
+    "companyRank": 20
+  },
+  {
+    "sourceQuestionId": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "sourceUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 1.7316,
+    "companyRank": 21
+  },
+  {
+    "sourceQuestionId": "first-unique-character-in-a-string",
+    "title": "First Unique Character in a String",
+    "sourceUrl": "https://leetcode.com/problems/first-unique-character-in-a-string/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 1.6717,
+    "companyRank": 22
+  },
+  {
+    "sourceQuestionId": "merge-intervals",
+    "title": "Merge Intervals",
+    "sourceUrl": "https://leetcode.com/problems/merge-intervals/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 1.6345,
+    "companyRank": 23
+  },
+  {
+    "sourceQuestionId": "shortest-palindrome",
+    "title": "Shortest Palindrome",
+    "sourceUrl": "https://leetcode.com/problems/shortest-palindrome/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 1.6283,
+    "companyRank": 24
+  },
+  {
+    "sourceQuestionId": "number-of-ships-in-a-rectangle",
+    "title": "Number of Ships in a Rectangle",
+    "sourceUrl": "https://leetcode.com/problems/number-of-ships-in-a-rectangle/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 1.6253,
+    "companyRank": 25
+  },
+  {
+    "sourceQuestionId": "two-city-scheduling",
+    "title": "Two City Scheduling",
+    "sourceUrl": "https://leetcode.com/problems/two-city-scheduling/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 1.6062,
+    "companyRank": 26
+  },
+  {
+    "sourceQuestionId": "move-zeroes",
+    "title": "Move Zeroes",
+    "sourceUrl": "https://leetcode.com/problems/move-zeroes/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 1.57,
+    "companyRank": 27
+  },
+  {
+    "sourceQuestionId": "populating-next-right-pointers-in-each-node",
+    "title": "Populating Next Right Pointers in Each Node",
+    "sourceUrl": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 1.5282,
+    "companyRank": 28
+  },
+  {
+    "sourceQuestionId": "elimination-game",
+    "title": "Elimination Game",
+    "sourceUrl": "https://leetcode.com/problems/elimination-game/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 1.4355,
+    "companyRank": 29
+  },
+  {
+    "sourceQuestionId": "longest-substring-without-repeating-characters",
+    "title": "Longest Substring Without Repeating Characters",
+    "sourceUrl": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 1.396,
+    "companyRank": 30
+  },
+  {
+    "sourceQuestionId": "merge-k-sorted-lists",
+    "title": "Merge k Sorted Lists",
+    "sourceUrl": "https://leetcode.com/problems/merge-k-sorted-lists/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 1.3904,
+    "companyRank": 31
+  },
+  {
+    "sourceQuestionId": "remove-all-adjacent-duplicates-in-string-ii",
+    "title": "Remove All Adjacent Duplicates in String II",
+    "sourceUrl": "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 1.2789,
+    "companyRank": 32
+  },
+  {
+    "sourceQuestionId": "island-perimeter",
+    "title": "Island Perimeter",
+    "sourceUrl": "https://leetcode.com/problems/island-perimeter/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 1.2453,
+    "companyRank": 33
+  },
+  {
+    "sourceQuestionId": "valid-anagram",
+    "title": "Valid Anagram",
+    "sourceUrl": "https://leetcode.com/problems/valid-anagram/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 1.1338,
+    "companyRank": 34
+  },
+  {
+    "sourceQuestionId": "alien-dictionary",
+    "title": "Alien Dictionary",
+    "sourceUrl": "https://leetcode.com/problems/alien-dictionary/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 1.0993,
+    "companyRank": 35
+  },
+  {
+    "sourceQuestionId": "flatten-binary-tree-to-linked-list",
+    "title": "Flatten Binary Tree to Linked List",
+    "sourceUrl": "https://leetcode.com/problems/flatten-binary-tree-to-linked-list/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 1.0986,
+    "companyRank": 36
+  },
+  {
+    "sourceQuestionId": "word-break",
+    "title": "Word Break",
+    "sourceUrl": "https://leetcode.com/problems/word-break/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 1.0904,
+    "companyRank": 37
+  },
+  {
+    "sourceQuestionId": "median-of-two-sorted-arrays",
+    "title": "Median of Two Sorted Arrays",
+    "sourceUrl": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 1.0617,
+    "companyRank": 38
+  },
+  {
+    "sourceQuestionId": "encode-and-decode-strings",
+    "title": "Encode and Decode Strings",
+    "sourceUrl": "https://leetcode.com/problems/encode-and-decode-strings/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 1.0528,
+    "companyRank": 39
+  },
+  {
+    "sourceQuestionId": "search-in-rotated-sorted-array",
+    "title": "Search in Rotated Sorted Array",
+    "sourceUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 1.052,
+    "companyRank": 40
+  },
+  {
+    "sourceQuestionId": "integer-to-roman",
+    "title": "Integer to Roman",
+    "sourceUrl": "https://leetcode.com/problems/integer-to-roman/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 1.0302,
+    "companyRank": 41
+  },
+  {
+    "sourceQuestionId": "reverse-linked-list",
+    "title": "Reverse Linked List",
+    "sourceUrl": "https://leetcode.com/problems/reverse-linked-list/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 1.0194,
+    "companyRank": 42
+  },
+  {
+    "sourceQuestionId": "remove-invalid-parentheses",
+    "title": "Remove Invalid Parentheses",
+    "sourceUrl": "https://leetcode.com/problems/remove-invalid-parentheses/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 1.0164,
+    "companyRank": 43
+  },
+  {
+    "sourceQuestionId": "merge-two-sorted-lists",
+    "title": "Merge Two Sorted Lists",
+    "sourceUrl": "https://leetcode.com/problems/merge-two-sorted-lists/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 0.973,
+    "companyRank": 44
+  },
+  {
+    "sourceQuestionId": "reverse-integer",
+    "title": "Reverse Integer",
+    "sourceUrl": "https://leetcode.com/problems/reverse-integer/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 0.9637,
+    "companyRank": 45
+  },
+  {
+    "sourceQuestionId": "sqrtx",
+    "title": "Sqrt(x)",
+    "sourceUrl": "https://leetcode.com/problems/sqrtx/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 0.9425,
+    "companyRank": 46
+  },
+  {
+    "sourceQuestionId": "maximum-product-of-three-numbers",
+    "title": "Maximum Product of Three Numbers",
+    "sourceUrl": "https://leetcode.com/problems/maximum-product-of-three-numbers/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 0.918,
+    "companyRank": 47
+  },
+  {
+    "sourceQuestionId": "3sum",
+    "title": "3Sum",
+    "sourceUrl": "https://leetcode.com/problems/3sum/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 0.9115,
+    "companyRank": 48
+  },
+  {
+    "sourceQuestionId": "moving-average-from-data-stream",
+    "title": "Moving Average from Data Stream",
+    "sourceUrl": "https://leetcode.com/problems/moving-average-from-data-stream/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 0.8936,
+    "companyRank": 49
+  },
+  {
+    "sourceQuestionId": "construct-binary-tree-from-preorder-and-inorder-traversal",
+    "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+    "sourceUrl": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 0.857,
+    "companyRank": 50
+  },
+  {
+    "sourceQuestionId": "brick-wall",
+    "title": "Brick Wall",
+    "sourceUrl": "https://leetcode.com/problems/brick-wall/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 0.8487,
+    "companyRank": 51
+  },
+  {
+    "sourceQuestionId": "lfu-cache",
+    "title": "LFU Cache",
+    "sourceUrl": "https://leetcode.com/problems/lfu-cache/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 0.8453,
+    "companyRank": 52
+  },
+  {
+    "sourceQuestionId": "maximum-subarray",
+    "title": "Maximum Subarray",
+    "sourceUrl": "https://leetcode.com/problems/maximum-subarray/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 0.8339,
+    "companyRank": 53
+  },
+  {
+    "sourceQuestionId": "top-k-frequent-words",
+    "title": "Top K Frequent Words",
+    "sourceUrl": "https://leetcode.com/problems/top-k-frequent-words/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 0.822,
+    "companyRank": 54
+  },
+  {
+    "sourceQuestionId": "longest-palindromic-substring",
+    "title": "Longest Palindromic Substring",
+    "sourceUrl": "https://leetcode.com/problems/longest-palindromic-substring/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 0.8155,
+    "companyRank": 55
+  },
+  {
+    "sourceQuestionId": "sliding-window-maximum",
+    "title": "Sliding Window Maximum",
+    "sourceUrl": "https://leetcode.com/problems/sliding-window-maximum/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 0.8061,
+    "companyRank": 56
+  },
+  {
+    "sourceQuestionId": "find-median-from-data-stream",
+    "title": "Find Median from Data Stream",
+    "sourceUrl": "https://leetcode.com/problems/find-median-from-data-stream/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 0.7864,
+    "companyRank": 57
+  },
+  {
+    "sourceQuestionId": "unique-paths",
+    "title": "Unique Paths",
+    "sourceUrl": "https://leetcode.com/problems/unique-paths/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 0.782,
+    "companyRank": 58
+  },
+  {
+    "sourceQuestionId": "lowest-common-ancestor-of-a-binary-tree",
+    "title": "Lowest Common Ancestor of a Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 0.7586,
+    "companyRank": 59
+  },
+  {
+    "sourceQuestionId": "spiral-matrix",
+    "title": "Spiral Matrix",
+    "sourceUrl": "https://leetcode.com/problems/spiral-matrix/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 0.7505,
+    "companyRank": 60
+  },
+  {
+    "sourceQuestionId": "integer-to-english-words",
+    "title": "Integer to English Words",
+    "sourceUrl": "https://leetcode.com/problems/integer-to-english-words/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 0.7405,
+    "companyRank": 61
+  },
+  {
+    "sourceQuestionId": "valid-triangle-number",
+    "title": "Valid Triangle Number",
+    "sourceUrl": "https://leetcode.com/problems/valid-triangle-number/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 0.7357,
+    "companyRank": 62
+  },
+  {
+    "sourceQuestionId": "intersection-of-two-linked-lists",
+    "title": "Intersection of Two Linked Lists",
+    "sourceUrl": "https://leetcode.com/problems/intersection-of-two-linked-lists/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 0.7095,
+    "companyRank": 63
+  },
+  {
+    "sourceQuestionId": "reconstruct-itinerary",
+    "title": "Reconstruct Itinerary",
+    "sourceUrl": "https://leetcode.com/problems/reconstruct-itinerary/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 0.6935,
+    "companyRank": 64
+  },
+  {
+    "sourceQuestionId": "vertical-order-traversal-of-a-binary-tree",
+    "title": "Vertical Order Traversal of a Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 0.6653,
+    "companyRank": 65
+  },
+  {
+    "sourceQuestionId": "binary-search-tree-iterator",
+    "title": "Binary Search Tree Iterator",
+    "sourceUrl": "https://leetcode.com/problems/binary-search-tree-iterator/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 0.6626,
+    "companyRank": 66
+  },
+  {
+    "sourceQuestionId": "regular-expression-matching",
+    "title": "Regular Expression Matching",
+    "sourceUrl": "https://leetcode.com/problems/regular-expression-matching/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 0.6274,
+    "companyRank": 67
+  },
+  {
+    "sourceQuestionId": "best-time-to-buy-and-sell-stock-ii",
+    "title": "Best Time to Buy and Sell Stock II",
+    "sourceUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 0.6207,
+    "companyRank": 68
+  },
+  {
+    "sourceQuestionId": "group-anagrams",
+    "title": "Group Anagrams",
+    "sourceUrl": "https://leetcode.com/problems/group-anagrams/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 0.6193,
+    "companyRank": 69
+  },
+  {
+    "sourceQuestionId": "all-paths-from-source-to-target",
+    "title": "All Paths From Source to Target",
+    "sourceUrl": "https://leetcode.com/problems/all-paths-from-source-to-target/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 0.6133,
+    "companyRank": 70
+  },
+  {
+    "sourceQuestionId": "binary-tree-level-order-traversal",
+    "title": "Binary Tree Level Order Traversal",
+    "sourceUrl": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 0.599,
+    "companyRank": 71
+  },
+  {
+    "sourceQuestionId": "word-ladder",
+    "title": "Word Ladder",
+    "sourceUrl": "https://leetcode.com/problems/word-ladder/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 0.5839,
+    "companyRank": 72
+  },
+  {
+    "sourceQuestionId": "string-compression",
+    "title": "String Compression",
+    "sourceUrl": "https://leetcode.com/problems/string-compression/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 0.581,
+    "companyRank": 73
+  },
+  {
+    "sourceQuestionId": "merge-sorted-array",
+    "title": "Merge Sorted Array",
+    "sourceUrl": "https://leetcode.com/problems/merge-sorted-array/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 0.572,
+    "companyRank": 74
+  },
+  {
+    "sourceQuestionId": "binary-tree-vertical-order-traversal",
+    "title": "Binary Tree Vertical Order Traversal",
+    "sourceUrl": "https://leetcode.com/problems/binary-tree-vertical-order-traversal/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "bloomberg"
+    ],
+    "frequencyScore": 0.5698,
+    "companyRank": 75
+  }
+]

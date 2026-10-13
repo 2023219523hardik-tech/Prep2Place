@@ -1,0 +1,797 @@
+[
+  {
+    "sourceQuestionId": "find-leaves-of-binary-tree",
+    "title": "Find Leaves of Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/find-leaves-of-binary-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.5289,
+    "companyRank": 1
+  },
+  {
+    "sourceQuestionId": "time-based-key-value-store",
+    "title": "Time Based Key-Value Store",
+    "sourceUrl": "https://leetcode.com/problems/time-based-key-value-store/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.4016,
+    "companyRank": 2
+  },
+  {
+    "sourceQuestionId": "lemonade-change",
+    "title": "Lemonade Change",
+    "sourceUrl": "https://leetcode.com/problems/lemonade-change/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.3968,
+    "companyRank": 3
+  },
+  {
+    "sourceQuestionId": "maximum-average-subtree",
+    "title": "Maximum Average Subtree",
+    "sourceUrl": "https://leetcode.com/problems/maximum-average-subtree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.2695,
+    "companyRank": 4
+  },
+  {
+    "sourceQuestionId": "greatest-common-divisor-of-strings",
+    "title": "Greatest Common Divisor of Strings",
+    "sourceUrl": "https://leetcode.com/problems/greatest-common-divisor-of-strings/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.2558,
+    "companyRank": 5
+  },
+  {
+    "sourceQuestionId": "shortest-distance-to-a-character",
+    "title": "Shortest Distance to a Character",
+    "sourceUrl": "https://leetcode.com/problems/shortest-distance-to-a-character/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.2432,
+    "companyRank": 6
+  },
+  {
+    "sourceQuestionId": "letter-combinations-of-a-phone-number",
+    "title": "Letter Combinations of a Phone Number",
+    "sourceUrl": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.2217,
+    "companyRank": 7
+  },
+  {
+    "sourceQuestionId": "design-hit-counter",
+    "title": "Design Hit Counter",
+    "sourceUrl": "https://leetcode.com/problems/design-hit-counter/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.2081,
+    "companyRank": 8
+  },
+  {
+    "sourceQuestionId": "meeting-rooms-ii",
+    "title": "Meeting Rooms II",
+    "sourceUrl": "https://leetcode.com/problems/meeting-rooms-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.122,
+    "companyRank": 9
+  },
+  {
+    "sourceQuestionId": "peeking-iterator",
+    "title": "Peeking Iterator",
+    "sourceUrl": "https://leetcode.com/problems/peeking-iterator/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.119,
+    "companyRank": 10
+  },
+  {
+    "sourceQuestionId": "dice-roll-simulation",
+    "title": "Dice Roll Simulation",
+    "sourceUrl": "https://leetcode.com/problems/dice-roll-simulation/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.1021,
+    "companyRank": 11
+  },
+  {
+    "sourceQuestionId": "longest-increasing-subsequence",
+    "title": "Longest Increasing Subsequence",
+    "sourceUrl": "https://leetcode.com/problems/longest-increasing-subsequence/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.1016,
+    "companyRank": 12
+  },
+  {
+    "sourceQuestionId": "merge-k-sorted-lists",
+    "title": "Merge k Sorted Lists",
+    "sourceUrl": "https://leetcode.com/problems/merge-k-sorted-lists/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.0967,
+    "companyRank": 13
+  },
+  {
+    "sourceQuestionId": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "sourceUrl": "https://leetcode.com/problems/valid-parentheses/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.0929,
+    "companyRank": 14
+  },
+  {
+    "sourceQuestionId": "logger-rate-limiter",
+    "title": "Logger Rate Limiter",
+    "sourceUrl": "https://leetcode.com/problems/logger-rate-limiter/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.0817,
+    "companyRank": 15
+  },
+  {
+    "sourceQuestionId": "rank-teams-by-votes",
+    "title": "Rank Teams by Votes",
+    "sourceUrl": "https://leetcode.com/problems/rank-teams-by-votes/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.0722,
+    "companyRank": 16
+  },
+  {
+    "sourceQuestionId": "number-of-islands",
+    "title": "Number of Islands",
+    "sourceUrl": "https://leetcode.com/problems/number-of-islands/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.0699,
+    "companyRank": 17
+  },
+  {
+    "sourceQuestionId": "design-hashmap",
+    "title": "Design HashMap",
+    "sourceUrl": "https://leetcode.com/problems/design-hashmap/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.0683,
+    "companyRank": 18
+  },
+  {
+    "sourceQuestionId": "validate-binary-search-tree",
+    "title": "Validate Binary Search Tree",
+    "sourceUrl": "https://leetcode.com/problems/validate-binary-search-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.058,
+    "companyRank": 19
+  },
+  {
+    "sourceQuestionId": "single-element-in-a-sorted-array",
+    "title": "Single Element in a Sorted Array",
+    "sourceUrl": "https://leetcode.com/problems/single-element-in-a-sorted-array/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.0427,
+    "companyRank": 20
+  },
+  {
+    "sourceQuestionId": "backspace-string-compare",
+    "title": "Backspace String Compare",
+    "sourceUrl": "https://leetcode.com/problems/backspace-string-compare/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.0415,
+    "companyRank": 21
+  },
+  {
+    "sourceQuestionId": "next-permutation",
+    "title": "Next Permutation",
+    "sourceUrl": "https://leetcode.com/problems/next-permutation/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.0369,
+    "companyRank": 22
+  },
+  {
+    "sourceQuestionId": "decode-string",
+    "title": "Decode String",
+    "sourceUrl": "https://leetcode.com/problems/decode-string/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.0323,
+    "companyRank": 23
+  },
+  {
+    "sourceQuestionId": "evaluate-reverse-polish-notation",
+    "title": "Evaluate Reverse Polish Notation",
+    "sourceUrl": "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.0315,
+    "companyRank": 24
+  },
+  {
+    "sourceQuestionId": "friend-circles",
+    "title": "Friend Circles",
+    "sourceUrl": "https://leetcode.com/problems/friend-circles/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.0273,
+    "companyRank": 25
+  },
+  {
+    "sourceQuestionId": "best-time-to-buy-and-sell-stock-iii",
+    "title": "Best Time to Buy and Sell Stock III",
+    "sourceUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.0252,
+    "companyRank": 26
+  },
+  {
+    "sourceQuestionId": "subarray-product-less-than-k",
+    "title": "Subarray Product Less Than K",
+    "sourceUrl": "https://leetcode.com/problems/subarray-product-less-than-k/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.0247,
+    "companyRank": 27
+  },
+  {
+    "sourceQuestionId": "palindromic-substrings",
+    "title": "Palindromic Substrings",
+    "sourceUrl": "https://leetcode.com/problems/palindromic-substrings/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.0233,
+    "companyRank": 28
+  },
+  {
+    "sourceQuestionId": "binary-tree-right-side-view",
+    "title": "Binary Tree Right Side View",
+    "sourceUrl": "https://leetcode.com/problems/binary-tree-right-side-view/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.0225,
+    "companyRank": 29
+  },
+  {
+    "sourceQuestionId": "symmetric-tree",
+    "title": "Symmetric Tree",
+    "sourceUrl": "https://leetcode.com/problems/symmetric-tree/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.0211,
+    "companyRank": 30
+  },
+  {
+    "sourceQuestionId": "flatten-nested-list-iterator",
+    "title": "Flatten Nested List Iterator",
+    "sourceUrl": "https://leetcode.com/problems/flatten-nested-list-iterator/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.02,
+    "companyRank": 31
+  },
+  {
+    "sourceQuestionId": "maximum-subarray",
+    "title": "Maximum Subarray",
+    "sourceUrl": "https://leetcode.com/problems/maximum-subarray/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.0193,
+    "companyRank": 32
+  },
+  {
+    "sourceQuestionId": "binary-search-tree-iterator",
+    "title": "Binary Search Tree Iterator",
+    "sourceUrl": "https://leetcode.com/problems/binary-search-tree-iterator/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.019,
+    "companyRank": 33
+  },
+  {
+    "sourceQuestionId": "leaf-similar-trees",
+    "title": "Leaf-Similar Trees",
+    "sourceUrl": "https://leetcode.com/problems/leaf-similar-trees/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.0175,
+    "companyRank": 34
+  },
+  {
+    "sourceQuestionId": "permutations",
+    "title": "Permutations",
+    "sourceUrl": "https://leetcode.com/problems/permutations/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.0168,
+    "companyRank": 35
+  },
+  {
+    "sourceQuestionId": "valid-palindrome-ii",
+    "title": "Valid Palindrome II",
+    "sourceUrl": "https://leetcode.com/problems/valid-palindrome-ii/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.0163,
+    "companyRank": 36
+  },
+  {
+    "sourceQuestionId": "insert-into-a-binary-search-tree",
+    "title": "Insert into a Binary Search Tree",
+    "sourceUrl": "https://leetcode.com/problems/insert-into-a-binary-search-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.0155,
+    "companyRank": 37
+  },
+  {
+    "sourceQuestionId": "random-pick-with-weight",
+    "title": "Random Pick with Weight",
+    "sourceUrl": "https://leetcode.com/problems/random-pick-with-weight/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.0148,
+    "companyRank": 38
+  },
+  {
+    "sourceQuestionId": "basic-calculator-ii",
+    "title": "Basic Calculator II",
+    "sourceUrl": "https://leetcode.com/problems/basic-calculator-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.0124,
+    "companyRank": 39
+  },
+  {
+    "sourceQuestionId": "diameter-of-binary-tree",
+    "title": "Diameter of Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/diameter-of-binary-tree/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.0119,
+    "companyRank": 40
+  },
+  {
+    "sourceQuestionId": "longest-substring-without-repeating-characters",
+    "title": "Longest Substring Without Repeating Characters",
+    "sourceUrl": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.0097,
+    "companyRank": 41
+  },
+  {
+    "sourceQuestionId": "find-median-from-data-stream",
+    "title": "Find Median from Data Stream",
+    "sourceUrl": "https://leetcode.com/problems/find-median-from-data-stream/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.009,
+    "companyRank": 42
+  },
+  {
+    "sourceQuestionId": "merge-two-sorted-lists",
+    "title": "Merge Two Sorted Lists",
+    "sourceUrl": "https://leetcode.com/problems/merge-two-sorted-lists/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.009,
+    "companyRank": 43
+  },
+  {
+    "sourceQuestionId": "kth-largest-element-in-an-array",
+    "title": "Kth Largest Element in an Array",
+    "sourceUrl": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.0088,
+    "companyRank": 44
+  },
+  {
+    "sourceQuestionId": "subsets",
+    "title": "Subsets",
+    "sourceUrl": "https://leetcode.com/problems/subsets/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.0083,
+    "companyRank": 45
+  },
+  {
+    "sourceQuestionId": "binary-tree-level-order-traversal",
+    "title": "Binary Tree Level Order Traversal",
+    "sourceUrl": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.0082,
+    "companyRank": 46
+  },
+  {
+    "sourceQuestionId": "top-k-frequent-words",
+    "title": "Top K Frequent Words",
+    "sourceUrl": "https://leetcode.com/problems/top-k-frequent-words/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.0075,
+    "companyRank": 47
+  },
+  {
+    "sourceQuestionId": "single-number",
+    "title": "Single Number",
+    "sourceUrl": "https://leetcode.com/problems/single-number/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.0064,
+    "companyRank": 48
+  },
+  {
+    "sourceQuestionId": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "sourceUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.0048,
+    "companyRank": 49
+  },
+  {
+    "sourceQuestionId": "lowest-common-ancestor-of-a-binary-tree",
+    "title": "Lowest Common Ancestor of a Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.0047,
+    "companyRank": 50
+  },
+  {
+    "sourceQuestionId": "generate-parentheses",
+    "title": "Generate Parentheses",
+    "sourceUrl": "https://leetcode.com/problems/generate-parentheses/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.0044,
+    "companyRank": 51
+  },
+  {
+    "sourceQuestionId": "merge-intervals",
+    "title": "Merge Intervals",
+    "sourceUrl": "https://leetcode.com/problems/merge-intervals/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.0035,
+    "companyRank": 52
+  },
+  {
+    "sourceQuestionId": "verbal-arithmetic-puzzle",
+    "title": "Verbal Arithmetic Puzzle",
+    "sourceUrl": "https://leetcode.com/problems/verbal-arithmetic-puzzle/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "atlassian"
+    ],
+    "frequencyScore": 0.0,
+    "companyRank": 53
+  }
+]

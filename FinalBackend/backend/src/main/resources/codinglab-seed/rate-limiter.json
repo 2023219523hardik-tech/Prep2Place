@@ -1,0 +1,71 @@
+{
+ "title": "Backend: Per-Client Rate Limiter",
+ "codingType": "BACKEND",
+ "difficulty": "MEDIUM",
+ "runtime": "JAVA_JUNIT",
+ "summary": "Build the rate limiter that protects an API gateway: per-client fixed windows, an injectable clock, input validation and thread safety.",
+ "problemStatement": "## Scenario\nYour team's API gateway needs to stop a single client from flooding the service. You are implementing the core of that protection: an in-memory **fixed-window rate limiter**.\n\n## Task\nImplement `com.prep2place.ratelimit.RateLimiter` (file `src/main/java/com/prep2place/ratelimit/RateLimiter.java`). Keep the public signatures exactly as in the starter.\n\n- `RateLimiter(int maxRequests, Duration window, Clock clock)`\n- `boolean tryAcquire(String clientId)` - returns `true` and counts the request if the client is still within its limit, otherwise `false`.\n- `int remaining(String clientId)` - how many more requests the client may make in its current window.\n\n## Rules\n- Each client has its own window. A client's window **starts at that client's first accepted request**. A request is allowed while fewer than `maxRequests` have been accepted in the current window.\n- Once `window` has fully elapsed since the window start (`now - start >= window`) the next call begins a fresh window. Rejected requests do **not** extend or restart a window.\n- Time comes only from the injected `Clock` (never `System.currentTimeMillis()`), so tests can control it.\n- `remaining` never counts as a request. For a client with no active window it returns `maxRequests`.\n- Invalid input throws `IllegalArgumentException`: `maxRequests <= 0`, a null/zero/negative `window`, a null `clock`, and a null or blank `clientId` (in both methods).\n- The limiter is shared by many request threads: it must never let more than `maxRequests` through in one window, even under contention.",
+ "requirements": [
+  {
+   "id": "R1",
+   "title": "Enforce the per-client limit",
+   "description": "At most maxRequests requests are accepted per window; further requests are rejected.",
+   "weight": 3
+  },
+  {
+   "id": "R2",
+   "title": "Track clients independently",
+   "description": "One client reaching its limit never affects another client.",
+   "weight": 2
+  },
+  {
+   "id": "R3",
+   "title": "Reset after the window",
+   "description": "The window starts at the first request and resets once it has fully elapsed; rejections do not extend it.",
+   "weight": 3
+  },
+  {
+   "id": "R4",
+   "title": "Report remaining requests",
+   "description": "remaining() reflects the current window without consuming a request.",
+   "weight": 2
+  },
+  {
+   "id": "R5",
+   "title": "Validate input",
+   "description": "Invalid constructor arguments or client ids throw IllegalArgumentException.",
+   "weight": 2
+  },
+  {
+   "id": "R6",
+   "title": "Thread safety",
+   "description": "Concurrent callers can never exceed the limit.",
+   "weight": 2
+  }
+ ],
+ "timeLimitMinutes": 40,
+ "technology": "Java 21 + JUnit 5",
+ "skills": [
+  "Java",
+  "Concurrency",
+  "API design",
+  "Unit testing"
+ ],
+ "tags": [
+  "rate-limiting",
+  "system-design"
+ ],
+ "targetJobRole": "Backend Developer",
+ "starterFiles": {
+  "src/main/java/com/prep2place/ratelimit/RateLimiter.java": "package com.prep2place.ratelimit;\n\nimport java.time.Clock;\nimport java.time.Duration;\n\n/** Per-client fixed-window rate limiter. See the problem statement for the exact rules. */\npublic class RateLimiter {\n\n    public RateLimiter(int maxRequests, Duration window, Clock clock) {\n        // TODO: validate the arguments and set up your state\n    }\n\n    /** @return true if the request is allowed (and counted), false if the client is over its limit */\n    public boolean tryAcquire(String clientId) {\n        // TODO\n        return false;\n    }\n\n    /** @return how many more requests this client may make in its current window */\n    public int remaining(String clientId) {\n        // TODO\n        return 0;\n    }\n}\n"
+ },
+ "referenceFiles": {
+  "src/main/java/com/prep2place/ratelimit/RateLimiter.java": "package com.prep2place.ratelimit;\n\nimport java.time.Clock;\nimport java.time.Duration;\nimport java.util.HashMap;\nimport java.util.Map;\n\npublic class RateLimiter {\n    private final int maxRequests;\n    private final long windowMillis;\n    private final Clock clock;\n    private final Map<String, long[]> state = new HashMap<>(); // clientId -> {windowStartMillis, count}\n\n    public RateLimiter(int maxRequests, Duration window, Clock clock) {\n        if (maxRequests <= 0) throw new IllegalArgumentException(\"maxRequests must be positive\");\n        if (window == null || window.isZero() || window.isNegative()) throw new IllegalArgumentException(\"window must be positive\");\n        if (clock == null) throw new IllegalArgumentException(\"clock is required\");\n        this.maxRequests = maxRequests;\n        this.windowMillis = window.toMillis();\n        this.clock = clock;\n    }\n\n    public synchronized boolean tryAcquire(String clientId) {\n        check(clientId);\n        long now = clock.millis();\n        long[] s = state.get(clientId);\n        if (s == null || now - s[0] >= windowMillis) {\n            s = new long[]{now, 0};\n            state.put(clientId, s);\n        }\n        if (s[1] >= maxRequests) return false;\n        s[1]++;\n        return true;\n    }\n\n    public synchronized int remaining(String clientId) {\n        check(clientId);\n        long[] s = state.get(clientId);\n        if (s == null || clock.millis() - s[0] >= windowMillis) return maxRequests;\n        return (int) (maxRequests - s[1]);\n    }\n\n    private static void check(String clientId) {\n        if (clientId == null || clientId.isBlank()) throw new IllegalArgumentException(\"clientId is required\");\n    }\n}\n"
+ },
+ "publicTestFiles": {
+  "tests/public/RateLimiterPublicTest.java": "package com.prep2place.ratelimit;\n\nimport org.junit.jupiter.api.Test;\n\nimport java.time.*;\n\nimport static org.junit.jupiter.api.Assertions.*;\n\nclass RateLimiterPublicTest {\n    static class TestClock extends Clock {\n        private Instant now = Instant.parse(\"2025-01-01T00:00:00Z\");\n        void advance(Duration d) { now = now.plus(d); }\n        @Override public ZoneId getZone() { return ZoneOffset.UTC; }\n        @Override public Clock withZone(ZoneId zone) { return this; }\n        @Override public Instant instant() { return now; }\n    }\n\n    @Test\n    void r1_allowsUpToTheLimitThenRejects() {\n        RateLimiter rl = new RateLimiter(3, Duration.ofSeconds(10), new TestClock());\n        assertTrue(rl.tryAcquire(\"alice\"));\n        assertTrue(rl.tryAcquire(\"alice\"));\n        assertTrue(rl.tryAcquire(\"alice\"));\n        assertFalse(rl.tryAcquire(\"alice\"));\n    }\n\n    @Test\n    void r2_clientsAreTrackedIndependently() {\n        RateLimiter rl = new RateLimiter(1, Duration.ofSeconds(10), new TestClock());\n        assertTrue(rl.tryAcquire(\"alice\"));\n        assertFalse(rl.tryAcquire(\"alice\"));\n        assertTrue(rl.tryAcquire(\"bob\"));\n    }\n\n    @Test\n    void r3_windowResetsOnceItHasElapsed() {\n        TestClock clock = new TestClock();\n        RateLimiter rl = new RateLimiter(2, Duration.ofSeconds(10), clock);\n        assertTrue(rl.tryAcquire(\"alice\"));\n        assertTrue(rl.tryAcquire(\"alice\"));\n        assertFalse(rl.tryAcquire(\"alice\"));\n        clock.advance(Duration.ofSeconds(11));\n        assertTrue(rl.tryAcquire(\"alice\"));\n    }\n\n    @Test\n    void r4_remainingCountsDown() {\n        RateLimiter rl = new RateLimiter(3, Duration.ofSeconds(10), new TestClock());\n        assertEquals(3, rl.remaining(\"alice\"));\n        rl.tryAcquire(\"alice\");\n        assertEquals(2, rl.remaining(\"alice\"));\n    }\n}\n"
+ },
+ "hiddenTestFiles": {
+  "tests/hidden/RateLimiterHiddenTest.java": "package com.prep2place.ratelimit;\n\nimport org.junit.jupiter.api.Test;\n\nimport java.time.*;\nimport java.util.concurrent.*;\nimport java.util.concurrent.atomic.AtomicInteger;\n\nimport static org.junit.jupiter.api.Assertions.*;\n\nclass RateLimiterHiddenTest {\n    static class TestClock extends Clock {\n        private Instant now = Instant.parse(\"2025-01-01T00:00:00Z\");\n        void advance(Duration d) { now = now.plus(d); }\n        @Override public ZoneId getZone() { return ZoneOffset.UTC; }\n        @Override public Clock withZone(ZoneId zone) { return this; }\n        @Override public Instant instant() { return now; }\n    }\n\n    @Test\n    void r1_limitOfOneAllowsExactlyOne() {\n        RateLimiter rl = new RateLimiter(1, Duration.ofMinutes(1), new TestClock());\n        assertTrue(rl.tryAcquire(\"c\"));\n        for (int i = 0; i < 5; i++) assertFalse(rl.tryAcquire(\"c\"));\n    }\n\n    @Test\n    void r2_manyClientsDoNotInterfere() {\n        RateLimiter rl = new RateLimiter(2, Duration.ofMinutes(1), new TestClock());\n        for (int i = 0; i < 50; i++) {\n            assertTrue(rl.tryAcquire(\"client-\" + i));\n            assertTrue(rl.tryAcquire(\"client-\" + i));\n            assertFalse(rl.tryAcquire(\"client-\" + i));\n        }\n    }\n\n    @Test\n    void r3_resetHappensExactlyAtTheWindowBoundary() {\n        TestClock clock = new TestClock();\n        RateLimiter rl = new RateLimiter(1, Duration.ofSeconds(10), clock);\n        assertTrue(rl.tryAcquire(\"c\"));\n        clock.advance(Duration.ofMillis(9_999));\n        assertFalse(rl.tryAcquire(\"c\"));\n        clock.advance(Duration.ofMillis(1));\n        assertTrue(rl.tryAcquire(\"c\"));\n    }\n\n    @Test\n    void r3_rejectedRequestsDoNotExtendTheWindow() {\n        TestClock clock = new TestClock();\n        RateLimiter rl = new RateLimiter(1, Duration.ofSeconds(10), clock);\n        assertTrue(rl.tryAcquire(\"c\"));\n        clock.advance(Duration.ofSeconds(6));\n        assertFalse(rl.tryAcquire(\"c\"));\n        clock.advance(Duration.ofSeconds(4));\n        assertTrue(rl.tryAcquire(\"c\"));\n    }\n\n    @Test\n    void r4_remainingIsFullForUnknownAndExpiredClientsAndNeverConsumes() {\n        TestClock clock = new TestClock();\n        RateLimiter rl = new RateLimiter(2, Duration.ofSeconds(5), clock);\n        assertEquals(2, rl.remaining(\"nobody\"));\n        assertEquals(2, rl.remaining(\"nobody\"));\n        assertTrue(rl.tryAcquire(\"c\"));\n        assertTrue(rl.tryAcquire(\"c\"));\n        assertEquals(0, rl.remaining(\"c\"));\n        clock.advance(Duration.ofSeconds(5));\n        assertEquals(2, rl.remaining(\"c\"));\n        assertTrue(rl.tryAcquire(\"c\"));\n    }\n\n    @Test\n    void r5_invalidArgumentsAreRejected() {\n        Clock c = new TestClock();\n        assertThrows(IllegalArgumentException.class, () -> new RateLimiter(0, Duration.ofSeconds(1), c));\n        assertThrows(IllegalArgumentException.class, () -> new RateLimiter(-1, Duration.ofSeconds(1), c));\n        assertThrows(IllegalArgumentException.class, () -> new RateLimiter(1, null, c));\n        assertThrows(IllegalArgumentException.class, () -> new RateLimiter(1, Duration.ZERO, c));\n        assertThrows(IllegalArgumentException.class, () -> new RateLimiter(1, Duration.ofSeconds(-1), c));\n        assertThrows(IllegalArgumentException.class, () -> new RateLimiter(1, Duration.ofSeconds(1), null));\n        RateLimiter rl = new RateLimiter(1, Duration.ofSeconds(1), c);\n        assertThrows(IllegalArgumentException.class, () -> rl.tryAcquire(null));\n        assertThrows(IllegalArgumentException.class, () -> rl.tryAcquire(\"  \"));\n        assertThrows(IllegalArgumentException.class, () -> rl.remaining(null));\n    }\n\n    @Test\n    void r6_neverLetsMoreThanTheLimitThroughUnderContention() throws Exception {\n        RateLimiter rl = new RateLimiter(50, Duration.ofMinutes(1), new TestClock());\n        ExecutorService pool = Executors.newFixedThreadPool(8);\n        CountDownLatch start = new CountDownLatch(1);\n        AtomicInteger allowed = new AtomicInteger();\n        for (int t = 0; t < 8; t++) {\n            pool.submit(() -> {\n                try { start.await(); } catch (InterruptedException e) { return; }\n                for (int i = 0; i < 100; i++) if (rl.tryAcquire(\"shared\")) allowed.incrementAndGet();\n            });\n        }\n        start.countDown();\n        pool.shutdown();\n        assertTrue(pool.awaitTermination(20, TimeUnit.SECONDS));\n        assertEquals(50, allowed.get());\n    }\n}\n"
+ }
+}

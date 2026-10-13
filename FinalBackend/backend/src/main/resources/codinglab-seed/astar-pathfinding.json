@@ -1,0 +1,65 @@
+{
+ "title": "AI: A* Grid Pathfinding",
+ "codingType": "AI",
+ "difficulty": "MEDIUM",
+ "runtime": "PYTHON_PYTEST",
+ "summary": "Implement A* search on a grid with obstacles - the classic planning problem behind game AI and robot navigation.",
+ "problemStatement": "## Scenario\nA warehouse robot moves on a rectangular grid. Cells are either free (`0`) or blocked (`1`). Implement **A\\*** so it can plan the shortest route.\n\n## Task\nIn `pathfinding.py` implement `astar(grid, start, goal)`:\n\n- `grid` is a non-empty list of equal-length rows of `0`/`1`. `start` and `goal` are `(row, col)` tuples.\n- Movement is 4-directional (up, down, left, right), each step costs 1, no diagonals.\n- Return the path as a list of `(row, col)` tuples **including** `start` and `goal`. It must be a **shortest** path.\n- Return `None` when the goal cannot be reached.\n- If `start == goal` (and the cell is free) return `[start]`.\n- Raise `ValueError` if the grid is empty or ragged, or `start` / `goal` is outside the grid or on a blocked cell.\n\nUse the Manhattan distance as your heuristic. Any correct shortest path is accepted when several exist.",
+ "requirements": [
+  {
+   "id": "R1",
+   "title": "Return a valid path",
+   "description": "Starts at start, ends at goal, only 4-neighbour steps through free cells.",
+   "weight": 3
+  },
+  {
+   "id": "R2",
+   "title": "Path is shortest",
+   "description": "The returned path has the minimum possible length.",
+   "weight": 3
+  },
+  {
+   "id": "R3",
+   "title": "Detect unreachable goals",
+   "description": "Returns None when no route exists.",
+   "weight": 2
+  },
+  {
+   "id": "R4",
+   "title": "Handle start == goal",
+   "description": "Returns [start] without searching.",
+   "weight": 1
+  },
+  {
+   "id": "R5",
+   "title": "Validate input",
+   "description": "ValueError for bad grids or endpoints.",
+   "weight": 2
+  }
+ ],
+ "timeLimitMinutes": 40,
+ "technology": "Python 3.12 + pytest",
+ "skills": [
+  "Search algorithms",
+  "A*",
+  "Data structures",
+  "Python"
+ ],
+ "tags": [
+  "search",
+  "planning"
+ ],
+ "targetJobRole": "AI Engineer",
+ "starterFiles": {
+  "pathfinding.py": "\"\"\"Grid pathfinding with A*.\"\"\"\n\n\ndef astar(grid, start, goal):\n    \"\"\"Return a shortest list of (row, col) from start to goal (inclusive), or None if unreachable.\"\"\"\n    raise NotImplementedError\n"
+ },
+ "referenceFiles": {
+  "pathfinding.py": "\"\"\"Grid pathfinding with A*.\"\"\"\nimport heapq\nfrom itertools import count\n\n\ndef astar(grid, start, goal):\n    if not grid or not grid[0] or any(len(row) != len(grid[0]) for row in grid):\n        raise ValueError(\"grid must be a non-empty rectangle\")\n    rows, cols = len(grid), len(grid[0])\n\n    def check(cell):\n        r, c = cell\n        if not (0 <= r < rows and 0 <= c < cols) or grid[r][c] == 1:\n            raise ValueError(f\"invalid cell {cell}\")\n\n    check(start)\n    check(goal)\n    if start == goal:\n        return [start]\n\n    def h(cell):\n        return abs(cell[0] - goal[0]) + abs(cell[1] - goal[1])\n\n    tie = count()\n    open_heap = [(h(start), next(tie), 0, start)]\n    best_cost = {start: 0}\n    parent = {}\n    while open_heap:\n        _, _, cost, cell = heapq.heappop(open_heap)\n        if cell == goal:\n            path = [cell]\n            while cell in parent:\n                cell = parent[cell]\n                path.append(cell)\n            return path[::-1]\n        if cost > best_cost.get(cell, float(\"inf\")):\n            continue\n        r, c = cell\n        for nr, nc in ((r + 1, c), (r - 1, c), (r, c + 1), (r, c - 1)):\n            if 0 <= nr < rows and 0 <= nc < cols and grid[nr][nc] == 0:\n                nxt = (nr, nc)\n                new_cost = cost + 1\n                if new_cost < best_cost.get(nxt, float(\"inf\")):\n                    best_cost[nxt] = new_cost\n                    parent[nxt] = cell\n                    heapq.heappush(open_heap, (new_cost + h(nxt), next(tie), new_cost, nxt))\n    return None\n"
+ },
+ "publicTestFiles": {
+  "tests/public/test_pathfinding.py": "import pytest\nfrom pathfinding import astar\n\nGRID = [\n    [0, 0, 0, 0],\n    [1, 1, 0, 1],\n    [0, 0, 0, 0],\n]\n\n\ndef valid(grid, path, start, goal):\n    assert path[0] == start and path[-1] == goal\n    for (r1, c1), (r2, c2) in zip(path, path[1:]):\n        assert abs(r1 - r2) + abs(c1 - c2) == 1\n    assert all(grid[r][c] == 0 for r, c in path)\n\n\ndef test_r1_finds_a_valid_path_around_walls():\n    path = astar(GRID, (0, 0), (2, 0))\n    assert path is not None\n    valid(GRID, path, (0, 0), (2, 0))\n\n\ndef test_r2_path_is_shortest():\n    assert len(astar(GRID, (0, 0), (2, 0))) == 7\n\n\ndef test_r3_returns_none_when_blocked():\n    assert astar([[0, 1, 0]], (0, 0), (0, 2)) is None\n\n\ndef test_r4_start_equals_goal():\n    assert astar(GRID, (0, 0), (0, 0)) == [(0, 0)]\n\n\ndef test_r5_rejects_a_blocked_start():\n    with pytest.raises(ValueError):\n        astar(GRID, (1, 0), (0, 0))\n"
+ },
+ "hiddenTestFiles": {
+  "tests/hidden/test_pathfinding.py": "import random\nfrom collections import deque\n\nimport pytest\nfrom pathfinding import astar\n\n\ndef bfs_len(grid, start, goal):\n    rows, cols = len(grid), len(grid[0])\n    seen, q = {start}, deque([(start, 1)])\n    while q:\n        (r, c), d = q.popleft()\n        if (r, c) == goal:\n            return d\n        for nr, nc in ((r + 1, c), (r - 1, c), (r, c + 1), (r, c - 1)):\n            if 0 <= nr < rows and 0 <= nc < cols and grid[nr][nc] == 0 and (nr, nc) not in seen:\n                seen.add((nr, nc))\n                q.append(((nr, nc), d + 1))\n    return None\n\n\ndef check_valid(grid, path, start, goal):\n    assert path[0] == start and path[-1] == goal\n    assert len(set(path)) == len(path)\n    for (r1, c1), (r2, c2) in zip(path, path[1:]):\n        assert abs(r1 - r2) + abs(c1 - c2) == 1\n    assert all(grid[r][c] == 0 for r, c in path)\n\n\ndef random_grid(rng, rows, cols, density):\n    g = [[1 if rng.random() < density else 0 for _ in range(cols)] for _ in range(rows)]\n    g[0][0] = 0\n    g[rows - 1][cols - 1] = 0\n    return g\n\n\ndef test_r1_paths_on_random_grids_are_valid():\n    rng = random.Random(7)\n    for _ in range(40):\n        g = random_grid(rng, 8, 9, 0.28)\n        path = astar(g, (0, 0), (7, 8))\n        if path is not None:\n            check_valid(g, path, (0, 0), (7, 8))\n\n\ndef test_r2_matches_breadth_first_search_length_on_random_grids():\n    rng = random.Random(11)\n    for _ in range(60):\n        g = random_grid(rng, 10, 10, 0.3)\n        expected = bfs_len(g, (0, 0), (9, 9))\n        path = astar(g, (0, 0), (9, 9))\n        assert (path is None) == (expected is None)\n        if path is not None:\n            assert len(path) == expected\n\n\ndef test_r2_open_grid_is_manhattan_optimal_and_fast():\n    g = [[0] * 40 for _ in range(40)]\n    path = astar(g, (0, 0), (39, 39))\n    assert len(path) == 79\n\n\ndef test_r3_fully_walled_off_goal():\n    g = [[0, 1, 0], [1, 1, 0], [0, 0, 0]]\n    assert astar(g, (0, 0), (2, 2)) is None\n\n\ndef test_r4_single_cell_grid():\n    assert astar([[0]], (0, 0), (0, 0)) == [(0, 0)]\n\n\n@pytest.mark.parametrize(\"grid,start,goal\", [\n    ([], (0, 0), (0, 0)),\n    ([[0, 0], [0]], (0, 0), (0, 1)),\n    ([[0, 0]], (0, 0), (0, 5)),\n    ([[0, 0]], (-1, 0), (0, 1)),\n    ([[0, 1]], (0, 0), (0, 1)),\n])\ndef test_r5_invalid_inputs_raise_value_error(grid, start, goal):\n    with pytest.raises(ValueError):\n        astar(grid, start, goal)\n"
+ }
+}

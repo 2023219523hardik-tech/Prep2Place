@@ -1,0 +1,173 @@
+name: "CD — Production Deployment (Main Branch)"
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  packages: write
+
+concurrency:
+  group: cd-production-main
+  cancel-in-progress: false
+
+jobs:
+  # ---------------------------------------------------------------------------
+  # Stage 1: Pre-Deploy Test Gate (Backend + Frontend + ML Service)
+  # ---------------------------------------------------------------------------
+  verify:
+    name: Pre-Deployment Verification Gate
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 21 (Temurin)
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+          cache: maven
+
+      - name: Run Backend Tests & Package JAR
+        working-directory: FinalBackend/backend
+        env:
+          SPRING_PROFILES_ACTIVE: dev
+        run: mvn -B -ntp clean verify
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: frontendUpdated/package-lock.json
+
+      - name: Install & Build Frontend
+        working-directory: frontendUpdated
+        env:
+          NEXT_PUBLIC_API_BASE_URL: ${{ secrets.NEXT_PUBLIC_API_BASE_URL || 'https://api.example.com' }}
+          NEXT_PUBLIC_API_URL: ${{ secrets.NEXT_PUBLIC_API_BASE_URL || 'https://api.example.com' }}
+        run: |
+          npm ci
+          npm run build
+
+  # ---------------------------------------------------------------------------
+  # Stage 2: Build & Push Immutable SHA-Tagged Backend Image to GHCR
+  # ---------------------------------------------------------------------------
+  build-and-push-image:
+    name: Build & Tag Backend Container Image (GHCR)
+    runs-on: ubuntu-latest
+    needs: [verify]
+    outputs:
+      image_tag: ${{ steps.meta.outputs.version }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Log in to GitHub Container Registry (GHCR)
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Extract immutable Docker metadata (Commit SHA)
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ghcr.io/${{ github.repository_owner }}/prep2place-backend
+          tags: |
+            type=sha,prefix=sha-,format=long
+            type=raw,value=latest,enable={{is_default_branch}}
+
+      - name: Build and push backend Docker image
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: ./FinalBackend/backend/Dockerfile
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+  # ---------------------------------------------------------------------------
+  # Stage 3: Deploy Backend to Render & Frontend to Vercel (Protected Environment)
+  # ---------------------------------------------------------------------------
+  deploy-production:
+    name: Deploy to Render & Vercel (Production)
+    runs-on: ubuntu-latest
+    needs: [verify, build-and-push-image]
+    environment:
+      name: production
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Trigger Render Backend Deployment
+        env:
+          RENDER_DEPLOY_HOOK_URL: ${{ secrets.RENDER_DEPLOY_HOOK_URL }}
+        run: |
+          if [ -z "$RENDER_DEPLOY_HOOK_URL" ]; then
+            echo "::notice::RENDER_DEPLOY_HOOK_URL secret is not configured yet. Skipping Render webhook trigger."
+            exit 0
+          fi
+          HTTP_STATUS=$(curl -s -o /tmp/render_deploy.json -w "%{http_code}" -X POST "$RENDER_DEPLOY_HOOK_URL")
+          echo "Render Deploy Hook HTTP status: $HTTP_STATUS"
+          if [ "$HTTP_STATUS" -lt 200 ] || [ "$HTTP_STATUS" -ge 300 ]; then
+            echo "::error::Render deployment trigger failed with status $HTTP_STATUS"
+            cat /tmp/render_deploy.json || true
+            exit 1
+          fi
+
+      - name: Deploy Frontend to Vercel Production
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+        run: |
+          if [ -z "$VERCEL_TOKEN" ] || [ -z "$VERCEL_ORG_ID" ] || [ -z "$VERCEL_PROJECT_ID" ]; then
+            echo "::notice::Vercel secrets (VERCEL_TOKEN / VERCEL_ORG_ID / VERCEL_PROJECT_ID) are not configured yet. Skipping CLI deploy."
+            exit 0
+          fi
+          npm install --global vercel@latest
+          vercel pull --yes --environment=production --cwd=frontendUpdated --token="$VERCEL_TOKEN"
+          vercel build --prod --cwd=frontendUpdated --token="$VERCEL_TOKEN"
+          vercel deploy --prebuilt --prod --cwd=frontendUpdated --token="$VERCEL_TOKEN"
+
+      - name: Post-Deployment Health & Smoke Tests
+        env:
+          PRODUCTION_BACKEND_URL: ${{ secrets.PRODUCTION_BACKEND_URL }}
+          PRODUCTION_FRONTEND_URL: ${{ secrets.PRODUCTION_FRONTEND_URL }}
+        run: |
+          if [ -n "$PRODUCTION_BACKEND_URL" ]; then
+            echo "Running smoke test against backend: $PRODUCTION_BACKEND_URL/actuator/health"
+            for attempt in 1 2 3 4 5 6; do
+              if curl -sf --max-time 20 "${PRODUCTION_BACKEND_URL%/}/actuator/health"; then
+                echo "Backend health check passed on attempt $attempt!"
+                break
+              fi
+              echo "Attempt $attempt failed; waiting 15s for Render container readiness..."
+              sleep 15
+              if [ "$attempt" -eq 6 ]; then
+                echo "::error::Backend health check failed after 6 attempts!"
+                exit 1
+              fi
+            done
+          else
+            echo "::notice::PRODUCTION_BACKEND_URL not set; skipping backend smoke test."
+          fi
+
+          if [ -n "$PRODUCTION_FRONTEND_URL" ]; then
+            echo "Running smoke test against frontend: $PRODUCTION_FRONTEND_URL"
+            curl -sfI --max-time 20 "$PRODUCTION_FRONTEND_URL" | head -n 5
+            echo "Frontend HTTPS smoke test passed!"
+          else
+            echo "::notice::PRODUCTION_FRONTEND_URL not set; skipping frontend smoke test."
+          fi

@@ -1,0 +1,1127 @@
+[
+  {
+    "sourceQuestionId": "construct-quad-tree",
+    "title": "Construct Quad Tree",
+    "sourceUrl": "https://leetcode.com/problems/construct-quad-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 3.2026,
+    "companyRank": 1
+  },
+  {
+    "sourceQuestionId": "word-pattern-ii",
+    "title": "Word Pattern II",
+    "sourceUrl": "https://leetcode.com/problems/word-pattern-ii/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 3.0091,
+    "companyRank": 2
+  },
+  {
+    "sourceQuestionId": "minesweeper",
+    "title": "Minesweeper",
+    "sourceUrl": "https://leetcode.com/problems/minesweeper/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 2.8156,
+    "companyRank": 3
+  },
+  {
+    "sourceQuestionId": "number-of-islands-ii",
+    "title": "Number of Islands II",
+    "sourceUrl": "https://leetcode.com/problems/number-of-islands-ii/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 2.7873,
+    "companyRank": 4
+  },
+  {
+    "sourceQuestionId": "cherry-pickup",
+    "title": "Cherry Pickup",
+    "sourceUrl": "https://leetcode.com/problems/cherry-pickup/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 2.7282,
+    "companyRank": 5
+  },
+  {
+    "sourceQuestionId": "set-intersection-size-at-least-two",
+    "title": "Set Intersection Size At Least Two",
+    "sourceUrl": "https://leetcode.com/problems/set-intersection-size-at-least-two/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 2.5347,
+    "companyRank": 6
+  },
+  {
+    "sourceQuestionId": "reconstruct-itinerary",
+    "title": "Reconstruct Itinerary",
+    "sourceUrl": "https://leetcode.com/problems/reconstruct-itinerary/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 2.4731,
+    "companyRank": 7
+  },
+  {
+    "sourceQuestionId": "flatten-nested-list-iterator",
+    "title": "Flatten Nested List Iterator",
+    "sourceUrl": "https://leetcode.com/problems/flatten-nested-list-iterator/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 2.4575,
+    "companyRank": 8
+  },
+  {
+    "sourceQuestionId": "text-justification",
+    "title": "Text Justification",
+    "sourceUrl": "https://leetcode.com/problems/text-justification/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 2.4561,
+    "companyRank": 9
+  },
+  {
+    "sourceQuestionId": "optimal-account-balancing",
+    "title": "Optimal Account Balancing",
+    "sourceUrl": "https://leetcode.com/problems/optimal-account-balancing/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 2.3938,
+    "companyRank": 10
+  },
+  {
+    "sourceQuestionId": "lru-cache",
+    "title": "LRU Cache",
+    "sourceUrl": "https://leetcode.com/problems/lru-cache/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 2.2331,
+    "companyRank": 11
+  },
+  {
+    "sourceQuestionId": "trips-and-users",
+    "title": "Trips and Users",
+    "sourceUrl": "https://leetcode.com/problems/trips-and-users/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 2.1791,
+    "companyRank": 12
+  },
+  {
+    "sourceQuestionId": "merge-intervals",
+    "title": "Merge Intervals",
+    "sourceUrl": "https://leetcode.com/problems/merge-intervals/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 1.9856,
+    "companyRank": 13
+  },
+  {
+    "sourceQuestionId": "palindrome-permutation-ii",
+    "title": "Palindrome Permutation II",
+    "sourceUrl": "https://leetcode.com/problems/palindrome-permutation-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 1.9644,
+    "companyRank": 14
+  },
+  {
+    "sourceQuestionId": "valid-sudoku",
+    "title": "Valid Sudoku",
+    "sourceUrl": "https://leetcode.com/problems/valid-sudoku/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 1.9638,
+    "companyRank": 15
+  },
+  {
+    "sourceQuestionId": "print-binary-tree",
+    "title": "Print Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/print-binary-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 1.9142,
+    "companyRank": 16
+  },
+  {
+    "sourceQuestionId": "basic-calculator-ii",
+    "title": "Basic Calculator II",
+    "sourceUrl": "https://leetcode.com/problems/basic-calculator-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 1.8315,
+    "companyRank": 17
+  },
+  {
+    "sourceQuestionId": "trapping-rain-water",
+    "title": "Trapping Rain Water",
+    "sourceUrl": "https://leetcode.com/problems/trapping-rain-water/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 1.8229,
+    "companyRank": 18
+  },
+  {
+    "sourceQuestionId": "number-of-islands",
+    "title": "Number of Islands",
+    "sourceUrl": "https://leetcode.com/problems/number-of-islands/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 1.8091,
+    "companyRank": 19
+  },
+  {
+    "sourceQuestionId": "interval-list-intersections",
+    "title": "Interval List Intersections",
+    "sourceUrl": "https://leetcode.com/problems/interval-list-intersections/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 1.7189,
+    "companyRank": 20
+  },
+  {
+    "sourceQuestionId": "serialize-and-deserialize-binary-tree",
+    "title": "Serialize and Deserialize Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 1.6607,
+    "companyRank": 21
+  },
+  {
+    "sourceQuestionId": "meeting-rooms-ii",
+    "title": "Meeting Rooms II",
+    "sourceUrl": "https://leetcode.com/problems/meeting-rooms-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 1.6305,
+    "companyRank": 22
+  },
+  {
+    "sourceQuestionId": "two-sum",
+    "title": "Two Sum",
+    "sourceUrl": "https://leetcode.com/problems/two-sum/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 1.6254,
+    "companyRank": 23
+  },
+  {
+    "sourceQuestionId": "serialize-and-deserialize-n-ary-tree",
+    "title": "Serialize and Deserialize N-ary Tree",
+    "sourceUrl": "https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 1.6195,
+    "companyRank": 24
+  },
+  {
+    "sourceQuestionId": "insert-delete-getrandom-o1",
+    "title": "Insert Delete GetRandom O(1)",
+    "sourceUrl": "https://leetcode.com/problems/insert-delete-getrandom-o1/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 1.5587,
+    "companyRank": 25
+  },
+  {
+    "sourceQuestionId": "sliding-puzzle",
+    "title": "Sliding Puzzle",
+    "sourceUrl": "https://leetcode.com/problems/sliding-puzzle/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 1.5001,
+    "companyRank": 26
+  },
+  {
+    "sourceQuestionId": "logger-rate-limiter",
+    "title": "Logger Rate Limiter",
+    "sourceUrl": "https://leetcode.com/problems/logger-rate-limiter/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 1.4643,
+    "companyRank": 27
+  },
+  {
+    "sourceQuestionId": "basic-calculator-iii",
+    "title": "Basic Calculator III",
+    "sourceUrl": "https://leetcode.com/problems/basic-calculator-iii/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 1.3248,
+    "companyRank": 28
+  },
+  {
+    "sourceQuestionId": "fraction-to-recurring-decimal",
+    "title": "Fraction to Recurring Decimal",
+    "sourceUrl": "https://leetcode.com/problems/fraction-to-recurring-decimal/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 1.3062,
+    "companyRank": 29
+  },
+  {
+    "sourceQuestionId": "reaching-points",
+    "title": "Reaching Points",
+    "sourceUrl": "https://leetcode.com/problems/reaching-points/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 1.2779,
+    "companyRank": 30
+  },
+  {
+    "sourceQuestionId": "sliding-window-maximum",
+    "title": "Sliding Window Maximum",
+    "sourceUrl": "https://leetcode.com/problems/sliding-window-maximum/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 1.2322,
+    "companyRank": 31
+  },
+  {
+    "sourceQuestionId": "basic-calculator",
+    "title": "Basic Calculator",
+    "sourceUrl": "https://leetcode.com/problems/basic-calculator/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 1.2047,
+    "companyRank": 32
+  },
+  {
+    "sourceQuestionId": "group-anagrams",
+    "title": "Group Anagrams",
+    "sourceUrl": "https://leetcode.com/problems/group-anagrams/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 1.1902,
+    "companyRank": 33
+  },
+  {
+    "sourceQuestionId": "letter-combinations-of-a-phone-number",
+    "title": "Letter Combinations of a Phone Number",
+    "sourceUrl": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 1.1735,
+    "companyRank": 34
+  },
+  {
+    "sourceQuestionId": "word-search-ii",
+    "title": "Word Search II",
+    "sourceUrl": "https://leetcode.com/problems/word-search-ii/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 1.1713,
+    "companyRank": 35
+  },
+  {
+    "sourceQuestionId": "design-search-autocomplete-system",
+    "title": "Design Search Autocomplete System",
+    "sourceUrl": "https://leetcode.com/problems/design-search-autocomplete-system/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 1.1539,
+    "companyRank": 36
+  },
+  {
+    "sourceQuestionId": "bomb-enemy",
+    "title": "Bomb Enemy",
+    "sourceUrl": "https://leetcode.com/problems/bomb-enemy/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 1.1536,
+    "companyRank": 37
+  },
+  {
+    "sourceQuestionId": "word-break",
+    "title": "Word Break",
+    "sourceUrl": "https://leetcode.com/problems/word-break/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 1.149,
+    "companyRank": 38
+  },
+  {
+    "sourceQuestionId": "walls-and-gates",
+    "title": "Walls and Gates",
+    "sourceUrl": "https://leetcode.com/problems/walls-and-gates/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 1.1386,
+    "companyRank": 39
+  },
+  {
+    "sourceQuestionId": "tag-validator",
+    "title": "Tag Validator",
+    "sourceUrl": "https://leetcode.com/problems/tag-validator/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 1.1331,
+    "companyRank": 40
+  },
+  {
+    "sourceQuestionId": "palindrome-pairs",
+    "title": "Palindrome Pairs",
+    "sourceUrl": "https://leetcode.com/problems/palindrome-pairs/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 1.1082,
+    "companyRank": 41
+  },
+  {
+    "sourceQuestionId": "exclusive-time-of-functions",
+    "title": "Exclusive Time of Functions",
+    "sourceUrl": "https://leetcode.com/problems/exclusive-time-of-functions/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 1.0706,
+    "companyRank": 42
+  },
+  {
+    "sourceQuestionId": "longest-consecutive-sequence",
+    "title": "Longest Consecutive Sequence",
+    "sourceUrl": "https://leetcode.com/problems/longest-consecutive-sequence/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 1.0688,
+    "companyRank": 43
+  },
+  {
+    "sourceQuestionId": "insert-delete-getrandom-o1-duplicates-allowed",
+    "title": "Insert Delete GetRandom O(1) - Duplicates allowed",
+    "sourceUrl": "https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 1.0261,
+    "companyRank": 44
+  },
+  {
+    "sourceQuestionId": "find-first-and-last-position-of-element-in-sorted-array",
+    "title": "Find First and Last Position of Element in Sorted Array",
+    "sourceUrl": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 1.0256,
+    "companyRank": 45
+  },
+  {
+    "sourceQuestionId": "water-and-jug-problem",
+    "title": "Water and Jug Problem",
+    "sourceUrl": "https://leetcode.com/problems/water-and-jug-problem/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 1.0087,
+    "companyRank": 46
+  },
+  {
+    "sourceQuestionId": "alien-dictionary",
+    "title": "Alien Dictionary",
+    "sourceUrl": "https://leetcode.com/problems/alien-dictionary/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 0.9912,
+    "companyRank": 47
+  },
+  {
+    "sourceQuestionId": "factor-combinations",
+    "title": "Factor Combinations",
+    "sourceUrl": "https://leetcode.com/problems/factor-combinations/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 0.9907,
+    "companyRank": 48
+  },
+  {
+    "sourceQuestionId": "random-pick-with-weight",
+    "title": "Random Pick with Weight",
+    "sourceUrl": "https://leetcode.com/problems/random-pick-with-weight/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 0.9736,
+    "companyRank": 49
+  },
+  {
+    "sourceQuestionId": "max-points-on-a-line",
+    "title": "Max Points on a Line",
+    "sourceUrl": "https://leetcode.com/problems/max-points-on-a-line/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 0.9594,
+    "companyRank": 50
+  },
+  {
+    "sourceQuestionId": "regular-expression-matching",
+    "title": "Regular Expression Matching",
+    "sourceUrl": "https://leetcode.com/problems/regular-expression-matching/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 0.9228,
+    "companyRank": 51
+  },
+  {
+    "sourceQuestionId": "minimum-window-substring",
+    "title": "Minimum Window Substring",
+    "sourceUrl": "https://leetcode.com/problems/minimum-window-substring/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 0.917,
+    "companyRank": 52
+  },
+  {
+    "sourceQuestionId": "24-game",
+    "title": "24 Game",
+    "sourceUrl": "https://leetcode.com/problems/24-game/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 0.8636,
+    "companyRank": 53
+  },
+  {
+    "sourceQuestionId": "longest-increasing-path-in-a-matrix",
+    "title": "Longest Increasing Path in a Matrix",
+    "sourceUrl": "https://leetcode.com/problems/longest-increasing-path-in-a-matrix/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 0.854,
+    "companyRank": 54
+  },
+  {
+    "sourceQuestionId": "recover-binary-search-tree",
+    "title": "Recover Binary Search Tree",
+    "sourceUrl": "https://leetcode.com/problems/recover-binary-search-tree/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 0.8394,
+    "companyRank": 55
+  },
+  {
+    "sourceQuestionId": "solve-the-equation",
+    "title": "Solve the Equation",
+    "sourceUrl": "https://leetcode.com/problems/solve-the-equation/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 0.8389,
+    "companyRank": 56
+  },
+  {
+    "sourceQuestionId": "connecting-cities-with-minimum-cost",
+    "title": "Connecting Cities With Minimum Cost",
+    "sourceUrl": "https://leetcode.com/problems/connecting-cities-with-minimum-cost/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 0.8224,
+    "companyRank": 57
+  },
+  {
+    "sourceQuestionId": "generate-parentheses",
+    "title": "Generate Parentheses",
+    "sourceUrl": "https://leetcode.com/problems/generate-parentheses/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 0.8167,
+    "companyRank": 58
+  },
+  {
+    "sourceQuestionId": "add-two-numbers",
+    "title": "Add Two Numbers",
+    "sourceUrl": "https://leetcode.com/problems/add-two-numbers/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 0.8029,
+    "companyRank": 59
+  },
+  {
+    "sourceQuestionId": "binary-search-tree-iterator",
+    "title": "Binary Search Tree Iterator",
+    "sourceUrl": "https://leetcode.com/problems/binary-search-tree-iterator/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 0.8009,
+    "companyRank": 60
+  },
+  {
+    "sourceQuestionId": "insert-interval",
+    "title": "Insert Interval",
+    "sourceUrl": "https://leetcode.com/problems/insert-interval/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 0.7847,
+    "companyRank": 61
+  },
+  {
+    "sourceQuestionId": "word-ladder-ii",
+    "title": "Word Ladder II",
+    "sourceUrl": "https://leetcode.com/problems/word-ladder-ii/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 0.7711,
+    "companyRank": 62
+  },
+  {
+    "sourceQuestionId": "longest-valid-parentheses",
+    "title": "Longest Valid Parentheses",
+    "sourceUrl": "https://leetcode.com/problems/longest-valid-parentheses/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 0.7455,
+    "companyRank": 63
+  },
+  {
+    "sourceQuestionId": "flatten-2d-vector",
+    "title": "Flatten 2D Vector",
+    "sourceUrl": "https://leetcode.com/problems/flatten-2d-vector/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 0.7409,
+    "companyRank": 64
+  },
+  {
+    "sourceQuestionId": "clone-graph",
+    "title": "Clone Graph",
+    "sourceUrl": "https://leetcode.com/problems/clone-graph/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 0.7326,
+    "companyRank": 65
+  },
+  {
+    "sourceQuestionId": "encode-and-decode-tinyurl",
+    "title": "Encode and Decode TinyURL",
+    "sourceUrl": "https://leetcode.com/problems/encode-and-decode-tinyurl/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 0.7284,
+    "companyRank": 66
+  },
+  {
+    "sourceQuestionId": "word-ladder",
+    "title": "Word Ladder",
+    "sourceUrl": "https://leetcode.com/problems/word-ladder/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 0.6999,
+    "companyRank": 67
+  },
+  {
+    "sourceQuestionId": "median-of-two-sorted-arrays",
+    "title": "Median of Two Sorted Arrays",
+    "sourceUrl": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 0.6933,
+    "companyRank": 68
+  },
+  {
+    "sourceQuestionId": "integer-to-english-words",
+    "title": "Integer to English Words",
+    "sourceUrl": "https://leetcode.com/problems/integer-to-english-words/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 0.6854,
+    "companyRank": 69
+  },
+  {
+    "sourceQuestionId": "shortest-word-distance-ii",
+    "title": "Shortest Word Distance II",
+    "sourceUrl": "https://leetcode.com/problems/shortest-word-distance-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 0.6782,
+    "companyRank": 70
+  },
+  {
+    "sourceQuestionId": "stamping-the-sequence",
+    "title": "Stamping The Sequence",
+    "sourceUrl": "https://leetcode.com/problems/stamping-the-sequence/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 0.6737,
+    "companyRank": 71
+  },
+  {
+    "sourceQuestionId": "the-skyline-problem",
+    "title": "The Skyline Problem",
+    "sourceUrl": "https://leetcode.com/problems/the-skyline-problem/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 0.657,
+    "companyRank": 72
+  },
+  {
+    "sourceQuestionId": "spiral-matrix",
+    "title": "Spiral Matrix",
+    "sourceUrl": "https://leetcode.com/problems/spiral-matrix/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 0.6286,
+    "companyRank": 73
+  },
+  {
+    "sourceQuestionId": "merge-k-sorted-lists",
+    "title": "Merge k Sorted Lists",
+    "sourceUrl": "https://leetcode.com/problems/merge-k-sorted-lists/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 0.5854,
+    "companyRank": 74
+  },
+  {
+    "sourceQuestionId": "longest-absolute-file-path",
+    "title": "Longest Absolute File Path",
+    "sourceUrl": "https://leetcode.com/problems/longest-absolute-file-path/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "uber"
+    ],
+    "frequencyScore": 0.585,
+    "companyRank": 75
+  }
+]

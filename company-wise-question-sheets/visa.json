@@ -1,0 +1,587 @@
+[
+  {
+    "sourceQuestionId": "consecutive-numbers-sum",
+    "title": "Consecutive Numbers Sum",
+    "sourceUrl": "https://leetcode.com/problems/consecutive-numbers-sum/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.5341,
+    "companyRank": 1
+  },
+  {
+    "sourceQuestionId": "special-binary-string",
+    "title": "Special Binary String",
+    "sourceUrl": "https://leetcode.com/problems/special-binary-string/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.3008,
+    "companyRank": 2
+  },
+  {
+    "sourceQuestionId": "maximum-number-of-events-that-can-be-attended",
+    "title": "Maximum Number of Events That Can Be Attended",
+    "sourceUrl": "https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.2991,
+    "companyRank": 3
+  },
+  {
+    "sourceQuestionId": "two-sum",
+    "title": "Two Sum",
+    "sourceUrl": "https://leetcode.com/problems/two-sum/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.18,
+    "companyRank": 4
+  },
+  {
+    "sourceQuestionId": "trapping-rain-water",
+    "title": "Trapping Rain Water",
+    "sourceUrl": "https://leetcode.com/problems/trapping-rain-water/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.1691,
+    "companyRank": 5
+  },
+  {
+    "sourceQuestionId": "spiral-matrix",
+    "title": "Spiral Matrix",
+    "sourceUrl": "https://leetcode.com/problems/spiral-matrix/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.1257,
+    "companyRank": 6
+  },
+  {
+    "sourceQuestionId": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "sourceUrl": "https://leetcode.com/problems/valid-parentheses/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.1069,
+    "companyRank": 7
+  },
+  {
+    "sourceQuestionId": "asteroid-collision",
+    "title": "Asteroid Collision",
+    "sourceUrl": "https://leetcode.com/problems/asteroid-collision/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.0954,
+    "companyRank": 8
+  },
+  {
+    "sourceQuestionId": "combination-sum-iv",
+    "title": "Combination Sum IV",
+    "sourceUrl": "https://leetcode.com/problems/combination-sum-iv/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.081,
+    "companyRank": 9
+  },
+  {
+    "sourceQuestionId": "degree-of-an-array",
+    "title": "Degree of an Array",
+    "sourceUrl": "https://leetcode.com/problems/degree-of-an-array/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.0712,
+    "companyRank": 10
+  },
+  {
+    "sourceQuestionId": "validate-binary-search-tree",
+    "title": "Validate Binary Search Tree",
+    "sourceUrl": "https://leetcode.com/problems/validate-binary-search-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.058,
+    "companyRank": 11
+  },
+  {
+    "sourceQuestionId": "number-of-islands",
+    "title": "Number of Islands",
+    "sourceUrl": "https://leetcode.com/problems/number-of-islands/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.0569,
+    "companyRank": 12
+  },
+  {
+    "sourceQuestionId": "design-hit-counter",
+    "title": "Design Hit Counter",
+    "sourceUrl": "https://leetcode.com/problems/design-hit-counter/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.0562,
+    "companyRank": 13
+  },
+  {
+    "sourceQuestionId": "meeting-rooms-ii",
+    "title": "Meeting Rooms II",
+    "sourceUrl": "https://leetcode.com/problems/meeting-rooms-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.0495,
+    "companyRank": 14
+  },
+  {
+    "sourceQuestionId": "pairs-of-songs-with-total-durations-divisible-by-60",
+    "title": "Pairs of Songs With Total Durations Divisible by 60",
+    "sourceUrl": "https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.0418,
+    "companyRank": 15
+  },
+  {
+    "sourceQuestionId": "minimum-window-substring",
+    "title": "Minimum Window Substring",
+    "sourceUrl": "https://leetcode.com/problems/minimum-window-substring/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.0383,
+    "companyRank": 16
+  },
+  {
+    "sourceQuestionId": "product-of-array-except-self",
+    "title": "Product of Array Except Self",
+    "sourceUrl": "https://leetcode.com/problems/product-of-array-except-self/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.0348,
+    "companyRank": 17
+  },
+  {
+    "sourceQuestionId": "3sum",
+    "title": "3Sum",
+    "sourceUrl": "https://leetcode.com/problems/3sum/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.0346,
+    "companyRank": 18
+  },
+  {
+    "sourceQuestionId": "median-of-two-sorted-arrays",
+    "title": "Median of Two Sorted Arrays",
+    "sourceUrl": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.0346,
+    "companyRank": 19
+  },
+  {
+    "sourceQuestionId": "lowest-common-ancestor-of-a-binary-tree",
+    "title": "Lowest Common Ancestor of a Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.0291,
+    "companyRank": 20
+  },
+  {
+    "sourceQuestionId": "lru-cache",
+    "title": "LRU Cache",
+    "sourceUrl": "https://leetcode.com/problems/lru-cache/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.0284,
+    "companyRank": 21
+  },
+  {
+    "sourceQuestionId": "integer-to-english-words",
+    "title": "Integer to English Words",
+    "sourceUrl": "https://leetcode.com/problems/integer-to-english-words/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.027,
+    "companyRank": 22
+  },
+  {
+    "sourceQuestionId": "coin-change",
+    "title": "Coin Change",
+    "sourceUrl": "https://leetcode.com/problems/coin-change/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.0249,
+    "companyRank": 23
+  },
+  {
+    "sourceQuestionId": "copy-list-with-random-pointer",
+    "title": "Copy List with Random Pointer",
+    "sourceUrl": "https://leetcode.com/problems/copy-list-with-random-pointer/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.0245,
+    "companyRank": 24
+  },
+  {
+    "sourceQuestionId": "group-anagrams",
+    "title": "Group Anagrams",
+    "sourceUrl": "https://leetcode.com/problems/group-anagrams/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.0235,
+    "companyRank": 25
+  },
+  {
+    "sourceQuestionId": "longest-common-prefix",
+    "title": "Longest Common Prefix",
+    "sourceUrl": "https://leetcode.com/problems/longest-common-prefix/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.0206,
+    "companyRank": 26
+  },
+  {
+    "sourceQuestionId": "maximum-subarray",
+    "title": "Maximum Subarray",
+    "sourceUrl": "https://leetcode.com/problems/maximum-subarray/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.0193,
+    "companyRank": 27
+  },
+  {
+    "sourceQuestionId": "reverse-linked-list",
+    "title": "Reverse Linked List",
+    "sourceUrl": "https://leetcode.com/problems/reverse-linked-list/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.0145,
+    "companyRank": 28
+  },
+  {
+    "sourceQuestionId": "search-in-rotated-sorted-array",
+    "title": "Search in Rotated Sorted Array",
+    "sourceUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.0129,
+    "companyRank": 29
+  },
+  {
+    "sourceQuestionId": "min-stack",
+    "title": "Min Stack",
+    "sourceUrl": "https://leetcode.com/problems/min-stack/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.0107,
+    "companyRank": 30
+  },
+  {
+    "sourceQuestionId": "insert-delete-getrandom-o1",
+    "title": "Insert Delete GetRandom O(1)",
+    "sourceUrl": "https://leetcode.com/problems/insert-delete-getrandom-o1/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.0098,
+    "companyRank": 31
+  },
+  {
+    "sourceQuestionId": "find-first-and-last-position-of-element-in-sorted-array",
+    "title": "Find First and Last Position of Element in Sorted Array",
+    "sourceUrl": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.0095,
+    "companyRank": 32
+  },
+  {
+    "sourceQuestionId": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "sourceUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.0085,
+    "companyRank": 33
+  },
+  {
+    "sourceQuestionId": "merge-intervals",
+    "title": "Merge Intervals",
+    "sourceUrl": "https://leetcode.com/problems/merge-intervals/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.0078,
+    "companyRank": 34
+  },
+  {
+    "sourceQuestionId": "k-closest-points-to-origin",
+    "title": "K Closest Points to Origin",
+    "sourceUrl": "https://leetcode.com/problems/k-closest-points-to-origin/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.0058,
+    "companyRank": 35
+  },
+  {
+    "sourceQuestionId": "merge-two-sorted-lists",
+    "title": "Merge Two Sorted Lists",
+    "sourceUrl": "https://leetcode.com/problems/merge-two-sorted-lists/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.0051,
+    "companyRank": 36
+  },
+  {
+    "sourceQuestionId": "symmetric-tree",
+    "title": "Symmetric Tree",
+    "sourceUrl": "https://leetcode.com/problems/symmetric-tree/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.0034,
+    "companyRank": 37
+  },
+  {
+    "sourceQuestionId": "divisor-game",
+    "title": "Divisor Game",
+    "sourceUrl": "https://leetcode.com/problems/divisor-game/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.0,
+    "companyRank": 38
+  },
+  {
+    "sourceQuestionId": "create-target-array-in-the-given-order",
+    "title": "Create Target Array in the Given Order",
+    "sourceUrl": "https://leetcode.com/problems/create-target-array-in-the-given-order/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "visa"
+    ],
+    "frequencyScore": 0.0,
+    "companyRank": 39
+  }
+]

@@ -1,0 +1,247 @@
+server:
+  port: ${PORT:8080}
+  forward-headers-strategy: framework
+  shutdown: graceful
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  endpoint:
+    health:
+      show-details: when-authorized
+  health:
+    redis:
+      enabled: ${REDIS_HEALTH_ENABLED:false}
+    mail:
+      enabled: false
+
+spring:
+  application:
+    name: placement-platform
+
+  lifecycle:
+    timeout-per-shutdown-phase: 20s
+
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5433/placementdb}
+    driver-class-name: org.postgresql.Driver
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:postgres}
+    hikari:
+      maximum-pool-size: ${DB_POOL_MAX_SIZE:5}
+      minimum-idle: ${DB_POOL_MIN_IDLE:1}
+      idle-timeout: 300000
+      max-lifetime: 1200000
+      connection-timeout: 20000
+
+  jpa:
+    hibernate:
+      ddl-auto: ${JPA_DDL_AUTO:update}
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+        jdbc:
+          time_zone: UTC
+    open-in-view: false
+
+  flyway:
+    enabled: ${FLYWAY_ENABLED:true}
+    locations: classpath:db/migration
+    baseline-on-migrate: true
+    baseline-version: 0
+
+  servlet:
+    multipart:
+      max-file-size: 25MB
+      max-request-size: 25MB
+
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: ${GOOGLE_CLIENT_ID:disabled-google-client-id}
+            client-secret: ${GOOGLE_CLIENT_SECRET:disabled-google-client-secret}
+            scope: openid,profile,email
+            redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
+          github:
+            client-id: ${GITHUB_CLIENT_ID:disabled-github-client-id}
+            client-secret: ${GITHUB_CLIENT_SECRET:disabled-github-client-secret}
+            scope: read:user,user:email
+            redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
+        provider:
+          github:
+            user-info-uri: https://api.github.com/user
+
+  data:
+    redis:
+      host: ${REDIS_HOST:localhost}
+      port: ${REDIS_PORT:6379}
+      password: ${REDIS_PASSWORD:}
+      timeout: 2s
+      connect-timeout: 3s
+      lettuce:
+        pool:
+          max-active: 8
+          max-idle: 8
+          min-idle: 0
+
+  kafka:
+    bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS:localhost:9092}
+    consumer:
+      group-id: ${KAFKA_CONSUMER_GROUP:placement-auth-group}
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      properties:
+        spring.json.trusted.packages: "*"
+    producer:
+      acks: all
+      retries: 3
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+      properties:
+        enable.idempotence: true
+        spring.json.type.mapping: "authEvent:com.placement.messaging.AuthEvent"
+    listener:
+      missing-topics-fatal: false
+
+app:
+  jwt:
+    secret: ${JWT_SECRET:local-dev-only-jwt-secret-key-please-override-in-production-32bytes}
+    access-token-expiry-ms: 3600000
+    refresh-token-expiry-ms: 604800000
+    issuer: prep2place
+    audience: prep2place-users
+
+  cors:
+    allowed-origins: "${APP_CORS_ALLOWED_ORIGINS:http://localhost:3000,http://localhost:3001,http://localhost:3002}"
+
+  ml-service:
+    enabled: ${ML_SERVICE_ENABLED:false}
+    url: ${ML_SERVICE_URL:http://localhost:5001}
+
+  redis:
+    enabled: ${REDIS_ENABLED:false}
+
+  proctoring:
+    evidence-retention-days: 30
+
+  questionbank:
+    sync-cron: "0 0 3 * * SUN"
+    
+  coding:
+    runner:
+      provider: ${CODING_RUNNER_PROVIDER:docker}
+      docker:
+        image: ${CODING_RUNNER_DOCKER_IMAGE:prep2place-code-runner:latest}
+        network-disabled: ${CODING_RUNNER_NETWORK_DISABLED:true}
+        max-output-bytes: ${CODING_RUNNER_MAX_OUTPUT_BYTES:65536}
+      local:
+        enabled: ${CODING_RUNNER_LOCAL_ENABLED:true}
+        max-output-bytes: ${CODING_RUNNER_LOCAL_MAX_OUTPUT_BYTES:65536}
+        java-heap-mb: ${CODING_RUNNER_LOCAL_JAVA_HEAP_MB:192}
+        infrastructure-grace-ms: ${CODING_RUNNER_LOCAL_GRACE_MS:10000}
+  
+  coding-lab:
+
+    seed:
+      # Loads the six shipped questions (codinglab-seed/*.json) while the catalogue is empty.
+      enabled: ${CODING_LAB_SEED_ENABLED:true}
+
+    runner:
+      # "docker" is the only provider. It needs the Docker CLI + daemon reachable from the backend process and the
+      # three sandbox images built once:  sh backend/docker/coding-lab/build-images.sh
+      provider: ${CODING_LAB_RUNNER_PROVIDER:docker}
+
+      # How many sandbox containers may run at once; extra runs queue for up to queue-wait-seconds, then get "busy".
+      max-concurrent: ${CODING_LAB_RUNNER_MAX_CONCURRENT:3}
+      queue-wait-seconds: ${CODING_LAB_RUNNER_QUEUE_WAIT_SECONDS:15}
+      build-timeout-seconds: ${CODING_LAB_RUNNER_BUILD_TIMEOUT_SECONDS:60}
+
+      image:
+        java: ${CODING_LAB_RUNNER_IMAGE_JAVA:prep2place-lab-java:1}
+        node: ${CODING_LAB_RUNNER_IMAGE_NODE:prep2place-lab-node:1}
+        python: ${CODING_LAB_RUNNER_IMAGE_PYTHON:prep2place-lab-python:1}
+
+      docker:
+        binary: ${CODING_LAB_DOCKER_BINARY:docker}
+        network-disabled: ${CODING_LAB_RUNNER_NETWORK_DISABLED:true}
+        max-output-bytes: ${CODING_LAB_RUNNER_MAX_OUTPUT_BYTES:32768}
+
+  # LLM used ONLY for generating Coding Lab questions (admin -> "Generate with AI").
+  # provider: none | anthropic | openai   ("openai" = any OpenAI-compatible /chat/completions endpoint:
+  # OpenAI, Groq https://api.groq.com/openai/v1, Gemini https://generativelanguage.googleapis.com/v1beta/openai,
+  # OpenRouter, Ollama http://localhost:11434/v1 ...)
+  llm:
+    provider: ${LLM_PROVIDER:none}
+    base-url: ${LLM_BASE_URL:}
+    api-key: ${LLM_API_KEY:}
+    model: ${LLM_MODEL:}
+    max-tokens: ${LLM_MAX_TOKENS:9000}
+    max-tokens-param: ${LLM_MAX_TOKENS_PARAM:max_tokens}
+    temperature: ${LLM_TEMPERATURE:}
+    timeout-seconds: ${LLM_TIMEOUT_SECONDS:180}
+    max-repairs: ${LLM_MAX_REPAIRS:2}
+
+
+  email:
+    enabled: ${EMAIL_ENABLED:false}
+    from: ${EMAIL_FROM:onboarding@resend.dev}
+    resend-api-key: ${RESEND_API_KEY:}
+    verification-expiry-minutes: ${EMAIL_VERIFICATION_EXPIRY_MINUTES:30}
+
+  kafka:
+    enabled: ${KAFKA_ENABLED:false}
+    auth-topic: ${KAFKA_AUTH_TOPIC:auth-events}
+    email-topic: ${KAFKA_EMAIL_TOPIC:email-events}
+
+  url: ${APP_URL:http://localhost:3000}
+
+companyvault:
+  enabled: true
+  seed-classpath: "classpath*:companyvault-seed/*.json"
+  # Spring Boot is normally launched from backend/ (see README), while the curated data lives
+  # beside backend/ at the repository root. Environment variables remain available for deployed
+  # locations, but these defaults must resolve in the documented local startup command.
+  sheets-path: ${COMPANY_SHEETS_PATH:file:../company-wise-question-sheets/}
+  seed-json-path: ${LEETCODE_SEED_JSON_PATH:file:../dsa-questions.json}
+
+questionbank:
+  tuf:
+    enabled: true
+    integration-mode: METADATA_REFERENCE_ONLY
+    api-base-url: ${TUF_API_BASE_URL:}
+    api-key: ${TUF_API_KEY:}
+  leetcode:
+    enabled: true
+    integration-mode: METADATA_REFERENCE_ONLY
+    api-base-url: ${LEETCODE_API_BASE_URL:}
+    api-key: ${LEETCODE_API_KEY:}
+  hackerrank:
+    enabled: true
+    integration-mode: METADATA_REFERENCE_ONLY
+    api-base-url: ${HACKERRANK_API_BASE_URL:}
+    api-key: ${HACKERRANK_API_KEY:}
+  gfg:
+    enabled: true
+    integration-mode: METADATA_REFERENCE_ONLY
+    api-base-url: ${GFG_API_BASE_URL:}
+    api-key: ${GFG_API_KEY:}
+  dedup:
+    auto-merge-threshold: 0.93
+    review-threshold: 0.78
+  sync:
+    max-retries: 3
+    retry-backoff-ms: 1500
+    timeout-ms: 8000
+
+logging:
+  level:
+    com.placement: INFO
+    org.springframework.kafka: WARN
+    org.springframework.data.redis: WARN

@@ -1,0 +1,66 @@
+{
+ "title": "RAG: Chunking, Retrieval and Prompt Assembly",
+ "codingType": "RAG",
+ "difficulty": "HARD",
+ "runtime": "PYTHON_PYTEST",
+ "summary": "Implement the three building blocks of a RAG pipeline - overlapping chunking, TF-IDF retrieval and grounded prompt assembly - with no external services.",
+ "problemStatement": "## Scenario\nA support bot answers questions from company documents. Before any vector database or LLM is involved you must get the fundamentals right in `rag.py`: split documents into **chunks**, **retrieve** the most relevant ones, and assemble a grounded **prompt**.\n\n## Task\n- `chunk_text(text, chunk_size, overlap=0)` - split `text.split()` (words) into chunks of `chunk_size` words joined by single spaces. Consecutive chunks share `overlap` words, i.e. the window advances by `chunk_size - overlap`. Stop as soon as a chunk reaches the end of the text (no trailing chunk that is merely a subset of the previous one). Empty text returns `[]`. Raise `ValueError` unless `chunk_size > 0` and `0 <= overlap < chunk_size`.\n- `TfidfRetriever(chunks)` with `search(query, k=3)`. Tokenise with lowercase `[a-z0-9]+`. Use `idf = ln((1 + N) / (1 + df)) + 1` and term-frequency-times-idf vectors, and rank chunks by **cosine similarity** with the query vector (query terms unknown to the corpus are ignored). Return up to `k` pairs `(chunk_index, score)`, best first, ties broken by the lower index, **only chunks with a positive score**. `k <= 0` or no matches returns `[]`.\n- `build_prompt(question, contexts)` - returns exactly:\n\n```\nAnswer the question using only the context below. If the answer is not in the context, say \"I don't know\".\n\nContext:\n[1] <first context>\n[2] <second context>\n\nQuestion: <question>\nAnswer:\n```\nWith no contexts the context section is the single line `(no context)`.",
+ "requirements": [
+  {
+   "id": "R1",
+   "title": "Chunk with overlap",
+   "description": "Word-based windows of chunk_size advancing by chunk_size - overlap, ending when the text ends.",
+   "weight": 3
+  },
+  {
+   "id": "R2",
+   "title": "Validate chunking arguments",
+   "description": "ValueError for a non-positive size or an overlap outside 0 <= overlap < size.",
+   "weight": 1
+  },
+  {
+   "id": "R3",
+   "title": "Rank by TF-IDF cosine similarity",
+   "description": "The most relevant chunk comes first; rare terms outweigh common ones.",
+   "weight": 3
+  },
+  {
+   "id": "R4",
+   "title": "Return well-formed results",
+   "description": "At most k results, positive scores only, stable tie-breaking.",
+   "weight": 2
+  },
+  {
+   "id": "R5",
+   "title": "Assemble the grounded prompt",
+   "description": "Exact prompt format including the no-context case.",
+   "weight": 2
+  }
+ ],
+ "timeLimitMinutes": 50,
+ "technology": "Python 3.12 + pytest",
+ "skills": [
+  "RAG",
+  "Information retrieval",
+  "TF-IDF",
+  "Prompt assembly",
+  "Python"
+ ],
+ "tags": [
+  "rag",
+  "retrieval"
+ ],
+ "targetJobRole": "AI Engineer",
+ "starterFiles": {
+  "rag.py": "\"\"\"Building blocks of a tiny RAG pipeline (no external services).\"\"\"\n\n\ndef chunk_text(text, chunk_size, overlap=0):\n    raise NotImplementedError\n\n\nclass TfidfRetriever:\n    def __init__(self, chunks):\n        raise NotImplementedError\n\n    def search(self, query, k=3):\n        raise NotImplementedError\n\n\ndef build_prompt(question, contexts):\n    raise NotImplementedError\n"
+ },
+ "referenceFiles": {
+  "rag.py": "\"\"\"Building blocks of a tiny RAG pipeline (no external services).\"\"\"\nimport math\nimport re\nfrom collections import Counter\n\n\ndef chunk_text(text, chunk_size, overlap=0):\n    if chunk_size <= 0 or overlap < 0 or overlap >= chunk_size:\n        raise ValueError(\"need chunk_size > 0 and 0 <= overlap < chunk_size\")\n    words = text.split()\n    chunks, i, step = [], 0, chunk_size - overlap\n    while i < len(words):\n        chunks.append(\" \".join(words[i:i + chunk_size]))\n        if i + chunk_size >= len(words):\n            break\n        i += step\n    return chunks\n\n\ndef _tokens(text):\n    return re.findall(r\"[a-z0-9]+\", text.lower())\n\n\nclass TfidfRetriever:\n    def __init__(self, chunks):\n        self.chunks = list(chunks)\n        docs = [Counter(_tokens(c)) for c in self.chunks]\n        n = len(docs)\n        df = Counter()\n        for d in docs:\n            df.update(d.keys())\n        self.idf = {t: math.log((1 + n) / (1 + f)) + 1 for t, f in df.items()}\n        self.vectors = [self._vector(d) for d in docs]\n\n    def _vector(self, counts):\n        total = sum(counts.values()) or 1\n        vec = {t: (c / total) * self.idf[t] for t, c in counts.items() if t in self.idf}\n        norm = math.sqrt(sum(v * v for v in vec.values()))\n        return vec, norm\n\n    def search(self, query, k=3):\n        if k <= 0 or not self.chunks:\n            return []\n        qvec, qnorm = self._vector(Counter(_tokens(query)))\n        if qnorm == 0:\n            return []\n        scored = []\n        for i, (vec, norm) in enumerate(self.vectors):\n            if norm == 0:\n                continue\n            dot = sum(w * vec.get(t, 0.0) for t, w in qvec.items())\n            score = dot / (qnorm * norm)\n            if score > 0:\n                scored.append((i, score))\n        scored.sort(key=lambda p: (-p[1], p[0]))\n        return scored[:k]\n\n\ndef build_prompt(question, contexts):\n    if contexts:\n        body = \"\\n\".join(f\"[{i}] {c}\" for i, c in enumerate(contexts, start=1))\n    else:\n        body = \"(no context)\"\n    return (\n        'Answer the question using only the context below. If the answer is not in the context, say \"I don\\'t know\".\\n\\n'\n        f\"Context:\\n{body}\\n\\nQuestion: {question}\\nAnswer:\"\n    )\n"
+ },
+ "publicTestFiles": {
+  "tests/public/test_rag.py": "import pytest\nfrom rag import chunk_text, TfidfRetriever, build_prompt\n\n\ndef test_r1_chunks_with_overlap():\n    text = \"a b c d e f g\"\n    assert chunk_text(text, 3, 1) == [\"a b c\", \"c d e\", \"e f g\"]\n\n\ndef test_r2_rejects_an_overlap_that_is_not_smaller_than_the_chunk():\n    with pytest.raises(ValueError):\n        chunk_text(\"a b c\", 2, 2)\n\n\ndef test_r3_most_relevant_chunk_ranks_first():\n    r = TfidfRetriever([\"the cat sat on the mat\", \"dogs love to play fetch\", \"stock markets fell today\"])\n    hits = r.search(\"play fetch with dogs\")\n    assert hits[0][0] == 1\n\n\ndef test_r4_respects_k():\n    r = TfidfRetriever([\"apple pie\", \"apple tart\", \"apple juice\"])\n    assert len(r.search(\"apple\", k=2)) == 2\n\n\ndef test_r5_prompt_format():\n    p = build_prompt(\"Who?\", [\"Ada wrote it.\"])\n    assert p.endswith(\"Question: Who?\\nAnswer:\")\n    assert \"[1] Ada wrote it.\" in p\n"
+ },
+ "hiddenTestFiles": {
+  "tests/hidden/test_rag.py": "import pytest\nfrom rag import chunk_text, TfidfRetriever, build_prompt\n\n\ndef test_r1_no_overlap_and_a_short_final_chunk():\n    assert chunk_text(\"a b c d e\", 2) == [\"a b\", \"c d\", \"e\"]\n\n\ndef test_r1_stops_when_a_chunk_reaches_the_end_without_a_redundant_tail():\n    assert chunk_text(\"a b c d\", 2, 1) == [\"a b\", \"b c\", \"c d\"]\n    assert chunk_text(\"a b c d\", 4, 2) == [\"a b c d\"]\n\n\ndef test_r1_text_shorter_than_a_chunk_and_empty_text():\n    assert chunk_text(\"hello world\", 10, 3) == [\"hello world\"]\n    assert chunk_text(\"\", 3) == []\n    assert chunk_text(\"   \\n \", 3) == []\n\n\ndef test_r1_whitespace_is_normalised_to_single_spaces():\n    assert chunk_text(\"a   b\\nc\\td\", 2) == [\"a b\", \"c d\"]\n\n\n@pytest.mark.parametrize(\"size,overlap\", [(0, 0), (-1, 0), (3, -1), (3, 3), (3, 5)])\ndef test_r2_invalid_arguments(size, overlap):\n    with pytest.raises(ValueError):\n        chunk_text(\"a b c d e f\", size, overlap)\n\n\ndef test_r3_rare_terms_outweigh_common_ones():\n    chunks = [\"the the the the quantum\", \"the cat and the dog and the bird\", \"the quantum computer\"]\n    r = TfidfRetriever(chunks)\n    top = r.search(\"the quantum computer\", k=3)\n    assert top[0][0] == 2\n\n\ndef test_r3_case_and_punctuation_are_ignored():\n    r = TfidfRetriever([\"Refund Policy: 30 days!\", \"Shipping takes 5 days.\"])\n    assert r.search(\"REFUND policy\")[0][0] == 0\n\n\ndef test_r3_scores_are_cosine_similarities_between_zero_and_one():\n    r = TfidfRetriever([\"alpha beta\", \"alpha beta\"])\n    score = r.search(\"alpha beta\")[0][1]\n    assert score == pytest.approx(1.0)\n\n\ndef test_r4_only_positive_scores_and_unknown_queries_return_nothing():\n    r = TfidfRetriever([\"red green\", \"blue yellow\"])\n    assert [i for i, _ in r.search(\"red\", k=5)] == [0]\n    assert r.search(\"purple\") == []\n    assert r.search(\"\") == []\n\n\ndef test_r4_ties_are_broken_by_the_lower_index_and_results_are_sorted():\n    r = TfidfRetriever([\"same words here\", \"same words here\", \"same\"])\n    hits = r.search(\"same words here\", k=3)\n    assert [i for i, _ in hits][:2] == [0, 1]\n    assert all(hits[i][1] >= hits[i + 1][1] for i in range(len(hits) - 1))\n\n\ndef test_r4_k_zero_negative_and_empty_corpus():\n    r = TfidfRetriever([\"a b\"])\n    assert r.search(\"a\", k=0) == []\n    assert r.search(\"a\", k=-2) == []\n    assert TfidfRetriever([]).search(\"anything\") == []\n\n\ndef test_r5_exact_prompt_with_two_contexts():\n    expected = (\n        'Answer the question using only the context below. If the answer is not in the context, say \"I don\\'t know\".\\n\\n'\n        \"Context:\\n[1] first\\n[2] second\\n\\nQuestion: Why?\\nAnswer:\"\n    )\n    assert build_prompt(\"Why?\", [\"first\", \"second\"]) == expected\n\n\ndef test_r5_prompt_without_contexts():\n    assert \"Context:\\n(no context)\\n\\nQuestion: Hi?\\nAnswer:\" in build_prompt(\"Hi?\", [])\n"
+ }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "sourceQuestionId": "striver-a2z-arrays-easy-set",
+    "title": "Arrays - Easy Problem Set (Striver A2Z Sheet)",
+    "sourceUrl": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/",
+    "difficulty": "EASY",
+    "topics": ["Arrays"],
+    "tags": ["array", "tuf-a2z-sheet"]
+  },
+  {
+    "sourceQuestionId": "striver-a2z-linked-list-set",
+    "title": "Linked List Problem Set (Striver A2Z Sheet)",
+    "sourceUrl": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/",
+    "difficulty": "MEDIUM",
+    "topics": ["Linked List"],
+    "tags": ["linked-list", "tuf-a2z-sheet"]
+  },
+  {
+    "sourceQuestionId": "striver-a2z-dp-set",
+    "title": "Dynamic Programming Problem Set (Striver A2Z Sheet)",
+    "sourceUrl": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/",
+    "difficulty": "HARD",
+    "topics": ["Dynamic Programming"],
+    "tags": ["dp", "tuf-a2z-sheet"]
+  }
+]

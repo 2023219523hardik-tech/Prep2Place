@@ -1,0 +1,179 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: placementdb
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./deploy/init-postgres-dbs.sh:/docker-entrypoint-initdb.d/init-postgres-dbs.sh:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    networks:
+      - app-network
+
+  redis:
+    image: redis:7-alpine
+    command: ["redis-server", "--appendonly", "yes"]
+    ports:
+      - "127.0.0.1:6379:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    networks:
+      - app-network
+
+  kafka:
+    image: apache/kafka:3.8.1
+    container_name: prep2place-kafka
+    ports:
+      - "9092:9092"
+    environment:
+      KAFKA_NODE_ID: 1
+      KAFKA_PROCESS_ROLES: broker,controller
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: CONTROLLER:PLAINTEXT,PLAINTEXT:PLAINTEXT,INTERNAL:PLAINTEXT
+      KAFKA_LISTENERS: PLAINTEXT://0.0.0.0:9092,CONTROLLER://0.0.0.0:9093,INTERNAL://0.0.0.0:29092
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092,INTERNAL://kafka:29092
+      KAFKA_CONTROLLER_LISTENER_NAMES: CONTROLLER
+      KAFKA_CONTROLLER_QUORUM_VOTERS: 1@localhost:9093
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: 0
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: "true"
+    networks:
+      - app-network
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/kafka/bin/kafka-topics.sh --bootstrap-server localhost:9092 --list || exit 1"]
+      interval: 15s
+      timeout: 10s
+      retries: 10
+      start_period: 30s
+
+  backend:
+    build:
+      context: .
+      dockerfile: ./FinalBackend/backend/Dockerfile
+    container_name: prep2place-backend
+    ports:
+      - "8080:8080"
+    environment:
+      DB_URL: jdbc:postgresql://postgres:5432/placementdb
+      DB_USERNAME: postgres
+      DB_PASSWORD: postgres
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+      KAFKA_BOOTSTRAP_SERVERS: kafka:29092
+      KAFKA_CONSUMER_GROUP: placement-auth-group
+      APP_URL: http://localhost:3000
+      JWT_SECRET: "qwertyuiop]0987654321asdfghjkl;'/.,mnbvcxz"
+      EMAIL_ENABLED: "false"
+      CODING_RUNNER_PROVIDER: local
+      CODING_RUNNER_LOCAL_ENABLED: "true"
+      CODING_LAB_RUNNER_PROVIDER: docker
+      CODING_LAB_DOCKER_BINARY: docker
+      COMPANY_SHEETS_PATH: file:/data/company-wise-question-sheets/
+      LEETCODE_SEED_JSON_PATH: file:/data/dsa-questions.json
+      APP_SEED_SQL_PATH: file:/data/sql-questions.json
+      APP_SEED_DATAFRAME_PATH: file:/data/dataframe-questions.json
+    volumes:
+      - ./company-wise-question-sheets:/data/company-wise-question-sheets:ro
+      - ./dsa-questions.json:/data/dsa-questions.json:ro
+      - ./FinalBackend/sql-questions.json:/data/sql-questions.json:ro
+      - ./FinalBackend/dataframe-questions.json:/data/dataframe-questions.json:ro
+      - ./FinalBackend/sql-questions.json:/app/sql-questions.json:ro
+      - ./FinalBackend/dataframe-questions.json:/app/dataframe-questions.json:ro
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      kafka:
+        condition: service_healthy
+    networks:
+      - app-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:8080/actuator/health || exit 1"]
+      interval: 30s
+      timeout: 10s
+      start_period: 120s
+      retries: 10
+
+  frontend:
+    build:
+      context: ./frontendUpdated
+      dockerfile: Dockerfile
+      args:
+        NEXT_PUBLIC_API_BASE_URL: http://localhost:8080
+    container_name: prep2place-frontend
+    ports:
+      - "3000:3000"
+    environment:
+      NEXT_PUBLIC_API_BASE_URL: http://localhost:8080
+    depends_on:
+      backend:
+        condition: service_healthy
+    networks:
+      - app-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "node", "-e", "require('http').get('http://localhost:3000', (r) => {process.exit(r.statusCode === 200 ? 0 : 1)}).on('error', () => process.exit(1))"]
+      interval: 30s
+      timeout: 10s
+      start_period: 60s
+      retries: 5
+
+  ml-service:
+    build:
+      context: ./ml-service
+      dockerfile: Dockerfile
+    container_name: prep2place-ml-service
+    ports:
+      - "5001:8000"
+    environment:
+      ENVIRONMENT: production
+      DEBUG: "false"
+      JWT_SECRET: "qwertyuiop]0987654321asdfghjkl;'/.,mnbvcxz"
+      REQUIRE_JWT: "false"
+      DATABASE_URL: postgresql+asyncpg://postgres:postgres@postgres:5432/placement_ml
+      REDIS_URL: redis://redis:6379/0
+      USE_REDIS_CACHE: "true"
+      CELERY_BROKER_URL: redis://redis:6379/1
+      CELERY_RESULT_BACKEND: redis://redis:6379/2
+      CELERY_TASK_ALWAYS_EAGER: "true"
+      STORAGE_BACKEND: local
+      LOCAL_STORAGE_DIR: /app/storage_data
+      LLM_PROVIDER: mock
+      RATE_LIMIT_PER_MINUTE: "120"
+      LOG_LEVEL: INFO
+      LOG_JSON: "true"
+    volumes:
+      - ml_storage:/app/storage_data
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - app-network
+    restart: unless-stopped
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  postgres_data:
+  redis_data:
+  ml_storage:

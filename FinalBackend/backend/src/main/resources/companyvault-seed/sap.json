@@ -1,0 +1,572 @@
+[
+  {
+    "sourceQuestionId": "maximum-students-taking-exam",
+    "title": "Maximum Students Taking Exam",
+    "sourceUrl": "https://leetcode.com/problems/maximum-students-taking-exam/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "sap"
+    ],
+    "frequencyScore": 0.2901,
+    "companyRank": 1
+  },
+  {
+    "sourceQuestionId": "movie-rating",
+    "title": "Movie Rating",
+    "sourceUrl": "https://leetcode.com/problems/movie-rating/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "sap"
+    ],
+    "frequencyScore": 0.2039,
+    "companyRank": 2
+  },
+  {
+    "sourceQuestionId": "two-sum",
+    "title": "Two Sum",
+    "sourceUrl": "https://leetcode.com/problems/two-sum/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "sap"
+    ],
+    "frequencyScore": 0.1908,
+    "companyRank": 3
+  },
+  {
+    "sourceQuestionId": "find-the-smallest-divisor-given-a-threshold",
+    "title": "Find the Smallest Divisor Given a Threshold",
+    "sourceUrl": "https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "sap"
+    ],
+    "frequencyScore": 0.1045,
+    "companyRank": 4
+  },
+  {
+    "sourceQuestionId": "lru-cache",
+    "title": "LRU Cache",
+    "sourceUrl": "https://leetcode.com/problems/lru-cache/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "sap"
+    ],
+    "frequencyScore": 0.0893,
+    "companyRank": 5
+  },
+  {
+    "sourceQuestionId": "monotone-increasing-digits",
+    "title": "Monotone Increasing Digits",
+    "sourceUrl": "https://leetcode.com/problems/monotone-increasing-digits/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "sap"
+    ],
+    "frequencyScore": 0.0848,
+    "companyRank": 6
+  },
+  {
+    "sourceQuestionId": "move-zeroes",
+    "title": "Move Zeroes",
+    "sourceUrl": "https://leetcode.com/problems/move-zeroes/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "sap"
+    ],
+    "frequencyScore": 0.0569,
+    "companyRank": 7
+  },
+  {
+    "sourceQuestionId": "longest-palindromic-substring",
+    "title": "Longest Palindromic Substring",
+    "sourceUrl": "https://leetcode.com/problems/longest-palindromic-substring/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "sap"
+    ],
+    "frequencyScore": 0.0555,
+    "companyRank": 8
+  },
+  {
+    "sourceQuestionId": "search-a-2d-matrix-ii",
+    "title": "Search a 2D Matrix II",
+    "sourceUrl": "https://leetcode.com/problems/search-a-2d-matrix-ii/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "sap"
+    ],
+    "frequencyScore": 0.0465,
+    "companyRank": 9
+  },
+  {
+    "sourceQuestionId": "string-to-integer-atoi",
+    "title": "String to Integer (atoi)",
+    "sourceUrl": "https://leetcode.com/problems/string-to-integer-atoi/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "sap"
+    ],
+    "frequencyScore": 0.0455,
+    "companyRank": 10
+  },
+  {
+    "sourceQuestionId": "fibonacci-number",
+    "title": "Fibonacci Number",
+    "sourceUrl": "https://leetcode.com/problems/fibonacci-number/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "sap"
+    ],
+    "frequencyScore": 0.0437,
+    "companyRank": 11
+  },
+  {
+    "sourceQuestionId": "intersection-of-two-linked-lists",
+    "title": "Intersection of Two Linked Lists",
+    "sourceUrl": "https://leetcode.com/problems/intersection-of-two-linked-lists/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "sap"
+    ],
+    "frequencyScore": 0.0433,
+    "companyRank": 12
+  },
+  {
+    "sourceQuestionId": "maximum-depth-of-n-ary-tree",
+    "title": "Maximum Depth of N-ary Tree",
+    "sourceUrl": "https://leetcode.com/problems/maximum-depth-of-n-ary-tree/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "sap"
+    ],
+    "frequencyScore": 0.0432,
+    "companyRank": 13
+  },
+  {
+    "sourceQuestionId": "longest-string-chain",
+    "title": "Longest String Chain",
+    "sourceUrl": "https://leetcode.com/problems/longest-string-chain/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "sap"
+    ],
+    "frequencyScore": 0.043,
+    "companyRank": 14
+  },
+  {
+    "sourceQuestionId": "maximum-subarray",
+    "title": "Maximum Subarray",
+    "sourceUrl": "https://leetcode.com/problems/maximum-subarray/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "sap"
+    ],
+    "frequencyScore": 0.043,
+    "companyRank": 15
+  },
+  {
+    "sourceQuestionId": "merge-intervals",
+    "title": "Merge Intervals",
+    "sourceUrl": "https://leetcode.com/problems/merge-intervals/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "sap"
+    ],
+    "frequencyScore": 0.0417,
+    "companyRank": 16
+  },
+  {
+    "sourceQuestionId": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "sourceUrl": "https://leetcode.com/problems/valid-parentheses/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "sap"
+    ],
+    "frequencyScore": 0.0362,
+    "companyRank": 17
+  },
+  {
+    "sourceQuestionId": "minimum-size-subarray-sum",
+    "title": "Minimum Size Subarray Sum",
+    "sourceUrl": "https://leetcode.com/problems/minimum-size-subarray-sum/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "sap"
+    ],
+    "frequencyScore": 0.0332,
+    "companyRank": 18
+  },
+  {
+    "sourceQuestionId": "reverse-only-letters",
+    "title": "Reverse Only Letters",
+    "sourceUrl": "https://leetcode.com/problems/reverse-only-letters/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "sap"
+    ],
+    "frequencyScore": 0.0287,
+    "companyRank": 19
+  },
+  {
+    "sourceQuestionId": "coin-change",
+    "title": "Coin Change",
+    "sourceUrl": "https://leetcode.com/problems/coin-change/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "sap"
+    ],
+    "frequencyScore": 0.0249,
+    "companyRank": 20
+  },
+  {
+    "sourceQuestionId": "binary-tree-right-side-view",
+    "title": "Binary Tree Right Side View",
+    "sourceUrl": "https://leetcode.com/problems/binary-tree-right-side-view/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "sap"
+    ],
+    "frequencyScore": 0.0225,
+    "companyRank": 21
+  },
+  {
+    "sourceQuestionId": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "sourceUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "sap"
+    ],
+    "frequencyScore": 0.019,
+    "companyRank": 22
+  },
+  {
+    "sourceQuestionId": "longest-substring-without-repeating-characters",
+    "title": "Longest Substring Without Repeating Characters",
+    "sourceUrl": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "sap"
+    ],
+    "frequencyScore": 0.0189,
+    "companyRank": 23
+  },
+  {
+    "sourceQuestionId": "merge-k-sorted-lists",
+    "title": "Merge k Sorted Lists",
+    "sourceUrl": "https://leetcode.com/problems/merge-k-sorted-lists/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "sap"
+    ],
+    "frequencyScore": 0.0161,
+    "companyRank": 24
+  },
+  {
+    "sourceQuestionId": "binary-tree-level-order-traversal",
+    "title": "Binary Tree Level Order Traversal",
+    "sourceUrl": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "sap"
+    ],
+    "frequencyScore": 0.0145,
+    "companyRank": 25
+  },
+  {
+    "sourceQuestionId": "swap-nodes-in-pairs",
+    "title": "Swap Nodes in Pairs",
+    "sourceUrl": "https://leetcode.com/problems/swap-nodes-in-pairs/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "sap"
+    ],
+    "frequencyScore": 0.0139,
+    "companyRank": 26
+  },
+  {
+    "sourceQuestionId": "binary-tree-inorder-traversal",
+    "title": "Binary Tree Inorder Traversal",
+    "sourceUrl": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "sap"
+    ],
+    "frequencyScore": 0.0134,
+    "companyRank": 27
+  },
+  {
+    "sourceQuestionId": "integer-to-english-words",
+    "title": "Integer to English Words",
+    "sourceUrl": "https://leetcode.com/problems/integer-to-english-words/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "sap"
+    ],
+    "frequencyScore": 0.0121,
+    "companyRank": 28
+  },
+  {
+    "sourceQuestionId": "validate-binary-search-tree",
+    "title": "Validate Binary Search Tree",
+    "sourceUrl": "https://leetcode.com/problems/validate-binary-search-tree/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "sap"
+    ],
+    "frequencyScore": 0.0117,
+    "companyRank": 29
+  },
+  {
+    "sourceQuestionId": "permutations",
+    "title": "Permutations",
+    "sourceUrl": "https://leetcode.com/problems/permutations/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "sap"
+    ],
+    "frequencyScore": 0.0095,
+    "companyRank": 30
+  },
+  {
+    "sourceQuestionId": "3sum-closest",
+    "title": "3Sum Closest",
+    "sourceUrl": "https://leetcode.com/problems/3sum-closest/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "sap"
+    ],
+    "frequencyScore": 0.0075,
+    "companyRank": 31
+  },
+  {
+    "sourceQuestionId": "populating-next-right-pointers-in-each-node",
+    "title": "Populating Next Right Pointers in Each Node",
+    "sourceUrl": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "sap"
+    ],
+    "frequencyScore": 0.0073,
+    "companyRank": 32
+  },
+  {
+    "sourceQuestionId": "first-missing-positive",
+    "title": "First Missing Positive",
+    "sourceUrl": "https://leetcode.com/problems/first-missing-positive/",
+    "difficulty": "HARD",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "sap"
+    ],
+    "frequencyScore": 0.0064,
+    "companyRank": 33
+  },
+  {
+    "sourceQuestionId": "maximum-depth-of-binary-tree",
+    "title": "Maximum Depth of Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "sap"
+    ],
+    "frequencyScore": 0.0063,
+    "companyRank": 34
+  },
+  {
+    "sourceQuestionId": "search-insert-position",
+    "title": "Search Insert Position",
+    "sourceUrl": "https://leetcode.com/problems/search-insert-position/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "sap"
+    ],
+    "frequencyScore": 0.0046,
+    "companyRank": 35
+  },
+  {
+    "sourceQuestionId": "generate-parentheses",
+    "title": "Generate Parentheses",
+    "sourceUrl": "https://leetcode.com/problems/generate-parentheses/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "sap"
+    ],
+    "frequencyScore": 0.0044,
+    "companyRank": 36
+  },
+  {
+    "sourceQuestionId": "product-of-array-except-self",
+    "title": "Product of Array Except Self",
+    "sourceUrl": "https://leetcode.com/problems/product-of-array-except-self/",
+    "difficulty": "MEDIUM",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "sap"
+    ],
+    "frequencyScore": 0.0039,
+    "companyRank": 37
+  },
+  {
+    "sourceQuestionId": "symmetric-tree",
+    "title": "Symmetric Tree",
+    "sourceUrl": "https://leetcode.com/problems/symmetric-tree/",
+    "difficulty": "EASY",
+    "topics": [],
+    "subtopics": [],
+    "tags": [],
+    "supportedLanguages": [],
+    "companies": [
+      "sap"
+    ],
+    "frequencyScore": 0.0034,
+    "companyRank": 38
+  }
+]
