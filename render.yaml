@@ -10,6 +10,7 @@ services:
     dockerContext: .
     region: oregon
     plan: free
+    autoDeploy: true
     healthCheckPath: /actuator/health
     envVars:
       - key: PORT

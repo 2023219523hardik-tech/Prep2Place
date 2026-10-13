@@ -35,7 +35,7 @@ type RegisterValidationErrors = Partial<
   Record<"fullName" | "email" | "password" | "confirmPassword", string>
 >;
 
-const API_BASE_URL = (process.env.NEXT_PUBLIC_API_BASE_URL || process.env.NEXT_PUBLIC_API_URL || "http://localhost:8080").replace(/\/+$/, "");
+const API_BASE_URL = (process.env.NEXT_PUBLIC_BACKEND_URL || "https://prep2place-backend.onrender.com").replace(/\/+$/, "");
 
 type PasswordStrength = "weak" | "medium" | "strong" | "very-strong" | null;
 

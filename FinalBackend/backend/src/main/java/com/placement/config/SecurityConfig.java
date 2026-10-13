@@ -86,12 +86,18 @@ public class SecurityConfig {
 
         CorsConfiguration config = new CorsConfiguration();
 
-        config.setAllowedOriginPatterns(
-                java.util.Arrays.stream(allowedOrigins.split(","))
-                        .map(String::trim)
-                        .filter(s -> !s.isEmpty())
-                        .toList()
-        );
+        java.util.List<String> patterns = new java.util.ArrayList<>();
+        if (allowedOrigins != null && !allowedOrigins.isBlank()) {
+            patterns.addAll(java.util.Arrays.stream(allowedOrigins.split(","))
+                    .map(String::trim)
+                    .filter(s -> !s.isEmpty())
+                    .toList());
+        }
+        patterns.add("https://*.vercel.app");
+        patterns.add("https://*.onrender.com");
+        patterns.add("http://localhost:*");
+
+        config.setAllowedOriginPatterns(patterns.stream().distinct().toList());
 
         config.setAllowedMethods(List.of(
                 "GET",

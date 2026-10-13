@@ -21,7 +21,7 @@ const loginSchema = z.object({
 
 type LoginValidationErrors = Partial<Record<"email" | "password", string>>;
 
-const API_BASE_URL = (process.env.NEXT_PUBLIC_API_BASE_URL || process.env.NEXT_PUBLIC_API_URL || "http://localhost:8080").replace(/\/+$/, "");
+const API_BASE_URL = (process.env.NEXT_PUBLIC_BACKEND_URL || "https://prep2place-backend.onrender.com").replace(/\/+$/, "");
 
 function OAuthButtons({ mode }: { mode: "login" | "register" }) {
   const providers = [

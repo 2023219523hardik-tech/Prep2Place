@@ -1,5 +1,8 @@
-// Thin helpers for the admin console, reusing the same api client but with admin-scoped storage keys.
-const API_BASE_URL = (process.env.NEXT_PUBLIC_API_BASE_URL || process.env.NEXT_PUBLIC_API_URL || "http://localhost:8080").replace(/\/+$/, "");
+const API_BASE_URL = (
+  typeof window !== "undefined"
+    ? ""
+    : (process.env.NEXT_PUBLIC_API_BASE_URL || process.env.NEXT_PUBLIC_API_URL || "https://prep2place-backend.onrender.com")
+).replace(/\/+$/, "");
 
 export function setAdminToken(token: string) {
   localStorage.setItem("adminAccessToken", token);
