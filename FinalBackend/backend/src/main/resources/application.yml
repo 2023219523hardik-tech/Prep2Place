@@ -200,7 +200,7 @@ app:
     auth-topic: ${KAFKA_AUTH_TOPIC:auth-events}
     email-topic: ${KAFKA_EMAIL_TOPIC:email-events}
 
-  url: ${APP_URL:http://localhost:3000}
+  url: ${APP_URL:https://prep2place-seven.vercel.app}
 
 companyvault:
   enabled: true

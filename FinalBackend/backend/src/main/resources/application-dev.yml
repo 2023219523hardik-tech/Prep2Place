@@ -170,7 +170,7 @@ app:
     auth-topic: auth-events
     email-topic: email-events
 
-  url: ${APP_URL:http://localhost:3000}
+  url: ${APP_URL:https://prep2place-seven.vercel.app}
 
 companyvault:
   enabled: true
