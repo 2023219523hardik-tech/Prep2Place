@@ -54,3 +54,5 @@ Thumbs.db
 *.iml
 .trae/
 scratch/
+.neon
+.neon/
